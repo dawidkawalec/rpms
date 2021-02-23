@@ -3,10 +3,83 @@ Here will go all custom scss for theme
 */
 
 
+/*
+fonts
+
+
+Muli Light font-family: muli,
+sans-serif;
+
+font-weight: 300;
+
+font-style: normal;
+
+
+Muli Regular font-family: muli,
+sans-serif;
+
+font-weight: 400;
+
+font-style: normal;
+
+
+Muli ExtraLight font-family: muli,
+sans-serif;
+
+font-weight: 200;
+
+font-style: normal;
+
+
+Muli SemiBold font-family: muli,
+sans-serif;
+
+font-weight: 600;
+
+font-style: normal;
+
+
+Muli Bold font-family: muli,
+sans-serif;
+
+font-weight: 700;
+
+font-style: normal;
+
+
+Muli ExtraBold font-family: muli,
+sans-serif;
+
+font-weight: 800;
+
+font-style: normal;
+
+
+Muli Black font-family: muli,
+sans-serif;
+
+font-weight: 900;
+
+font-style: normal;
+
+
+*/
+
 $white: #fff;
 $all_tr: all .5s;
 
 body {
-    font-family: 'Poppins',
+    font-family: 'muli',
         sans-serif;
+
+    font-weight: 400;
+
+    font-style: normal;
+
 }
+
+.container {
+    max-width: 1420px;
+}
+
+@import "banner";

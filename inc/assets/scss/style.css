@@ -1,7 +1,90 @@
 /* 
 Here will go all custom scss for theme
 */
+/*
+fonts
+
+
+Muli Light font-family: muli,
+sans-serif;
+
+font-weight: 300;
+
+font-style: normal;
+
+
+Muli Regular font-family: muli,
+sans-serif;
+
+font-weight: 400;
+
+font-style: normal;
+
+
+Muli ExtraLight font-family: muli,
+sans-serif;
+
+font-weight: 200;
+
+font-style: normal;
+
+
+Muli SemiBold font-family: muli,
+sans-serif;
+
+font-weight: 600;
+
+font-style: normal;
+
+
+Muli Bold font-family: muli,
+sans-serif;
+
+font-weight: 700;
+
+font-style: normal;
+
+
+Muli ExtraBold font-family: muli,
+sans-serif;
+
+font-weight: 800;
+
+font-style: normal;
+
+
+Muli Black font-family: muli,
+sans-serif;
+
+font-weight: 900;
+
+font-style: normal;
+
+
+*/
 body {
-  font-family: 'Poppins', sans-serif;
+  font-family: 'muli', sans-serif;
+  font-weight: 400;
+  font-style: normal;
 }
+
+.container {
+  max-width: 1420px;
+}
+
+.banner {
+  background: url(../img/Kancelaria-Prawna-RPMS-Prawo-Podatki-Windykacja_2.jpg) center top no-repeat;
+  background-size: cover;
+  min-height: 650px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
 /*# sourceMappingURL=style.css.map */
