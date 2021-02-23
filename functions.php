@@ -7,6 +7,16 @@
  * @package WP_Bootstrap_Starter
  */
 
+
+function my_acf_google_map_api( $api ){
+    $api['key'] = 'AIzaSyBn10ljCCiNC5wwfZCunru90Miw0nzmOAY';
+    return $api;
+}
+add_filter('acf/fields/google_map/api', 'my_acf_google_map_api');
+
+
+
+
 if ( ! function_exists( 'wp_bootstrap_starter_setup' ) ) :
 /**
  * Sets up theme defaults and registers support for various WordPress features.
@@ -205,6 +215,9 @@ function wp_bootstrap_starter_scripts() {
     }
     //custom style (from scss)
     wp_enqueue_style( 'custom-style', get_stylesheet_directory_uri() . '/inc/assets/scss/style.css' );
+    wp_enqueue_style( 'owl1', get_stylesheet_directory_uri() . '/inc/assets/css/owl.carousel.css' );
+    wp_enqueue_style( 'owl2', get_stylesheet_directory_uri() . '/inc/assets/css/owl.theme.default.css' );
+    wp_enqueue_style( 'owl3', get_stylesheet_directory_uri() . '/inc/assets/css/owl.theme.green.css' );
 
     //Color Scheme
     /*if(get_theme_mod( 'preset_color_scheme_setting' ) && get_theme_mod( 'preset_color_scheme_setting' ) !== 'default') {
@@ -235,6 +248,7 @@ function wp_bootstrap_starter_scripts() {
     }
     //custom style (from scss)
     wp_enqueue_script( 'custom-scripts', get_stylesheet_directory_uri() . '/inc/assets/js/script.js' , array( 'jquery' ) );
+    wp_enqueue_script( 'owl-scripts', get_stylesheet_directory_uri() . '/inc/assets/js/owl.carousel.js' );
 
 
 }

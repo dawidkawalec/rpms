@@ -1,0 +1,39 @@
+.contact {
+    background: #f7f7fa;
+    border-radius: 10px;
+    padding: 90px 0;
+    .contact-data {
+        background: #3b394f;
+        border-radius: 10px;
+        padding: 50px 30px;
+        color: #fff;
+        h4 {
+            font-size: 22px;
+            font-weight: 800;
+            margin: 0;
+            line-height: normal;
+            color: #fff;
+            &:after {
+                content: '';
+                width: 50px;
+                height: 4px;
+                margin: 25px 0 30px;
+                border-radius: 2px;
+                background-color: #bfa071;
+                display: block;
+            }
+        }
+        .contact-data_div {
+            &>div {
+                margin-bottom: 15px;
+                font-size: 14px;
+                font-weight: 900;
+                line-height: 1.57;
+                padding: 29px 25px 28px 25px;
+                border-radius: 20px;
+                background-color: #423f59;
+                letter-spacing: 1.4px;
+            }
+        }
+    }
+}

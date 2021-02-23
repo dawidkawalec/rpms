@@ -28,7 +28,13 @@
             href="#content"><?php esc_html_e( 'Skip to content', 'wp-bootstrap-starter' ); ?></a>
         <?php if(!is_page_template( 'blank-page.php' ) && !is_page_template( 'blank-page-with-container.php' )): ?>
         <header id="hamburger" class="site-header navbar-static-top" role="banner">
-            <div class="container">
+            <div class="container-fluid">
+                <div class="row justify-content-between px-3">
+                <div class="logo">
+                <a href="<?php echo esc_url('/'); ?>">
+                    <img src="/wp-content/themes/rpms/inc/assets/img/logo_rpms.png" alt="RPMS logo">
+                </a>
+            </div>
                 <nav class="navbar navbar-expand-xl">
 
                     <?php
@@ -46,6 +52,7 @@
                 ?>
 
                 </nav>
+                </div>
             </div>
         </header><!-- #masthead -->
 

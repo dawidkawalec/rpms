@@ -1,0 +1,62 @@
+.about {
+    background: url(https://rpms.pl/wp-content/uploads/2020/01/Group-2132.png?id=26741);
+    background-size: 100%;
+    background-position: 50% 265px;
+    background-repeat: no-repeat;
+    .row-content {
+        text-align: justify;
+        background: #fff;
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        h6 {
+            font-weight: 800;
+            @media(min-width: 992px) {
+                font-size: 22px;
+            }
+        }
+        @media(min-width: 992px) {
+            font-size: 20px;
+        }
+        a {
+            color: #393a4e;
+        }
+        img {
+            width: 100%;
+            height: auto;
+        }
+        .row-content__cta {
+            padding: 60px 30px;
+            background: #3b394f;
+            border-radius: 10px;
+            text-align: center;
+            h4 {
+                font-size: 24px;
+                font-weight: 900;
+                color: #fff;
+                margin: 0;
+                line-height: 1.5;
+            }
+            a {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                width: 360px;
+                height: 44px;
+                margin: 30px auto 0;
+                // padding: 15px 125px 14px;
+                border-radius: 22px;
+                background-color: #ffffff;
+                text-transform: uppercase;
+                font-size: 12px;
+                font-weight: 900;
+                font-stretch: normal;
+                font-style: normal;
+                line-height: normal;
+                letter-spacing: 0.86px;
+            }
+        }
+    }
+}

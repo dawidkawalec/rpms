@@ -1,0 +1,22 @@
+.logotype {
+    overflow: hidden;
+    .owl-stage-outer {
+        overflow: visible !important;
+        .owl-item {
+            opacity: 0.2;
+            transition: all 0.4s;
+            &.active {
+                opacity: 1;
+            }
+        }
+    }
+    .item {
+        display: flex;
+        align-items: center;
+        img {
+            width: auto !important;
+            height: 80px;
+            margin: auto;
+        }
+    }
+}

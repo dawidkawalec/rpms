@@ -171,33 +171,45 @@ th {
     padding: 0;
 }
 
+
 /*--------------------------------------------------------------
 # Typography
 --------------------------------------------------------------*/
-h1, h2, h3, h4, h5, h6 {
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
     clear: both;
     color: #24292e;
     font-weight: 600;
     margin-top: 24px;
     margin-bottom: 15px;
 }
+
 h1 {
     font-size: 32px;
     padding-bottom: 10px;
 }
+
 h2 {
     font-size: 24px;
     padding-bottom: 0.3em;
     line-height: 1.25;
 }
+
 h3 {
     font-size: 18px;
     line-height: 25px;
 }
+
 h4 {
     font-size: 16px;
     line-height: 20px;
 }
+
 h5 {
     font-size: 14px;
     line-height: 17.5px;
@@ -206,20 +218,25 @@ h5 {
 p {
     margin-bottom: 1.5em;
 }
+
 h1.entry-title {
     font-size: 21px;
     border-bottom: 1px solid #eaecef;
 }
+
 h2.entry-title {
     border-bottom: 1px solid #eaecef;
 }
+
 h3.widget-title {
     font-size: 1.2rem;
 }
 
+
 /*--------------------------------------------------------------
 # Elements
 --------------------------------------------------------------*/
+
 body {
     background: #fff;
     /* Fallback for when there is no custom background color defined. */
@@ -242,20 +259,24 @@ table {
     width: 100%;
 }
 
+
 /*--------------------------------------------------------------
 # Forms
 --------------------------------------------------------------*/
+
+
 /*--------------------------------------------------------------
 # Navigation
 --------------------------------------------------------------*/
+
 header#masthead {
     margin-bottom: 0;
-    background-color: #563d7c ;
-    box-shadow: 0 0.5rem 1rem rgba(0,0,0,.05), inset 0 -1px 0 rgba(0,0,0,.1);
+    background-color: #563d7c;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, .05), inset 0 -1px 0 rgba(0, 0, 0, .1);
     padding: .74rem 1rem;
 }
 
-.navbar-brand > a {
+.navbar-brand>a {
     color: rgba(0, 0, 0, 0.9);
     font-size: 1.1rem;
     outline: medium none;
@@ -264,7 +285,8 @@ header#masthead {
     font-weight: 700;
 }
 
-.navbar-brand > a:visited, .navbar-brand > a:hover {
+.navbar-brand>a:visited,
+.navbar-brand>a:hover {
     text-decoration: none;
 }
 
@@ -292,9 +314,11 @@ body:not(.theme-preset-active) #page-sub-header h1 {
     font-size: 1.25rem;
     font-weight: 300;
 }
+
 body:not(.theme-preset-active) #page-sub-header p {
     color: #212529;
 }
+
 a.page-scroller {
     color: #333;
     font-size: 2.6rem;
@@ -310,32 +334,38 @@ a.page-scroller {
         font-size: 1.25rem;
     }
 }
+
 @media screen and (min-width: 992px) {
     #page-sub-header p {
         max-width: 43rem;
         margin: 0 auto;
     }
 }
+
+
 /*--------------------------------------------------------------
 ## Links
 --------------------------------------------------------------*/
+
+
 /*--------------------------------------------------------------
 ## Menus
 --------------------------------------------------------------*/
+
 #masthead nav {
     padding-right: 0;
     padding-left: 0;
 }
 
-body:not(.theme-preset-active) #masthead .navbar-nav > li > a {
+body:not(.theme-preset-active) #masthead .navbar-nav>li>a {
     color: #cdbfe3;
     padding: 0.5rem;
     font-weight: 500;
     font-size: 14px;
 }
 
-body:not(.theme-preset-active) #masthead .navbar-nav > li > a:hover,
-body:not(.theme-preset-active) #masthead .navbar-nav > li.current_page_item > a {
+body:not(.theme-preset-active) #masthead .navbar-nav>li>a:hover,
+body:not(.theme-preset-active) #masthead .navbar-nav>li.current_page_item>a {
     color: #fff;
     font-weight: 600;
     /*background: #f9f9f9;*/
@@ -355,7 +385,9 @@ body:not(.theme-preset-active) #masthead .navbar-nav > li.current_page_item > a 
     border-top: 0.3em solid transparent;
 }
 
+
 /* Small menu. */
+
 .menu-toggle,
 .main-navigation.toggled ul {
     display: block;
@@ -387,33 +419,33 @@ body:not(.theme-preset-active) #masthead .navbar-nav > li.current_page_item > a 
         display: none;
     }
 }
+
 @media screen and (min-width: 769px) {
-    .dropdown-menu li > .dropdown-menu {
+    .dropdown-menu li>.dropdown-menu {
         left: -9.875rem;
         top: 1.375rem;
     }
 }
+
 @media screen and (max-width: 991px) {
     .dropdown-menu {
         border: medium none;
         margin-right: 1.250rem;
         padding: 0;
     }
-
     .dropdown-menu li a {
         padding: 0;
     }
-
-    #masthead .navbar-nav > li > a {
+    #masthead .navbar-nav>li>a {
         padding-bottom: 0.625rem;
         padding-top: 0.313rem;
     }
-
     .navbar-light .navbar-toggler {
         border: medium none;
         outline: none;
     }
 }
+
 .site-main .comment-navigation,
 .site-main .posts-navigation,
 .site-main .post-navigation {
@@ -435,6 +467,7 @@ body:not(.theme-preset-active) #masthead .navbar-nav > li.current_page_item > a 
     text-align: left;
     width: 50%;
 }
+
 .comment-content.card-block {
     padding: 20px;
 }
@@ -465,10 +498,14 @@ body:not(.theme-preset-active) #masthead .navbar-nav > li.current_page_item > a 
     background: #eee none repeat scroll 100% 0;
 }
 
+
 /*--------------------------------------------------------------
 # Accessibility
 --------------------------------------------------------------*/
+
+
 /* Text meant only for screen readers. */
+
 .screen-reader-text {
     clip: rect(1px, 1px, 1px, 1px);
     position: absolute !important;
@@ -478,6 +515,7 @@ body:not(.theme-preset-active) #masthead .navbar-nav > li.current_page_item > a 
     word-wrap: normal !important;
     /* Many screen reader and browser combinations announce broken words as they would appear visually. */
 }
+
 .screen-reader-text:focus {
     background-color: #f1f1f1;
     border-radius: 3px;
@@ -499,14 +537,18 @@ body:not(.theme-preset-active) #masthead .navbar-nav > li.current_page_item > a 
     /* Above WP toolbar. */
 }
 
+
 /* Do not show the outline on the skip link target. */
+
 #content[tabindex="-1"]:focus {
     outline: 0;
 }
 
+
 /*--------------------------------------------------------------
 # Alignments
 --------------------------------------------------------------*/
+
 .alignleft {
     display: inline;
     float: right;
@@ -558,9 +600,11 @@ a img.aligncenter {
     margin: 0.313rem 1.25rem 1.25rem 0;
 }
 
+
 /*--------------------------------------------------------------
 # Clearings
 --------------------------------------------------------------*/
+
 .clear:before,
 .clear:after,
 .entry-content:before,
@@ -587,14 +631,17 @@ a img.aligncenter {
     clear: both;
 }
 
+
 /*--------------------------------------------------------------
 # Widgets
 --------------------------------------------------------------*/
+
 .widget {
     margin: 0 0 1.5em;
     font-size: 14px;
     /* Make sure select elements fit in widgets. */
 }
+
 .widget select {
     max-width: 100%;
 }
@@ -603,22 +650,27 @@ a img.aligncenter {
     display: none;
 }
 
-.nav > li > a:focus,
-.nav > li > a:hover {
+.nav>li>a:focus,
+.nav>li>a:hover {
     background-color: #eee;
     text-decoration: none;
 }
+
 .half-rule {
     width: 6rem;
     margin: 2.5rem 0;
 }
 
+
 /*--------------------------------------------------------------
 # Content
 --------------------------------------------------------------*/
+
+
 /*--------------------------------------------------------------
 ## Posts and pages
 --------------------------------------------------------------*/
+
 #content.site-content {
     padding-bottom: 3.75rem;
     padding-top: 4.125rem;
@@ -662,17 +714,21 @@ a img.aligncenter {
     margin-bottom: 4rem;
 }
 
-.posted-on, .byline, .comments-link {
+.posted-on,
+.byline,
+.comments-link {
     color: #9a9a9a;
 }
 
-.entry-title > a {
+.entry-title>a {
     color: inherit;
 }
+
 
 /*--------------------------------------------------------------
 ## Comments
 --------------------------------------------------------------*/
+
 .comment-content a {
     word-wrap: break-word;
 }
@@ -706,24 +762,32 @@ a img.aligncenter {
     border: medium none;
 }
 
+
 /*--------------------------------------------------------------
 # Infinite scroll
 --------------------------------------------------------------*/
+
+
 /* Globally hidden elements when Infinite Scroll is supported and in use. */
+
 .infinite-scroll .posts-navigation,
 .infinite-scroll.neverending .site-footer {
     /* Theme Footer (when set to scrolling) */
     display: none;
 }
 
+
 /* When Infinite Scroll has reached its end we need to re-display elements that were hidden (via .neverending) before. */
+
 .infinity-end.neverending .site-footer {
     display: block;
 }
 
+
 /*--------------------------------------------------------------
 # Media
 --------------------------------------------------------------*/
+
 .page-content .wp-smiley,
 .entry-content .wp-smiley,
 .comment-content .wp-smiley {
@@ -733,16 +797,20 @@ a img.aligncenter {
     padding: 0;
 }
 
+
 /* Make sure embeds and iframes fit their containers. */
+
 embed,
 iframe,
 object {
     max-width: 100%;
 }
 
+
 /*--------------------------------------------------------------
 ## Captions
 --------------------------------------------------------------*/
+
 .wp-caption {
     background: #f1f1f1 none repeat scroll 100% 0;
     border: 1px solid #f0f0f0;
@@ -750,6 +818,7 @@ object {
     padding: 0.313rem 0.313rem 0;
     text-align: center;
 }
+
 .wp-caption img[class*="wp-image-"] {
     border: 0 none;
     height: auto;
@@ -758,6 +827,7 @@ object {
     padding: 0;
     width: auto;
 }
+
 .wp-caption .wp-caption-text {
     font-size: 0.688rem;
     line-height: 1.063rem;
@@ -769,9 +839,11 @@ object {
     text-align: center;
 }
 
+
 /*--------------------------------------------------------------
 ## Galleries
 --------------------------------------------------------------*/
+
 .gallery {
     margin-bottom: 1.5em;
 }
@@ -782,27 +854,35 @@ object {
     vertical-align: top;
     width: 100%;
 }
+
 .gallery-item .gallery-columns-2 {
     max-width: 50%;
 }
+
 .gallery-item .gallery-columns-3 {
     max-width: 33.33333%;
 }
+
 .gallery-item .gallery-columns-4 {
     max-width: 25%;
 }
+
 .gallery-item .gallery-columns-5 {
     max-width: 20%;
 }
+
 .gallery-item .gallery-columns-6 {
     max-width: 16.66667%;
 }
+
 .gallery-item .gallery-columns-7 {
     max-width: 14.28571%;
 }
+
 .gallery-item .gallery-columns-8 {
     max-width: 12.5%;
 }
+
 .gallery-item .gallery-columns-9 {
     max-width: 11.11111%;
 }
@@ -811,17 +891,21 @@ object {
     display: block;
 }
 
+
 /*--------------------------------------------------------------
 # Plugin Compatibility
 --------------------------------------------------------------*/
+
+
 /*--------------------------------------------------------------
 ## Woocommerce
 --------------------------------------------------------------*/
+
 .woocommerce-cart-form .shop_table .coupon .input-text {
     width: 8.313rem !important;
 }
 
-.variations_form .variations .value > select {
+.variations_form .variations .value>select {
     margin-bottom: 0.625rem;
 }
 
@@ -830,9 +914,11 @@ object {
     max-width: 100%;
 }
 
+
 /*--------------------------------------------------------------
 ## Elementor
 --------------------------------------------------------------*/
+
 .elementor-page article .entry-footer {
     display: none;
 }
@@ -846,9 +932,11 @@ object {
     margin-top: 0;
 }
 
+
 /*--------------------------------------------------------------
 ## Visual Composer
 --------------------------------------------------------------*/
+
 .vc_desktop article .entry-footer {
     display: none;
 }
@@ -862,12 +950,15 @@ object {
     margin-top: 0;
 }
 
+
 /*--------------------------------------------------------------
 # Footer
 --------------------------------------------------------------*/
+
 footer#colophon {
     font-size: 85%;
 }
+
 body:not(.theme-preset-active) footer#colophon {
     color: #99979c;
     background-color: #f7f7f7;
@@ -879,54 +970,72 @@ body:not(.theme-preset-active) footer#colophon {
     text-align: center;
 }
 
-.copyright a, footer#colophon a {
+.copyright a,
+footer#colophon a {
     color: inherit;
 }
 
 @media screen and (max-width: 767px) {
-    #masthead .navbar-nav > li > a {
+    #masthead .navbar-nav>li>a {
         padding-bottom: 0.938rem;
         padding-top: 0.938rem;
     }
 }
+
+
 /*--------------------------------------------------------------
 # Media Query
 --------------------------------------------------------------*/
+
+
 /*--------------------------------------------------------------
 ## Notebook
 --------------------------------------------------------------*/
+
 @media only screen and (max-width: 1280px) {
     html {
         font-size: 95%;
     }
 }
+
+
 /*--------------------------------------------------------------
 ## Netbook
 --------------------------------------------------------------*/
+
 @media only screen and (max-width: 1024px) {
     html {
         font-size: 93%;
     }
 }
+
+
 /*--------------------------------------------------------------
 ## iPad
 --------------------------------------------------------------*/
+
 @media only screen and (max-width: 960px) {
     html {
         font-size: 90%;
     }
 }
+
+
 /*--------------------------------------------------------------
 ## iPad
 --------------------------------------------------------------*/
+
 @media only screen and (max-width: 768px) {
     html {
         font-size: 88%;
     }
 }
+
+
 /*--------------------------------------------------------------
 ## iPad
 --------------------------------------------------------------*/
+
 @media only screen and (max-width: 480px) {
     html {
         font-size: 86%;

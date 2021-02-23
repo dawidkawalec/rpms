@@ -7,6 +7,11 @@ get_header(); ?>
 
 
 <?php get_template_part( 'template-parts/banner');?>
+<?php get_template_part( 'template-parts/why');?>
+<?php get_template_part( 'template-parts/about');?>
+<?php get_template_part( 'template-parts/faq');?>
+<?php get_template_part( 'template-parts/logotype');?>
+<?php get_template_part( 'template-parts/contact');?>
 
 
 

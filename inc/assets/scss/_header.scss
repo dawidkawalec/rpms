@@ -1,0 +1,22 @@
+header {
+    padding: 20px 0;
+    .logo {
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+    }
+    .navbar {
+        ul {
+            li {
+                @media(min-width: 992px) {
+                    margin-left: 25px;
+                }
+                a {
+                    font-weight: 700;
+                    color: #3b394f;
+                }
+            }
+        }
+    }
+}
