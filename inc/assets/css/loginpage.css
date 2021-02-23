@@ -1,0 +1,35 @@
+/* Change background image and font family */
+body {
+    background: #fff3e1;
+}
+
+.login form {
+    margin-top: 20px;
+    margin-left: 0;
+    padding: 26px 24px 46px;
+    font-weight: 400;
+    overflow: hidden;
+    background: #3b394f;
+    color: #fff;
+    border-radius: 15px;
+    border: none;
+    box-shadow: none;
+}
+
+.wp-core-ui .button-primary {
+    background: #bfa071;
+    border-color: #bfa071;
+    border-radius: 10px;
+    color: #fff;
+    text-decoration: none;
+    text-shadow: none;
+}
+
+.wp-core-ui .button-primary:hover {
+    background: #866e49;
+    border-color: #866e49;
+    border-radius: 10px;
+    color: #fff;
+    text-decoration: none;
+    text-shadow: none;
+}
