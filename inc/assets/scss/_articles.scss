@@ -1,0 +1,94 @@
+.articles {
+    background: #f7f7fa;
+    border-radius: 20px;
+    padding-top: 480px;
+    margin-top: -430px;
+    .row-articles {
+        .single {
+            .single-content {
+                background: #fff;
+                border-radius: 10px;
+                box-shadow: 0 12px 44px 0 rgba(0, 0, 0, 0.06);
+                background-color: #ffffff;
+                transition: all 0.4s;
+                &:hover {
+                    transform: translateY(-20px);
+                }
+                .image {
+                    border-radius: 15px 15px 0 0;
+                    img {
+                        border-radius: 15px 15px 0 0;
+                        width: 100%;
+                        height: 220px;
+                        object-fit: cover;
+                        object-position: center;
+                    }
+                }
+                .single-content__padding {
+                    padding: 2px 35px 35px 35px;
+                }
+                .date {
+                    margin-top: 22px;
+                    font-size: 12px;
+                    font-weight: bold;
+                    font-stretch: normal;
+                    font-style: normal;
+                    line-height: normal;
+                    letter-spacing: 1.71px;
+                    color: #aaaaaa;
+                    text-transform: uppercase;
+                }
+                .title {
+                    margin: 11px 0 18px;
+                    font-size: 24px;
+                    font-weight: 900;
+                    font-stretch: normal;
+                    font-style: normal;
+                    line-height: 1.42;
+                    letter-spacing: normal;
+                    color: #1f1b1a
+                }
+                p {
+                    font-size: 18px;
+                    font-weight: 600;
+                    font-stretch: normal;
+                    font-style: normal;
+                    line-height: 1.56;
+                    letter-spacing: normal;
+                    color: #7c7c7c;
+                }
+                .more {
+                    color: #1f1b1a;
+                    font-weight: 900;
+                    font-stretch: normal;
+                    font-style: normal;
+                    line-height: normal;
+                    letter-spacing: 0.86px;
+                    text-transform: uppercase;
+                    font-size: 12px;
+                }
+            }
+        }
+    }
+    .send-form {
+        a {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 360px;
+            height: 44px;
+            margin: 30px auto 0;
+            border-radius: 22px;
+            background-color: #3b394f;
+            color: #fff;
+            text-transform: uppercase;
+            font-size: 11px;
+            font-weight: 900;
+            font-stretch: normal;
+            font-style: normal;
+            line-height: normal;
+            letter-spacing: 0.86px;
+            transition: all 0.4s;
+        }
+    }
+}

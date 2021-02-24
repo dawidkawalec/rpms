@@ -9,14 +9,15 @@
                     Staniszewski & Wspólnicy</h4>
                 <div class="contact-data_div">
                     <div>
-                        ul. Polska 114<br>
-                        Poznań 60-401
+                    <img src="/wp-content/uploads/2021/02/kontakt.svg" alt="">
+                        <p>ul. Polska 114<br>
+                        Poznań 60-401</p>
                     </div>
                     <div>
-                        +48 61 307 09 91
+                        <img src="/wp-content/uploads/2021/02/kontakt.svg" alt=""> <p>+48 61 307 09 91</p>
                     </div>
                     <div>
-                        kancelaria@rpms.pl
+                    <img src="/wp-content/uploads/2021/02/kontakt.svg" alt="">  <p>kancelaria@rpms.pl</p>
                     </div>
                 </div>
             </div>

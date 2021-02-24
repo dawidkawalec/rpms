@@ -1,0 +1,91 @@
+.partners {
+    .single {
+        padding: 70px 80px;
+        @media(max-width: 768px) {
+            padding: 60px 30px;
+        }
+        .row-box {
+            overflow: hidden;
+        }
+        .logo {
+            img {
+                height: 50px;
+                width: auto;
+                margin-bottom: 40px;
+            }
+        }
+        .title {
+            font-size: 25px;
+            line-height: 30px;
+        }
+        .desc {
+            text-align: justify;
+            a {
+                color: #fff;
+                text-decoration: underline;
+            }
+        }
+        .link {
+            a {
+                text-decoration: none;
+                transition: all 0.4s;
+                &:hover {
+                    background: #393d50;
+                    color: #fff !important;
+                }
+            }
+        }
+        &:nth-child(1) {
+            background: #ffff8c;
+            color: #000;
+            .link {
+                a {
+                    border: 2px solid #393d50;
+                    display: inline-block;
+                    padding: 13px 20px 10px;
+                    color: #393d50;
+                    font-weight: 700;
+                    text-transform: uppercase;
+                    font-size: 14px;
+                    font-weight: 900;
+                }
+            }
+        }
+        &:nth-child(2) {
+            background: #393d50;
+            color: #fff;
+            .link {
+                a {
+                    border: 2px solid #fff;
+                    display: inline-block;
+                    padding: 13px 20px 10px;
+                    color: #fff;
+                    font-weight: 700;
+                    text-transform: uppercase;
+                    font-size: 14px;
+                    font-weight: 900;
+                    &:hover {
+                        background: #fff;
+                        color: #000 !important;
+                    }
+                }
+            }
+        }
+        &:nth-child(3) {
+            background: #e9e5d4;
+            color: #000;
+            .link {
+                a {
+                    border: 2px solid #393d50;
+                    display: inline-block;
+                    padding: 13px 20px 10px;
+                    color: #393d50;
+                    font-weight: 700;
+                    text-transform: uppercase;
+                    font-size: 14px;
+                    font-weight: 900;
+                }
+            }
+        }
+    }
+}

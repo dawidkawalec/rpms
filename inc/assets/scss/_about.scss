@@ -32,6 +32,20 @@
             background: #3b394f;
             border-radius: 10px;
             text-align: center;
+            position: relative;
+            &:before {
+                content: '';
+                background: url('/wp-content/uploads/2021/02/uslugi-prawne.svg');
+                position: absolute;
+                width: 270px;
+                height: 270px;
+                background-size: cover;
+                z-index: 0;
+                bottom: 0;
+                left: 0;
+                filter: brightness(0) invert(1);
+                opacity: 0.03;
+            }
             h4 {
                 font-size: 24px;
                 font-weight: 900;
@@ -46,16 +60,18 @@
                 width: 360px;
                 height: 44px;
                 margin: 30px auto 0;
+                padding-top: 3px;
                 // padding: 15px 125px 14px;
                 border-radius: 22px;
                 background-color: #ffffff;
                 text-transform: uppercase;
-                font-size: 12px;
+                font-size: 11px;
                 font-weight: 900;
                 font-stretch: normal;
                 font-style: normal;
                 line-height: normal;
                 letter-spacing: 0.86px;
+                transition: all 0.4s;
             }
         }
     }

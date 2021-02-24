@@ -1,0 +1,64 @@
+.maps {
+    .desc {
+        h3 {
+            font-size: 35px;
+            font-stretch: normal;
+            font-style: normal;
+            line-height: normal;
+            strong {
+                font-weight: 900;
+            }
+            &:after {
+                content: '';
+                width: 50px;
+                height: 4px;
+                margin: 25px 0 30px;
+                border-radius: 2px;
+                background-color: #bfa071;
+                display: block;
+            }
+        }
+        b {
+            display: block;
+            font-size: 22px;
+            font-weight: bold;
+            font-stretch: normal;
+            font-style: normal;
+            line-height: 1.45;
+            margin-bottom: 25px;
+        }
+        .link {
+            color: #3b394f;
+            display: flex;
+            font-size: 12px;
+            font-weight: 900;
+            font-stretch: normal;
+            font-style: normal;
+            line-height: normal;
+            letter-spacing: 0.86px;
+            margin-top: 20px;
+            text-transform: uppercase;
+            cursor: pointer;
+            transition: all 0.4s;
+            padding: 16px 30px;
+            width: 220px;
+            text-align: center;
+            justify-content: center;
+            text-decoration: none;
+            border-radius: 25px;
+            background-color: #f6f6f6;
+            &:hover {
+                color: #fff;
+                background: #bfa071;
+                img {
+                    filter: brightness(0) invert(1);
+                }
+            }
+            img {
+                width: 20px;
+                height: auto;
+                transition: all 0.4s
+            }
+        }
+    }
+}

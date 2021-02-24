@@ -73,6 +73,10 @@ body {
     font-style: normal;
 }
 
+a {
+    text-decoration: none !important;
+}
+
 .container {
     max-width: 1420px;
 }
@@ -102,11 +106,18 @@ body {
 
 @import "_header";
 @import "_banner";
+@import "_specialization";
+@import "_team";
 @import "_why";
 @import "_about";
 @import "_logotype";
 @import "_contact";
+@import "_mapa";
+@import "_articles";
+@import "_partners";
+@import "_opinion";
 @import "_faq";
+@import "_footer";
 .m-0 {
     margin: 0 0!important
 }

@@ -5,10 +5,10 @@
  *
  */
 
-?>
+?> 
 
 
-<section class="about my-10">
+<section class="about mt-10">
     <div class="container">
     <div class="row row-title">
             <h3>Kancelaria Prawna <strong>RPMS</strong><br />

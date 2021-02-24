@@ -13,17 +13,55 @@
 <?php if(!is_page_template( 'blank-page.php' ) && !is_page_template( 'blank-page-with-container.php' )): ?>
 
 <?php get_template_part( 'footer-widget' ); ?>
-<footer id="colophon" class="site-footer <?php echo wp_bootstrap_starter_bg_class(); ?>" role="contentinfo">
+<footer id="colophon" class="mx-3 mt-4 mb-3 site-footer <?php echo wp_bootstrap_starter_bg_class(); ?>" role="contentinfo">
     <div class="container pt-3 pb-3">
-        <div class="site-info">
-            &copy; <?php echo date('Y'); ?> <?php echo '<a href="'.home_url().'">'.get_bloginfo('name').'</a>'; ?>
-            <span class="sep"> | </span>
-            <a class="credits" href="https://afterimagedesigns.com/wp-bootstrap-starter/" target="_blank"
-                title="WordPress Technical Support"
-                alt="Bootstrap WordPress Theme"><?php echo esc_html__('Bootstrap WordPress Theme','wp-bootstrap-starter'); ?></a>
+        <div class="row">
+            <div class="col-lg-3 info mb-3 mb-lg-0">
+                <img src="/wp-content/themes/rpms/inc/assets/img/logo_rpms.png" alt="" class="logo">
+                <p>Zapewniamy pełne wsparcie prawne w przygotowaniu formalnego zaplecza funkcjonowania podmiotów gospodarczych świadczących usługi poprzez sieć internetową, w tym regulaminów, polityk bezpieczeństwa, ogólnych warunków, formularzy i innych, a także w procesach windykacyjnych i podatkowych.</p>
+                <ul class="social m-0 mb-3 mb-lg-0 p-0">
+                    <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                    <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+                    <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                </ul>    
+            </div>
+            <div class="col-lg-3 links pl-lg-5 mb-3 mb-lg-0">
+                <span>Usługi prawne</span>
+                <ul class="m-0 p-0">
+                    <li><a href="#">Prawo</a></li>
+                    <li><a href="#">Finanse i bankowość</a></li>
+                    <li><a href="#">Własnośc intelektualna</a></li>
+                    <li><a href="#">IT / E-commerce</a></li>
+                </ul>
+            </div>
+            <div class="col-lg-3 links mb-3 mb-lg-0">
+                <span>RPMS</span>
+                <ul class="m-0 p-0">
+                    <li><a href="#">Usługi prawne</a></li>
+                    <li><a href="#">Zespół</a></li>
+                    <li><a href="#">Aktualności</a></li>
+                    <li><a href="#">Media o nas</a></li>
+                    <li><a href="#">Zaufali nam</a></li>
+                    <li><a href="#">Kontakt</a></li>
+                </ul>
+            </div>
+            <div class="col-lg-3 links mb-3 mb-lg-0">
+                <span>Przydatne linki</span>
+                <ul class="m-0 p-0">
+                    <li><a href="#">Dane osobowe (RODO)</a></li>
+                    <li><a href="#">Regulamin strony</a></li>
+                    <li><a href="#">Pliki cookie</a></li>
 
-        </div><!-- close .site-info -->
+                </ul>
+            </div>
+        </div>
+        
     </div>
+
+    <div class="copy text-center">
+            © Copyright 2020 - wszelkie prawa zastrzeżone RPMS
+        </div>
+    
 </footer><!-- #colophon -->
 <?php endif; ?>
 </div><!-- #page -->
@@ -65,7 +103,8 @@ function initMap( $el ) {
     // Create gerenic map.
     var mapArgs = {
         zoom        : $el.data('zoom') || 16,
-        mapTypeId   : google.maps.MapTypeId.ROADMAP
+        mapTypeId   : google.maps.MapTypeId.ROADMAP,
+        styles : [ { "featureType": "water", "elementType": "geometry", "stylers": [ { "color": "#e9e9e9" }, { "lightness": 17 } ] }, { "featureType": "landscape", "elementType": "geometry", "stylers": [ { "color": "#f5f5f5" }, { "lightness": 20 } ] }, { "featureType": "road.highway", "elementType": "geometry.fill", "stylers": [ { "color": "#ffffff" }, { "lightness": 17 } ] }, { "featureType": "road.highway", "elementType": "geometry.stroke", "stylers": [ { "color": "#ffffff" }, { "lightness": 29 }, { "weight": 0.2 } ] }, { "featureType": "road.arterial", "elementType": "geometry", "stylers": [ { "color": "#ffffff" }, { "lightness": 18 } ] }, { "featureType": "road.local", "elementType": "geometry", "stylers": [ { "color": "#ffffff" }, { "lightness": 16 } ] }, { "featureType": "poi", "elementType": "geometry", "stylers": [ { "color": "#f5f5f5" }, { "lightness": 21 } ] }, { "featureType": "poi.park", "elementType": "geometry", "stylers": [ { "color": "#dedede" }, { "lightness": 21 } ] }, { "elementType": "labels.text.stroke", "stylers": [ { "visibility": "on" }, { "color": "#ffffff" }, { "lightness": 16 } ] }, { "elementType": "labels.text.fill", "stylers": [ { "saturation": 36 }, { "color": "#333333" }, { "lightness": 40 } ] }, { "elementType": "labels.icon", "stylers": [ { "visibility": "off" } ] }, { "featureType": "transit", "elementType": "geometry", "stylers": [ { "color": "#f2f2f2" }, { "lightness": 19 } ] }, { "featureType": "administrative", "elementType": "geometry.fill", "stylers": [ { "color": "#fefefe" }, { "lightness": 20 } ] }, { "featureType": "administrative", "elementType": "geometry.stroke", "stylers": [ { "color": "#fefefe" }, { "lightness": 17 }, { "weight": 1.2 } ] } ]
     };
     var map = new google.maps.Map( $el[0], mapArgs );
 

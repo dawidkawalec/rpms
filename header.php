@@ -35,21 +35,34 @@
                     <img src="/wp-content/themes/rpms/inc/assets/img/logo_rpms.png" alt="RPMS logo">
                 </a>
             </div>
-                <nav class="navbar navbar-expand-xl">
+                <nav class="navbar navbar-expand-xl py-0">
 
-                    <?php
-                wp_nav_menu(array(
-                'theme_location'    => 'primary',
-                'container'       => 'div',
-                'container_id'    => 'main-nav',
-                'container_class' => 'collapse navbar-collapse justify-content-end',
-                'menu_id'         => false,
-                'menu_class'      => 'navbar-nav',
-                'depth'           => 3,
-                'fallback_cb'     => 'wp_bootstrap_navwalker::fallback',
-                'walker'          => new wp_bootstrap_navwalker()
-                ));
-                ?>
+                        <?php
+                    wp_nav_menu(array(
+                    'theme_location'    => 'primary',
+                    'container'       => 'div',
+                    'container_id'    => 'main-nav',
+                    'container_class' => 'collapse navbar-collapse justify-content-end',
+                    'menu_id'         => false,
+                    'menu_class'      => 'navbar-nav',
+                    'depth'           => 3,
+                    'fallback_cb'     => 'wp_bootstrap_navwalker::fallback',
+                    'walker'          => new wp_bootstrap_navwalker()
+                    ));
+                    ?>
+
+                    <div class="search ml-lg-5">
+                        <div class="icon"><i class="fas fa-search"></i></div>
+                    </div>
+
+
+                    <div class="phone">
+                        <div class="icon"><i class="fas fa-phone-alt"></i></div>
+                        <div class="data">
+                            <a href="#">+48 61 307 09 91</a>
+                            <a href="#">kancelaria@rpms.pl</a>
+                        </div>
+                    </div>
 
                 </nav>
                 </div>

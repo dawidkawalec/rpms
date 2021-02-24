@@ -19,4 +19,69 @@ header {
             }
         }
     }
+    .search {
+        @media(min-width: 1199px) {
+            margin-right: 300px;
+        }
+        .icon {
+            cursor: pointer;
+            i {
+                color: #989fa3;
+                transition: all 0.4s;
+                &:hover {
+                    color: #3b394f;
+                }
+            }
+        }
+    }
+    .phone {
+        background: #3b394f;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 270px;
+        height: 90px;
+        position: absolute;
+        top: -20px;
+        padding-top: 0px;
+        right: 4px;
+        border-radius: 0 0 15px 15px;
+        .icon {
+            width: 45px;
+            height: 45px;
+            border-radius: 100px;
+            border: 2px solid #bfa071;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            i {
+                font-size: 18px;
+                color: #bfa071;
+            }
+        }
+        .data {
+            width: 150px;
+            margin-left: 15px;
+            a {
+                &:nth-child(1) {
+                    font-size: 18px;
+                    font-weight: 500;
+                    font-stretch: normal;
+                    font-style: normal;
+                    line-height: normal;
+                    letter-spacing: normal;
+                    color: #ffffff;
+                }
+                &:nth-child(2) {
+                    font-size: 16px;
+                    font-weight: 500;
+                    font-stretch: normal;
+                    font-style: normal;
+                    line-height: normal;
+                    letter-spacing: normal;
+                    color: #aaaaaa;
+                }
+            }
+        }
+    }
 }
