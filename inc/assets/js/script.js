@@ -5,6 +5,14 @@ jQuery(function($) {
     // Run the script once the document is ready
     $(document).ready(function() {
 
+        if (jQuery(window).width() < 992) {
+            jQuery(".specialization .nav-pills .nav-link").click(function() {
+                jQuery('html, body').animate({
+                    scrollTop: jQuery(".tab-content").offset().top - 100
+                }, 600);
+            });
+        }
+
 
         jQuery('.faq .accordion .card').on('click', function() {
             jQuery('.faq .accordion .card').removeClass('show');

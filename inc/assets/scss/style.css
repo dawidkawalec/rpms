@@ -104,6 +104,12 @@ a {
 
 header {
     padding: 20px 0;
+    background: #fff;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 99999;
 }
 
 header .logo img {
@@ -223,6 +229,7 @@ header .phone .data a:nth-child(2) {
     align-items: center;
     margin: 0 20px;
     border-radius: 20px;
+    margin-top: 102px;
 }
 
 .banner h1 {
