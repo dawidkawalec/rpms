@@ -1,0 +1,70 @@
+.faq {
+    border-radius: 20px;
+    background-color: #f7f7fa;
+    .accordion {
+        .card {
+            margin-bottom: 20px;
+            border: 2px solid #efefef!important;
+            border-radius: 40px !important;
+            &.show {
+                .card-header {
+                    background-color: #f9f6f1;
+                }
+            }
+            .card-header {
+                border-bottom: 2px solid #efefef!important;
+                padding: 20px 20px 8px 31px;
+                background-color: #fff;
+                h2 {
+                    display: flex;
+                    margin: 0;
+                    .icon {
+                        margin-right: 15px;
+                        img {
+                            width: 35px;
+                            height: auto;
+                        }
+                    }
+                    button {
+                        color: #3b394f;
+                        font-size: 18px;
+                        font-weight: 600;
+                        text-decoration: none;
+                        position: relative;
+                        &.collapsed {
+                            &:before {
+                                content: '\f054';
+                                font-family: "Font Awesome 5 Free";
+                                font-weight: 900;
+                                position: absolute;
+                                right: 10px;
+                                transform: rotate(0deg);
+                                color: #3b394f;
+                            }
+                        }
+                        &:before {
+                            content: '\f054';
+                            font-family: "Font Awesome 5 Free";
+                            font-weight: 900;
+                            position: absolute;
+                            transition: all 0.4s;
+                            transform: rotate(90deg);
+                            right: 10px;
+                            color: #bfa071;
+                        }
+                    }
+                }
+            }
+            .card-body {
+                padding: 40px 92px;
+                font-size: 16px;
+                font-weight: normal;
+                font-stretch: normal;
+                font-style: normal;
+                line-height: 1.63;
+                letter-spacing: normal;
+                color: #7c7c7c;
+            }
+        }
+    }
+}
