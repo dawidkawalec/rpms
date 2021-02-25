@@ -1,0 +1,192 @@
+#uslugi-prawne {
+    .articles {
+        padding-top: 40px;
+        margin-top: 80px;
+    }
+}
+
+.uslugi-item {
+    overflow: hidden;
+    padding: 80px 0 80px 0;
+    margin-top: 20px;
+
+    .container {
+        position: relative;
+    }
+
+    .uslugi-item__content {
+        background: #fff;
+        border-radius: 10px;
+        box-shadow: 0 12px 44px 0 rgba(0, 0, 0, 0.12);
+        background-color: #ffffff;
+        transition: all 0.4s;
+        padding: 3em;
+        text-align: justify;
+
+        h2 {
+            font-weight: 800;
+            color: #3b394f;
+            margin-top: 2em;
+        }
+
+        p {
+            color: #3b394f;
+
+            strong {
+                font-weight: 800;
+            }
+        }
+
+        a {
+            color: #3b394f;
+            font-size: 1.1em;
+            line-height: 1.8;
+        }
+
+        a.cta {
+            display: inline-block;
+            color: #fff;
+            background: #bfa071;
+            padding: 10px 25px 8px 25px;
+            text-transform: uppercase;
+            font-weight: 800;
+            border: 2px solid #bfa071;
+            border-top-left-radius: 20px;
+            border-bottom-right-radius: 20px;
+            transition: all .5s;
+
+            &:hover {
+                background: #fff;
+                color: #bfa071;
+            }
+        }
+
+        a.cta_more {
+            float: right;
+            border-bottom: 3px solid #bfa071;
+            padding: 0 10px;
+            margin-top: 10px;
+            transition: all .5s;
+
+            &::after {
+                content: '→';
+                padding-left: 10px;
+                display: inline-block;
+                transition: all .5s;
+            }
+
+            &:hover {
+                color: #bfa071;
+
+                &::after {
+                    transform: translateX(10px);
+                    color: #bfa071;
+                }
+            }
+        }
+    }
+
+    .uslugi-item__right-img {
+        position: absolute;
+        right: 0;
+        z-index: -1;
+        max-width: 55%;
+        width: 100%;
+        top: -80px;
+        bottom: -80px;
+    }
+}
+
+.uslugi-list {
+    .uslugi-item {
+        margin: 80px 0;
+    }
+
+    .uslugi-item:nth-last-of-type(2n+2) {
+        .col-lg-7 {
+            order: 2;
+        }
+
+        .uslugi-item__right-img {
+            right: unset;
+        }
+    }
+
+}
+
+.uslugi-ol {
+    background: #f7f7fa;
+    border-radius: 20px;
+    margin: 50px 20px;
+    padding: 50px 0px;
+    border-bottom: 4px solid #bfa071;
+
+    p.big {
+        font-weight: 800;
+        color: #3b394f;
+        margin-top: 2em;
+        font-size: 24px;
+        padding-bottom: 0.3em;
+        line-height: 1.25;
+    }
+
+    ol {
+        list-style: none;
+        counter-reset: my-awesome-counter;
+        display: flex;
+        flex-wrap: wrap;
+        margin: 0;
+        padding: 0;
+    }
+
+    ol li {
+        counter-increment: my-awesome-counter;
+        display: block;
+        width: 50%;
+        font-size: 1.1rem;
+        margin-bottom: 1.5rem;
+        padding-right: 2rem;
+        padding-left: 4em;
+        line-height: 1.5;
+        color: #3b394f;
+        text-align: justify;
+        position: relative;
+        transition: all .5s;
+
+        strong {
+            font-weight: 800;
+        }
+
+        a {
+            color: #bfa071;
+        }
+
+        &::before {
+            content: counter(my-awesome-counter);
+            font-weight: 300;
+            font-size: 22px;
+            line-height: 1;
+            position: absolute;
+            left: 0;
+            top: 4px;
+            width: 40px;
+            background: #3b394f;
+            height: 40px;
+            border-radius: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding-top: 4.5px;
+            color: #fff;
+            transition: all .5s;
+        }
+
+        &:hover {
+            //background: #ccc;
+
+            &::before {
+                background: #bfa071;
+            }
+        }
+    }
+}

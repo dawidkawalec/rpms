@@ -30,12 +30,12 @@
         <header id="hamburger" class="site-header navbar-static-top" role="banner">
             <div class="container-fluid">
                 <div class="row justify-content-between px-3">
-                <div class="logo">
-                <a href="<?php echo esc_url('/'); ?>">
-                    <img src="/wp-content/themes/rpms/inc/assets/img/logo_rpms.png" alt="RPMS logo">
-                </a>
-            </div>
-                <nav class="navbar navbar-expand-xl py-0">
+                    <div class="logo">
+                        <a href="<?php echo esc_url('/'); ?>">
+                            <img src="/wp-content/themes/rpms/inc/assets/img/logo_rpms.png" alt="RPMS logo">
+                        </a>
+                    </div>
+                    <nav class="navbar navbar-expand-xl py-0">
 
                         <?php
                     wp_nav_menu(array(
@@ -51,20 +51,20 @@
                     ));
                     ?>
 
-                    <div class="search ml-lg-5">
-                        <div class="icon"><i class="fas fa-search"></i></div>
-                    </div>
-
-
-                    <div class="phone">
-                        <div class="icon"><i class="fas fa-phone-alt"></i></div>
-                        <div class="data">
-                            <a href="#">+48 61 307 09 91</a>
-                            <a href="#">kancelaria@rpms.pl</a>
+                        <div class="search ml-lg-5">
+                            <div class="icon"><i class="fas fa-search"></i></div>
                         </div>
-                    </div>
 
-                </nav>
+
+                        <div class="phone">
+                            <div class="icon"><i class="fas fa-phone-alt"></i></div>
+                            <div class="data">
+                                <a href="tel:+48 61 307 09 91">+48 61 307 09 91</a>
+                                <a href="mailto:kancelaria@rpms.pl">kancelaria@rpms.pl</a>
+                            </div>
+                        </div>
+
+                    </nav>
                 </div>
             </div>
         </header><!-- #masthead -->

@@ -5,6 +5,9 @@ jQuery(function($) {
     // Run the script once the document is ready
     $(document).ready(function() {
 
+      
+        
+ 
         if (jQuery(window).width() < 992) {
             jQuery(".specialization .nav-pills .nav-link").click(function() {
                 jQuery('html, body').animate({
