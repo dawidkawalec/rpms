@@ -8,7 +8,7 @@
 ?>
 
 
-<section class="faq pt-5 pb-8 mx-3">
+<section class="faq pt-5 pb-5 mx-3">
     <div class="container">
         <div class="row row-title mt-3">
             <h3>FAQ - <strong>najczęściej zadawane pytania</strong></h3>

@@ -8,7 +8,7 @@
 ?>
 
 
-<section class="specialization mt-10">
+<section class="specialization mt-5">
     <div class="container">
         <div class="row row-title">
             <h3>Nasze <strong>Specjalizacje</strong></h3>

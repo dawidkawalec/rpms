@@ -7,7 +7,7 @@
 ?>
 
 
-<section class="maps my-10">
+<section class="maps my-5">
     <div class="container">
         <div class="row">
             <div class="col-lg-6 desc">
@@ -16,7 +16,7 @@
                 <?php endif; ?>
 
             </div>
-            <div class="col-lg-6 map-svg">
+            <div class="col-lg-6 map-svg mt-4">
                 <svg xmlns:mapsvg="http://mapsvg.com" xmlns:dc="http://purl.org/dc/elements/1.1/"
                     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:svg="http://www.w3.org/2000/svg"
                     xmlns="http://www.w3.org/2000/svg" mapsvg:geoViewBox="14.122232 54.834941 24.149724 49.002699"

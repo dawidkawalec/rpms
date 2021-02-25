@@ -10,7 +10,7 @@
 
 
 
-<section class="opinion pt-4 pb-10">
+<section class="opinion pt-4 pb-5">
     <div class="container">
     <div class="row row-title mt-3">
             <h3>Opinie <strong>klientów kancelarii</strong></h3>

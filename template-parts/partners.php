@@ -8,7 +8,7 @@
 ?>
 
 
-<section class="partners my-7">
+<section class="partners my-5">
         <div class="container">
             <div class="row row-title">
                     <h3>Jesteśmy <strong>partnerami</strong></h3>

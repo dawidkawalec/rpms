@@ -7,7 +7,7 @@
 ?>
 
 
-<section class="why-rpms my-10">
+<section class="why-rpms my-5">
     <div class="container-fluid">
         <div class="row row-title">
             <h3>Dlaczego <strong>Kancelaria RPMS?</strong></h3>

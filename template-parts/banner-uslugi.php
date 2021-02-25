@@ -10,7 +10,7 @@
     <div class="container">
         <div class="row">
             <div class="col-lg-12 text-center">
-                <h1>USŁUGI <strong>PRAWNE</strong>
+                <h1><?php the_title();?>
                 </h1>
             </div>
         </div>

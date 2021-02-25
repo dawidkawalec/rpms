@@ -72,6 +72,9 @@
                 line-height: normal;
                 letter-spacing: 0.86px;
                 transition: all 0.4s;
+                @media(max-width: 768px) {
+                    width: 100%;
+                }
             }
         }
     }

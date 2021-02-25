@@ -8,9 +8,9 @@
 ?>
 
 
-<section class="teams py-10 mx-3 mt-10">
+<section class="teams py-5 mx-3 mt-5">
     <div class="container">
-        <div class="row title">
+        <div class="row title mb-5">
             <h3>Zespół <strong>RPMS</strong></h3>
             <div class="row-nav">
             <ul>

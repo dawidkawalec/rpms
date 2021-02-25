@@ -55,7 +55,7 @@
             </div>
             
         </div>  
-        <div class="row send-form pb-10">
+        <div class="row send-form mt-5 pb-5">
             <a href="#">Wyślij formularz</a>
         </div>
     </div>
