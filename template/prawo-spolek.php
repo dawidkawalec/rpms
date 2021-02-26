@@ -5,7 +5,7 @@
 
 get_header(); ?>
 
-<div id="uslugi-prawne">
+<div id="prawo-spolek">
 
     <?php get_template_part( 'template-parts/banner-uslugi');?>
 
@@ -27,23 +27,31 @@ get_header(); ?>
         <div class="container">
             <div class="row">
                 <div class="col-lg-6 text">
-                    Kancelaria od początku funkcjonowania specjalizuje się w korporacyjnej obsłudze przedsiębiorców, w
-                    szczególności spółek prawa handlowego. Prawnicy kancelarii brali udział w procesach reorganizacji
-                    przedsiębiorstw, fuzji oraz procesów przejęcia przez połączenie obejmujących w szczególności
-                    klientów z branży finansowej, nowoczesnych technologii i informatycznej, a także przedsiębiorstw
-                    produkcyjno – usługowych.
+                    <p>Kancelaria od początku funkcjonowania specjalizuje się w korporacyjnej obsłudze przedsiębiorców,
+                        w
+                        szczególności spółek prawa handlowego. Prawnicy kancelarii brali udział w procesach
+                        reorganizacji
+                        przedsiębiorstw, fuzji oraz procesów przejęcia przez połączenie obejmujących w szczególności
+                        klientów z branży finansowej, nowoczesnych technologii i informatycznej, a także przedsiębiorstw
+                        produkcyjno – usługowych.</p>
 
-                    Jednym z najważniejszych elementów naszej praktyki jest zatem doradztwo w zakresie polskiego prawa
-                    spółek. Funkcjonowanie spółek jest ściśle powiązane z koniecznością wprowadzania istotnych zmian
-                    organizacyjnych, w strukturach kapitałowych czy właścicielskich, w ramach których następują m.in.
-                    przejęcia, fuzje i połączenia.
+                    <p> Jednym z najważniejszych elementów naszej praktyki jest zatem doradztwo w zakresie polskiego
+                        prawa
+                        spółek. Funkcjonowanie spółek jest ściśle powiązane z koniecznością wprowadzania istotnych zmian
+                        organizacyjnych, w strukturach kapitałowych czy właścicielskich, w ramach których następują
+                        m.in.
+                        przejęcia, fuzje i połączenia.</p>
 
-                    Wszystko to wywiera niebagatelny wpływ na rozwój przedsiębiorstw, jednak brak odpowiedniego wsparcia
-                    prawnego i skutecznego, przemyślanego planu przy zmianach strukturalnych może generować negatywne, a
-                    przy tym nieodwracalne skutki, w szczególności w zakresie zobowiązań publicznoprawnych.
+                    <p>Wszystko to wywiera niebagatelny wpływ na rozwój przedsiębiorstw, jednak brak odpowiedniego
+                        wsparcia
+                        prawnego i skutecznego, przemyślanego planu przy zmianach strukturalnych może generować
+                        negatywne, a
+                        przy tym nieodwracalne skutki, w szczególności w zakresie zobowiązań publicznoprawnych.</p>
                 </div>
-                <div class="col-lg-6 form">
-                    form
+                <div class="col-lg-6 specialization">
+                    <div class="form">
+                        <?php echo do_shortcode('[contact-form-7 id="142" title="Formularz uslugi"]'); ?>
+                    </div>
                 </div>
             </div>
         </div>
@@ -76,8 +84,18 @@ get_header(); ?>
                             procesach łączenia, podziałów i przekształceń, a także sprzedaży i zakupu udziałów/akcji
                             przedsiębiorstw,</li>
                         <li>wsparcie w <a href="https://rpms.pl/windykacja/">procesie windykacyjnym</a> oraz w przypadku
-                            <a href="https://rpms.pl/sprawy-sporne-i-postepowanie-sadowe/">sporów.</a></li>
+                            <a href="https://rpms.pl/sprawy-sporne-i-postepowanie-sadowe/">sporów.</a>
+                        </li>
                     </ul>
+                    <p>Prowadzenie procesu odbywa się kompleksowo – oznacza to, że przekazując zlecenie Kancelaria
+                        organizuje niezbędne zaplecze wykonawcze (notariusz) i nadzoruje dane postępowanie niezależnie
+                        od etapu. W ramach świadczonych usług uwzględniamy nie tylko aspekty prawne prowadzonego
+                        procesu, ale również korzyści i ryzyka podatkowe oraz optymalizację samego procesu w oparciu o
+                        szczegółowe działania analityczne, realizowane w ramach stałej współpracy z podmiotami
+                        specjalizującymi się w <a href="https://rpms.pl/uslugi-prawne/podatki/">dziedzinie podatków</a>,
+                        <a href="https://rpms.pl/uslugi-prawne/fintech-technologia-finansowa/">finansów</a> oraz
+                        analityki.
+                    </p>
                 </div>
             </div>
         </div>
@@ -117,12 +135,14 @@ get_header(); ?>
 
     <section class="greybox mb-5">
         <div class="container">
-            <div class="row">
-                <div class="col-lg-12 content">
-                    <h3 class="mt-0 mb-5 h1 font-weight-bold"><strong>Nasze aktualne projekty</strong></h3>
-                    <h3 class="title-h4" style="text-align: justify;"><strong>HOLDING GRUPY “DIGITAL NOW!
+            <div class="row content">
+                <div class="col-lg-12 row-title">
+                    <h2><strong>Nasze aktualne projekty</strong></h2>
+                </div>
+                <div class="col-lg-12 big-strong">
+                    <h3><strong>HOLDING GRUPY “DIGITAL NOW!
                         </strong><strong>HOLDING”</strong></h3>
-                    <p style="text-align: justify;">W chwili obecnej przeprowadzamy proces reorganizacji grupy DIGITAL
+                    <p>W chwili obecnej przeprowadzamy proces reorganizacji grupy DIGITAL
                         NOW! HOLDING w strukturę holdingową. Z uwagi, iż jest to procedura dedykowana dla dużych
                         organizacji, wymaga ona czasu i znacznych nakładów pracy, które są niezbędne dla utworzenia
                         struktury spełniającej wszystkie wymagane założenia. Nasza kancelaria wspiera grupę DIGITAL NOW!
@@ -132,14 +152,14 @@ get_header(); ?>
                         budowania struktury holdingowej jest stworzenie organizacji w ramach której grupuje się podmioty
                         gospodarcze, które są samodzielne pod względem prawnym i organizacyjnym, jednak pod względem
                         finansowym uzależnione od jednego podmiotu – spółki dominującej.</p>
-                    <p style="text-align: justify;">Spółka dominująca w strukturze holdingowej posiada udziały we
+                    <p>Spółka dominująca w strukturze holdingowej posiada udziały we
                         wszystkich spółkach zależnych dzięki czemu może nimi w pełni zarządzać oraz kontrolować ich
                         działalność. Struktura holdingowa jest formą kumulacji kapitału, która wymaga podjęcia szeroko
                         zakrojonych działań opartych na zależnościach kapitałowych, gospodarczych i personalnych. Grupa
                         DIGITAL NOW! HOLDING została stworzona w celu przejęcia słabszych spółek działających na rynku
                         SEO/SEM. Zdecydowanym plusem tego typu struktur holdingowych jest możliwość dowolnego ułożenia
                         stosunków podległości, tak aby w pełni spełniały określone założenia.</p>
-                    <p style="text-align: justify;">Celem utworzenia holdingu grupy DIGITAL NOW! HOLDING była
+                    <p>Celem utworzenia holdingu grupy DIGITAL NOW! HOLDING była
                         reorganizacja struktury właścicielskiej i kumulacji kapitału w ramach jednej spółki dominującej,
                         której zadaniem będzie zarządzanie i kontrolowanie działań spółek zależnych. Tego typu struktura
                         ma również zasadnicze plusy w zakresie dywersyfikacji ryzyka gospodarczego, budowania wartości
@@ -148,9 +168,9 @@ get_header(); ?>
                         podmiotu. Nasza kancelaria wspiera grupę DIGITAL NOW! HOLDING w tym zakresie na każdym etapie
                         budowania struktury, począwszy od etapu analityki do końcowej rejestracji wszystkich zmian.</p>
                     <hr>
-                    <h3 class="title-h4" style="text-align: justify;"><strong>PRZEKSZTAŁCENIE SPÓŁKI BELIN </strong>
+                    <h3><strong>PRZEKSZTAŁCENIE SPÓŁKI BELIN </strong>
                     </h3>
-                    <p style="text-align: justify;">Z powodzeniem przeprowadziliśmy czynności związane z
+                    <p>Z powodzeniem przeprowadziliśmy czynności związane z
                         przekształceniem spółki BELIN ze spółki jawnej na spółką z ograniczoną odpowiedzialnością.
                         Spółka BELIN od 30 lat z powodzeniem działa w branży&nbsp;spożywczej, na chwilę obecną zatrudnia
                         ponad 300 pracowników na trzech zmianach, eksportuje swoje towary za granicę&nbsp;oraz importuje
@@ -160,15 +180,15 @@ get_header(); ?>
                         spółki z ograniczoną odpowiedzialnością jest to że jest to spółka kapitałowa, posiadająca
                         odrębną osobowość prawną oraz dająca możliwość odpowiedniego dopasowania jej struktury na
                         potrzeby rozwijającej się firmy.</p>
-                    <p style="text-align: justify;">Proces przekształcenia spółki BELIN sp. j. w spółkę z ograniczoną
+                    <p>Proces przekształcenia spółki BELIN sp. j. w spółkę z ograniczoną
                         odpowiedzialnością nastąpił w trybie uproszczonym (tj. wszyscy wspólnicy spółki jawnej wzięli
                         udział w przekształceniu), składał się z sześciu etapów.</p>
-                    <p style="text-align: justify;"><strong>Na etapie pierwszym</strong> należało dokonać analizy
+                    <p><strong>Na etapie pierwszym</strong> należało dokonać analizy
                         dokumentów spółki aby ustalić, czy istnieją przeszkody do przeprowadzenia przekształcenia (umowę
                         spółki, umowy kredytowe, umowy leasingu, umowy partnerskie). Po analizie tych dokumentów
                         sporządzana jest opinia, która wskazuje, czy i jakie czynności należy podjąć przed
                         przystąpieniem do procesu przekształcenia.</p>
-                    <p style="text-align: justify;"><strong>Na etapie drugim</strong> konieczne było sporządzenie
+                    <p><strong>Na etapie drugim</strong> konieczne było sporządzenie
                         sprawozdania finansowego na potrzeby przekształcenia. Takie sprawozdania sporządza się według
                         zasad przygotowania sprawozdania rocznego na wskazany dzień miesiąca poprzedzającego miesiąc, w
                         których uchwała o przekształceniu zostanie przedstawiona wspólnikom spółki przekształcanej. W
@@ -177,7 +197,7 @@ get_header(); ?>
                         etapie było to aby nie było wątpliwości, co do wyniku bilansowego spółki, ponadto wartością,
                         która jest najważniejsza dla potrzeb przekształcenia to wartość bilansowa majątku spółki
                         przekształcanej i to ona musi być właściwie oznaczona.</p>
-                    <p style="text-align: justify;"><strong>Na etapie trzecim</strong> przygotowaliśmy projekty
+                    <p><strong>Na etapie trzecim</strong> przygotowaliśmy projekty
                         niezbędnych do przekształcenia dokumentów (uchwała o przekształceniu wraz z umową spółki z
                         ograniczoną odpowiedzialnością). Jest to szczególnie istotny etap, w którym umowę spółki z
                         ograniczoną odpowiedzialnością można skonstruować tak aby spełniła wszystkie najważniejsze
@@ -185,23 +205,23 @@ get_header(); ?>
                         odpowiedzialnością. Dotyczy to w szczególności firmy spółki, wysokości kapitału zakładowego,
                         kwestii dziedziczenia udziałów, dopłat, zasad większości na zgromadzeniu wspólników, czy składu
                         pierwszego zarządu spółki.</p>
-                    <p style="text-align: justify;"><strong>Na etapie czwartym</strong> wsparliśmy przyszłych wspólników
+                    <p><strong>Na etapie czwartym</strong> wsparliśmy przyszłych wspólników
                         spółki z ograniczoną odpowiedzialnością w zakresie finalizacji całości procesu przekształcenia u
                         notariusza (podjęcie uchwały o przekształceniu spółki w spółkę z ograniczoną odpowiedzialnością,
                         przyjęcie tekstu jednolitego spółki z ograniczona odpowiedzialnością oraz powołanie zarządu). Na
                         tym etapie wdrożono rozwiązania ułatwiające i zabezpieczające ewentualną sukcesję, a także
                         kwestie dziedziczenia udziałów w taki sposób aby wyeliminować konflikty pomiędzy udziałowcami i
                         spadkobiercami, a co za tym idzie dalsze funkcjonowanie spółki.</p>
-                    <p style="text-align: justify;"><strong>Na etapie piątym</strong> wsparliśmy spółkę w dokonaniu
+                    <p><strong>Na etapie piątym</strong> wsparliśmy spółkę w dokonaniu
                         wszystkich formalności związanych ze zgłoszeniem przekształcenia do sądu rejestrowego. Ze
                         względów rachunkowych zawnioskowaliśmy o wpisanie przekształcenia z określonym dniem, który
                         spółka przyjęła za dzień bilansowy.</p>
-                    <p style="text-align: justify;"><strong>Na etapie szóstym</strong> zostało przez nas zapewnione
+                    <p><strong>Na etapie szóstym</strong> zostało przez nas zapewnione
                         pełne wsparcie powdrożeniowe w postaci formy zawiadomienia kontrahentów o przekształceniu,
                         kwestii formalnych związanych z zamknięciem rachunkowości spółki przekształcanej i otwarciem
                         ksiąg spółki z ograniczoną odpowiedzialnością oraz aktualizacją danych w urzędzie skarbowym.</p>
                     <hr>
-                    <p style="text-align: justify;">Na każdym z powyższych etapów nasi prawnicy ściśle współpracowali z
+                    <p>Na każdym z powyższych etapów nasi prawnicy ściśle współpracowali z
                         właścicielami spółki, jej pracownikami, księgowością oraz biurem rachunkowym. Ponadto w zakresie
                         przekształcenia zostały również rozważone i wdrożone do umowy spółki z ograniczoną
                         odpowiedzialnością kwestie związane z sukcesją majątkową spółki. Jest to istotne zagadnienie,
@@ -212,19 +232,19 @@ get_header(); ?>
                         możliwość dalszego rozwoju przez kolejne kilkadziesiąt&nbsp;lat.</p>
                     <hr>
                     <h3><b>POŁĄCZENIE SPÓŁEK Z GRUPY ICEA </b></h3>
-                    <p style="text-align: justify;">W III kwartale 2020r. z powodzeniem dokonaliśmy połączenia spółek
+                    <p>W III kwartale 2020r. z powodzeniem dokonaliśmy połączenia spółek
                         grupy iCEA. Niniejsze połączenie zostało przeprowadzone pomiędzy trzema spółkami z ograniczoną
                         odpowiedzialnością z branży informatycznej, które spółka iCEA sp. z o.o. przejęła we
                         wcześniejszych latach swojej działalności w ramach budowania swojej silnej pozycji na rynku
                         SEO/SEM.</p>
-                    <p style="text-align: justify;">Celem połączenia było zwiększenie konkurencyjności spółki iCEA sp. z
+                    <p>Celem połączenia było zwiększenie konkurencyjności spółki iCEA sp. z
                         o.o., obniżenie kosztów funkcjonowania spółki w stosunku do kosztów funkcjonowania odrębnych
                         osób prawnych, podwyższenie jakości świadczonych usług oraz zcentralizowanie swoich zasobów. Z
                         powodzeniem przeprowadziliśmy spółkę iCEA sp. z o.o. oraz pozostałe przejmowane przez nią spółki
                         przez ten proces wspierając je w każdej z faz połączenia (menadżerskiej, właścicielskiej i
                         rejestrowej).</p>
-                    <hr>
-                    <p style="text-align: justify;"><strong>W fazie menadżerskiej</strong> kluczowym było właściwe
+
+                    <p><strong>W fazie menadżerskiej</strong> kluczowym było właściwe
                         przeprowadzenie czynności wstępnych w zakresie analizy stanu łączących się spółek w celu
                         zidentyfikowania i oszacowania ryzyka związanego z ich połączeniem, określenia struktury
                         kosztów, rynku na którym działają, dostawców, klientów, kontrahentów, kwestii organizacyjnych i
@@ -236,20 +256,20 @@ get_header(); ?>
                         dochodowym od osób prawnych, podatkiem od czynności cywilnoprawnych i podatkiem od towarów i
                         usług. Dopiero w następstwie powyższych ustaleń przystąpiliśmy do sporządzenia planu połączenia
                         dla wszystkich łączących się spółek.</p>
-                    <hr>
-                    <p style="text-align: justify;"><strong>W fazie właścicielskiej</strong> wsparliśmy prawnie
+
+                    <p><strong>W fazie właścicielskiej</strong> wsparliśmy prawnie
                         wspólników łączących się spółek w zakresie sporządzenia uchwał o połączeniu spółek oraz kontaktu
                         z notariuszami. Połączenie spółek wymaga przede wszystkim wyrażenia zgody przez wspólników
                         wszystkich łączących się spółek na plan połączenia, a także na proponowane zmiany umowy spółki
                         przejmującej. Następuje to w drodze uchwał łączeniowych umieszczonych w protokole sporządzonym
                         przez notariusza.</p>
-                    <hr>
-                    <p style="text-align: justify;"><strong>W fazie rejestrowe</strong>j – ostatniej fazie finalizacji
+
+                    <p><strong>W fazie rejestrowej</strong> – ostatniej fazie finalizacji
                         połączenia spółek dokonaliśmy zgłoszenia do sądów rejestrowych każdej z łączących się spółek
                         uchwał połączeniowych. Ponadto w imieniu spółki iCEA sp. z o.o. jako spółki przejmującej
                         złożyliśmy wniosek o dokonanie ogłoszenia o połączeniu z pierwszym dniem kolejnego miesiąca ze
                         względu na fakt, że jest to istotne ze względów rachunkowych.</p>
-                    <p style="text-align: justify;">W efekcie powyższego z powodzeniem zakończyliśmy proces połączenia
+                    <p>W efekcie powyższego z powodzeniem zakończyliśmy proces połączenia
                         spółek w ramach grupy iCEA. Osiągnięte zostały wszystkie założone cele połączenia, które chcieli
                         osiągnąć wspólnicy spółki iCEA sp. z o.o.</p>
                 </div>
@@ -257,11 +277,43 @@ get_header(); ?>
         </div>
     </section>
 
+    <section class="images mb-5">
+        <div class="container">
+            <div class="row content">
+                <div class="col-md-4">
+                    <a href="https://rpms.pl/prosta-spolka-akcyjna/"><img
+                            src="https://rpms.pl/wp-content/uploads/2020/07/Prosta-sp%C3%B3%C5%82ka-akcyjna.png"
+                            alt="Założenie prostej spółki akcyjnej"></a>
+                </div>
+                <div class="col-md-4">
+                    <a href="https://rpms.pl/przeksztalcenie-spolki-cywilnej/"><img
+                            src="https://rpms.pl/wp-content/uploads/2020/06/przekszta%C5%82cenie-sp%C3%B3%C5%82ki-cywilnej-co-wybra%C4%87.png"
+                            alt="Spółka cywilna przekształcenie"></a>
+                </div>
+                <div class="col-md-4">
+                    <a href="https://rpms.pl/przeksztalcenie-spolki-cywilnej-w-spolke-komandytowa-spk/"><img
+                            src="https://rpms.pl/wp-content/uploads/2020/06/Przekszta%C5%82cenie-sp%C3%B3%C5%82ki-cywilnej-w-sp%C3%B3%C5%82k%C4%99-komandytow%C4%85.png"
+                            alt="Przekształcenie sc w sp k"></a>
+                </div>
+            </div>
+        </div>
+    </section>
 
+    <section class="just-title">
+        <div class="container">
+            <div class="row content row-title">
+                <div class="col-lg-12">
+                    <h2>Z naszych usług skorzystali między innymi:</h2>
+                </div>
+            </div>
+        </div>
+    </section>
+    <?php get_template_part( 'template-parts/logotype');?>
+    <div class="images mb-5"></div>
+    <?php get_template_part( 'template-parts/contact');?>
 
 </div>
 
-<?php get_template_part( 'template-parts/contact');?>
 </div>
 <?php
 get_footer(); ?>

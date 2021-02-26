@@ -14,22 +14,18 @@
     <div class="container">
         <div class="row px-3 ">
             <div class="owl-carousel">
-            <?php if ( have_rows( 'logotypy' ) ) : ?>
-            <?php while ( have_rows( 'logotypy' ) ) :
+                <?php if ( have_rows( 'logotypy' , '6' ) ) : ?>
+                <?php while ( have_rows( 'logotypy', '6' ) ) :
                 the_row(); ?>
-                
+
                 <div class="item">
-                   <img src=" <?php echo esc_url( get_sub_field( 'logo' ) ); ?>" alt="">
+                    <img src=" <?php echo esc_url( get_sub_field( 'logo', '6' ) ); ?>" alt="">
                 </div>
 
 
-            <?php endwhile; ?>
-        <?php endif; ?>
+                <?php endwhile; ?>
+                <?php endif; ?>
             </div>
         </div>
     </div>
 </section>
-
-
-
-

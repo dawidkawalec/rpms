@@ -7,13 +7,13 @@
  * @package WP_Bootstrap_Starter
  */
 
-
+/**
 function my_acf_google_map_api( $api ){
     $api['key'] = 'AIzaSyBn10ljCCiNC5wwfZCunru90Miw0nzmOAY';
     return $api;
 }
 add_filter('acf/fields/google_map/api', 'my_acf_google_map_api');
-
+*/
 
 
 
@@ -346,7 +346,6 @@ function custom_admin_style() {
     #adminmenu .wp-has-current-submenu .wp-submenu .wp-submenu-head, #adminmenu .wp-menu-arrow, #adminmenu .wp-menu-arrow div, #adminmenu li.current a.menu-top, #adminmenu li.wp-has-current-submenu a.wp-has-current-submenu, .folded #adminmenu li.current.menu-top, .folded #adminmenu li.wp-has-current-submenu
     {
         background: #bfa071
-
 ;
     }
     #adminmenu li.menu-top:hover, #adminmenu li.opensub>a.menu-top, #adminmenu li>a.menu-top:focus 
@@ -369,7 +368,6 @@ function custom_admin_style() {
     #adminmenu li.wp-has-submenu.wp-not-current-submenu.opensub:hover:after 
     {
     border-right-color: #bfa071
-
 ;
     }
     #wpadminbar .menupop .ab-sub-wrapper, #wpadminbar .shortlink-input {
@@ -384,22 +382,16 @@ function custom_admin_style() {
     #wpadminbar .ab-top-menu>li.hover>.ab-item, #wpadminbar.nojq .quicklinks .ab-top-menu>li>.ab-item:focus, #wpadminbar:not(.mobile) .ab-top-menu>li:hover>.ab-item, #wpadminbar:not(.mobile) .ab-top-menu>li>.ab-item:focus {
     background: #2c2a3e;
     color: #bfa071
-
 ; 
 }
 #wpadminbar{
-
     background: #2c2a3e;
 }
-
 #wpwrap {
       background: url(https://craftweb.pl/craftweb.png) no-repeat bottom right;
       background-position: calc(100% - 10px) calc(100% - 40px);
       background-color: #f6f0e7;
 }
-
-
-
   </style>';
 }
 
@@ -433,7 +425,6 @@ function dawidkawalec_dashboard_widget_info() {
  <li><strong>Kontakt: </strong><a href='mailto:d.kawalec@grupa-icea.pl'>d.kawalec@grupa-icea.pl</a></li>
 <li><strong>Strona www: </strong><a href='https://grupa-icea.pl'>grupa-icea.pl</a></li>
 <li><strong>Bezpośredni kontakt do osoby wdrażającej: </strong><a href='https://dawidkawalec.pl'>dawidkawalec.pl</a></li>
-
  </ul>"; 
 }
 

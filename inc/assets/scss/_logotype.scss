@@ -1,21 +1,30 @@
 .logotype {
     overflow: hidden;
+
+    .owl-carousel .owl-stage {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
     .owl-stage-outer {
         overflow: visible !important;
+
         .owl-item {
             opacity: 0.2;
             transition: all 0.4s;
+
             &.active {
                 opacity: 1;
             }
         }
     }
+
     .item {
-        display: flex;
-        align-items: center;
+
         img {
             width: auto !important;
-            min-height: 50px;
+            max-height: 50px;
             margin: auto;
         }
     }

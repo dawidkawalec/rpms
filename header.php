@@ -19,6 +19,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <link rel="profile" href="http://gmpg.org/xfn/11">
     <link rel="stylesheet" href="https://use.typekit.net/qve3pib.css">
+    <link rel="preload" as="image"
+        href="/wp-content/themes/rpms/inc/assets/img/Kancelaria-Prawna-RPMS-Prawo-Podatki-Windykacja_2.jpg" />
     <?php wp_head(); ?>
 </head>
 

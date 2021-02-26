@@ -1,7 +1,19 @@
-#uslugi-prawne {
+#uslugi-prawne,
+#prawo-pracy,
+#sprawy-sporne,
+#prawo-budowlane {
     .articles {
         padding-top: 40px;
         margin-top: 80px;
+    }
+}
+
+#prawo-spolek,
+#prawo-pracy,
+#sprawy-sporne {
+    .specialization .form {
+        min-height: auto !important;
+        padding: 30px 20px 0 20px;
     }
 }
 
@@ -24,21 +36,25 @@
         text-align: justify;
 
         h2 {
-            font-weight: 800;
+            font-weight: 900;
             color: #3b394f;
-            margin-top: 2em;
+            margin-top: 0em;
+        }
+
+        img {
+            margin-bottom: 2em;
         }
 
         p {
             color: #3b394f;
 
             strong {
-                font-weight: 800;
+                font-weight: 900;
             }
         }
 
         a {
-            color: #3b394f;
+            color: #bfa071;
             font-size: 1.1em;
             line-height: 1.8;
         }
@@ -48,6 +64,7 @@
             color: #fff;
             background: #bfa071;
             padding: 10px 25px 8px 25px;
+            margin-top: 15px;
             text-transform: uppercase;
             font-weight: 800;
             border: 2px solid #bfa071;
@@ -65,7 +82,7 @@
             float: right;
             border-bottom: 3px solid #bfa071;
             padding: 0 10px;
-            margin-top: 10px;
+            margin-top: 18px;
             transition: all .5s;
 
             &::after {
@@ -84,6 +101,7 @@
                 }
             }
         }
+
     }
 
     .uslugi-item__right-img {
@@ -187,6 +205,156 @@
             &::before {
                 background: #bfa071;
             }
+        }
+    }
+}
+
+.uslugi-tabs {
+    .nav-pills {
+        justify-content: space-between;
+
+        .nav-item {
+            width: 24%;
+            border: none;
+            min-height: 70px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            font-weight: 700;
+            text-align: center;
+
+            .nav-link {
+                background: unset;
+                color: #bfa071;
+                width: 100%;
+                height: 100%;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                text-align: center;
+                border: 3px solid #bfa071;
+                border-radius: 10px;
+                transition: all .5s;
+
+                &.active {
+                    background: #3b394f;
+                    border: 3px solid #3b394f;
+                    color: #fff;
+                }
+
+                &:hover {
+                    background: #3b394f;
+                    border: 3px solid #3b394f;
+                    color: #fff;
+                }
+            }
+        }
+
+    }
+
+    .tab-pane {
+        background: #f7f7fa;
+        padding: 40px 20px 20px 20px;
+        border-radius: 20px;
+        box-shadow: 0 12px 44px 0 rgba(0, 0, 0, .12);
+    }
+}
+
+.text-form {}
+
+.greybox {
+    .content {
+        background: #f7f7fa;
+        border-radius: 20px;
+        margin: 50px 0;
+        padding: 50px;
+    }
+
+    .bold-text {
+        font-weight: 900;
+        font-size: 26px;
+        margin-bottom: 28px;
+        color: #3b394f;
+    }
+}
+
+.special-list {
+    li {
+        list-style-type: none;
+        position: relative;
+        margin-bottom: 20px;
+        line-height: 30px;
+
+        &:last-child {
+            margin-bottom: 0;
+        }
+
+        &:before {
+            content: '';
+            display: block;
+            position: absolute;
+            width: 10px;
+            height: 10px;
+            border-radius: 20px;
+            background: #bfa071;
+            top: 7px;
+            left: -29px;
+        }
+
+
+    }
+}
+
+.bluebox {
+    .content {
+        background: #f1f9ff;
+        border-radius: 20px;
+        margin: 50px 0;
+        padding: 50px;
+    }
+
+    .bold-text {
+        font-weight: 900;
+        font-size: 26px;
+        margin-bottom: 28px;
+        color: #3b394f;
+    }
+}
+
+.number-list {
+    li {
+        counter-increment: inst;
+        list-style-type: none;
+        position: relative;
+        margin-bottom: 25px;
+        padding-left: 10px;
+        line-height: 30px;
+
+        &:before {
+            content: counter(inst);
+            position: absolute;
+            background: #3b394f;
+            width: 30px;
+            height: 30px;
+            color: #fff;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 50px;
+            left: -40px;
+            top: 0px;
+        }
+    }
+}
+
+.images {
+    img {
+        border-radius: 20px;
+        transition: all .5s;
+
+        &:hover {
+            transform: translateY(-15px);
         }
     }
 }

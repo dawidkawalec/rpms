@@ -94,23 +94,4 @@ jQuery(function($) {
 
     });
 
-
-    if (jQuery(window).width() > 769) {
-        jQuery(".elementor-1319 .elementor-element.elementor-element-b961f32 > .elementor-widget-container > .jet-tabs > .jet-tabs__control-wrapper > .jet-tabs__control").click(function() {
-            jQuery('html, body').animate({
-                scrollTop: jQuery(".jet-tabs__content-wrapper").offset().top - 100
-            }, 2000);
-        });
-    }
-    jQuery(window).on('resize', function() {
-        var win = jQuery(this); //this = window
-        if (win.width() < 769) {
-            jQuery(".elementor-1319 .elementor-element.elementor-element-b961f32 > .elementor-widget-container > .jet-tabs > .jet-tabs__control-wrapper > .jet-tabs__control").click(function() {
-                jQuery('html, body').animate({
-                    scrollTop: jQuery(".jet-tabs__content-wrapper").offset().top - 100
-                }, 2000);
-            });
-        }
-    });
-
 });

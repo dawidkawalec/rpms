@@ -1,11 +1,13 @@
 .about {
-    background: url(https://rpms.pl/wp-content/uploads/2020/01/Group-2132.png?id=26741);
+    background: url(https://rpms.pl/wp-content/uploads/2020/01/Group-2132.png);
     background-size: 100%;
     background-position: 50% 265px;
     background-repeat: no-repeat;
+
     .row-content {
         text-align: justify;
         background: #fff;
+
         h1,
         h2,
         h3,
@@ -13,26 +15,32 @@
         h5,
         h6 {
             font-weight: 800;
+
             @media(min-width: 992px) {
                 font-size: 22px;
             }
         }
+
         @media(min-width: 992px) {
             font-size: 20px;
         }
+
         a {
             color: #393a4e;
         }
+
         img {
             width: 100%;
             height: auto;
         }
+
         .row-content__cta {
             padding: 60px 30px;
             background: #3b394f;
             border-radius: 10px;
             text-align: center;
             position: relative;
+
             &:before {
                 content: '';
                 background: url('/wp-content/uploads/2021/02/uslugi-prawne.svg');
@@ -46,6 +54,7 @@
                 filter: brightness(0) invert(1);
                 opacity: 0.03;
             }
+
             h4 {
                 font-size: 24px;
                 font-weight: 900;
@@ -53,6 +62,7 @@
                 margin: 0;
                 line-height: 1.5;
             }
+
             a {
                 display: flex;
                 align-items: center;
@@ -72,6 +82,7 @@
                 line-height: normal;
                 letter-spacing: 0.86px;
                 transition: all 0.4s;
+
                 @media(max-width: 768px) {
                     width: 100%;
                 }
