@@ -6,6 +6,8 @@
             transition: all 0.4s;
             position: relative;
             border-radius: 10px 10px 0 0;
+            height: 100%;
+
             &:after {
                 content: '';
                 position: absolute;
@@ -17,24 +19,30 @@
                 opacity: 0;
                 transition: all 0.4s;
             }
+
             &:hover {
                 transform: scale(1.04);
+
                 &:after {
                     opacity: 1;
                 }
+
                 .icon {
                     opacity: 0;
                 }
+
                 .image {
                     img {
                         opacity: 1;
                     }
                 }
+
                 .title h4,
                 .desc {
                     color: #fff;
                 }
             }
+
             .image {
                 img {
                     border-radius: 10px 10px 0 0;
@@ -50,29 +58,37 @@
                     transition: all 0.4s;
                 }
             }
+
             .icon {
                 transition: all 0.4s;
+
                 img {
                     width: 63px;
                     height: auto;
                 }
-                margin-bottom: 40px;
+
+                margin-bottom: 20px;
+
                 @media(min-width: 992px) {
                     margin-bottom: 150px;
                 }
             }
+
             .title {
                 position: relative;
                 z-index: 2;
+
                 h4 {
                     transition: all 0.4s;
                     color: #0e0e0e;
                     font-weight: 800;
+
                     @media(min-width: 992px) {
                         font-size: 22px;
                     }
                 }
             }
+
             .desc {
                 position: relative;
                 z-index: 2;

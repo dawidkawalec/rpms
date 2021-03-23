@@ -18,6 +18,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <link rel="profile" href="http://gmpg.org/xfn/11">
+    <!-- <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBn10ljCCiNC5wwfZCunru90Miw0nzmOAY" defer></script> -->
     <link rel="stylesheet" href="https://use.typekit.net/qve3pib.css">
     <link rel="preload" as="image"
         href="/wp-content/themes/rpms/inc/assets/img/Kancelaria-Prawna-RPMS-Prawo-Podatki-Windykacja_2.jpg" />
@@ -40,21 +41,27 @@
                     <nav class="navbar navbar-expand-xl py-0">
 
                         <?php
-                    wp_nav_menu(array(
-                    'theme_location'    => 'primary',
-                    'container'       => 'div',
-                    'container_id'    => 'main-nav',
-                    'container_class' => 'collapse navbar-collapse justify-content-end',
-                    'menu_id'         => false,
-                    'menu_class'      => 'navbar-nav',
-                    'depth'           => 3,
-                    'fallback_cb'     => 'wp_bootstrap_navwalker::fallback',
-                    'walker'          => new wp_bootstrap_navwalker()
-                    ));
-                    ?>
+                        wp_nav_menu(array(
+                        'theme_location'    => 'primary',
+                        'container'       => 'div',
+                        'container_id'    => 'main-nav',
+                        'container_class' => 'navbar-collapse justify-content-end',
+                        'menu_id'         => false,
+                        'menu_class'      => 'navbar-nav',
+                        'depth'           => 3,
+                        'fallback_cb'     => 'wp_bootstrap_navwalker::fallback',
+                        'walker'          => new wp_bootstrap_navwalker()
+                        ));
+                        ?>
 
-                        <div class="search ml-lg-5">
+                        <div class="search ml-lg-5 d-xl-block d-none">
                             <div class="icon"><i class="fas fa-search"></i></div>
+                            <div class="search-content">
+                                <form action="/" method="get" class="w-100">
+                                    <input type="text" class="w-100 input-word" name="s" placeholder="Wpisz czego szukasz..." id="search" value="<?php the_search_query(); ?>" />
+                                    <input type="submit" class="search-btn" value="szukaj">
+                                </form>
+                            </div>
                         </div>
 
 
@@ -67,6 +74,29 @@
                         </div>
 
                     </nav>
+
+
+                    <div class="search ml-lg-5 d-xl-none">
+                            <div class="icon"><i class="fas fa-search"></i></div>
+                        </div>
+                        <div class="search-mobile">
+                        <div class="search-content d-xl-none">
+                                <form action="/" method="get" class="w-100">
+                                    <input type="text" class="w-100 input-word" name="s" placeholder="Wpisz czego szukasz..." id="search" value="<?php the_search_query(); ?>" />
+                                    <input type="submit" class="search-btn" value="szukaj">
+                                </form>
+                            </div>
+                        </div>
+                    
+                    <div class="site-hamburger">
+                        <div id="nav-icon3">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </div>
+                    </div>
+
                 </div>
             </div>
         </header><!-- #masthead -->

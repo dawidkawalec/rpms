@@ -7,13 +7,88 @@
  * @package WP_Bootstrap_Starter
  */
 
-/**
-function my_acf_google_map_api( $api ){
-    $api['key'] = 'AIzaSyBn10ljCCiNC5wwfZCunru90Miw0nzmOAY';
-    return $api;
+
+function kriesi_pagination($pages = '', $range = 2)
+{  
+     $showitems = ($range * 2)+1;  
+
+     global $paged;
+     if(empty($paged)) $paged = 1;
+
+     if($pages == '')
+     {
+         global $wp_query;
+         $pages = $wp_query->max_num_pages;
+         if(!$pages)
+         {
+             $pages = 1;
+         }
+     }   
+
+     if(1 != $pages)
+     {
+         echo "<div class='pagination'>";
+         if($paged > 2 && $paged > $range+1 && $showitems < $pages) echo "<a href='".get_pagenum_link(1)."'>&laquo;</a>";
+         if($paged > 1 && $showitems < $pages) echo "<a href='".get_pagenum_link($paged - 1)."'>&lsaquo;</a>";
+
+         for ($i=1; $i <= $pages; $i++)
+         {
+             if (1 != $pages &&( !($i >= $paged+$range+1 || $i <= $paged-$range-1) || $pages <= $showitems ))
+             {
+                 echo ($paged == $i)? "<span class='current'>".$i."</span>":"<a href='".get_pagenum_link($i)."' class='inactive' >".$i."</a>";
+             }
+         }
+
+         if ($paged < $pages && $showitems < $pages) echo "<a href='".get_pagenum_link($paged + 1)."'>&rsaquo;</a>";  
+         if ($paged < $pages-1 &&  $paged+$range-1 < $pages && $showitems < $pages) echo "<a href='".get_pagenum_link($pages)."'>&raquo;</a>";
+         echo "</div>\n";
+     }
 }
-add_filter('acf/fields/google_map/api', 'my_acf_google_map_api');
-*/
+
+
+/**
+ * Automatically add IDs to headings such as <h2></h2>
+ */
+function auto_id_headings( $content ) {
+
+	$content = preg_replace_callback( '/(\<h[1-6](.*?))\>(.*)(<\/h[1-6]>)/i', function( $matches ) {
+		if ( ! stripos( $matches[0], 'id=' ) ) :
+			// $heading_link = '<a href="#' . sanitize_title( $matches[3] ) . '" class="heading-link"><i class="glyphicon glyphicon-link"></i></a>';
+			$matches[0] = $matches[1] . $matches[2] . ' id="' . sanitize_title( $matches[3] ) . '" class="heading-anchor">' . $heading_link . $matches[3] . $matches[4];
+		endif;
+
+		return $matches[0];
+	}, $content );
+
+    return $content;
+
+}
+add_filter( 'the_content', 'auto_id_headings' );
+
+
+/**
+ * Comment Form Placeholder Author, Email, URL
+ */
+function placeholder_author_email_url_form_fields($fields) {
+    $replace_author = __('Imię i nazwisko', 'yourdomain');
+    $replace_email = __('Adres e-mail', 'yourdomain');
+    $replace_url = __('Strona Internetowa', 'yourdomain');
+    
+    $fields['author'] = '<p class="comment-form-author">' . ( $req ? '<span class="required">*</span>' : '' ) .
+                    '<input id="author" name="author" type="text" placeholder="'.$replace_author.'" value="' . esc_attr( $commenter['comment_author'] ) . '" size="20"' . $aria_req . ' /></p>';
+                    
+    $fields['email'] = '<p class="comment-form-email">' .
+    ( $req ? '<span class="required">*</span>' : '' ) .
+    '<input id="email" name="email" type="text" placeholder="'.$replace_email.'" value="' . esc_attr(  $commenter['comment_author_email'] ) .
+    '" size="30"' . $aria_req . ' /></p>';
+    
+    $fields['url'] = '<p class="comment-form-url">' .
+    '<input id="url" name="url" type="text" placeholder="'.$replace_url.'" value="' . esc_attr( $commenter['comment_author_url'] ) .
+    '" size="30" /></p>';
+    
+    return $fields;
+}
+add_filter('comment_form_default_fields','placeholder_author_email_url_form_fields');
 
 
 
@@ -215,6 +290,8 @@ function wp_bootstrap_starter_scripts() {
     }
     //custom style (from scss)
     wp_enqueue_style( 'custom-style', get_stylesheet_directory_uri() . '/inc/assets/scss/style.css' );
+    wp_enqueue_style( 'cssmap-pol', get_stylesheet_directory_uri() . '/inc/assets/scss/cssmap-poland.css' );
+    wp_enqueue_style( 'cssmap-the', get_stylesheet_directory_uri() . '/inc/assets/scss/cssmap-themes.css' );
     wp_enqueue_style( 'owl1', get_stylesheet_directory_uri() . '/inc/assets/css/owl.carousel.css' );
     wp_enqueue_style( 'owl2', get_stylesheet_directory_uri() . '/inc/assets/css/owl.theme.default.css' );
     wp_enqueue_style( 'owl3', get_stylesheet_directory_uri() . '/inc/assets/css/owl.theme.green.css' );
@@ -247,6 +324,7 @@ function wp_bootstrap_starter_scripts() {
 		wp_enqueue_script( 'comment-reply' );
     }
     //custom style (from scss)
+    // wp_enqueue_script( 'gmaps', get_stylesheet_directory_uri() . '/inc/assets/js/gmaps.js', array(), false, true);
     wp_enqueue_script( 'custom-scripts', get_stylesheet_directory_uri() . '/inc/assets/js/script.js' , array( 'jquery' ) );
     wp_enqueue_script( 'owl-scripts', get_stylesheet_directory_uri() . '/inc/assets/js/owl.carousel.js' );
 
@@ -438,3 +516,65 @@ echo 'Fueled by <a href="http://www.wordpress.org" target="_blank">WordPress</a>
 }
  
 add_filter('admin_footer_text', 'remove_footer_admin');  
+
+
+
+
+
+// Register Custom Post Type Zespol
+function create_zespol_cpt() {
+
+	$labels = array(
+		'name' => _x( 'Zespół', 'Post Type General Name', 'textdomain' ),
+		'singular_name' => _x( 'Zespol', 'Post Type Singular Name', 'textdomain' ),
+		'menu_name' => _x( 'Zespół', 'Admin Menu text', 'textdomain' ),
+		'name_admin_bar' => _x( 'Zespol', 'Add New on Toolbar', 'textdomain' ),
+		'archives' => __( 'Zespol Archives', 'textdomain' ),
+		'attributes' => __( 'Zespol Attributes', 'textdomain' ),
+		'parent_item_colon' => __( 'Parent Zespol:', 'textdomain' ),
+		'all_items' => __( 'All Zespół', 'textdomain' ),
+		'add_new_item' => __( 'Add New Zespol', 'textdomain' ),
+		'add_new' => __( 'Add New', 'textdomain' ),
+		'new_item' => __( 'New Zespol', 'textdomain' ),
+		'edit_item' => __( 'Edit Zespol', 'textdomain' ),
+		'update_item' => __( 'Update Zespol', 'textdomain' ),
+		'view_item' => __( 'View Zespol', 'textdomain' ),
+		'view_items' => __( 'View Zespół', 'textdomain' ),
+		'search_items' => __( 'Search Zespol', 'textdomain' ),
+		'not_found' => __( 'Not found', 'textdomain' ),
+		'not_found_in_trash' => __( 'Not found in Trash', 'textdomain' ),
+		'featured_image' => __( 'Featured Image', 'textdomain' ),
+		'set_featured_image' => __( 'Set featured image', 'textdomain' ),
+		'remove_featured_image' => __( 'Remove featured image', 'textdomain' ),
+		'use_featured_image' => __( 'Use as featured image', 'textdomain' ),
+		'insert_into_item' => __( 'Insert into Zespol', 'textdomain' ),
+		'uploaded_to_this_item' => __( 'Uploaded to this Zespol', 'textdomain' ),
+		'items_list' => __( 'Zespół list', 'textdomain' ),
+		'items_list_navigation' => __( 'Zespół list navigation', 'textdomain' ),
+		'filter_items_list' => __( 'Filter Zespół list', 'textdomain' ),
+	);
+	$args = array(
+		'label' => __( 'Zespol', 'textdomain' ),
+		'description' => __( 'Zespół', 'textdomain' ),
+		'labels' => $labels,
+		'menu_icon' => 'dashicons-buddicons-buddypress-logo',
+		'supports' => array('title', 'editor', 'excerpt', 'thumbnail'),
+		'taxonomies' => array(),
+		'public' => true,
+		'show_ui' => true,
+		'show_in_menu' => true,
+		'menu_position' => 5,
+		'show_in_admin_bar' => true,
+		'show_in_nav_menus' => true,
+		'can_export' => true,
+		'has_archive' => false,
+		'hierarchical' => false,
+		'exclude_from_search' => false,
+		'show_in_rest' => true,
+		'publicly_queryable' => true,
+		'capability_type' => 'post',
+	);
+	register_post_type( 'zespol', $args );
+
+}
+add_action( 'init', 'create_zespol_cpt', 0 );

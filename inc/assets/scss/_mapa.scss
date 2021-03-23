@@ -1,4 +1,9 @@
 .maps {
+    .row {
+        @media(max-width: 992px) {
+            flex-direction: column-reverse;
+        }
+    }
     .desc {
         h3 {
             font-size: 35px;

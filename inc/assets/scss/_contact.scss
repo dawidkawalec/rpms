@@ -47,3 +47,200 @@
         }
     }
 }
+
+.page-template-contact {
+    .row-contact {
+        .col-content {
+            text-align: center;
+            p {
+                text-align: center;
+            }
+            .icon {
+                margin-bottom: 20px;
+                img {
+                    width: 51px;
+                    height: auto;
+                }
+            }
+        }
+    }
+    .form {
+        background: #2c2a3e;
+        border-radius: 20px;
+        padding: 50px 50px 10px 50px;
+        .welcome {
+            .icon {
+                margin: 40px 0 29px;
+            }
+            p {
+                margin: 0;
+            }
+            span {
+                display: block;
+                font-size: 12px;
+                font-weight: 800;
+                font-stretch: normal;
+                font-style: normal;
+                line-height: normal;
+                letter-spacing: 2px;
+                text-align: center;
+                color: #e2e2e2;
+                opacity: 0.5;
+                text-transform: uppercase;
+                margin-bottom: 7px;
+            }
+            .write {
+                font-size: 22px;
+                font-weight: 800;
+                font-stretch: normal;
+                font-style: normal;
+                line-height: normal;
+                color: #fff;
+                margin-bottom: 30px;
+                text-align: center;
+            }
+        }
+        form {
+            input,
+            textarea {
+                outline: 0;
+                box-shadow: unset;
+            }
+            .col-lg-4,
+            .col-lg-12 {
+                position: relative;
+                label {
+                    position: absolute;
+                    font-family: Muli;
+                    font-size: 10px;
+                    font-weight: 900;
+                    font-stretch: normal;
+                    font-style: normal;
+                    line-height: normal;
+                    letter-spacing: 1px;
+                    text-align: center;
+                    color: #ffffff;
+                    text-transform: uppercase;
+                    z-index: 1;
+                    left: 50%;
+                    transform: translate(-50%, 0);
+                    top: 16px;
+                    &+p {
+                        display: none;
+                    }
+                }
+            }
+            .input {
+                position: relative;
+                margin-bottom: 30px;
+                input {
+                    padding-top: 28px;
+                    border: 0;
+                    height: 60px;
+                    border-radius: 20px;
+                    background-color: #423f59;
+                    text-align: center;
+                    opacity: 0.5;
+                    font-family: Muli;
+                    font-size: 14px;
+                    font-weight: 500;
+                    font-stretch: normal;
+                    font-style: normal;
+                    line-height: normal;
+                    letter-spacing: normal;
+                    text-align: center;
+                    color: #e2e2e2;
+                    &::placeholder {
+                        text-align: center;
+                        opacity: 0.5;
+                        font-family: Muli;
+                        font-size: 14px;
+                        font-weight: 500;
+                        font-stretch: normal;
+                        font-style: normal;
+                        line-height: normal;
+                        letter-spacing: normal;
+                        text-align: center;
+                        color: #e2e2e2;
+                    }
+                }
+            }
+            .txt {
+                label {
+                    // top: 25px;
+                }
+                textarea {
+                    height: 120px;
+                    border-radius: 20px;
+                    background-color: #423f59;
+                    resize: none;
+                    border: 0;
+                    opacity: 0.5;
+                    font-family: Muli;
+                    font-size: 14px;
+                    font-weight: 500;
+                    font-stretch: normal;
+                    font-style: normal;
+                    line-height: normal;
+                    letter-spacing: normal;
+                    text-align: center;
+                    color: #e2e2e2;
+                    padding-top: 28px;
+                    &::placeholder {
+                        text-align: center;
+                        opacity: 0.5;
+                        font-family: Muli;
+                        font-size: 14px;
+                        font-weight: 500;
+                        font-stretch: normal;
+                        font-style: normal;
+                        line-height: normal;
+                        letter-spacing: normal;
+                        text-align: center;
+                        color: #e2e2e2;
+                    }
+                }
+            }
+            .send {
+                input {
+                    border: 0;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    color: #2c2a3e;
+                    width: 300px;
+                    height: 44px;
+                    margin: 30px auto 0;
+                    padding-top: 8px;
+                    border-radius: 22px;
+                    background-color: #ffffff;
+                    text-transform: uppercase;
+                    font-size: 11px;
+                    font-weight: 900;
+                    font-stretch: normal;
+                    font-style: normal;
+                    line-height: normal;
+                    letter-spacing: 0.86px;
+                    -webkit-transition: all 0.4s;
+                    transition: all 0.4s;
+                }
+            }
+            .col-lg-12.io {
+                font-size: 12px;
+                font-weight: bold;
+                font-stretch: normal;
+                font-style: normal;
+                line-height: 1.5;
+                letter-spacing: normal;
+                text-align: center;
+                color: #a1a1a1;
+                padding: 0px 80px;
+                margin: 0 0 30px;
+            }
+            .col-lg-12.io a {
+                color: #a1a1a1;
+                text-decoration: underline !important;
+            }
+        }
+    }
+}

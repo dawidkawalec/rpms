@@ -13,10 +13,10 @@
         <div class="row title mb-5">
             <h3>Zespół <strong>RPMS</strong></h3>
             <div class="row-nav">
-            <ul>
-                <li class="prev"><i class="fas fa-long-arrow-alt-left"></i></li>
-                <li class="next"><i class="fas fa-long-arrow-alt-right"></i></li>
-            </ul>
+                <ul>
+                    <li class="prev"><i class="fas fa-long-arrow-alt-left"></i></li>
+                    <li class="next"><i class="fas fa-long-arrow-alt-right"></i></li>
+                </ul>
             </div>
         </div>
         <div class="row mt-10">

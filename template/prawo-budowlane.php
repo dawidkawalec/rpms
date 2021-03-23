@@ -28,41 +28,27 @@ get_header(); ?>
             <div class="row">
                 <div class="col-lg-7">
                     <div class="uslugi-item__content">
-                        <img src="https://rpms.pl/wp-content/uploads/2019/09/Kompozycja-21.png" alt="">
+                        <img src="/wp-content/uploads/2021/03/build-icon.jpg" alt="">
 
-                        <h2>Kompleksowe Wsparcie prawne
-                        </h2>
-
-                        <p>Kancelaria specjalizuje się w świadczeniu stałej, kompleksowej obsługi <strong>podmiotów
-                                gospodarczych
-                                (przedsiębiorców)</strong> we wszystkich dziedzinach prawa, w tym również w dziedzinie
-                            podatków
-                            oraz <a href="/windykacja/">procesów
-                                windykacyjnych.</a></p>
-
-                        <p>Posiadamy wieloletnie doświadczenie w świadczeniu usług na rzecz podmiotów funkcjonujących
-                            <strong>na
-                                <a href="https://rpms.pl/obsluga-prawna-agencji-e-marketingowych-seo-sem/">rynku
-                                    IT</a></strong>, także tych zajmujących się wdrażaniem <strong>innowacyjnych
-                                technologii
-                                i
-                                rozwiązań
-                                informatycznych,
-                                przetwarzaniem danych</strong>, w tym danych osobowych, oraz z branżą <a
-                                href="https://rpms.pl/obsluga-prawna-e-commerce/"><strong>e-commerce.</strong></a>
-                        </p>
-
-                        <p>Zapewniamy również pełne, merytoryczne wsparcie start-up`ów zmierzających do rozpoczęcia lub
-                            zoptymalizowania procesów związanych z funkcjonowaniem danego podmiotu, zgodnie z bieżącymi
-                            potrzebami.</p>
-
-                        <a href="https://rpms.pl/kontakt/" class="cta">Jestem zainteresowany</a>
+                        <div class="first-section-p">
+                            <h2>Pomoc w zakresie prawa budowlanego</h2>
+                            <p>Kancelaria oferuje specjalistyczną pomoc prawną w zakresie prawa budowlanego i związanego
+                                z nim postępowania administracyjnego. Z powodzeniem pomagamy naszym Klientom
+                                przeprowadzić proces inwestycyjny (budowlany) niezależnie od etapu, a także efektywnie
+                                reprezentujemy w postępowaniach administracyjnych, <a
+                                    href="https://rpms.pl/sprawy-sporne-i-postepowanie-sadowe/">sądowo –
+                                    administracyjnych</a> czy w sporach z właścicielami sąsiednich nieruchomości.</p>
+                            <p>Zapewniamy <a href="https://rpms.pl/uslugi-prawne/">pełne wsparcie prawne</a> w zakresie
+                                prawa budowlanego, w tym obejmujące przygotowywanie projektów umów (np. o roboty
+                                budowlane, deweloperskich), opinii prawnych, wniosków, podań, zażaleń, skarg, a także
+                                pism w toku postępowań administracyjnych i sądowo -administracyjnych.</p>
+                        </div>
 
                     </div>
 
                 </div>
-                <img src="https://rpms.pl/wp-content/uploads/2019/09/up_sek1.jpg?id=25710" alt=""
-                    class="uslugi-item__right-img">
+                <img src="https://rpms.pl/wp-content/uploads/2019/09/pk4.jpg?id=25549 alt=""
+                    class=" uslugi-item__right-img">
             </div>
         </div>
     </section>
@@ -72,40 +58,45 @@ get_header(); ?>
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 content">
-                    <p>Dlatego Kancelaria RPMS zapewnia swoim klientom kompleksową obsługę w zakresie przekształceń
-                        kapitałowych, reorganizacji czy zmian. Nasza pomoc pozwoli Ci uniknąć złych, długofalowych
-                        decyzji, które nie pozwoliłyby na pełne wykorzystanie potencjału Twojego przedsiębiorstwa.</p>
-                    <p class="bold-text">Zapewniamy:</p>
-                    <ul class="special-list">
-                        <li style="text-align: justify;">fachowe doradztwo na każdym etapie transakcji: planowania i
-                            przygotowania całego procesu, jego realizacji, oraz zamknięcia i opiniowania.</li>
-                        <li style="text-align: justify;">bieżącą obsługę korporacyjną, m.in.: opracowywanie projektów
-                            uchwał, statutów i umów spółek, sporządzanie opinii prawnych i in., obsługę organów spółek
-                            (zarządu, rady nadzorczej, zgromadzeń wspólników, walnych zgromadzeń),</li>
-                        <li style="text-align: justify;">tworzenie i reorganizację podmiotów gospodarczych: rejestrację
-                            spółek, zakładanie oddziałów i przedstawicielstw, obsługę prawną różnych form reorganizacji
-                            podmiotów, likwidację spółek,</li>
-                        <li style="text-align: justify;">przygotowanie analiz typu <a title="due diligence"
-                                href="https://rpms.pl/due-diligence-finansowe/">due diligence</a>,</li>
-                        <li style="text-align: justify;">pełne wsparcie przedtransakcyjne w procesach fuzji i przejęć,
-                        </li>
-                        <li style="text-align: justify;">doradztwo w kontekście przepisów o kontroli koncentracji,</li>
-                        <li style="text-align: justify;">przygotowanie oraz negocjowanie umów oraz pełna obsługa w
-                            procesach łączenia, podziałów i przekształceń, a także sprzedaży i zakupu udziałów/akcji
-                            przedsiębiorstw,</li>
-                        <li>wsparcie w <a href="https://rpms.pl/windykacja/">procesie windykacyjnym</a> oraz w przypadku
-                            <a href="https://rpms.pl/sprawy-sporne-i-postepowanie-sadowe/">sporów.</a>
-                        </li>
-                    </ul>
-                    <p>Prowadzenie procesu odbywa się kompleksowo – oznacza to, że przekazując zlecenie Kancelaria
-                        organizuje niezbędne zaplecze wykonawcze (notariusz) i nadzoruje dane postępowanie niezależnie
-                        od etapu. W ramach świadczonych usług uwzględniamy nie tylko aspekty prawne prowadzonego
-                        procesu, ale również korzyści i ryzyka podatkowe oraz optymalizację samego procesu w oparciu o
-                        szczegółowe działania analityczne, realizowane w ramach stałej współpracy z podmiotami
-                        specjalizującymi się w <a href="https://rpms.pl/uslugi-prawne/podatki/">dziedzinie podatków</a>,
-                        <a href="https://rpms.pl/uslugi-prawne/fintech-technologia-finansowa/">finansów</a> oraz
-                        analityki.
+                    <p>
+                        W ramach usług kancelarii obejmujących prawo budowlane usługi świadczą specjaliści od prawa
+                        budowlanego – prawnicy (radcowie prawni) posiadający wieloletnie doświadczenie w świadczeniu
+                        pomocy prawnej na rzecz zarówno dużych
+                        przedsiębiorstw, sektora MŚP, organów administracji jak i osób fizycznych. Kancelaria zapewnia
+                        kompleksową opiekę wszystkich uczestników procesu budowlanego już od wczesnego etapu
+                        negocjowania i zawierania warunków umów z
+                        uwzględnieniem optymalizacji kosztów danej inwestycji.
                     </p>
+                    <ul class="special-list">
+                        <li>
+                            Usługi Kancelarii w zakresie pomocy prawnej obejmującej zagadnienia prawa budowlanego
+                            skierowana jest w szczególności do:inwestorów prywatnych i publicznych, borykających się z
+                            problemami pojawiającymi się podczas załatwiania
+                            formalności niezbędnych do uzyskania pozwolenia na budowę,
+                        </li>
+                        <li>przedsiębiorstw (biura) projektowych i projektantów – w ramach prowadzonej w zakresie prawa
+                            budowlanego działalności gospodarczej;</li>
+                        <li>
+                            <strong>przedsiębiorstw budowlanych i związanych z procesem budowlanym</strong>, zapewniając
+                            pełne wsparcie prawne przy prowadzonej działalności gospodarczej, uwzględniając
+                            charakterystykę szeroko rozumianego prawa budowlanego
+                            (Ustawa z dnia 7lipca 1994 r. Prawo budowlane (Dz. U. 1994 Nr 89 poz. 414) oraz przepisów
+                            powiązanych, w <strong>tym</strong>:
+                            <ul class="special-list count-2">
+                                <li>Generalnych Wykonawców budowlanych,</li>
+                                <li>deweloperów,</li>
+                                <li>konsorcjów wykonawców,</li>
+                                <li>podwykonawców,</li>
+                                <li>wykonawców robót branżowych,</li>
+                                <li>dostawców materiałów</li>
+                                <li>kierowników budowy,</li>
+                                <li>geodetów,</li>
+                                <li>inspektorów nadzoru,</li>
+                            </ul>
+                        </li>
+                        <li><b>Osób fizycznych</b>&nbsp;– w celu zachowania przysługujących praw w relacjach z organami
+                            administracji publicznej oraz innymi podmiotami</li>
+                    </ul>
                 </div>
             </div>
         </div>
@@ -117,34 +108,57 @@ get_header(); ?>
                 <div class="row">
                     <div class="col-lg-7">
                         <div class="uslugi-item__content">
-                            <h2><a href="https://rpms.pl/windykacja/">Windykacja</a>
-                            </h2>
-
-                            <p>Kancelaria w ramach specjalizacji świadczy usługi z zakresu wsparcia procesu
-                                windykacyjnego, obejmującego w szczególności: </p>
+                            <h4><b>Prawo budowlane</b></h4>
+                            <p><span style="font-weight: 400;">Warunki zabudowy/plan miejscowy:</span></p>
                             <ul class="special-list">
-                                <li>weryfikację, monitoring i optymalizację stosowanych przez Klienta procedur
-                                    związanych z
-                                    procesem windykacyjnym, zmierzających do poprawy oraz zapewnienia maksymalnej
-                                    efektywności pozyskiwania należności.</li>
-                                <li>świadczenie usług z zakresu miękkiej (przedsądowej) i twardej (sądowej) windykacji,
-                                    w
-                                    ramach której prowadzone są negocjacje z dłużnikami w celu polubownego odzyskania
-                                    należności, a w przypadku braku współpracy – pełna obsługa w postępowaniu sądowym
-                                    oraz
-                                    egzekucyjnym.</li>
-                                <li>elastyczność w zakresie ustalania zasad współpracy z tytułu świadczonych usług
-                                    windykacyjnych;</li>
+                                <li style="font-weight: 400;"><span style="font-weight: 400;">pomoc
+                                        w&nbsp;przeprowadzeniu procesu uzyskania warunków&nbsp;zabudowy (koncepcja
+                                        projektowa, media, decyzja środowiskowa itp.);</span></li>
+                                <li style="font-weight: 400;"><span style="font-weight: 400;">skargi na bezczynność
+                                        organów administracyjnych;</span></li>
+                                <li style="font-weight: 400;"><span style="font-weight: 400;">w ramach procedury zmiany
+                                        miejscowego planu zagospodarowania przestrzennego oraz studium uwarunkowań i
+                                        kierunków zagospodarowania przestrzennego,</span></li>
+                                <li style="font-weight: 400;"><span style="font-weight: 400;">udział w mediacjach
+                                        pomiędzy stronami&nbsp;</span></li>
+                                <li style="font-weight: 400;"><span style="font-weight: 400;">w sprawach z zakresu
+                                        geodezji i kartografii,&nbsp;</span></li>
+                                <li style="font-weight: 400;"><span style="font-weight: 400;">w sprawie odszkodowań
+                                        związanych z wejściem w życie miejscowego planu zagospodarowania
+                                        przestrzennego,&nbsp;</span></li>
+                            </ul>
+                        </div>
+
+                    </div>
+                    <div class="col-lg-5"></div>
+                    <img src="https://rpms.pl/wp-content/uploads/2019/09/of3-560x400.jpg" alt=""
+                        class="uslugi-item__right-img">
+                </div>
+            </div>
+        </section>
+
+        <section class="uslugi-item">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-7">
+                        <div class="uslugi-item__content">
+                            <h4><b>Pozwolenie na budowę</b></h4>
+                            <ul class="special-list">
+                                <li style="font-weight: 400;"><span style="font-weight: 400;">w postępowaniu w
+                                        przedmiocie wydania pozwolenia na budowę,</span></li>
+                                <li style="font-weight: 400;"><span style="font-weight: 400;">w sprawach dotyczących
+                                        procesu budowy (realizacja budowy, spory wynikające z umów z inwestorami,
+                                        deweloperami, projektantami oraz wykonawcami),&nbsp;</span></li>
+                                <li style="font-weight: 400;"><span style="font-weight: 400;">doradzamy i przeprowadzamy
+                                        analizy dokumentacji specyfikacji istotnych warunków zamówienia w ramach
+                                        zamówień publicznych.</span></li>
                             </ul>
 
-                            <a href="https://rpms.pl/kontakt/" class="cta">Skontaktuj się</a>
-                            <a href="#" class="cta_more">Więcej</a>
-
                         </div>
 
                     </div>
                     <div class="col-lg-5"></div>
-                    <img src="https://rpms.pl/wp-content/uploads/2019/10/AdobeStock_157105065.jpg?id=26158" alt=""
+                    <img src="https://rpms.pl/wp-content/uploads/2019/10/wyrok-tsue-560x400.jpg" alt=""
                         class="uslugi-item__right-img">
                 </div>
             </div>
@@ -155,67 +169,53 @@ get_header(); ?>
                 <div class="row">
                     <div class="col-lg-7">
                         <div class="uslugi-item__content">
-
-                            <h2>Tworzenie i rejestracja spółek </h2>
-
-                            <p>Kancelaria zajmuje się świadczeniem kompleksowych usług w zakresie <strong>tworzenia i
-                                    rejestracji podmiotów gospodarczych</strong>, w szczególności spółek prawa
-                                handlowego, ich
-                                <strong>oddziałów, fundacji i stowarzyszeń.</strong>
-                            </p>
-
-                            <p>Prawnicy Kancelarii przygotowują umowy oraz innego rodzaju akty założycielskie podmiotów
-                                gospodarczych oraz reprezentują Klientów w trakcie czynności prawnych, tworzących te
-                                podmioty (np. przy zawieraniu umowy przed notariuszem), a także w <strong>postępowaniach
-                                    rejestrowych</strong> oraz przez internet (<strong>w trybie S24</strong>). Doradzamy
-                                również w zakresie wyboru
-                                odpowiedniej formy prowadzenia działalności gospodarczej, biorąc pod uwagę w
-                                szczególności kwestie organizacyjne, prawne oraz podatkowe.</p>
-
-                            <p>Kancelaria na bieżąco współpracuje z <strong>notariuszami</strong> oraz doradcami w celu
-                                zapewnienia wdrożenia optymalnych rozwiązań dotyczących nowo utworzonych lub przejętych
-                                podmiotów.</p>
-
-                            <a href="https://rpms.pl/prawo-spolek-przeksztalcenia-fuzje-i-przejecia/"
-                                class="cta">Obsługa spółek</a>
-
+                            <h4><b>Nabycie / zbycie nieruchomości / prawa do nieruchomości</b></h4>
+                            <ul class="special-list">
+                                <li style="font-weight: 400;"><span style="font-weight: 400;">w zakresie zawierania i
+                                        wykonywania umów deweloperskich,&nbsp;</span></li>
+                                <li style="font-weight: 400;"><span style="font-weight: 400;">odszkodowania z tytułu
+                                        umowy deweloperskiej</span></li>
+                                <li style="font-weight: 400;"><span style="font-weight: 400;">w sprawach dotyczących
+                                        użytkowania wieczystego nieruchomości,&nbsp;</span></li>
+                                <li style="font-weight: 400;"><span style="font-weight: 400;">w transakcji nabycia oraz
+                                        zbycia nieruchomości,&nbsp;</span></li>
+                                <li style="font-weight: 400;"><span style="font-weight: 400;">w sprawach dotyczących
+                                        zniesienia współwłasności, a także scalania i podziału nieruchomości, </span>
+                                </li>
+                            </ul>
                         </div>
 
                     </div>
                     <div class="col-lg-5"></div>
-                    <img src="https://rpms.pl/wp-content/uploads/2019/09/AdobeStock_210605453.jpg?id=25771" alt=""
+                    <img src="https://rpms.pl/wp-content/uploads/2019/09/pk4-560x400.jpg" alt=""
                         class="uslugi-item__right-img">
                 </div>
             </div>
         </section>
-
         <section class="uslugi-item">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-7">
                         <div class="uslugi-item__content">
 
-                            <h2>Obsługa fuzji i przejęć przedsiębiorstw
-                            </h2>
-
-                            <p>Kancelaria prowadzi kompleksową obsługę prawną fuzji, przejęć oraz przekształceń
-                                podmiotów gospodarczych, w tym również transakcji obejmujących przejęcie zorganizowanej
-                                części przedsiębiorstwa.</p>
-
-                            <p>Usługa obejmuje w szczególności pełny audyt formalnoprawny funkcjonowania podmiotu
-                                prowadzącego działalność gospodarczą, a następnie przedstawia możliwe rozwiązania ze
-                                wskazaniem najbardziej optymalnego sposobu przejęcia kontroli nad wyznaczonym przez
-                                Klienta podmiotem. Obsługa obejmuje proces od rozpoczęcia audytu do jego zakończenia – w
-                                ramach reprezentacji w postępowaniach rejestrowych przed Krajowym Rejestrem Sądowym.</p>
-
-                            <a href="https://rpms.pl/prawo-spolek-przeksztalcenia-fuzje-i-przejecia/" class="cta">Fuzje
-                                i przejęcia</a>
+                            <h4><b>Samowole budowlane</b></h4>
+                            <ul class="special-list">
+                                <li style="font-weight: 400;"><span style="font-weight: 400;">pomoc prawna
+                                        w&nbsp;procedurze legalizacyjnej (legalizacja samowoli budowlanej obiektu
+                                        budowlanego);</span></li>
+                                <li style="font-weight: 400;"><span style="font-weight: 400;">wsparcie przy kontroli
+                                        inspektora nadzoru budowlanego;</span></li>
+                                <li style="font-weight: 400;"><span style="font-weight: 400;">pełna obsługa
+                                        administracyjna przy udziale współpracujących architektów;</span></li>
+                                <li style="font-weight: 400;"><span style="font-weight: 400;">samowola budowlana od
+                                        strony sąsiada i&nbsp;inwestora.</span></li>
+                            </ul>
 
                         </div>
 
                     </div>
                     <div class="col-lg-5"></div>
-                    <img src="https://rpms.pl/wp-content/uploads/2019/09/of2.jpg?id=25775" alt=""
+                    <img src="https://rpms.pl/wp-content/uploads/2019/09/of4-560x400.jpg" alt=""
                         class="uslugi-item__right-img">
                 </div>
             </div>
@@ -229,40 +229,47 @@ get_header(); ?>
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 content">
-                    <p>Dlatego Kancelaria RPMS zapewnia swoim klientom kompleksową obsługę w zakresie przekształceń
-                        kapitałowych, reorganizacji czy zmian. Nasza pomoc pozwoli Ci uniknąć złych, długofalowych
-                        decyzji, które nie pozwoliłyby na pełne wykorzystanie potencjału Twojego przedsiębiorstwa.</p>
-                    <p class="bold-text">Zapewniamy:</p>
+                    <h4 style="font-size: 18px; font-weight: 900; margin-bottom: 35px;" <b>Postępowania
+                        administracyjne&nbsp;</b></h4>
+                    <p><span style="font-weight: 400;">Reprezentujemy Klientów przed sądami i organami administracji
+                            publicznej. </span></p>
                     <ul class="special-list">
-                        <li style="text-align: justify;">fachowe doradztwo na każdym etapie transakcji: planowania i
-                            przygotowania całego procesu, jego realizacji, oraz zamknięcia i opiniowania.</li>
-                        <li style="text-align: justify;">bieżącą obsługę korporacyjną, m.in.: opracowywanie projektów
-                            uchwał, statutów i umów spółek, sporządzanie opinii prawnych i in., obsługę organów spółek
-                            (zarządu, rady nadzorczej, zgromadzeń wspólników, walnych zgromadzeń),</li>
-                        <li style="text-align: justify;">tworzenie i reorganizację podmiotów gospodarczych: rejestrację
-                            spółek, zakładanie oddziałów i przedstawicielstw, obsługę prawną różnych form reorganizacji
-                            podmiotów, likwidację spółek,</li>
-                        <li style="text-align: justify;">przygotowanie analiz typu <a title="due diligence"
-                                href="https://rpms.pl/due-diligence-finansowe/">due diligence</a>,</li>
-                        <li style="text-align: justify;">pełne wsparcie przedtransakcyjne w procesach fuzji i przejęć,
+                        <li style="font-weight: 400;"><span style="font-weight: 400;">w postępowaniach prowadzonych
+                                przed organami nadzoru budowlanego,&nbsp;</span></li>
+                        <li style="font-weight: 400;">
+                            <span style="font-weight: 400;">odwołania od decyzji administracyjnych, w tym</span>
+                            <ul>
+                                <li style="font-weight: 400;"><span style="font-weight: 400;">odwołania od decyzji
+                                        o&nbsp;warunkach zabudowy;</span></li>
+                                <li style="font-weight: 400;"><span style="font-weight: 400;">odmowa ustalenia warunków
+                                        zabudowy – odwołanie;</span></li>
+                                <li style="font-weight: 400;"><span style="font-weight: 400;">odwołanie od pozwolenia na
+                                        budowę;</span></li>
+                                <li style="font-weight: 400;"><span style="font-weight: 400;">odmowa wydania pozwolenia
+                                        na budowę – odwołanie;</span></li>
+                            </ul>
                         </li>
-                        <li style="text-align: justify;">doradztwo w kontekście przepisów o kontroli koncentracji,</li>
-                        <li style="text-align: justify;">przygotowanie oraz negocjowanie umów oraz pełna obsługa w
-                            procesach łączenia, podziałów i przekształceń, a także sprzedaży i zakupu udziałów/akcji
-                            przedsiębiorstw,</li>
-                        <li>wsparcie w <a href="https://rpms.pl/windykacja/">procesie windykacyjnym</a> oraz w przypadku
-                            <a href="https://rpms.pl/sprawy-sporne-i-postepowanie-sadowe/">sporów.</a>
+                        <li style="font-weight: 400;"><span style="font-weight: 400;">skargi na bezczynność organów
+                                administracyjnych;</span></li>
+                        <li style="font-weight: 400;"><span style="font-weight: 400;">decyzje lokalizacyjne,
+                                środowiskowe, media, zjazd na działkę i&nbsp;inne;</span></li>
+                        <li style="font-weight: 400;">
+                            <span style="font-weight: 400;">
+                                w wszelkich postępowaniach sądowych i administracyjnych dotyczących nieruchomości, w tym
+                                sporządzamy wnioski, odwołania od decyzji wydanych przez organy I instancji, skargi do
+                                Wojewódzkiego Sądu Administracyjnego oraz skargi
+                                kasacyjne do Naczelnego Sądu Administracyjnego,
+                            </span>
+                        </li>
+                        <li style="font-weight: 400;">
+                            <span style="font-weight: 400;">
+                                reprezentujemy klientów w postępowaniach administracyjnych przed organami administracji
+                                architektoniczno – budowlanej oraz przed organami nadzoru budowlanego oraz w
+                                postępowaniach przed sądami administracyjnymi, w tym przed
+                                Naczelnym Sądem Administracyjnym.
+                            </span>
                         </li>
                     </ul>
-                    <p>Prowadzenie procesu odbywa się kompleksowo – oznacza to, że przekazując zlecenie Kancelaria
-                        organizuje niezbędne zaplecze wykonawcze (notariusz) i nadzoruje dane postępowanie niezależnie
-                        od etapu. W ramach świadczonych usług uwzględniamy nie tylko aspekty prawne prowadzonego
-                        procesu, ale również korzyści i ryzyka podatkowe oraz optymalizację samego procesu w oparciu o
-                        szczegółowe działania analityczne, realizowane w ramach stałej współpracy z podmiotami
-                        specjalizującymi się w <a href="https://rpms.pl/uslugi-prawne/podatki/">dziedzinie podatków</a>,
-                        <a href="https://rpms.pl/uslugi-prawne/fintech-technologia-finansowa/">finansów</a> oraz
-                        analityki.
-                    </p>
                 </div>
             </div>
         </div>
@@ -273,40 +280,23 @@ get_header(); ?>
             <div class="row">
                 <div class="col-lg-7">
                     <div class="uslugi-item__content">
-                        <img src="https://rpms.pl/wp-content/uploads/2019/09/Kompozycja-21.png" alt="">
-
-                        <h2>Kompleksowe Wsparcie prawne
-                        </h2>
-
-                        <p>Kancelaria specjalizuje się w świadczeniu stałej, kompleksowej obsługi <strong>podmiotów
-                                gospodarczych
-                                (przedsiębiorców)</strong> we wszystkich dziedzinach prawa, w tym również w dziedzinie
-                            podatków
-                            oraz <a href="/windykacja/">procesów
-                                windykacyjnych.</a></p>
-
-                        <p>Posiadamy wieloletnie doświadczenie w świadczeniu usług na rzecz podmiotów funkcjonujących
-                            <strong>na
-                                <a href="https://rpms.pl/obsluga-prawna-agencji-e-marketingowych-seo-sem/">rynku
-                                    IT</a></strong>, także tych zajmujących się wdrażaniem <strong>innowacyjnych
-                                technologii
-                                i
-                                rozwiązań
-                                informatycznych,
-                                przetwarzaniem danych</strong>, w tym danych osobowych, oraz z branżą <a
-                                href="https://rpms.pl/obsluga-prawna-e-commerce/"><strong>e-commerce.</strong></a>
-                        </p>
-
-                        <p>Zapewniamy również pełne, merytoryczne wsparcie start-up`ów zmierzających do rozpoczęcia lub
-                            zoptymalizowania procesów związanych z funkcjonowaniem danego podmiotu, zgodnie z bieżącymi
-                            potrzebami.</p>
-
-                        <a href="https://rpms.pl/kontakt/" class="cta">Jestem zainteresowany</a>
+                        <div class="first-section-p">
+                            <h2>Kancelaria oferuje specjalistyczną pomoc prawną w zakresie prawa nieruchomości</h2>
+                            <p>W ramach usług kancelarii obejmujących szeroko rozumiane prawo nieruchomości usługi
+                                świadczą specjaliści – prawnicy (radcowie prawni) posiadający wieloletnie doświadczenie
+                                w sprawach pomocy prawnej na rzecz organów administracji samorządowej oraz osób
+                                fizycznych. Wiedza i specjalistyczne doświadczenie naszych współpracowników pozwolą
+                                doradzić również przy niestandardowych problemach związanych z nieruchomościami.</p>
+                            <p>Dokonujemy analiz i weryfikacji faktyczno-prawnych dotyczących nieruchomości oraz
+                                regulujemy ich stan prawny.</p>
+                            <p>Kancelaria współpracuje z notariuszami, doradcami podatkowymi, geodetami i
+                                licencjonowanymi pośrednikami i zarządcami nieruchomości.</p>
+                        </div>
 
                     </div>
 
                 </div>
-                <img src="https://rpms.pl/wp-content/uploads/2019/09/up_sek1.jpg?id=25710" alt=""
+                <img src="https://rpms.pl/wp-content/uploads/2019/07/nieruchomosci.jpeg?id=25171" alt=""
                     class="uslugi-item__right-img">
             </div>
         </div>
@@ -316,49 +306,53 @@ get_header(); ?>
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
-                    <p class="big"><strong>W ramach świadczonej usługi kancelaria oferuje: </strong></p>
-                    <ol>
-                        <li>sporządzanie, opiniowanie i zabezpieczanie wykonania <strong>umów z kontrahentami</strong>,
-                            jak również
-                            kompleksową
-                            obsługę prawną, zależną od bieżących potrzeb klienta;</li>
-                        <li>przygotowanie dokumentacji regulującej funkcjonowanie danego podmiotu, w tym
-                            <strong>regulaminów,
-                                ogólnych
-                                warunków sprzedaży, polityk bezpieczeństwa i innych,</strong>
+                    <h4 style="font-size: 18px; font-weight: 900; margin-bottom: 35px;">Usługi Kancelarii, w zakresie
+                        pomocy prawnej obejmującej zagadnienia prawa nieruchomości, dotyczą w szczególności:</h4>
+                    <ul class="number-list count-2">
+                        <li style="font-weight: 400;"><span style="font-weight: 400;">analizy stanu prawnego
+                                nieruchomości</span></li>
+                        <li style="font-weight: 400;"><span style="font-weight: 400;">inicjowania i udział w
+                                postępowaniach wieczystoksięgowych (wpisy/wykreślenia z ksiąg wieczystych),</span></li>
+                        <li style="font-weight: 400;"><span style="font-weight: 400;">doradztwa w procesie bezpiecznego
+                                zbywania/nabywania nieruchomości,</span></li>
+                        <li style="font-weight: 400;"><span style="font-weight: 400;">pomocy prawnej w sprawach
+                                dotyczących stosunków pomiędzy współwłaścicielami nieruchomości, w tym sprawy dotyczące
+                                zniesienia istniejących współwłasności,</span></li>
+                        <li style="font-weight: 400;"><span style="font-weight: 400;">doradztwa i reprezentacji w
+                                sprawach stosunków zobowiązaniowych wynikających z umów najmu, dzierżawy,
+                                użyczenia,</span></li>
+                        <li style="font-weight: 400;"><span style="font-weight: 400;">reprezentacji w sprawach o
+                                zasiedzenie nieruchomości lub zasiedzenie służebności,</span></li>
+                        <li style="font-weight: 400;"><span style="font-weight: 400;">pomocy prawnej w ustanawianiu
+                                służebności gruntowych i udział w sprawach związanych ze służebnościami przesyłu,</span>
                         </li>
-                        <li> pomoc w <strong>procesie negocjacyjnym z kontrahentami</strong>, w tym udział w spotkaniach
-                            i konferencjach.
+                        <li style="font-weight: 400;"><span style="font-weight: 400;">doradztwa i reprezentacji w
+                                sprawach dotyczących prawa użytkowania wieczystego (nabycie/zbycie, przekształcenie,
+                                aktualizacja opłaty rocznej),</span></li>
+                        <li style="font-weight: 400;">
+                            <span style="font-weight: 400;">
+                                udziału w postępowaniach administracyjnych dotyczących wywłaszczenia nieruchomości oraz
+                                odszkodowań z tego tytułu jak również w postępowaniach związanych ze zwrotem
+                                wywłaszczonych nieruchomości lub stwierdzenia nieważności
+                                decyzji administracyjnych dotyczących takich nieruchomości,
+                            </span>
                         </li>
-                        <li> prowadzenie <strong>szkoleń</strong> dla kadr zarządzających oraz pracowników;
+                        <li style="font-weight: 400;">
+                            <span style="font-weight: 400;">udziału w postępowaniach dotyczących podziałów geodezyjnych
+                                nieruchomości, w tym również przejmowaniem części nieruchomości pod drogi publiczne oraz
+                                opłat adiacenckich,</span>
                         </li>
-                        <li>obsługa prawna formalnych aspektów prowadzenia działalności gospodarczej, w tym
-                            <strong>wsparcie
-                                merytoryczne
-                                poszczególnych organów</strong> (Zarządu, Rady Nadzorczej, Zgromadzenia Wspólników), jak
-                            i również
-                            reprezentacja
-                            przed Krajowym Rejestrem Sądowym;
+                        <li style="font-weight: 400;">
+                            <span style="font-weight: 400;">reprezentacji w sprawach dotyczących odszkodowań związanych
+                                z uchwalaniem miejscowych planów zagospodarowania przestrzennego lub też sprawach
+                                dotyczących opłat planistycznych,</span>
                         </li>
-                        <li> wdrażanie oraz bieżące monitorowanie stosowanych u Klienta procedur dotyczących <a
-                                href="https://rpms.pl/obsluga-prawna-rodo/">ochrony
-                                danych
-                                osobowych</a>, <strong>zabezpieczania przed nieuczciwymi praktykami rynkowymi</strong>
-                            oraz zapewnienie
-                            przestrzegania <strong>zasad
-                                dotyczących konkurencji i konsumentów;</strong></li>
-                        <li> kompleksowa pomoc prawna w sprawach dotyczących <a
-                                href="https://rpms.pl/prawo-pracy/"><strong>prawa
-                                    pracy</strong></a>, a w tym zawierania i
-                            rozwiązywania
-                            umów o
-                            pracę z pracownikami oraz sporządzania regulaminów.</li>
-                        <li> reprezentacja przed Państwową Inspekcją Pracy i sądem pracy, jak również udział w trakcie
-                            kontroli
-                            organów nadzoru, w tym kontroli skarbowych.</li>
-                        <li>pomoc prawna w uzyskiwaniu niezbędnych <strong>decyzji administracyjnych, koncesji,
-                                zezwoleń.</strong></li>
-                    </ol>
+                        <li style="font-weight: 400;"><span style="font-weight: 400;">pomocy prawnej w sprawach
+                                odszkodowań od gminy z tytułu niedostarczenia lokalu socjalnego</span></li>
+                    </ul>
+                    <p class="bold-text mt-5">Kancelaria reprezentuje Klientów przed organami administracji publicznej
+                        oraz sądami cywilnymi i sądami administracyjnymi wszystkich instancji w sprawach dotyczących
+                        nieruchomości.</p>
 
                 </div>
             </div>

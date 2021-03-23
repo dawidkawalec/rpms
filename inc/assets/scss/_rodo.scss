@@ -1,0 +1,53 @@
+.page-template-rodo {
+    .pricing-column {
+        max-width: 1000px;
+        margin: 0 auto;
+    }
+
+    .pricing-price-row {
+        background-color: #393d50;
+        display: inline-block;
+        width: 100%;
+        padding: 70px 50px;
+        text-align: center;
+        color: #fff;
+    }
+
+    .pricing-price-title {
+        font-size: 29px;
+        text-transform: uppercase;
+        font-weight: 800;
+    }
+
+    .pricing-price {
+        font-size: 19px;
+    }
+
+    .pricing-column .pricing-row {
+        padding: 20px 30px;
+        background-color: #f7f7f7;
+        border: 2px solid #393d50;
+        border-top-width: 1px;
+        border-bottom-width: 1px;
+        margin: 0;
+    }
+
+    .pricing-row:nth-child(odd) {
+        background-color: #fff;
+    }
+
+    .gem-button-container.gem-button-position-center {
+        background: #3b394f;
+        padding: 20px;
+    }
+
+    .gem-button-container.gem-button-position-center a {
+        background: #bfa071 !important;
+        padding: 10px 40px 8px;
+        display: inline-block;
+        margin: 0 auto;
+        position: relative;
+        left: 50%;
+        transform: translate(-50%, 0);
+    }
+}

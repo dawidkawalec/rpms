@@ -14,45 +14,40 @@
             <h3>Nasze <strong>Aktualności prawne</strong></h3>
     </div>
         <div class="row row-articles pb-10">
-            <div class="col-lg-4 mb-5 mb-lg-0 single">
+            <?php
+            
+            $args_query = array(
+                'order' => 'DESC',
+                'posts_per_page' => 3,
+            );
+
+            $query = new WP_Query( $args_query );
+
+            if ( $query->have_posts() ) {
+                while ( $query->have_posts() ) {
+                    $query->the_post(); ?>
+                    <div class="col-lg-4 mb-5 mb-lg-0 single">
                 <div class="single-content">
-                    <a href="#">
-                        <div class="image"><img src="http://rpms.craftweb.pl/wp-content/themes/rpms/inc/assets/img/Kancelaria-Prawna-RPMS-Prawo-Podatki-Windykacja_2.jpg" alt=""></div>
+                <a href="<?php the_permalink(); ?>">
+                        <div class="image"><img src="<?php the_post_thumbnail_url(); ?>" alt=""></div>
                         <div class="single-content__padding">
-                        <div class="date">21 Czerwca 2020</div>
-                        <h2 class="title">Tarcza antykryzysowa  pomoc dla przedsiębiorców</h2>
-                        <p>Osoba fizyczna będzie mogła ubiegać się o świadczenie postojowe w wysokości 2.080,00 złotych…</p>
+                        <div class="date"><?php get_the_date(); ?></div>
+                        <h2 class="title"><?php the_title(); ?></h2>
+                        <p><?php echo wp_trim_words( get_the_content(), 15, '...' ); ?></p>
                         <div class="more d-flex">Więcej <img class="ml-2" src="/wp-content/themes/rpms/inc/assets/img/arrow.svg" alt=""></div>
                         </div>
                     </a>
                 </div>
             </div>
-            <div class="col-lg-4 mb-5 mb-lg-0 single">
-                <div class="single-content">
-                    <a href="#">
-                        <div class="image"><img src="http://rpms.craftweb.pl/wp-content/themes/rpms/inc/assets/img/Kancelaria-Prawna-RPMS-Prawo-Podatki-Windykacja_2.jpg" alt=""></div>
-                        <div class="single-content__padding">
-                        <div class="date">21 Czerwca 2020</div>
-                        <h2 class="title">Tarcza antykryzysowa  pomoc dla przedsiębiorców</h2>
-                        <p>Osoba fizyczna będzie mogła ubiegać się o świadczenie postojowe w wysokości 2.080,00 złotych…</p>
-                        <div class="more d-flex">Więcej <img class="ml-2" src="/wp-content/themes/rpms/inc/assets/img/arrow.svg" alt=""></div>
-                        </div>
-                    </a>
-                </div>
-            </div>
-            <div class="col-lg-4 mb-5 mb-lg-0 single">
-                <div class="single-content">
-                    <a href="#">
-                        <div class="image"><img src="http://rpms.craftweb.pl/wp-content/themes/rpms/inc/assets/img/Kancelaria-Prawna-RPMS-Prawo-Podatki-Windykacja_2.jpg" alt=""></div>
-                        <div class="single-content__padding">
-                        <div class="date">21 Czerwca 2020</div>
-                        <h2 class="title">Tarcza antykryzysowa  pomoc dla przedsiębiorców</h2>
-                        <p>Osoba fizyczna będzie mogła ubiegać się o świadczenie postojowe w wysokości 2.080,00 złotych…</p>
-                        <div class="more d-flex">Więcej <img class="ml-2" src="/wp-content/themes/rpms/inc/assets/img/arrow.svg" alt=""></div>
-                        </div>
-                    </a>
-                </div>
-            </div>
+                <?php }
+            } else {
+
+            }
+
+            wp_reset_postdata();
+            
+            ?>
+            
             
         </div>  
         <div class="row send-form mt-5 pb-5">

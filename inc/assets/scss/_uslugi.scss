@@ -279,32 +279,7 @@
     }
 }
 
-.special-list {
-    li {
-        list-style-type: none;
-        position: relative;
-        margin-bottom: 20px;
-        line-height: 30px;
 
-        &:last-child {
-            margin-bottom: 0;
-        }
-
-        &:before {
-            content: '';
-            display: block;
-            position: absolute;
-            width: 10px;
-            height: 10px;
-            border-radius: 20px;
-            background: #bfa071;
-            top: 7px;
-            left: -29px;
-        }
-
-
-    }
-}
 
 .bluebox {
     .content {
@@ -345,6 +320,33 @@
             left: -40px;
             top: 0px;
         }
+    }
+}
+
+.special-list {
+    li {
+        list-style-type: none;
+        position: relative;
+        margin: 10px 0;
+        line-height: 30px;
+
+        &:last-child {
+            margin-bottom: 0;
+        }
+
+        &:before {
+            content: '';
+            display: block;
+            position: absolute;
+            width: 10px;
+            height: 10px;
+            border-radius: 20px;
+            background: #bfa071;
+            top: 7px;
+            left: -29px;
+        }
+
+
     }
 }
 

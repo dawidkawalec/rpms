@@ -276,7 +276,6 @@ get_header(); ?>
                 <div class="row">
                     <div class="col-lg-7">
                         <div class="uslugi-item__content">
-                            <img src="https://rpms.pl/wp-content/uploads/2019/09/Kompozycja-21.png" alt="">
 
                             <h2>Zastępstwo procesowe </h2>
 

@@ -1,0 +1,204 @@
+.single-post {
+    .content-list {
+        .table-of-content {
+            background: #f7f7fa;
+            border-radius: 10px;
+            padding: 40px;
+            h3 {
+                margin-top: 0;
+            }
+            ul {
+                counter-reset: my-awesome-counter;
+                li {
+                    list-style-type: none;
+                    counter-increment: my-awesome-counter;
+                    &:before {
+                        display: none;
+                    }
+                    &:after {
+                        content: counter(my-awesome-counter);
+                        font-weight: 300;
+                        font-size: 13px;
+                        line-height: 1;
+                        position: absolute;
+                        left: -40px;
+                        top: -2px;
+                        width: 30px;
+                        background: #3b394f;
+                        height: 30px;
+                        border-radius: 50%;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        padding-top: 4.5px;
+                        color: #fff;
+                        transition: all .5s;
+                    }
+                }
+            }
+        }
+    }
+    .head-content {
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        h6 {
+            background-image: url(https://rpms.pl/wp-content/uploads/2019/11/section-break.jpg);
+            right: 0;
+            background-repeat: no-repeat;
+            position: relative;
+            box-sizing: border-box;
+            background-size: cover;
+            display: flex;
+            margin: 70px 0 50px;
+            align-items: center;
+            justify-content: center;
+            overflow: hidden;
+            padding: 50px 20px;
+            font-weight: 900;
+        }
+        ul {
+            counter-reset: my-awesome-counter;
+            li {
+                list-style-type: none;
+                counter-increment: my-awesome-counter;
+                &:before {
+                    display: none;
+                }
+                &:after {
+                    content: counter(my-awesome-counter);
+                    font-weight: 300;
+                    font-size: 13px;
+                    line-height: 1;
+                    position: absolute;
+                    left: -40px;
+                    top: -2px;
+                    width: 30px;
+                    background: #3b394f;
+                    height: 30px;
+                    border-radius: 50%;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    padding-top: 4.5px;
+                    color: #fff;
+                    transition: all .5s;
+                }
+            }
+        }
+    }
+    .post-content {
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        h6 {
+            font-weight: 900;
+            strong {
+                font-weight: 900;
+            }
+        }
+        ul {
+            li {
+                list-style-type: none;
+                position: relative;
+                margin-bottom: 20px;
+                line-height: 30px;
+                &:before {
+                    content: '';
+                    display: block;
+                    position: absolute;
+                    width: 10px;
+                    height: 10px;
+                    border-radius: 20px;
+                    background: #bfa071;
+                    top: 7px;
+                    left: -29px;
+                }
+            }
+        }
+    }
+    .articles {
+        margin-top: 0;
+        padding-top: 50px;
+        background: #fff;
+    }
+    .comments-content {
+        p.comment-awaiting-moderation {
+            padding: 20px;
+        }
+        div#respond {
+            margin-top: 80px;
+        }
+        a#cancel-comment-reply-link {
+            display: block;
+            font-size: 13px;
+            background: #3b394f;
+            border: 0;
+            padding: 9px 25px;
+            border-radius: 10px;
+            width: 110px;
+            text-align: center;
+            margin-top: 20px;
+        }
+        h3#reply-title {
+            font-size: 35px;
+            font-weight: 800;
+            margin-bottom: 30px;
+        }
+        a.comment-reply-link {
+            border: 0;
+            background: #fff;
+            color: #3b394f;
+            padding: 14px 25px;
+            border-radius: 10px;
+        }
+        p.comment-form-url,
+        p.comment-form-author,
+        p.comment-form-email {
+            width: 32%;
+            float: left;
+            input {
+                width: 100%;
+                border: 1px solid #3b394f;
+                text-indent: 17px;
+                height: 60px;
+                border-radius: 10px;
+            }
+        }
+        p.comment-form-cookies-consent {
+            width: 100%;
+            clear: both;
+        }
+        form#commentform {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+        p.comment-notes {
+            width: 100%;
+        }
+        p.text {
+            width: 100%;
+        }
+        p.text textarea {
+            border-radius: 10px;
+            border: 1px solid #3b394f;
+            text-indent: 17px;
+            padding: 17px 0 17px 0;
+            resize: none;
+        }
+        p.comment-form-cookies-consent {
+            width: 100%;
+        }
+        p.form-submit input {
+            background: #3b394f;
+            border: 0;
+            padding: 14px 25px;
+            border-radius: 10px;
+        }
+    }
+}

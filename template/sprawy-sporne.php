@@ -27,22 +27,24 @@ get_header(); ?>
         <div class="container">
             <div class="row">
                 <div class="col-lg-6 text">
-                    <p>Wsparcie w egzekwowaniu przepisów prawa pracy to usługa skierowana zarówno do zatrudniających
-                        przedsiębiorców, jak i samych pracowników. Niektóre konflikty i nieporozumienia są na tyle
-                        skomplikowane, długotrwałe czy wielopoziomowe, że jedynym słusznym rozwiązaniem jest
-                        zasięgnięcie pomocy profesjonalistów. Czasem wystarczy wyłącznie podjęcie negocjacji, innym
-                        razem niezbędne okazuje się wejście na drogę sądową.</p>
-
-                    <p>W przypadku <a href="https://rpms.pl/sprawy-sporne-i-postepowanie-sadowe/">sporu z organem
-                            administracji publicznej</a> <strong>(ZUS / Urząd skarbowy)</strong> oraz konieczności
-                        złożenia stosownego odwołania od decyzji, profesjonalne wsparcie w merytorycznym rozwiązaniu
-                        sporu najczęściej okazuje się niezbędne.</p>
-
-                    <p>Kancelaria RPMS świadczy usługi zarówno w zakresie doradztwa, przygotowywania oraz opiniowania
-                        dokumentacji pracowniczej, jak i obsługi negocjacji, oraz <strong>spraw sądowych,</strong> w tym
-                        przygotowania <strong>odwołań od decyzji (ZUS) i skarg do sądu</strong>. Chronimy interesy
-                        pracodawców i pracowników skutecznie, zgodnie z obowiązującymi przepisami, opierając się przy
-                        tym na wieloletniej praktyce i doskonałej znajomości prawa.</p>
+                    <p style="text-align: justify;">
+                        Pomoc w sprawach spornych oraz reprezentacja w postępowaniach sądowych – w były kluczowym
+                        obszarem działalności od początku funkcjonowania kancelarii. Nasze doświadczenie opiera się na
+                        wieloletniej obsłudze
+                    </p>
+                    <p style="text-align: justify;">
+                        Wybierając Kancelarię RPMS, skorzystasz nie tylko z tradycyjnej reprezentacji profesjonalnego
+                        pełnomocnika, ale również z innych, rozbudowanych usług w zakresie rozwiązywania spraw spornych,
+                        dochodzenia należności (
+                        <a href="https://rpms.pl/windykacja/">windykacji długów</a>) czy reprezentacji przed organami
+                        administracji publicznej oraz innymi podmiotami.
+                    </p>
+                    <p style="text-align: justify;">
+                        Zajmujemy się zarówno postępowaniem polubownym, przygotowywaniem pism procesowych jak i
+                        reprezentowaniem klientów w postępowaniach procesowych i nieprocesowych przed sądami
+                        powszechnymi oraz administracyjnymi wszystkich instancji, a
+                        także Trybunałem Konstytucyjnym.
+                    </p>
                 </div>
                 <div class="col-lg-6 specialization">
                     <div class="form">
@@ -53,134 +55,144 @@ get_header(); ?>
         </div>
     </section>
 
-    <section class="uslugi-item">
+
+    <section class="mb-5">
         <div class="container">
-            <div class="row">
-                <div class="col-lg-7">
-                    <div class="uslugi-item__content">
-                        <img src="https://rpms.pl/wp-content/uploads/2019/09/Kompozycja-21.png" alt="">
-
-                        <h2>Kompleksowe Wsparcie prawne
-                        </h2>
-
-                        <p>Kancelaria specjalizuje się w świadczeniu stałej, kompleksowej obsługi <strong>podmiotów
-                                gospodarczych
-                                (przedsiębiorców)</strong> we wszystkich dziedzinach prawa, w tym również w dziedzinie
-                            podatków
-                            oraz <a href="/windykacja/">procesów
-                                windykacyjnych.</a></p>
-
-                        <p>Posiadamy wieloletnie doświadczenie w świadczeniu usług na rzecz podmiotów funkcjonujących
-                            <strong>na
-                                <a href="https://rpms.pl/obsluga-prawna-agencji-e-marketingowych-seo-sem/">rynku
-                                    IT</a></strong>, także tych zajmujących się wdrażaniem <strong>innowacyjnych
-                                technologii
-                                i
-                                rozwiązań
-                                informatycznych,
-                                przetwarzaniem danych</strong>, w tym danych osobowych, oraz z branżą <a
-                                href="https://rpms.pl/obsluga-prawna-e-commerce/"><strong>e-commerce.</strong></a>
-                        </p>
-
-                        <p>Zapewniamy również pełne, merytoryczne wsparcie start-up`ów zmierzających do rozpoczęcia lub
-                            zoptymalizowania procesów związanych z funkcjonowaniem danego podmiotu, zgodnie z bieżącymi
-                            potrzebami.</p>
-
-                        <a href="https://rpms.pl/kontakt/" class="cta">Jestem zainteresowany</a>
-
-                    </div>
-
+            <div class="row align-items-lg-center">
+                <div class="col-lg-6">
+                    <img src="https://rpms.pl/wp-content/uploads/2020/01/AdobeStock_292971884.jpeg"
+                        style="width: 100%; height: auto" alt="">
                 </div>
-                <img src="https://rpms.pl/wp-content/uploads/2019/09/up_sek1.jpg?id=25710" alt=""
-                    class="uslugi-item__right-img">
-            </div>
-        </div>
-    </section>
+                <div class="col-lg-6">
+                    <p style="text-align: justify;">Z uwagi na wieloletnie doświadczenie wynikające z obsługi
+                        <strong>klientów korporacyjnych i przedsiębiorców</strong>, posiadamy rozbudowany dział
+                        windykacji obejmujący zarówno działania z zakresu windykacji przedsądowej (miękkiej) jak i
+                        sądowej (twarda <a title="windykacja" href="https://rpms.pl/windykacja/">windykacja</a>).
+                        Każdemu klientowi zapewniamy na bieżąco dostęp do aktualnego statusu sprawy, monitorujemy jej
+                        przebieg, a także informujemy o dodatkowych możliwościach jego zakończenia.
+                    </p>
 
-    <section class="uslugi-ol">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <p class="big"><strong>W ramach świadczonej usługi kancelaria oferuje: </strong></p>
-                    <ol>
-                        <li>sporządzanie, opiniowanie i zabezpieczanie wykonania <strong>umów z kontrahentami</strong>,
-                            jak również
-                            kompleksową
-                            obsługę prawną, zależną od bieżących potrzeb klienta;</li>
-                        <li>przygotowanie dokumentacji regulującej funkcjonowanie danego podmiotu, w tym
-                            <strong>regulaminów,
-                                ogólnych
-                                warunków sprzedaży, polityk bezpieczeństwa i innych,</strong>
-                        </li>
-                        <li> pomoc w <strong>procesie negocjacyjnym z kontrahentami</strong>, w tym udział w spotkaniach
-                            i konferencjach.
-                        </li>
-                        <li> prowadzenie <strong>szkoleń</strong> dla kadr zarządzających oraz pracowników;
-                        </li>
-                        <li>obsługa prawna formalnych aspektów prowadzenia działalności gospodarczej, w tym
-                            <strong>wsparcie
-                                merytoryczne
-                                poszczególnych organów</strong> (Zarządu, Rady Nadzorczej, Zgromadzenia Wspólników), jak
-                            i również
-                            reprezentacja
-                            przed Krajowym Rejestrem Sądowym;
-                        </li>
-                        <li> wdrażanie oraz bieżące monitorowanie stosowanych u Klienta procedur dotyczących <a
-                                href="https://rpms.pl/obsluga-prawna-rodo/">ochrony
-                                danych
-                                osobowych</a>, <strong>zabezpieczania przed nieuczciwymi praktykami rynkowymi</strong>
-                            oraz zapewnienie
-                            przestrzegania <strong>zasad
-                                dotyczących konkurencji i konsumentów;</strong></li>
-                        <li> kompleksowa pomoc prawna w sprawach dotyczących <a
-                                href="https://rpms.pl/prawo-pracy/"><strong>prawa
-                                    pracy</strong></a>, a w tym zawierania i
-                            rozwiązywania
-                            umów o
-                            pracę z pracownikami oraz sporządzania regulaminów.</li>
-                        <li> reprezentacja przed Państwową Inspekcją Pracy i sądem pracy, jak również udział w trakcie
-                            kontroli
-                            organów nadzoru, w tym kontroli skarbowych.</li>
-                        <li>pomoc prawna w uzyskiwaniu niezbędnych <strong>decyzji administracyjnych, koncesji,
-                                zezwoleń.</strong></li>
-                    </ol>
+                    <p style="text-align: justify;"> Nasze wsparcie ma charakter kompleksowy – od postępowania
+                        przedsądowego, po reprezentację w procesie oraz obsługę na etapie egzekucji.</p>
+
+                    <p style="text-align: justify;">Na bieżąco współpracujemy ze stałymi i <strong><a
+                                href="https://rpms.pl/windykacja/">sprawdzonymi komornikami</a></strong> z
+                        całej Polski czego efektem jest wysoka skuteczność działań windykacyjnych.</p>
 
                 </div>
             </div>
         </div>
     </section>
+
 
     <section class="greybox mb-5">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 content">
-                    <p class="bold-text">W czym możemy Ci pomóc:</p>
-                    <ul class="special-list">
-                        <li>przygotowanie i opiniowanie dokumentacji pracowniczej, m.in. umów o pracę, umów o zachowaniu
-                            poufności, zakazie działalności konkurencyjnej, kontraktów menedżerskich, regulaminów i
-                            kodeksów,</li>
-                        <li>reprezentowanie klienta w sporach dotyczących ustalenia stosunku pracy i jego rozwiązania
-                            (klauzul zawartych w umowie, uznania wypowiedzenia za bezskuteczne, odwołania od zwolnień
-                            dyscyplinarnych itd.),</li>
-                        <li>przygotowanie odwołania od decyzji ZUS w przedmiocie zakwestionowania zasiłku / świadczenia
-                            rehabilitacyjnego, a także dalsza reprezentacja w postępowaniu;</li>
-                        <li>reprezentowanie klienta w sporach mających związek z brakiem wypłaty wynagrodzenia
-                            wynikającymi
-                            ze stosunku pracy, np. w kwestii wypłaty zaległego wynagrodzenia, ekwiwalentu czy odprawy,
+                    <p class="bold-text">Zakres naszych działań w sprawach spornych:</p>
+                    <p><strong>Postępowania gospodarcze (przedsiębiorcy)&nbsp;</strong></p>
+                    <ul class="special-list list-flex count-2">
+                        <li>reprezentacja i doradztwo na etapie przedsądowym (polubownym);</li>
+                        <li>prowadzenie spraw w postępowaniu gospodarczym;</li>
+                        <li>przygotowywanie strategii procesowej</li>
+                        <li>tworzenie pism procesowych, w tym w szczególności pozwów i apelacji</li>
+                    </ul>
+                    <p><strong>Dochodzenie wierzytelności (windykacja należności i długów)</strong></p>
+                    <ul class="special-list list-flex count-2">
+                        <li>przygotowywanie przedsądowych wezwań do zapłaty;</li>
+                        <li>wniosek o udzielenie zabezpieczenia majątkowego (roszczenia pieniężnego);</li>
+                        <li>wniosek o uchylenie zabezpieczenia majątkowego;</li>
+                        <li>reprezentacja w postępowaniu sądowym;</li>
+                        <li>wsparcie na etapie egzekucji komorniczej;</li>
+                        <li>reprezentacja w postępowaniu upadłościowym i restrukturyzacyjnym;</li>
+                    </ul>
+                    <p><strong>Spory cywilne</strong></p>
+                    <ul class="special-list list-flex count-2">
+                        <li>dochodzenie wierzytelności (pożyczki, czynsz najmu, kaucje itd.)</li>
+                        <li>prowadzenie spraw dotyczących nieruchomości i prawa budowlanego;</li>
+                        <li>przygotowanie wniosków o udzielenie zabezpieczenia roszczeń pieniężnych i niepieniężnych
                         </li>
-                        <li>przygotowanie odwołania od decyzji Urzędu Skarbowego oraz dalsza reprezentacja w
-                            postępowaniu;
+                        <li>usuwanie niezgodności treści księgi wieczystej z&nbsp;rzeczywistym stanem prawnym</li>
+                        <li>reprezentacja z zakresu uprawnień z gwarancji i rękojmii;</li>
+                        <li>sprawy konsumenckie</li>
+                        <li>unieważnianie umów oraz skargi pauliańska</li>
+                        <li>wniosek o zniesienie współwłasności</li>
+                    </ul>
+                    <p>
+                        <a href="https://rpms.pl/kredyty-frankowe/"><strong></strong></a><strong><a
+                                title="Kredyty frankowe" href="https://rpms.pl/kredyty-frankowe/">Kredyty frankowe</a>
+                            (frankowicze)</strong>
+                    </p>
+                    <ul class="special-list list-flex count-2">
+                        <li>analiza zawartej umowy oraz</li>
+                        <li>reprezentacja w negocjacjach z&nbsp;bankami</li>
+                        <li>reprezentacja w postępowaniu o unieważnienie umowy oraz uznanie postanowień za bezskuteczne;
                         </li>
-                        <li>reprezentowanie klienta w sporach wynikających z mobbingu, dyskryminacji i wypadków przy
-                            pracy,
-                        </li>
-                        <li>doradztwo w zakresie zwolnień indywidualnych i zbiorowych,</li>
-                        <li>uzyskanie odszkodowania za traktowanie niezgodne z prawem (m.in. wspomniane już mobbing,
-                            dyskryminacja i wypadki przy pracy, a także choroby zawodowe, czy nieuzasadnione
-                            wypowiedzenie
-                            umowy o pracę).</li>
+                        <li>prowadzenie postępowania na etapie przedsądowym i sądowym</li>
+                    </ul>
+                    <p><strong>Postępowania administracyjne i sądowo administracyjne</strong></p>
+                    <ul class="special-list list-flex count-2">
+                        <li>analiza <a href="/prawo-budowlane/">decyzji administracyjnej</a>;</li>
+                        <li>odwołanie od decyzji administracyjnej;</li>
+                        <li>postępowania przed organami nadzoru budowlanego</li>
+                        <li>przygotowywanie skarg do wojewódzkiego sądu administracyjnego</li>
+                        <li>reprezentacja w postępowaniu sądowo-administracyjnym</li>
+                    </ul>
+                    <p><strong>Negocjacje, mediacja, arbitraż</strong></p>
+                    <ul class="special-list list-flex count-2">
+                        <li>pomoc w negocjacjach</li>
+                        <li>udział w posiedzeniach mediacyjnych</li>
+                        <li>prowadzenie korespondencji w imieniu Klienta</li>
+                        <li>reprezentacja w arbitrażu</li>
                     </ul>
                 </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <section class="uslugi-item">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-7">
+                    <div class="uslugi-item__content">
+
+                        <p class="bold-text" style="text-align: justify;">Pisma procesowe</p>
+                        <p style="text-align: justify;">
+                            Ważnym elementem naszej działalności w sprawach spornych jest kompleksowa pomoc przy
+                            sporządzaniu pism procesowych. Oferujemy pełne wsparcie w tworzeniu <strong>pozwów</strong>
+                            (w tym pozwów wzajemnych), dotyczących m.in. uchylenia
+                            uchwały, wyłączenia wspólnika, rozwiązania spółki jawnej, <a
+                                href="https://rpms.pl/prawo-autorskie/">ochrony praw autorskich</a>, czy ustalenia
+                            rozdzielności majątkowej.
+                        </p>
+                        <p style="text-align: justify;">Oprócz tego przygotujemy dla Ciebie:</p>
+                        <ul class="special-list">
+                            <li style="text-align: justify;"><strong>Wniosek o wpis do księgi wieczystej (i/lub jego
+                                    wykreślenie),</strong></li>
+                            <li style="text-align: justify;"><strong>Zażalenie i apelację,</strong></li>
+                            <li style="text-align: justify;"><strong>Sprzeciw od wyroku zaocznego,</strong></li>
+                            <li style="text-align: justify;"><strong>Zarzuty od nakazu zapłaty,</strong></li>
+                            <li style="text-align: justify;">
+                                <strong>Skargi,</strong> m.in. kasacyjne, o zabezpieczenie dowodu, uchylenie wyroku sądu
+                                polubownego, o stwierdzenie niezgodności z prawem prawomocnego orzeczenia, wznowienie
+                                postępowania i na czynności komornicze,
+                            </li>
+                            <li style="text-align: justify;"><strong>Wniosek o ogłoszenie upadłości,</strong></li>
+                            <li style="text-align: justify;"><strong>Wniosek o wpis w KRS </strong>(a także o
+                                wprowadzenie zmian w tych wpisach lub ich wykreślenie),</li>
+                            <li style="text-align: justify;"><strong>Wniosek o wpis w rejestrze zastawów</strong> (a
+                                także o wprowadzenie zmian w tych wpisach lub ich wykreślenie),</li>
+                            <li style="text-align: justify;">Wniosek o wznowienie postępowania lub przeprowadzenie
+                                postępowania pojednawczego.</li>
+                        </ul>
+
+                    </div>
+
+                </div>
+                <img src="https://rpms.pl/wp-content/uploads/2019/11/AdobeStock_165894272.jpeg" alt=""
+                    class="uslugi-item__right-img">
             </div>
         </div>
     </section>
@@ -203,22 +215,36 @@ get_header(); ?>
             <div class="row">
                 <div class="col-lg-12">
                     <div class="content">
-                        <p class="bold-text" style="text-align: justify;"><strong>Czy Twoja spółka potrzebuje naszego
-                                wsparcia?</strong></p>
-                        <p>Tak, jeżeli:</p>
-                        <ul class="number-list">
-                            <li>oczekujesz indywidualnego – spersonalizowanego podejścia do planowanych zmian
-                                strukturalnych: fuzji, przejęcia, przekształcenia firmy lub likwidacji przedsiębiorstwa
-                            </li>
-                            <li>chcesz mieć pewność, że korzystasz z najlepszych możliwych narzędzi i profesjonalnej
-                                pomocy prawników z wszechstronną wiedzą z zakresu prawa spółek,</li>
-                            <li>potrzebujesz wsparcia przy przygotowaniu i negocjacji umów związanych z przygotowaniem
-                                lub realizacją danego przedsięwzięcia</li>
-                        </ul>
-                        <p>Pamiętaj, że wybierając usługi o najwyższym standardzie, zyskujesz pełne wsparcie i gwarancję
-                            rynkowej efektywności. Wiedza, specjalizacja i wieloletnie doświadczenie naszego zespołu w
-                            ujęciu prawnym, księgowym i podatkowym, przekładają się na jak najkorzystniejsze rezultaty,
-                            co mogą potwierdzić dziesiątki naszych zadowolonych klientów.</p>
+                        <p class="bold-text"><strong>KOSZTY ZASTEPSTWA PROCESOWEGO 2020 r.</strong></p>
+                        <p>
+                            Koszty pomocy prawnej, w tym zastępstwa procesowego są każdorazowo ustalane z w oparciu o
+                            przygotowaną, indywidualną ofertę dla klienta, po wstępnej analizie danej sprawy. Uwzględnia
+                            ona nakład pracy, liczbę rozpraw i spotkań oraz
+                            konieczne zasoby niezbędne do przejęcia i pełnego prowadzenia sprawy w imieniu klienta.
+                        </p>
+                        <p>
+                            Stawki minimalne zastępstwa procesowego w 2020 r. w sprawach o zapłatę są aktualnie
+                            uregulowane w Rozporządzeniu Ministra Sprawiedliwości w sprawie opłat za czynności radców
+                            prawnych z dnia 22 października 2015 r. i stanowią minimum
+                            wynagrodzenia wynikające z przepisów. Oznacza to, że sąd nie może zasądzić kosztów niższych
+                            niż wynikające z aktualnego rozporządzenia.
+                        </p>
+                        <p><strong>Koszty zastępstwa zasądzane są od strony przegrywającej sprawę na rzecz drugiej
+                                strony i tylko w przypadku reprezentowania jej przez profesjonalnego
+                                pełnomocnika.</strong></p>
+                        <p class="bold-text">Kwoty zastępstwa procesowego są uzależnione od kwoty roszczenia i wynoszą
+                            odpowiednio:</p>
+                        <ol class="number-list list-flex count-2">
+                            <li>do 500 zł – <strong>90 zł;</strong></li>
+                            <li>od 500 zł do 1500 zł – <strong>270 zł;</strong></li>
+                            <li>od 1500 zł do 5000 zł – <strong>900 zł;</strong></li>
+                            <li>od 5000 zł do 10 000 zł – <strong>1800 zł;</strong></li>
+                            <li>od 10 000 zł do 50 000 zł – <strong>3600 zł;</strong></li>
+                            <li>od 50 000 zł do 200 000 zł – <strong>5400 zł;</strong></li>
+                            <li>od 200 000 zł do 2 000 000 zł – <strong>10 800 zł;</strong></li>
+                            <li>od 2 000 000 zł do 5 000 000 zł – <strong>15 000 zł;</strong></li>
+                            <li>od 5 000 000 zł – <strong>25 000 zł.</strong></li>
+                        </ol>
                     </div>
                 </div>
             </div>
@@ -229,31 +255,13 @@ get_header(); ?>
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 content">
-                    <p class="bold-text">W czym możemy Ci pomóc:</p>
+                    <p>Stawki te są niższe w przypadku prowadzenia postępowania w następujących trybach zakończonych
+                        wydaniem nakazem zapłaty:</p>
                     <ul class="special-list">
-                        <li>przygotowanie i opiniowanie dokumentacji pracowniczej, m.in. umów o pracę, umów o zachowaniu
-                            poufności, zakazie działalności konkurencyjnej, kontraktów menedżerskich, regulaminów i
-                            kodeksów,</li>
-                        <li>reprezentowanie klienta w sporach dotyczących ustalenia stosunku pracy i jego rozwiązania
-                            (klauzul zawartych w umowie, uznania wypowiedzenia za bezskuteczne, odwołania od zwolnień
-                            dyscyplinarnych itd.),</li>
-                        <li>przygotowanie odwołania od decyzji ZUS w przedmiocie zakwestionowania zasiłku / świadczenia
-                            rehabilitacyjnego, a także dalsza reprezentacja w postępowaniu;</li>
-                        <li>reprezentowanie klienta w sporach mających związek z brakiem wypłaty wynagrodzenia
-                            wynikającymi
-                            ze stosunku pracy, np. w kwestii wypłaty zaległego wynagrodzenia, ekwiwalentu czy odprawy,
-                        </li>
-                        <li>przygotowanie odwołania od decyzji Urzędu Skarbowego oraz dalsza reprezentacja w
-                            postępowaniu;
-                        </li>
-                        <li>reprezentowanie klienta w sporach wynikających z mobbingu, dyskryminacji i wypadków przy
-                            pracy,
-                        </li>
-                        <li>doradztwo w zakresie zwolnień indywidualnych i zbiorowych,</li>
-                        <li>uzyskanie odszkodowania za traktowanie niezgodne z prawem (m.in. wspomniane już mobbing,
-                            dyskryminacja i wypadki przy pracy, a także choroby zawodowe, czy nieuzasadnione
-                            wypowiedzenie
-                            umowy o pracę).</li>
+                        <li>w postępowaniu upominawczym,</li>
+                        <li>w elektronicznym postępowaniu upominawczym,</li>
+                        <li>w postępowaniu nakazowym,</li>
+                        <li>w europejskim postępowaniu nakazowym<br /></li>
                     </ul>
                 </div>
             </div>
@@ -265,22 +273,23 @@ get_header(); ?>
             <div class="row">
                 <div class="col-lg-12">
                     <div class="content">
-                        <p class="bold-text" style="text-align: justify;"><strong>Czy Twoja spółka potrzebuje naszego
-                                wsparcia?</strong></p>
-                        <p>Tak, jeżeli:</p>
-                        <ul class="number-list">
-                            <li>oczekujesz indywidualnego – spersonalizowanego podejścia do planowanych zmian
-                                strukturalnych: fuzji, przejęcia, przekształcenia firmy lub likwidacji przedsiębiorstwa
-                            </li>
-                            <li>chcesz mieć pewność, że korzystasz z najlepszych możliwych narzędzi i profesjonalnej
-                                pomocy prawników z wszechstronną wiedzą z zakresu prawa spółek,</li>
-                            <li>potrzebujesz wsparcia przy przygotowaniu i negocjacji umów związanych z przygotowaniem
-                                lub realizacją danego przedsięwzięcia</li>
-                        </ul>
-                        <p>Pamiętaj, że wybierając usługi o najwyższym standardzie, zyskujesz pełne wsparcie i gwarancję
-                            rynkowej efektywności. Wiedza, specjalizacja i wieloletnie doświadczenie naszego zespołu w
-                            ujęciu prawnym, księgowym i podatkowym, przekładają się na jak najkorzystniejsze rezultaty,
-                            co mogą potwierdzić dziesiątki naszych zadowolonych klientów.</p>
+                        <p class="bold-text">W takim przypadku minimalne stawki są niższe i wynoszą odpowiednio do
+                            wartości przedmiotu sporu:</p>
+                        <ol class="number-list list-flex count-2">
+                            <li>do 500 zł – 60 zł;</li>
+                            <li>powyżej 500 zł do 1500 zł – 180 zł;</li>
+                            <li>powyżej 1500 zł do 5000 zł – 600 zł;</li>
+                            <li>powyżej 5000 zł do 10 000 zł – 1200 zł;</li>
+                            <li>powyżej 10 000 zł do 50 000 zł – 2400 zł;</li>
+                            <li>powyżej 50 000 zł do 200 000 zł – 3600 zł;</li>
+                            <li>powyżej 200 000 zł – 7200 zł.</li>
+                        </ol>
+                        <p>
+                            W przypadku osób zainteresowanych dokonaniem wyceny w sprawach windykacyjnych zapraszamy do
+                            skorzystania z uproszczonego formularza przekazania spraw windykacyjnych, które odnaleźć
+                            można
+                            <a href="https://rpms.pl/windykacja/">TUTAJ</a>
+                        </p>
                     </div>
                 </div>
             </div>

@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AACI,qBADiB,CACjB,SAAS,CAAC;EACN,UAAU,EAAE,IAAI;CACnB;;AAHL,AAMQ,qBANa,CAKjB,OAAO,CACH,IAAI,CAAC;EACD,SAAS,EAAE,KAAK;EAChB,WAAW,EAAE,cAAc;CAC9B",
+    "sources": [
+        "zespol.scss"
+    ],
+    "names": [],
+    "file": "zespol.css"
+}

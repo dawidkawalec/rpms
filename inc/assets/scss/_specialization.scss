@@ -3,9 +3,11 @@
         border-radius: 15px 0 0 15px;
         border: solid 3px #f2f2f2;
     }
+
     .nav-pills {
         // padding: 23px 26px 239px 36px;
         background-color: #ffffff;
+
         .nav-link {
             color: #3b394f;
             background-color: #fff;
@@ -13,27 +15,34 @@
             padding: 20px 25px;
             border-bottom: 2px solid #f2f2f2;
             border-radius: 0;
+
             &.active {
                 color: #fff;
                 background-color: #3b394f;
                 border-color: #bfa071;
             }
+
             &:first-child {
                 border-radius: 10px 0 0 0;
             }
         }
     }
+
     .tab-content {
         background-color: #fafafb;
         border-radius: 0 10px 10px 0;
         padding: 50px 70px;
         position: relative;
+        z-index: 1;
+
         @media(max-width: 992px) {
             padding: 50px 30px;
         }
+
         @media(min-width: 1199px) {
             min-height: 726px;
         }
+
         &:before {
             content: '';
             background: url('/wp-content/uploads/2021/02/uslugi-prawne.svg');
@@ -41,12 +50,13 @@
             width: 380px;
             height: 380px;
             background-size: cover;
-            z-index: 0;
+            z-index: -1;
             bottom: 0;
             right: 0;
             filter: brightness(0);
             opacity: 0.025;
         }
+
         h4 {
             margin-top: 0;
             font-size: 22px;
@@ -57,31 +67,38 @@
             letter-spacing: normal;
             color: #0e0e0e;
         }
+
         strong {
             font-size: 18px;
             line-height: 30px;
             font-weight: 800;
             color: #3e3e3e;
         }
+
         p {
             font-size: 16px;
             line-height: 30px;
             color: #7c7c7c;
         }
     }
+
     .form {
         background: #2c2a3e;
         border-radius: 20px;
+
         @media(min-width: 1199px) {
             min-height: 726px;
         }
+
         .welcome {
             .icon {
                 margin: 40px 0 29px;
             }
+
             p {
                 margin: 0;
             }
+
             span {
                 display: block;
                 font-size: 12px;
@@ -96,6 +113,7 @@
                 text-transform: uppercase;
                 margin-bottom: 7px;
             }
+
             .write {
                 font-size: 22px;
                 font-weight: 800;
@@ -104,16 +122,22 @@
                 line-height: normal;
                 color: #fff;
                 margin-bottom: 30px;
+                text-align: center;
             }
         }
+
         form {
+
             input,
             textarea {
                 outline: 0;
                 box-shadow: unset;
             }
-            .col-lg-12 {
+
+            .col-lg-12,
+            .col-lg-6 {
                 position: relative;
+
                 label {
                     position: absolute;
                     font-family: Muli;
@@ -128,17 +152,30 @@
                     text-transform: uppercase;
                     z-index: 1;
                     left: 50%;
+                    width: 95%;
                     transform: translate(-50%, 0);
                     top: 16px;
+
                     &+p {
                         display: none;
                     }
                 }
             }
+
+            .input-file {
+                input {
+                    width: 100%;
+                    padding-top: 34px !important;
+                    padding-left: 20px;
+                }
+            }
+
             .input {
                 position: relative;
                 margin-bottom: 10px;
-                input {
+
+                input,
+                select {
                     padding-top: 28px;
                     border: 0;
                     height: 60px;
@@ -155,6 +192,7 @@
                     letter-spacing: normal;
                     text-align: center;
                     color: #e2e2e2;
+
                     &::placeholder {
                         text-align: center;
                         opacity: 0.5;
@@ -170,10 +208,12 @@
                     }
                 }
             }
+
             .txt {
                 label {
                     // top: 25px;
                 }
+
                 textarea {
                     height: 120px;
                     border-radius: 20px;
@@ -190,7 +230,8 @@
                     letter-spacing: normal;
                     text-align: center;
                     color: #e2e2e2;
-                    padding-top: 28px;
+                    padding-top: 34px;
+
                     &::placeholder {
                         text-align: center;
                         opacity: 0.5;
@@ -206,6 +247,7 @@
                     }
                 }
             }
+
             .send {
                 input {
                     border: 0;
@@ -230,6 +272,7 @@
                     transition: all 0.4s;
                 }
             }
+
             .col-lg-12.io {
                 font-size: 12px;
                 font-weight: bold;
@@ -242,6 +285,7 @@
                 padding: 0px 80px;
                 margin: 0 0 30px;
             }
+
             .col-lg-12.io a {
                 color: #a1a1a1;
                 text-decoration: underline !important;

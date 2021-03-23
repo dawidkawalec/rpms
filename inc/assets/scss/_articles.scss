@@ -3,6 +3,7 @@
     border-radius: 20px;
     padding-top: 480px;
     margin-top: -430px;
+
     .row-articles {
         .single {
             .single-content {
@@ -11,11 +12,14 @@
                 box-shadow: 0 12px 44px 0 rgba(0, 0, 0, 0.06);
                 background-color: #ffffff;
                 transition: all 0.4s;
+
                 &:hover {
                     transform: translateY(-20px);
                 }
+
                 .image {
                     border-radius: 15px 15px 0 0;
+
                     img {
                         border-radius: 15px 15px 0 0;
                         width: 100%;
@@ -24,9 +28,11 @@
                         object-position: center;
                     }
                 }
+
                 .single-content__padding {
                     padding: 2px 35px 35px 35px;
                 }
+
                 .date {
                     margin-top: 22px;
                     font-size: 12px;
@@ -38,6 +44,7 @@
                     color: #aaaaaa;
                     text-transform: uppercase;
                 }
+
                 .title {
                     margin: 11px 0 18px;
                     font-size: 24px;
@@ -48,6 +55,7 @@
                     letter-spacing: normal;
                     color: #1f1b1a
                 }
+
                 p {
                     font-size: 18px;
                     font-weight: 600;
@@ -57,6 +65,7 @@
                     letter-spacing: normal;
                     color: #7c7c7c;
                 }
+
                 .more {
                     color: #1f1b1a;
                     font-weight: 900;
@@ -70,6 +79,7 @@
             }
         }
     }
+
     .send-form {
         a {
             display: flex;
@@ -90,5 +100,128 @@
             letter-spacing: 0.86px;
             transition: all 0.4s;
         }
+    }
+}
+
+body.archive,
+.page-template-articles,
+.page-template-ecommerce {
+    .articles {
+        background: #fff;
+    }
+
+    .category {
+
+        // background: #bfa071;
+        .row {
+            background: #3b394f;
+            border-radius: 20px;
+        }
+
+        .cat {
+            width: 20%;
+            text-align: center;
+            padding: 50px 0;
+            transition: all 0.4s;
+
+            &:hover {
+                background: #fff;
+                box-shadow: 0 12px 44px 0 rgba(0, 0, 0, 0.12);
+
+                .icon {
+                    img {
+                        filter: none;
+                    }
+                }
+
+                h2 {
+                    color: #bfa071;
+                }
+
+                .more {
+                    color: #bfa071;
+                }
+            }
+
+            &:first-child {
+                border-radius: 15px 0 0 15px;
+            }
+
+            &:last-child {
+                border-radius: 0 15px 15px 0;
+            }
+
+            .title {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
+
+            .icon {
+                img {
+                    width: 30px;
+                    height: auto;
+                    filter: brightness(0) invert(1);
+                    margin-right: 17px;
+                    transition: all 0.4s;
+                }
+            }
+
+            h2 {
+                color: #fff;
+                font-weight: 700;
+                font-size: 18px;
+                transition: all 0.4s;
+            }
+
+            .more {
+                color: #fff;
+            }
+        }
+    }
+}
+
+.page-template-articles {
+
+    .pagination span,
+    .pagination a {
+        width: 40px;
+        height: 40px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border: 3px solid #99a9b5;
+        margin: 0 5px;
+        color: #99a9b5;
+        font-weight: 700;
+    }
+
+    .pagination {
+        display: flex;
+        width: 100%;
+        justify-content: center;
+        margin: 30px 0 100px;
+    }
+
+    .pagination .current {
+        background: #3b394f;
+        border-color: #3b394f;
+        color: #fff;
+    }
+
+    .pagination a {
+        transition: all 0.4s;
+    }
+
+    .pagination a:hover {
+        background: #3b394f;
+        border-color: #3b394f;
+        color: #fff;
+    }
+}
+
+.search-results {
+    .articles {
+        background: transparent;
     }
 }

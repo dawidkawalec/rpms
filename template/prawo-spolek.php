@@ -27,20 +27,23 @@ get_header(); ?>
         <div class="container">
             <div class="row">
                 <div class="col-lg-6 text">
-                    <p>Kancelaria od początku funkcjonowania specjalizuje się w korporacyjnej obsłudze przedsiębiorców,
+                    <p>Kancelaria od początku funkcjonowania <strong>specjalizuje się w korporacyjnej obsłudze
+                            przedsiębiorców</strong>,
                         w
                         szczególności spółek prawa handlowego. Prawnicy kancelarii brali udział w procesach
                         reorganizacji
                         przedsiębiorstw, fuzji oraz procesów przejęcia przez połączenie obejmujących w szczególności
-                        klientów z branży finansowej, nowoczesnych technologii i informatycznej, a także przedsiębiorstw
+                        klientów z <strong>branży finansowej, nowoczesnych technologii i informatycznej</strong>, a
+                        także przedsiębiorstw
                         produkcyjno – usługowych.</p>
 
                     <p> Jednym z najważniejszych elementów naszej praktyki jest zatem doradztwo w zakresie polskiego
-                        prawa
-                        spółek. Funkcjonowanie spółek jest ściśle powiązane z koniecznością wprowadzania istotnych zmian
+                        <a href="https://rpms.pl/uslugi-prawne/">prawa spółek</a>. Funkcjonowanie spółek jest ściśle
+                        powiązane z koniecznością wprowadzania istotnych zmian
                         organizacyjnych, w strukturach kapitałowych czy właścicielskich, w ramach których następują
                         m.in.
-                        przejęcia, fuzje i połączenia.</p>
+                        przejęcia, <strong>fuzje i połączenia.</strong>
+                    </p>
 
                     <p>Wszystko to wywiera niebagatelny wpływ na rozwój przedsiębiorstw, jednak brak odpowiedniego
                         wsparcia
@@ -310,6 +313,7 @@ get_header(); ?>
     </section>
     <?php get_template_part( 'template-parts/logotype');?>
     <div class="images mb-5"></div>
+    <?php get_template_part( 'template-parts/our-articles');?>
     <?php get_template_part( 'template-parts/contact');?>
 
 </div>
