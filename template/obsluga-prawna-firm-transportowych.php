@@ -142,15 +142,15 @@
                 <div class="col-lg-12 content">
                     <h2 class="bold-text">Windykacja należności w branży transportowej, spedycyjnej i logistycznej</h2>
                     <ul class="special-list k-hook">
-                        <li><a href="#wnt_text_1">Weryfikacja kontrahentów w branży transportowej</a></li>
-                        <li><a href="#wnt_text_2">Windykacja firm transportowych i spedycyjnych</a></li>
-                        <li><a href="#wnt_text_3">Windykacja firm lotniczych i morskich</a></li>
-                        <li><a href="#wnt_text_4">Windykacja polubowna w transporcie</a></li>
-                        <li><a href="#wnt_text_5">Windykacja Sądowa w transporcie – twarda windykacja</a></li>
-                        <li><a href="#wnt_text_6">Elektroniczne postępowanie upominawcze.</a></li>
-                        <li><a href="#wnt_text_7">Egzekucja komornicza</a></li>
-                        <li><a href="#wnt_text_8">Dochodzenie wierzytelności od kontrahentów zagranicznych</a></li>
-                        <li><a href="#wnt_text_9">Europejski nakaz zabezpieczenia na rachunku bankowym (europejski nakaz
+                        <li><a href="#windykacja-kontrahentow-w-branzy-transportowej">Weryfikacja kontrahentów w branży transportowej</a></li>
+                        <li><a href="#windykacja-firm-lotniczych-i-morskich">Windykacja firm transportowych i spedycyjnych</a></li>
+                        <li><a href="#">Windykacja firm lotniczych i morskich</a></li>
+                        <li><a href="#windykacja-polubowna-w-transporcie">Windykacja polubowna w transporcie</a></li>
+                        <li><a href="#windykacja-sadowa-w-transporcie">Windykacja Sądowa w transporcie – twarda windykacja</a></li>
+                        <li><a href="#elektroniczne-postepowanie-upominawcze">Elektroniczne postępowanie upominawcze.</a></li>
+                        <li><a href="#egezkucja-komornicza">Egzekucja komornicza</a></li>
+                        <li><a href="#dochodzenie-wierzytelnosci-od-kontrahentow-zagranicznych">Dochodzenie wierzytelności od kontrahentów zagranicznych</a></li>
+                        <li><a href="#europejski-nakaz-zabezpieczenia-na-rachunku-bankowym">Europejski nakaz zabezpieczenia na rachunku bankowym (europejski nakaz
                                 zapłaty).</a></li>
                     </ul>
 
@@ -162,7 +162,7 @@
 
 
 
-    <section id="wnt_text_1">
+    <section id="windykacja-kontrahentow-w-branzy-transportowej">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
@@ -229,7 +229,7 @@
 
 
 
-    <div class="bluebox" id="wnt_text_2">
+    <div class="bluebox" id="windykacja-firm-lotniczych-i-morskich">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
@@ -287,7 +287,7 @@
 
 
 
-    <section id="wnt_text_4">
+    <section id="windykacja-polubowna-w-transporcie">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
@@ -322,7 +322,7 @@
 
 
 
-    <section class="greybox mb-5" id="wnt_text_5">
+    <section class="greybox mb-5" id="windykacja-sadowa-w-transporcie">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 content">
@@ -355,7 +355,7 @@
 
     <section>
         <div class="container">
-            <div class="row" id="wnt_text_6">
+            <div class="row" id="elektroniczne-postepowanie-upominawcze">
                 <div class="col-lg-12">
                     <h2 class="h2 text-center" style="font-weight: 900;"><strong>ELEKTRONICZNE POSTĘPOWANIE UPOMINAWCZE
                             (EPU)</strong></h2>
@@ -405,7 +405,7 @@
                     </p>
                 </div>
             </div>
-            <div class="row mt-5" id="wnt_text_7">
+            <div class="row mt-5" id="egezkucja-komornicza">
                 <div class="col-lg-12">
                     <h2 class="h2" style="font-weight: 900;">EGZEKUCJA KOMORNICZA</h2>
                     <p style="text-align: justify;">
@@ -419,7 +419,7 @@
                     </p>
                 </div>
             </div>
-            <div class="row mt-5 " id="wnt_text_9">
+            <div class="row mt-5 " id="europejski-nakaz-zabezpieczenia-na-rachunku-bankowym">
                 <div class="col-lg-12">
                     <h2 class="h2" style="font-weight: 900;">EUROPEJSKI NAKAZ ZABEZPIECZENIA NA RACHUNKU BANKOWYM</h2>
                 </div>

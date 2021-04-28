@@ -12,8 +12,8 @@
 
 <section class="opinion pt-4 pb-5">
     <div class="container">
-    <div class="row row-title mt-3">
-            <h3>Opinie <strong>klientów kancelarii</strong></h3>
+        <div class="row row-title mt-3">
+            <h2>Opinie <strong>klientów kancelarii</strong></h2>
         </div>
         <div class="row row-nav">
             <ul class="w-100">
@@ -23,76 +23,51 @@
         </div>
         <div class="row px-3 ">
             <div class="owl-carousel">
+
+
+                <?php if ( have_rows( 'opinie_pole_powtarzalne' , '6' ) ) : ?>
+                <?php while ( have_rows( 'opinie_pole_powtarzalne' , '6') ) :
+                        the_row(); ?>
+
+
                 <div class="item">
                     <div class="item-content">
                         <div class="head">
-                        Współpracę z kancelarią nawiązaliśmy za poleceniem innej firmy, 
-                        u której – jak to zostało nam podkreślone – współpraca przyniosła „wymierne efekty”.
+                            <?php if ( $tekst_pogrubiony = get_sub_field( 'tekst_pogrubiony' , '6') ) : ?>
+                            <?php echo $tekst_pogrubiony; ?>
+                            <?php endif; ?>
                         </div>
                         <div class="subhead">
-                           Zespół został przedstawiony jako specjaliści z zakresu obsługi branży IT, co zresztą miało odzwierciedlenie już przy pierwszej rozmowie. Znali problematykę branży, stosowane rozwiązania, a także – co nas było na tamten moment najistotniejsze – potrafili w zasadzie bezzwłocznie zaproponować zmiany na główne i bieżące problemy spółki…
-                        </div>
-                        <div class="readmore">
-                            Rozwiń <img class="ml-2" src="/wp-content/themes/rpms/inc/assets/img/arrow.svg" alt="">
-                        </div>
-                        <div class="logo">
-                            <img src="http://rpms.craftweb.pl/wp-content/uploads/2021/02/blift-thegem-person.jpg" alt="">
-                        </div>
-                    </div>
-                </div>
-                <div class="item">
-                    <div class="item-content">
-                        <div class="head">
-                        Współpracę z kancelarią nawiązaliśmy za poleceniem innej firmy, 
-                        u której – jak to zostało nam podkreślone – współpraca przyniosła „wymierne efekty”.
-                        </div>
-                        <div class="subhead">
-                           Zespół został przedstawiony jako specjaliści z zakresu obsługi branży IT, co zresztą miało odzwierciedlenie już przy pierwszej rozmowie. Znali problematykę branży, stosowane rozwiązania, a także – co nas było na tamten moment najistotniejsze – potrafili w zasadzie bezzwłocznie zaproponować zmiany na główne i bieżące problemy spółki…
-                        </div>
-                        <div class="readmore">
-                            Rozwiń <img class="ml-2" src="/wp-content/themes/rpms/inc/assets/img/arrow.svg" alt="">
-                        </div>
-                        <div class="logo">
-                            <img src="http://rpms.craftweb.pl/wp-content/uploads/2021/02/blift-thegem-person.jpg" alt="">
-                        </div>
-                    </div>
-                </div>
-                <div class="item">
-                    <div class="item-content">
-                        <div class="head">
-                        Współpracę z kancelarią nawiązaliśmy za poleceniem innej firmy, 
-                        u której – jak to zostało nam podkreślone – współpraca przyniosła „wymierne efekty”.
-                        </div>
-                        <div class="subhead">
-                           Zespół został przedstawiony jako specjaliści z zakresu obsługi branży IT, co zresztą miało odzwierciedlenie już przy pierwszej rozmowie. Znali problematykę branży, stosowane rozwiązania, a także – co nas było na tamten moment najistotniejsze – potrafili w zasadzie bezzwłocznie zaproponować zmiany na główne i bieżące problemy spółki…
-                        </div>
-                        <div class="readmore">
-                            Rozwiń <img class="ml-2" src="/wp-content/themes/rpms/inc/assets/img/arrow.svg" alt="">
-                        </div>
-                        <div class="logo">
-                            <img src="http://rpms.craftweb.pl/wp-content/uploads/2021/02/blift-thegem-person.jpg" alt="">
-                        </div>
-                    </div>
-                </div>
-                <div class="item">
-                    <div class="item-content">
-                        <div class="head">
-                        Współpracę z kancelarią nawiązaliśmy za poleceniem innej firmy, 
-                        u której – jak to zostało nam podkreślone – współpraca przyniosła „wymierne efekty”.
-                        </div>
-                        <div class="subhead">
-                           Zespół został przedstawiony jako specjaliści z zakresu obsługi branży IT, co zresztą miało odzwierciedlenie już przy pierwszej rozmowie. Znali problematykę branży, stosowane rozwiązania, a także – co nas było na tamten moment najistotniejsze – potrafili w zasadzie bezzwłocznie zaproponować zmiany na główne i bieżące problemy spółki…
+                            <?php if ( $tekst = get_sub_field( 'tekst' , '6') ) : ?>
+                            <?php echo $tekst; ?>
+                            <?php endif; ?>
                         </div>
                         <div class="readmore">
                             Rozwiń
                         </div>
                         <div class="logo">
-                            <img src="http://rpms.craftweb.pl/wp-content/uploads/2021/02/blift-thegem-person.jpg" alt="">
+                            <?php
+                        $logo_klienta = get_sub_field( 'logo_klienta' , '6');
+                        if ( $logo_klienta ) : ?>
+                            <img src="<?php echo esc_url( $logo_klienta['url'] ); ?>"
+                                alt="<?php echo esc_attr( $logo_klienta['alt'] ); ?>" />
+                            <?php endif; ?>
                         </div>
                     </div>
                 </div>
+
+
+
+
+
+
+
+                <?php endwhile; ?>
+                <?php endif; ?>
+
+
+
             </div>
         </div>
     </div>
 </section>
-

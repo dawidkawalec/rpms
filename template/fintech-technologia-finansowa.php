@@ -28,7 +28,6 @@ get_header(); ?>
             <div class="row">
                 <div class="col-lg-7">
                     <div class="uslugi-item__content">
-                        <h2 style="">TECHNOLOGIA FINANSOWA (FINtech)</h2>
                         <h2 style="">PROFESJONALNA OBSŁUGA BRANŻY FINANSOWEJ I NOWOCZESNYCH TECHNOLOGII PŁATNICZYCH</h2>
                         <p style="text-align: justify;">
                             Prawnicy Kancelarii zapewniają profesjonalną i kompleksową obsługę przedsiębiorców z sektora
@@ -64,7 +63,7 @@ get_header(); ?>
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 content">
-                    <p class="bold-text">Mamy doświadczenie w zakresie:</p>
+                    <h2 class="bold-text">Mamy doświadczenie w zakresie:</h2>
                     <ul class="special-list">
                         <li>wdrażania projektów i kompleksowej obsłudze<b>&nbsp;towarzystw funduszy
                                 inwestycyjnych,</b>&nbsp;m.in. w zakresie&nbsp;<b>rejestracji funduszy inwestycyjnych
@@ -94,7 +93,7 @@ get_header(); ?>
             <div class="row align-items-lg-center">
 
                 <div class="col-lg-6">
-                    <h4 class="h3 bold-text"><b>Usługi płatnicze</b></h4>
+                    <h3 class="h3 bold-text"><b>Usługi płatnicze</b></h3>
                     <p style="text-align: justify;">Oferujemy pełną obsługę krajowych instytucji płatniczych w
                         realizacji ich założeń i projektów, z uwzględnieniem potrzeb i odpowiedniego zabezpieczenia
                         interesów Klienta.</p>
@@ -128,7 +127,7 @@ get_header(); ?>
                     <img src="https://rpms.pl/wp-content/uploads/2019/07/fintech-2-560x400.jpg" alt="">
                 </div>
                 <div class="col-lg-6">
-                    <h4 class="h3 bold-text"><b>Consumer Finance</b></h4>
+                    <h3 class="h3 bold-text"><b>Consumer Finance</b></h3>
                     <p style="text-align: justify;">
                         Jesteśmy gotowi wesprzeć naszych klientów w procesie przygotowania i wdrożenia usług związanych
                         z kredytem konsumenckim w tym w zakresie przygotowania pełnej dokumentacji z uwzględnieniem
@@ -151,7 +150,7 @@ get_header(); ?>
             <div class="row align-items-lg-center">
 
                 <div class="col-lg-6">
-                    <h4 class="h3 bold-text"><b>Crowdfunding</b></h4>
+                    <h3 class="h3 bold-text"><b>Crowdfunding</b></h3>
                     <p style="text-align: justify;">Jeżeli Twój projekt zakłada uruchomienie lub udział w platformach:
                     </p>
                     <ul class="special-list" style="text-align: justify;">
@@ -181,7 +180,8 @@ get_header(); ?>
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
-                    <h5 class="h2 text-center font-weight-bold"><strong>Może Ciebie zainteresować:</strong></h5>
+                    <span class="h2 d-block text-center font-weight-bold"><strong>Może Ciebie
+                            zainteresować:</strong></span>
                 </div>
             </div>
         </div>
@@ -219,7 +219,7 @@ get_header(); ?>
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
-                    <h2 class="h2 text-center font-weight-bold"><strong>Zaufali nam</strong></h2>
+                    <span class="d-block h2 text-center font-weight-bold"><strong>Zaufali nam</strong></span>
                 </div>
             </div>
         </div>

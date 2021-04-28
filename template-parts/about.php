@@ -11,8 +11,8 @@
 <section class="about mt-10">
     <div class="container">
         <div class="row row-title">
-            <h3>Kancelaria Prawna <strong>RPMS</strong><br />
-                Staniszewski & Wspólnicy</h3>
+            <h2>Kancelaria Prawna <strong>RPMS</strong><br />
+                Staniszewski & Wspólnicy</h2>
         </div>
         <div class="row">
             <div class="col-lg-12">
@@ -22,8 +22,8 @@
                     <?php endif; ?>
 
                     <div class="row-content__cta mt-5">
-                        <h4>Skontaktuj się i sprawdź<br>
-                            w jaki sposób możemy Ci pomóc!</h4>
+                        <span>Skontaktuj się i sprawdź<br>
+                            w jaki sposób możemy Ci pomóc!</span>
                         <a href="/kontakt/">Napisz do nas</a>
                     </div>
                 </div>

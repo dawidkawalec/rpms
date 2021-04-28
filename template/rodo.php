@@ -25,9 +25,15 @@ get_header(); ?>
             <div class="row">
                 <div class="col-lg-7">
                     <div class="uslugi-item__content">
-                        <img src="https://rpms.pl/wp-content/uploads/2019/09/Kompozycja-21.png" alt="">
-                        <h2>PEŁNA OBSŁUGA RODO
-                        </h2>
+                        <div class="row align-items-lg-center">
+                            <div class="col-lg-2">
+                            <img src="https://rpms.pl/wp-content/uploads/2019/09/Kompozycja-21.png" alt="">
+                        
+                            </div>
+                            <div class="col-lg-10">
+                            <h2>PEŁNA OBSŁUGA RODO
+                        </h2></div>
+                        </div>
                         <p style="text-align: left;">Kancelaria oferuje pełną i bieżącą obsługę zmierzającą do
                             zapewnienia przestrzegania przez Klienta procedur związanych z ochroną danych przetwarzanych
                             w systemach informatycznych, w szczególności ochroną danych osobowych uwzględniających
@@ -126,6 +132,27 @@ get_header(); ?>
                     </div>
                 </div>
             </div>
+        </div>
+    </section>
+
+
+    <section class="cta-rodo">
+        <div class="container">
+           <div class="content">
+            <div class="row">
+                    <div class="col-lg-2">
+                        <div class="icon">
+                            <img src="https://rpms.craftweb.pl/wp-content/uploads/2021/04/rodo-ikona.png" alt="">
+                        </div>
+                    </div>
+                    <div class="col-lg-8">
+                        <p class="bold-text">Chcesz wiedzieć więcej o wdrożeniu RODO ? Zapoznaj się z poradnikiem, w którym wyjaśniamy w jaki sposób należy wdrożyć RODO</p>
+                    </div>
+                    <div class="col-lg-2">
+                        <a href="/poradnik-rodo-2018/" class="cta">RODO</a>
+                    </div>
+                </div>
+           </div>
         </div>
     </section>
 

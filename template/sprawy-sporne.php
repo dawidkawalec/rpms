@@ -201,7 +201,7 @@ get_header(); ?>
         <div class="container">
             <div class="row content row-title">
                 <div class="col-lg-12">
-                    <h2>RPMS – doświadczony zespół i 100% zaangażowania</h2>
+                    <h2>Kancelaria RPMS – doświadczony zespół i 100% zaangażowani</h2>
                     <p>Gwarantujemy profesjonalną reprezentację klientów na drodze spraw spornych w ramach postępowań
                         sądowo-administracyjnych, sądowych, arbitrażowych, oraz związanych z prowadzeniem mediacji i
                         negocjacji między stronami.</p>

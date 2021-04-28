@@ -57,6 +57,8 @@ get_header(); ?>
                             potrzebami.</p>
 
                         <a href="https://rpms.pl/kontakt/" class="cta">Jestem zainteresowany</a>
+                        <a href="/windykacja" rel="nofollow" class="cta_more">Więcej</a>
+
 
                     </div>
 
@@ -147,7 +149,7 @@ get_header(); ?>
                             </ul>
 
                             <a href="https://rpms.pl/kontakt/" class="cta">Skontaktuj się</a>
-                            <a href="#" class="cta_more">Więcej</a>
+                            <a href="/windykacja" rel="nofollow" class="cta_more">Więcej</a>
 
                         </div>
 
@@ -187,6 +189,8 @@ get_header(); ?>
 
                             <a href="https://rpms.pl/prawo-spolek-przeksztalcenia-fuzje-i-przejecia/"
                                 class="cta">Obsługa spółek</a>
+                            <a href="/prawo-spolek-przeksztalcenia-fuzje-i-przejecia/" rel="nofollow"
+                                class="cta_more">Więcej</a>
 
                         </div>
 
@@ -219,6 +223,8 @@ get_header(); ?>
 
                             <a href="https://rpms.pl/prawo-spolek-przeksztalcenia-fuzje-i-przejecia/" class="cta">Fuzje
                                 i przejęcia</a>
+                            <a href="/prawo-spolek-przeksztalcenia-fuzje-i-przejecia/" rel="nofollow"
+                                class="cta_more">Więcej</a>
 
                         </div>
 
@@ -259,7 +265,7 @@ get_header(); ?>
                                 własności intelektualnej, postępowania sądowe itd.</p>
 
                             <a href="https://rpms.pl/due-diligence-finansowe/" class="cta">Due dilligence</a>
-                            <a href="#" class="cta_more">Więcej</a>
+                            <a href="/due-diligence-finansowe/" class="cta_more">Więcej</a>
 
                         </div>
 
@@ -301,6 +307,7 @@ get_header(); ?>
 
                             <a href="https://rpms.pl/sprawy-sporne-i-postepowanie-sadowe/" class="cta">SPRAWY SPORNE I
                                 SĄDOWE</a>
+                            <a href="/sprawy-sporne-i-postepowanie-sadowe/" rel="nofollow" class="cta_more">Więcej</a>
 
                         </div>
 
@@ -323,26 +330,37 @@ get_header(); ?>
                 <div class="col-lg-12">
                     <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
                         <li class="nav-item">
-                            <a class="nav-link active" id="pills-rodo-tab" data-toggle="pill" href="#pills-rodo"
-                                role="tab" aria-controls="pills-rodo" aria-selected="true">Ochrona danych osobowych
-                                (RODO)</a>
+                            <a class="nav-link active" id="ochrona-danych-osobowych-rodo-tab" data-toggle="pill"
+                                href="#ochrona-danych-osobowych-rodo" role="tab"
+                                aria-controls="ochrona-danych-osobowych-rodo" aria-selected="true">
+                                <h3>Ochrona danych osobowych
+                                    (RODO)</h3>
+                            </a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" id="pills-it-tab" data-toggle="pill" href="#pills-it" role="tab"
-                                aria-controls="pills-it" aria-selected="false">IT / E-Commerce</a>
+                            <a class="nav-link" id="obsluga-prawna-it-e-commerce-tab" data-toggle="pill"
+                                href="#obsluga-prawna-it-e-commerce" role="tab"
+                                aria-controls="obsluga-prawna-it-e-commerce" aria-selected="false">
+                                <h3>IT / E-Commerce</h3>
+                            </a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" id="pills-startup-tab" data-toggle="pill" href="#pills-startup"
-                                role="tab" aria-controls="pills-startup" aria-selected="false">Wsparcie STARTUP-ÓW</a>
+                            <a class="nav-link" id="obsluga-prawna-startupow-tab" data-toggle="pill"
+                                href="#obsluga-prawna-startupow" role="tab" aria-controls="obsluga-prawna-startupow"
+                                aria-selected="false">
+                                <h3>Wsparcie STARTUP-ÓW</h3>
+                            </a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" id="pills-oferta-tab" data-toggle="pill" href="#pills-oferta" role="tab"
-                                aria-controls="pills-oferta" aria-selected="false">Pełna oferta</a>
+                            <a class="nav-link" id="oferta-tab" data-toggle="pill" href="#oferta" role="tab"
+                                aria-controls="oferta" aria-selected="false">
+                                <h3>Pełna oferta</h3>
+                            </a>
                         </li>
                     </ul>
                     <div class="tab-content" id="pills-tabContent">
-                        <div class="tab-pane fade show active" id="pills-rodo" role="tabpanel"
-                            aria-labelledby="pills-rodo-tab">
+                        <div class="tab-pane fade show active" id="ochrona-danych-osobowych-rodo" role="tabpanel"
+                            aria-labelledby="ochrona-danych-osobowych-rodo-tab">
                             <p class="big">Dlaczego warto?</p>
 
                             <p>Kancelaria oferuje pełną i bieżącą obsługę zmierzającą do zapewnienia przestrzegania
@@ -379,7 +397,8 @@ get_header(); ?>
                             </ul>
                             <a href="https://rpms.pl/uslugi-prawne/e-commerce/rodo/" class="cta__right">Więcej</a>
                         </div>
-                        <div class="tab-pane fade" id="pills-it" role="tabpanel" aria-labelledby="pills-it-tab">
+                        <div class="tab-pane fade" id="obsluga-prawna-it-e-commerce" role="tabpanel"
+                            aria-labelledby="obsluga-prawna-it-e-commerce-tab">
                             <p>Kancelaria posiada bogate doświadczenie w obsłudze przedsiębiorców, w szczególności z
                                 branży IT, e-commerce oraz nowoczesnych technologii. Specjalizuje się w przygotowaniu
                                 formalnego zaplecza funkcjonowania podmiotów gospodarczych świadczących usługi poprzez
@@ -388,8 +407,8 @@ get_header(); ?>
 
                             <a href="https://rpms.pl/uslugi-prawne/e-commerce/" class="cta__right">Więcej</a>
                         </div>
-                        <div class="tab-pane fade" id="pills-startup" role="tabpanel"
-                            aria-labelledby="pills-startup-tab">
+                        <div class="tab-pane fade" id="obsluga-prawna-startupow" role="tabpanel"
+                            aria-labelledby="obsluga-prawna-startupow-tab">
                             <p>Kancelaria w ramach świadczonych usług w sposób szczególny wspiera przedsiębiorców w
                                 początkowej fazie rozwoju, dając im możliwość zrozumienia mechanizmów prawnych
                                 obowiązujących w obrocie gospodarczym, jak również zapewnia przygotowanie i wdrożenie
@@ -400,7 +419,7 @@ get_header(); ?>
 
                             <a href="https://rpms.pl/uslugi-prawne/e-commerce/start-up/" class="cta__right">Więcej</a>
                         </div>
-                        <div class="tab-pane fade" id="pills-oferta" role="tabpanel" aria-labelledby="pills-oferta-tab">
+                        <div class="tab-pane fade" id="oferta" role="tabpanel" aria-labelledby="oferta-tab">
                             <p>W celu zapoznania się z pełną ofertą Kancelarii zapraszamy do <strong><a
                                         href="tel:48577399668">kontaktu telefonicznego</a></strong>, wizyty w siedzibie
                                 kancelarii, bądź poprzez <strong><a href="https://rpms.pl/kontakt/">formularz

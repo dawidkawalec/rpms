@@ -27,53 +27,77 @@ get_header(); ?>
     <div class="category mt-5">
         <div class="container">
             <div class="row">
-                <div class="cat"><a href="https://rpms.pl/uslugi-prawne/e-commerce/dokumentacja-sklepu-internetowego/"
-                        class="">
+                <div class="cat">
+                    <div class="">
                         <div class="title" style="flex-wrap: wrap;">
                             <div class="icon" style="width:100%;"><img style="margin-right: 0px;"
                                     src="https://rpms.pl/wp-content/uploads/2020/03/worldwide.png" alt=""></div>
-                            <h2>Dokumentacja sklepu internetowego</h2>
+                            <a href="https://rpms.pl/dokumentacja-sklepu-internetowego/"
+                                class="cat__links"><span>Dokumentacja
+                                    sklepu internetowego</span></a>
                         </div>
-                        <div class="more">- Więcej <img class="ml-2"
-                                src="/wp-content/themes/rpms/inc/assets/img/arrow.svg" alt=""></div>
-                    </a></div>
-                <div class="cat"><a href="https://rpms.pl/uslugi-prawne/e-commerce/rodo/" class="">
+                        <a href="https://rpms.pl/dokumentacja-sklepu-internetowego/" class="">
+                            <div class="more">- Więcej <img class="ml-2"
+                                    src="/wp-content/themes/rpms/inc/assets/img/arrow.svg" alt=""></div>
+                        </a>
+                    </div>
+                </div>
+                <div class="cat">
+                    <div class="">
                         <div class="title" style="flex-wrap: wrap;">
                             <div class="icon" style="width:100%;"><img style="margin-right: 0px;"
                                     src="https://rpms.pl/wp-content/uploads/2020/03/worldwide.png" alt=""></div>
-                            <h2>Obsługa<br>RODO</h2>
+                            <a href="https://rpms.pl/obsluga-prawna-rodo/"
+                                class="cat__links"><span>Obsługa<br>RODO</span></a>
                         </div>
-                        <div class="more">- Więcej <img class="ml-2"
-                                src="/wp-content/themes/rpms/inc/assets/img/arrow.svg" alt=""></div>
-                    </a></div>
-                <div class="cat"><a href="https://rpms.pl/uslugi-prawne/audyt-prawny-twojej-strony-internetowej/"
-                        class="">
+                        <a href="https://rpms.pl/obsluga-prawna-rodo/" class="">
+                            <div class="more">- Więcej <img class="ml-2"
+                                    src="/wp-content/themes/rpms/inc/assets/img/arrow.svg" alt=""></div>
+                        </a>
+                    </div>
+                </div>
+                <div class="cat">
+                    <div class="">
                         <div class="title" style="flex-wrap: wrap;">
                             <div class="icon" style="width:100%;"><img style="margin-right: 0px;"
                                     src="https://rpms.pl/wp-content/uploads/2020/03/worldwide.png" alt=""></div>
-                            <h2>Audyt strony <br>internetowej</h2>
+                            <a href="https://rpms.pl/uslugi-prawne/audyt-prawny-twojej-strony-internetowej/"
+                                class="cat__links"><span>Audyt strony <br>internetowej</span></a>
                         </div>
-                        <div class="more">- Więcej <img class="ml-2"
-                                src="/wp-content/themes/rpms/inc/assets/img/arrow.svg" alt=""></div>
-                    </a></div>
-                <div class="cat"><a href="https://rpms.pl/uslugi-prawne/e-commerce/start-up/" class="">
+                        <a href="https://rpms.pl/uslugi-prawne/audyt-prawny-twojej-strony-internetowej/" class="">
+                            <div class="more">- Więcej <img class="ml-2"
+                                    src="/wp-content/themes/rpms/inc/assets/img/arrow.svg" alt=""></div>
+                        </a>
+                    </div>
+                </div>
+                <div class="cat">
+                    <div class="">
                         <div class="title" style="flex-wrap: wrap;">
                             <div class="icon" style="width:100%;"><img style="margin-right: 0px;"
                                     src="https://rpms.pl/wp-content/uploads/2020/03/worldwide.png" alt=""></div>
-                            <h2>Obsługa <br>Startup-ów</h2>
+                            <a href="https://rpms.pl/obsluga-prawna-startupow/" class="cat__links"> <span>Obsługa
+                                    <br>Startup-ów</span></a>
                         </div>
-                        <div class="more">- Więcej <img class="ml-2"
-                                src="/wp-content/themes/rpms/inc/assets/img/arrow.svg" alt=""></div>
-                    </a></div>
-                <div class="cat"><a href="https://rpms.pl/uslugi-prawne/e-commerce/ochrona-reputacji/" class="">
+                        <a href="https://rpms.pl/obsluga-prawna-startupow/" class="">
+                            <div class="more">- Więcej <img class="ml-2"
+                                    src="/wp-content/themes/rpms/inc/assets/img/arrow.svg" alt=""></div>
+                        </a>
+                    </div>
+                </div>
+                <div class="cat">
+                    <div class="">
                         <div class="title" style="flex-wrap: wrap;">
                             <div class="icon" style="width:100%;"><img style="margin-right: 0px;"
                                     src="https://rpms.pl/wp-content/uploads/2020/03/worldwide.png" alt=""></div>
-                            <h2>Ochrona<br>reputacji</h2>
+                            <a href="https://rpms.pl/ochrona-dobr-osobistych/"
+                                class="cat__links"><span>Ochrona<br>reputacji</span></a>
                         </div>
-                        <div class="more">- Więcej <img class="ml-2"
-                                src="/wp-content/themes/rpms/inc/assets/img/arrow.svg" alt=""></div>
-                    </a></div>
+                        <a href="https://rpms.pl/ochrona-dobr-osobistych/" class="">
+                            <div class="more">- Więcej <img class="ml-2"
+                                    src="/wp-content/themes/rpms/inc/assets/img/arrow.svg" alt=""></div>
+                        </a>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
@@ -87,7 +111,7 @@ get_header(); ?>
                 <div class="row">
                     <div class="col-lg-7">
                         <div class="uslugi-item__content">
-                            <h2 class="bold-text">Pełne wsparcie</h2>
+                            <h2 class="bold-text">Pełne wsparcie prawne biznesu</h2>
                             <p>
                                 Zapewniamy pełne wsparcie merytoryczne Twojego e-biznesu, w szczególności z branży
                                 e-commerce, <a href="https://rpms.pl/uslugi-prawne/e-commerce/start-up/">start

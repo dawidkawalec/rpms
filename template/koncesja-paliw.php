@@ -86,8 +86,8 @@ get_header(); ?>
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 content">
-                    <p class="bold-text text-center">Usługi Kancelarii RPMS w zakresie koncesji na obrót paliwami
-                        ciekłymi (OPC)</p>
+                    <h2 class="bold-text text-center mt-0">Usługi Kancelarii RPMS w zakresie koncesji na obrót paliwami
+                        ciekłymi (OPC)</h2>
                     <ul class="special-list">
                         <li style="text-align: justify;">Analiza szans na uzyskanie koncesji – wskazanie, czy stacja
                             paliw spełnia warunki określone przez URE.</li>
@@ -115,7 +115,7 @@ get_header(); ?>
             <div class="row">
                 <div class="col-lg-7">
                     <div class="uslugi-item__content">
-                        <h2>KONCESJA NA OBRÓT PALIWAMI CIEKŁYMI (OPC) – CO WARTO O NIEJ WIEDZIEĆ?</h2>
+                        <h2>Koncesja na obrót paliwami ciekłymi (OPC) – co warto o niej wiedzieć?</h2>
 
                         <p>Każda osoba, która zamierza prowadzić działalność gospodarczą związaną z obrotem paliwami
                             ciekłymi, musi uzyskać stosowną koncesję. Obowiązek ten reguluje ustawa prawo energetyczne
@@ -146,7 +146,7 @@ get_header(); ?>
                 <div class="col-lg-7">
                     <div class="uslugi-item__content">
 
-                        <h2>CO DAJE KONCESJA NA HANDEL PALIWAMI CIEKŁYMI (OPC)?</h2>
+                        <h2>Co daje koncesja na handel paliwami ciekłymi (OPC)?</h2>
 
                         <p>
                             Umożliwia handel detaliczny i hurtowy paliwami ciekłymi na terenie kraju. Jest udzielana na
@@ -180,16 +180,16 @@ get_header(); ?>
             <div class="row">
                 <div class="col-lg-7">
                     <div class="uslugi-item__content">
-                        <h2>JAK UZYSKAĆ KONCESJĘ OPC?</h2>
+                        <h2>Jak uzyskać koncesję opc?</h2>
                         <p>Składając wniosek do Urzędu Regulacji Energetyki. Po jego rozpatrzeniu, Prezes URE wydaje
                             stosowną decyzję dotyczącą wydania koncesji na obrót paliwami ciekłymi (OPC). Przy
                             sporządzaniu wniosku warto skorzystać z usług specjalistów, którzy udzielą wsparcia prawnego
                             zarówno przy przygotowaniu pisma, jak i w późniejszym uzupełnianiu braków w dokumentacji
                             oraz reprezentowaniu na każdym etapie postępowania.</p>
-                        <h2>ILE TRWA OCZEKIWANIE NA DECYZJĘ DOTYCZĄCĄ KONCESJI OPC?</h2>
+                        <h3>Ile trwa oczekiwanie na decyzję dotyczącą koncesji OPC?</h3>
                         <p>2 do 6 miesięcy. Wiele zależy od poziomu skomplikowania sprawy, ale z pomocą doświadczonych
                             prawników można skrócić ten czas do 2 miesięcy.</p>
-                        <h2>JAKIE SĄ KOSZTY URZĘDOWE UZYSKANIA KONCESJI OPC?</h2>
+                        <h3>Jakie są koszty urzędowe uzyskania koncesji OPC?</h3>
                         <p>Opłata skarbowa wynosi 616 zł. W przypadku udzielenia komuś pełnomocnictwa należy doliczyć do
                             tej kwoty 17 zł.</p>
                     </div>
@@ -207,8 +207,9 @@ get_header(); ?>
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 content">
-                    <p class="bold-text text-center">Które paliwa ciekłe zostały objęte obowiązkiem otrzymania koncesji
-                        OPC?</p>
+                    <h2 class="bold-text text-center mt-0">Które paliwa ciekłe zostały objęte obowiązkiem otrzymania
+                        koncesji
+                        OPC?</h2>
                     <p>Ich wykaz znajduje się na stronie Ministerstwa Finansów – oznaczone są odpowiednimi kodami CN.
                     </p>
                     <ul class="special-list">
@@ -244,8 +245,8 @@ get_header(); ?>
             <div class="row">
                 <div class="col-lg-12">
                     <div class="content">
-                        <p class="bold-text" style="text-align: justify;"><strong>NA CZYM POLEGA POSTĘPOWANIE O
-                                UDZIELENIE KONCESJI OPC?</strong></p>
+                        <h2 class="bold-text mt-0" style="text-align: justify;"><strong>Na czym polega postępowanie o
+                                udzielenie koncesji OPC?</strong></h2>
                         <p>Pierwszym krokiem jest sprawdzenie, czy osoba wnioskująca spełnia wymogi formalnoprawne. URE
                             zwraca uwagę również na to, czy przedsiębiorca ma wystarczające środki materialne i
                             finansowe na podjęcie działalności. Poza tym liczy się jego doświadczenie i wiedza na temat
@@ -254,8 +255,9 @@ get_header(); ?>
                             rozpoczęcie działalności, konieczne będzie przedłożenie zabezpieczenia np. pod postacią
                             gwarancji bankowej lub gwarancji udzielonej przez podmiot trzeci.</p>
                         <p>Druga czynność to złożenie wniosku. Należy zrobić to we właściwym Terenowym Oddziale URE.</p>
-                        <p class="bold-text" style="text-align: justify;"><strong>CO MUSI ZNALEŹĆ SIĘ WE WNIOSKU O
-                                UZYSKANIE KONCESJI OPC? MIĘDZY INNYMI:</strong></p>
+                        <h2 class="bold-text mt-0" style="text-align: justify;"><strong>Co musi znaleźć się we wniosku o
+                                uzyskanie koncesji opc? Między innymi:
+                            </strong></h2>
                         <ul class="special-list">
                             <li>Biznesplan</li>
                             <li>Opis <strong>dotychczasowej</strong> działalności wnioskodawcy</li>
@@ -271,7 +273,8 @@ get_header(); ?>
                             handel paliwami ciekłymi OPC. Oczywiście składanie wyjaśnień i dokumentów uzupełniających
                             przedłuża cały proces, dlatego warto przygotować się do tego z wyprzedzeniem lub skorzystać
                             z pomocy prawników.</p>
-                        <p><strong>JAKIE DOKUMENTY NALEŻY ZAŁĄCZYĆ DO WNIOSKU O UZYSKANIE KONCESJI OPC?</strong></p>
+                        <h2><strong>Jakie dokumenty należy załączyć do wniosku o uzyskanie koncesji opc?
+                            </strong></h2>
                         <p>Składając dokumenty, trzeba zwrócić uwagę na kilka kwestii. Przede wszystkim część pism
                             składa się w oryginale, np. informację o niekaralności (zarówno w przypadku osoby
                             składającej wniosek, jak i osób uprawnionych do reprezentowania działalności/członków

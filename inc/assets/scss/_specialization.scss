@@ -57,7 +57,7 @@
             opacity: 0.025;
         }
 
-        h4 {
+        h3 {
             margin-top: 0;
             font-size: 22px;
             font-weight: 800;
@@ -87,7 +87,7 @@
         border-radius: 20px;
 
         @media(min-width: 1199px) {
-            min-height: 726px;
+            max-height: 726px;
         }
 
         .welcome {
@@ -148,7 +148,7 @@
                     line-height: normal;
                     letter-spacing: 1px;
                     text-align: center;
-                    color: #ffffff;
+                    color: #3b394f;
                     text-transform: uppercase;
                     z-index: 1;
                     left: 50%;
@@ -180,9 +180,9 @@
                     border: 0;
                     height: 60px;
                     border-radius: 20px;
-                    background-color: #423f59;
+                    background-color: #f4f4f5;
                     text-align: center;
-                    opacity: 0.5;
+                    opacity: 0.85;
                     font-family: Muli;
                     font-size: 14px;
                     font-weight: 500;
@@ -191,7 +191,7 @@
                     line-height: normal;
                     letter-spacing: normal;
                     text-align: center;
-                    color: #e2e2e2;
+                    color: #3b394f;
 
                     &::placeholder {
                         text-align: center;
@@ -204,7 +204,7 @@
                         line-height: normal;
                         letter-spacing: normal;
                         text-align: center;
-                        color: #e2e2e2;
+                        color: #3b394f;
                     }
                 }
             }
@@ -217,10 +217,10 @@
                 textarea {
                     height: 120px;
                     border-radius: 20px;
-                    background-color: #423f59;
+                    background-color: #f4f4f5;
                     resize: none;
                     border: 0;
-                    opacity: 0.5;
+                    opacity: 0.85;
                     font-family: Muli;
                     font-size: 14px;
                     font-weight: 500;
@@ -229,7 +229,7 @@
                     line-height: normal;
                     letter-spacing: normal;
                     text-align: center;
-                    color: #e2e2e2;
+                    color: #3b394f;
                     padding-top: 34px;
 
                     &::placeholder {
@@ -243,7 +243,7 @@
                         line-height: normal;
                         letter-spacing: normal;
                         text-align: center;
-                        color: #e2e2e2;
+                        color: #3b394f;
                     }
                 }
             }

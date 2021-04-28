@@ -39,11 +39,12 @@
                     <?php
                         $link = get_sub_field( 'przekierowanie' );
                         if ( $link ) : ?>
-                    <a href="<?php echo esc_url( $link ); ?>">
+                    
                         <div class="icon">
                             <img src="<?php echo esc_url( get_sub_field( 'ikona' ) ); ?>" alt="ikona">
                         </div>
                         <div class="desc">
+                        <a href="<?php echo esc_url( $link ); ?>">
                             <div class="title">
                                 <p>
                                     <?php if ( $tytul = get_sub_field( 'tytul' ) ) : ?>
@@ -51,16 +52,19 @@
                                     <?php endif; ?>
                                 </p>
                             </div>
+                            </a>
                             <div class="smalldesc">
                                 <?php if ( $opis = get_sub_field( 'opis' ) ) : ?>
                                 <?php echo esc_html( $opis ); ?>
                                 <?php endif; ?>
                             </div>
                             <div class="readmore">
-                                Więcej <img class="ml-2" src="/wp-content/themes/rpms/inc/assets/img/arrow.svg" alt="">
+                                 <a href="<?php echo esc_url( $link ); ?>" rel="nofollow">
+                                     Więcej <img class="ml-2" src="/wp-content/themes/rpms/inc/assets/img/arrow.svg" alt="">
+                                </a>
                             </div>
                         </div>
-                    </a>
+                   
                     <?php endif; ?>
                 </div>
                 </div>

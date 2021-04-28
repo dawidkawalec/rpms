@@ -1,3 +1,4 @@
+.teams,
 .page-template-zespol {
     .articles {
         background: #fff;
@@ -36,11 +37,14 @@
                     font-weight: 800;
                     font-size: 20px;
                     margin-bottom: 10px;
+                    width: 100%;
+                    text-align: center;
                 }
 
                 .stan {
                     color: #3b394f;
                     font-weight: 700;
+                    text-align: center;
                 }
 
                 .spec {
@@ -48,10 +52,13 @@
                 }
 
                 div.more {
-                    display: block;
-                    position: absolute;
+                    display: flex;
+                    justify-content: flex-end;
+                    // position: absolute;
                     bottom: 15px;
                     left: 30px;
+                    position: absolute;
+                    right: 30px;
                 }
             }
         }
@@ -100,7 +107,7 @@
     }
 
     .row.row-desc {
-        margin-top: 90px;
+        margin-top: 40px;
     }
 
     .row.row-desc .col-lg-8 {

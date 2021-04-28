@@ -14,6 +14,8 @@
 <html <?php language_attributes(); ?>>
 
 <head>
+
+
     <meta charset="<?php bloginfo( 'charset' ); ?>">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -23,6 +25,36 @@
     <link rel="preload" as="image"
         href="/wp-content/themes/rpms/inc/assets/img/Kancelaria-Prawna-RPMS-Prawo-Podatki-Windykacja_2.jpg" />
     <?php wp_head(); ?>
+
+    <?php
+    if ( is_page_template( array( 'template/windykacja.php', 'template/windykacja-miasta.php' ) ) ){
+    
+    ?>
+
+    <?php
+    }
+    else {
+     get_template_part( 'schema/legalservice');
+    }
+    ?>
+
+
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "name": "Kancelaria Prawna RPMS Staniszewski & Wspólnicy",
+        "url": "https://rpms.pl/",
+        "logo": "https://rpms.craftweb.pl/wp-content/themes/rpms/inc/assets/img/logo_rpms.png",
+        "sameAs": [
+            "https://www.facebook.com/KancelariaPrawnaRPMS",
+            "https://www.linkedin.com/company/kancelaria-prawna-rpms",
+            "https://picpanzee.com/rpms_legal",
+            "https://www.instagram.com/rpms_legal/"
+        ]
+    }
+    </script>
+
 </head>
 
 <body <?php body_class(); ?>>
@@ -35,7 +67,8 @@
                 <div class="row justify-content-between px-3">
                     <div class="logo">
                         <a href="<?php echo esc_url('/'); ?>">
-                            <img src="/wp-content/themes/rpms/inc/assets/img/logo_rpms.png" alt="RPMS logo">
+                            <img src="/wp-content/themes/rpms/inc/assets/img/logo_rpms.png"
+                                alt="Kancelaria Prawna RPMS">
                         </a>
                     </div>
                     <nav class="navbar navbar-expand-xl py-0">
@@ -45,12 +78,13 @@
                         'theme_location'    => 'primary',
                         'container'       => 'div',
                         'container_id'    => 'main-nav',
-                        'container_class' => 'navbar-collapse justify-content-end',
+                        'container_class' => 'navbar-collapse justify-content-end mt-5 mt-xl-0',
                         'menu_id'         => false,
                         'menu_class'      => 'navbar-nav',
                         'depth'           => 3,
                         'fallback_cb'     => 'wp_bootstrap_navwalker::fallback',
-                        'walker'          => new wp_bootstrap_navwalker()
+                        'walker'          => new wp_bootstrap_navwalker(),
+                        'items_wrap' => '<ul id="%1$s" itemscope class="%2$s">%3$s</ul>'
                         ));
                         ?>
 
@@ -58,7 +92,9 @@
                             <div class="icon"><i class="fas fa-search"></i></div>
                             <div class="search-content">
                                 <form action="/" method="get" class="w-100">
-                                    <input type="text" class="w-100 input-word" name="s" placeholder="Wpisz czego szukasz..." id="search" value="<?php the_search_query(); ?>" />
+                                    <input type="text" class="w-100 input-word" name="s"
+                                        placeholder="Wpisz czego szukasz..." id="search"
+                                        value="<?php the_search_query(); ?>" />
                                     <input type="submit" class="search-btn" value="szukaj">
                                 </form>
                             </div>
@@ -77,17 +113,19 @@
 
 
                     <div class="search ml-lg-5 d-xl-none">
-                            <div class="icon"><i class="fas fa-search"></i></div>
-                        </div>
-                        <div class="search-mobile">
+                        <div class="icon"><i class="fas fa-search"></i></div>
+                    </div>
+                    <div class="search-mobile">
                         <div class="search-content d-xl-none">
-                                <form action="/" method="get" class="w-100">
-                                    <input type="text" class="w-100 input-word" name="s" placeholder="Wpisz czego szukasz..." id="search" value="<?php the_search_query(); ?>" />
-                                    <input type="submit" class="search-btn" value="szukaj">
-                                </form>
-                            </div>
+                            <form action="/" method="get" class="w-100">
+                                <input type="text" class="w-100 input-word" name="s"
+                                    placeholder="Wpisz czego szukasz..." id="search"
+                                    value="<?php the_search_query(); ?>" />
+                                <input type="submit" class="search-btn" value="szukaj">
+                            </form>
                         </div>
-                    
+                    </div>
+
                     <div class="site-hamburger">
                         <div id="nav-icon3">
                             <span></span>

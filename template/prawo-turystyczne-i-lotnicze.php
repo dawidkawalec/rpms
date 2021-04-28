@@ -145,7 +145,7 @@ get_header(); ?>
 
     <section class="boximage"
         style="background: url(https://rpms.pl/wp-content/uploads/2019/07/bg.jpg); background-size: cover; background-position: center center; padding: 70px 0;">
-        <div class="container">
+        <div class="container-fluid">
             <div class="row">
                 <div class="col-lg-3">
                     <div class="single">

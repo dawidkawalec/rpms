@@ -127,28 +127,29 @@ get_header(); ?>
 
 
 
-    <section class="faq pt-5 pb-5 mx-3 mt-5">
+    <section class="faq pt-5 pb-5 mx-3 mt-5" itemscope itemtype="https://schema.org/FAQPage">
         <div class="container">
             <div class="row row-title mt-3">
-                <h3>Co musisz wiedzieć o wzorach przemysłowych (FAQ)</strong></h3>
+                <h2>Co musisz wiedzieć o wzorach przemysłowych (FAQ)</strong></h2>
             </div>
             <div class="row">
                 <div class="col-lg-12">
                     <div class="accordion" id="accordionExample">
-                        <div class="card show">
-                            <div class="card-header show" id="headingOne">
-                                <h2 class="mb-0">
+                        <div class="card show" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+                            <div class="card-header show" id="heading1">
+                                <h3 class="mb-2">
                                     <button class="btn btn-link btn-block text-left" type="button"
-                                        data-toggle="collapse" data-target="#collapseOne" aria-expanded="true"
-                                        aria-controls="collapseOne">
+                                        data-toggle="collapse" data-target="#collapse1" aria-expanded="true"
+                                        aria-controls="collapse1" itemprop="name">
                                         Dlaczego warto zarejestrować wzór przemysłowy?
                                     </button>
-                                </h2>
+                                    </h2>
                             </div>
 
-                            <div id="collapseOne" class="collapse show" aria-labelledby="headingOne"
-                                data-parent="#accordionExample">
-                                <div class="card-body">
+                            <div id="collapse1" class="collapse show" aria-labelledby="heading1"
+                                data-parent="#accordionExample" itemscope itemprop="acceptedAnswer"
+                                itemtype="https://schema.org/Answer">
+                                <div class="card-body" itemprop="text">
                                     Ponieważ daje to wyłączność na korzystanie z danego wzoru, gwarantując tym samym
                                     bezpieczeństwo zachowania charakterystycznego, rozpoznawalnego designu danego
                                     produktu. Nikt nie może bezkarnie skopiować czy podrobić zarejestrowanego wzoru
@@ -157,18 +158,19 @@ get_header(); ?>
                                     jej aktywów). </div>
                             </div>
                         </div>
-                        <div class="card">
-                            <div class="card-header" id="headingTwo">
-                                <h2 class="mb-0">
+                        <div class="card" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+                            <div class="card-header" id="heading2">
+                                <h3 class="mb-2">
                                     <button class="btn btn-link btn-block text-left collapsed" type="button"
-                                        data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false"
-                                        aria-controls="collapseTwo">
+                                        data-toggle="collapse" data-target="#collapse2" aria-expanded="false"
+                                        aria-controls="collapse2" itemprop="name">
                                         Jak wygląda proces rejestracji wzoru przemysłowego? </button>
-                                </h2>
+                                    </h2>
                             </div>
-                            <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo"
-                                data-parent="#accordionExample">
-                                <div class="card-body">
+                            <div id="collapse2" class="collapse" aria-labelledby="heading2"
+                                data-parent="#accordionExample" itemscope itemprop="acceptedAnswer"
+                                itemtype="https://schema.org/Answer">
+                                <div class="card-body" itemprop="text">
                                     <p>Należy złożyć podanie i ilustrację wraz z opisem cech danego wzoru przemysłowego
                                         do:</p>
                                     <ul>
@@ -179,19 +181,20 @@ get_header(); ?>
                                 </div>
                             </div>
                         </div>
-                        <div class="card">
-                            <div class="card-header" id="headingThree">
-                                <h2 class="mb-0">
+                        <div class="card" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+                            <div class="card-header" id="heading3">
+                                <h3 class="mb-2">
                                     <button class="btn btn-link btn-block text-left collapsed" type="button"
-                                        data-toggle="collapse" data-target="#collapseThree" aria-expanded="false"
-                                        aria-controls="collapseThree">
+                                        data-toggle="collapse" data-target="#collapse3" aria-expanded="false"
+                                        aria-controls="collapse3" itemprop="name">
                                         Czym różni się wzór przemysłowy od patentu?
                                     </button>
-                                </h2>
+                                    </h2>
                             </div>
-                            <div id="collapseThree" class="collapse" aria-labelledby="headingThree"
-                                data-parent="#accordionExample">
-                                <div class="card-body">
+                            <div id="collapse3" class="collapse" aria-labelledby="heading3"
+                                data-parent="#accordionExample" itemscope itemprop="acceptedAnswer"
+                                itemtype="https://schema.org/Answer">
+                                <div class="card-body" itemprop="text">
                                     Warunkiem uzyskania patentu jest innowacyjność danego wynalazku. Wzór przemysłowy
                                     nie jest formą ochrony nowatorskiego procesu czy rozwiązania technicznego/naukowego,
                                     a jedynie jego estetyki, designu, wyglądu. Nie dotyczy więc jego funkcjonalności,
@@ -199,16 +202,174 @@ get_header(); ?>
                                     formy. W związku z tym, nie można opatentować wzoru przemysłowego. </div>
                             </div>
                         </div>
+
+
+                        <div class="card" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+                            <div class="card-header" id="heading4">
+                                <h3 class="mb-2">
+                                    <button class="btn btn-link btn-block text-left collapsed" type="button"
+                                        data-toggle="collapse" data-target="#collapse4" aria-expanded="false"
+                                        aria-controls="collapse4" itemprop="name">
+                                        Lepiej zarejestrować wzór przemysłowy czy przestrzenny znak towarowy?
+                                    </button>
+                                    </h2>
+                            </div>
+                            <div id="collapse4" class="collapse" aria-labelledby="heading4"
+                                data-parent="#accordionExample" itemscope itemprop="acceptedAnswer"
+                                itemtype="https://schema.org/Answer">
+                                <div class="card-body" itemprop="text">
+                                    Zdarza się, że rejestracja przestrzennego znaku towarowego, np. w przypadku
+                                    opakowań, okazuje się lepszym rozwiązaniem. Główną przyczyną jest możliwość
+                                    bezterminowego przedłużania takiej ochrony co dekadę.Wzór przemysłowy może być
+                                    objęty zabezpieczeniem maksymalnie na okres 25 lat. Nie można ponownie zgłosić go do
+                                    rejestracji, ponieważ po opublikowaniu traci podstawową cechę warunkującą
+                                    ustanowienie czegoś wzorem przemysłowym – aspekt nowości. Jeżeli chcesz się
+                                    dowiedzieć, czy w Twoim przypadku bardziej opłaca się rejestracja znaku towarowego,
+                                    czy wzoru przemysłowego – zapraszamy do kontaktu!
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div class="card" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+                            <div class="card-header" id="heading5">
+                                <h3 class="mb-2">
+                                    <button class="btn btn-link btn-block text-left collapsed" type="button"
+                                        data-toggle="collapse" data-target="#collapse5" aria-expanded="false"
+                                        aria-controls="collapse5" itemprop="name">
+                                        Jaki jest zakres ochrony po rejestracji wzoru przemysłowego?
+                                    </button>
+                                    </h2>
+                            </div>
+                            <div id="collapse5" class="collapse" aria-labelledby="heading5"
+                                data-parent="#accordionExample" itemscope itemprop="acceptedAnswer"
+                                itemtype="https://schema.org/Answer">
+                                <div class="card-body" itemprop="text">
+                                    Nikt nie może wykorzystać wzoru przemysłowego w celach komercyjnych bez zgody
+                                    właściciela. Zakazowi podlega sprzedaż, import i produkcja towarów zawierających
+                                    taki sam lub podobny wzór. Naruszyciel będzie narażony na odpowiedzialność cywilną.
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="card" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+                            <div class="card-header" id="heading6">
+                                <h3 class="mb-2">
+                                    <button class="btn btn-link btn-block text-left collapsed" type="button"
+                                        data-toggle="collapse" data-target="#collapse6" aria-expanded="false"
+                                        aria-controls="collapse6" itemprop="name">
+                                        Od kiedy obowiązuje ochrona wzoru przemysłowego?
+                                    </button>
+                                    </h2>
+                            </div>
+                            <div id="collapse6" class="collapse" aria-labelledby="heading6"
+                                data-parent="#accordionExample" itemscope itemprop="acceptedAnswer"
+                                itemtype="https://schema.org/Answer">
+                                <div class="card-body" itemprop="text">
+                                    Nikt nie może wykorzystać wzoru przemysłowego w celach komercyjnych bez zgody
+                                    właściciela. Zakazowi podlega sprzedaż, import i produkcja towarów zawierających
+                                    taki sam lub podobny wzór. Naruszyciel będzie narażony na odpowiedzialność cywilną.
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div class="card" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+                            <div class="card-header" id="heading7">
+                                <h3 class="mb-2">
+                                    <button class="btn btn-link btn-block text-left collapsed" type="button"
+                                        data-toggle="collapse" data-target="#collapse7" aria-expanded="false"
+                                        aria-controls="collapse7" itemprop="name">
+                                        Co można zarejestrować jako wzór przemysłowy?
+                                    </button>
+                                    </h2>
+                            </div>
+                            <div id="collapse7" class="collapse" aria-labelledby="heading7"
+                                data-parent="#accordionExample" itemscope itemprop="acceptedAnswer"
+                                itemtype="https://schema.org/Answer">
+                                <div class="card-body" itemprop="text">
+                                    Wszystko to, co stanowi charakterystyczną postać danego produktu. Estetyka ubrań,
+                                    mebli, zabawek, produktów spożywczych często decyduje o ich rynkowym sukcesie i
+                                    rozpoznawalności. Dlatego warto zainwestować w rejestrację wzoru przemysłowego,
+                                    jeżeli odznacza się on indywidualnym charakterem. </div>
+                            </div>
+                        </div>
+
+
+                        <div class="card" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+                            <div class="card-header" id="heading8">
+                                <h3 class="mb-2">
+                                    <button class="btn btn-link btn-block text-left collapsed" type="button"
+                                        data-toggle="collapse" data-target="#collapse8" aria-expanded="false"
+                                        aria-controls="collapse8" itemprop="name">
+                                        Czego nie można zarejestrować jako wzór przemysłowy?
+                                    </button>
+                                    </h2>
+                            </div>
+                            <div id="collapse8" class="collapse" aria-labelledby="heading8"
+                                data-parent="#accordionExample" itemscope itemprop="acceptedAnswer"
+                                itemtype="https://schema.org/Answer">
+                                <div class="card-body" itemprop="text">
+                                    Wszelkich wzorów mogących powodować kontrowersje, np. obrażających uczucia
+                                    religijne, patriotyczne, tradycję, niezgodnych z dobrymi obyczajami i porządkiem
+                                    publicznym. </div>
+                            </div>
+                        </div>
+
+
+                        <div class="card" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+                            <div class="card-header" id="heading9">
+                                <h3 class="mb-2">
+                                    <button class="btn btn-link btn-block text-left collapsed" type="button"
+                                        data-toggle="collapse" data-target="#collapse9" aria-expanded="false"
+                                        aria-controls="collapse9" itemprop="name">
+                                        Na czym polega publiczne udostępnienie wzoru przemysłowego?
+                                    </button>
+                                    </h2>
+                            </div>
+                            <div id="collapse9" class="collapse" aria-labelledby="heading9"
+                                data-parent="#accordionExample" itemscope itemprop="acceptedAnswer"
+                                itemtype="https://schema.org/Answer">
+                                <div class="card-body" itemprop="text">
+                                    Według art. 103 ust. 1 ustawy Prawo Własności Przemysłowej jest to moment, w którym
+                                    może on dotrzeć do osób zajmujących się zawodowo dziedziną, z którą ma związek dany
+                                    wzór. </div>
+                            </div>
+                        </div>
+
+
+                        <div class="card" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+                            <div class="card-header" id="heading10">
+                                <h3 class="mb-2">
+                                    <button class="btn btn-link btn-block text-left collapsed" type="button"
+                                        data-toggle="collapse" data-target="#collapse10" aria-expanded="false"
+                                        aria-controls="collapse10" itemprop="name">
+                                        Czy wzór przemysłowy można unieważnić?
+                                    </button>
+                                    </h2>
+                            </div>
+                            <div id="collapse10" class="collapse" aria-labelledby="heading10"
+                                data-parent="#accordionExample" itemscope itemprop="acceptedAnswer"
+                                itemtype="https://schema.org/Answer">
+                                <div class="card-body" itemprop="text">
+                                    Tak. Wystarczy zgłosić się do Urzędu Patentowego w celu unieważnienia wzorów
+                                    przemysłowych, które naruszają czyjeś prawa. Wówczas jest to rozstrzygane w trybie
+                                    postępowania spornego. </div>
+                            </div>
+                        </div>
+
+
+
                     </div>
                 </div>
             </div>
             <div class="row mt-4">
                 <div class="col-lg-12">
-                    <h4 style="    font-size: 2rem;
+                    <span class="d-block" style="    font-size: 2rem;
                     text-align: center;
                     font-weight: 900;
                     line-height: 1.5;">MASZ PYTANIA DOTYCZĄCE WZORU PRZEMYSŁOWEGO LUB CHCIAŁBYŚ GO ZASTRZEC ?
-                        SKONTAKTUJ SIĘ !</h4>
+                        SKONTAKTUJ SIĘ !</span>
                 </div>
             </div>
         </div>

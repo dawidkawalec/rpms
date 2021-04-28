@@ -48,7 +48,8 @@ get_header(); ?>
                                     świadczące usługi <strong>programistyczne</strong>, agencje
                                     <strong>brandingowe</strong> czy zajmujące się <strong>budowaniem i administrowaniem
                                         stron internetowych</strong> zapewniając kompleksową obsługę tego specyficznego
-                                    sektora biznesu.</p>
+                                    sektora biznesu.
+                                </p>
                             </div>
                         </div>
 
@@ -97,7 +98,7 @@ get_header(); ?>
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
-                    <h2 class="h2 font-weight-bold"><strong>Dlaczego my?</strong></h2>
+                    <h3 class="h2 font-weight-bold"><strong>Dlaczego my?</strong></h3>
                 </div>
             </div>
             <div class="row">
@@ -182,13 +183,13 @@ get_header(); ?>
                     <div class="accordion" id="accordionExample">
                         <div class="card show">
                             <div class="card-header show" id="headingOne">
-                                <h2 class="mb-0">
+                                <h3 class="mb-2">
                                     <button class="btn btn-link btn-block text-left" type="button"
                                         data-toggle="collapse" data-target="#collapseOne" aria-expanded="true"
                                         aria-controls="collapseOne">
                                         8/10 przedsiębiorstw z branży SEO traci średnio 20 % swoich rocznych przychodów
                                         z uwagi na brak zapewnienia terminowego i pełnego spływu należności. </button>
-                                </h2>
+                                    </h2>
                             </div>
 
                             <div id="collapseOne" class="collapse show" aria-labelledby="headingOne"
@@ -212,13 +213,13 @@ get_header(); ?>
                         </div>
                         <div class="card">
                             <div class="card-header" id="headingTwo">
-                                <h2 class="mb-0">
+                                <h3 class="mb-2">
                                     <button class="btn btn-link btn-block text-left collapsed" type="button"
                                         data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false"
                                         aria-controls="collapseTwo">
                                         Zła organizacja wewnętrzna powoduje stratę na poziomie 3 - 8 % rocznego
                                         przychodu ? </button>
-                                </h2>
+                                    </h2>
                             </div>
                             <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo"
                                 data-parent="#accordionExample">
@@ -243,14 +244,14 @@ get_header(); ?>
                         </div>
                         <div class="card">
                             <div class="card-header" id="headingThree">
-                                <h2 class="mb-0">
+                                <h3 class="mb-2">
                                     <button class="btn btn-link btn-block text-left collapsed" type="button"
                                         data-toggle="collapse" data-target="#collapseThree" aria-expanded="false"
                                         aria-controls="collapseThree">
                                         Nieprawidłowe przygotowanie oraz brak bieżącej aktualizacji umów z klientami
                                         ogranicza możliwości działu handlowego i możliwości obsługi posprzedażowej
                                     </button>
-                                </h2>
+                                    </h2>
                             </div>
                             <div id="collapseThree" class="collapse" aria-labelledby="headingThree"
                                 data-parent="#accordionExample">
@@ -273,6 +274,97 @@ get_header(); ?>
                                 </div>
                             </div>
                         </div>
+
+                        <div class="card">
+                            <div class="card-header" id="headingFour">
+                                <h3 class="mb-2">
+                                    <button class="btn btn-link btn-block text-left collapsed" type="button"
+                                        data-toggle="collapse" data-target="#collapseFour" aria-expanded="false"
+                                        aria-controls="collapseFour">
+                                        Problemy z pozyskaniem i utrzymaniem kadry w wyniku złej organizacji wewnętrznej
+                                    </button>
+                                    </h2>
+                            </div>
+                            <div id="collapseFour" class="collapse" aria-labelledby="headingFour"
+                                data-parent="#accordionExample">
+                                <div class="card-body">
+                                    <div itemprop="text">
+                                        <p>W dobie nieustannego wyścigu oraz braków wykwalifikowana kadra jest kluczem
+                                            do sukcesu. Rozwóz w branży SEO nie może odbywać się bowiem wyłącznie na
+                                            działaniach handlowych a za faktycznymi rezultatami świadczonych usług.</p>
+                                        <p>Jako kancelaria zajmująca się obsługą doskonale zdajemy sobie sprawę z
+                                            potrzeb przedsiębiorców z branży oraz jesteśmy w stanie zaproponować
+                                            rozwiązania, które z jednej strony będą sprzyjały pozyskiwaniu nowych
+                                            pracowników, a z drugiej zabezpieczą i to niekoniecznie poprzez wdrażanie
+                                            abstrakcyjnych kar i nieefektywnych rozwiązań prawnych.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="card">
+                            <div class="card-header" id="headingFive">
+                                <h3 class="mb-2">
+                                    <button class="btn btn-link btn-block text-left collapsed" type="button"
+                                        data-toggle="collapse" data-target="#collapseFive" aria-expanded="false"
+                                        aria-controls="collapseFive">
+                                        Bariery rozwojowe w branży SEO
+                                    </button>
+                                    </h2>
+                            </div>
+                            <div id="collapseFive" class="collapse" aria-labelledby="headingFive"
+                                data-parent="#accordionExample">
+                                <div class="card-body">
+                                    <div itemprop="text">
+                                        <p>Niemalże każdy z klientów Kancelarii w pewnym momencie swojego funkcjonowania
+                                            napotkał bariery rozwojowe, których nie był w stanie przekroczyć w ramach
+                                            dotychczasowych, wewnętrznych zasobów czy przyjętych rozwiązań organizacyjno
+                                            – prawnych.</p>
+                                        <p>Z naszego doświadczenia wynika, że przekroczenie tych barier wymaga wdrożenia
+                                            określonych zmian organizacyjnych oraz zaadaptowania strategii do aktualnych
+                                            trendów rynkowych.<br> Taka reorganizacja wymaga kompleksowego działania na
+                                            różnych polach funkcjonowania przedsiębiorstwa, począwszy od kwestii budowy
+                                            relacji zarówno wewnątrz jak i na zewnątrz przedsiębiorstwa, prowadzenia
+                                            działań analitycznych, optymalizacji wewnętrznych struktur by ostatecznie
+                                            skończyć na formalnym wdrożeniu zasad i bieżącej weryfikacji, o czym wiemy i
+                                            czego doświadczyliśmy.</p>
+                                        <p>Jako kancelaria prawna od 8 lat obsługująca specjalistyczne agencje
+                                            marketingowe (w tym SEO) jesteśmy w stanie zaproponować sprawdzone i
+                                            bezpieczne rozwiązania. Obsługujemy przy tym największe agencje
+                                            pozycjonerskie w całej Polsce.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="card">
+                            <div class="card-header" id="headingSix">
+                                <h3 class="mb-2">
+                                    <button class="btn btn-link btn-block text-left collapsed" type="button"
+                                        data-toggle="collapse" data-target="#collapseSix" aria-expanded="false"
+                                        aria-controls="collapseSix">
+                                        Bariery komunikacyjne
+                                    </button>
+                                    </h2>
+                            </div>
+                            <div id="collapseSix" class="collapse" aria-labelledby="headingSix"
+                                data-parent="#accordionExample">
+                                <div class="card-body">
+                                    <div itemprop="text">
+                                        <p>Posiadamy wiedzę merytoryczną i umiejętności by poruszać się w
+                                            specjalistycznej tematyce związanej ze świadczeniem usług pozycjonowania, a
+                                            tym samym rozumiemy i jesteśmy w stanie dopasować efekty naszych usług do
+                                            specyfiki branży SEO/SEM.</p>
+                                        <p>Zagadnienia obejmujące tematykę linkowania, content marketingu,
+                                            oprogramowania analitycznego (Majestic, Ahrefs, Semstorm, Senuto etc) czy
+                                            narzędzi google – nie stanowią dla naszej kadry tajemnicy, dlatego jesteśmy
+                                            w stanie zapewnić obsługę bez barier komunikacyjnych oraz satysfakcjonujące
+                                            rozwiązania dopasowane do rynku Agencji marketingowych (SEO).</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
                     </div>
                 </div>
             </div>
@@ -284,7 +376,7 @@ get_header(); ?>
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 content">
-                    <p class="bold-text">USŁUGI PRAWNE DLA AGENCJI E-MARKETINGOWYCH</p>
+                    <h2 class="bold-text">USŁUGI PRAWNE DLA AGENCJI E-MARKETINGOWYCH</h2>
                     <p>
                         Kancelaria posiada bogate doświadczenie w obsłudze Klientów z&nbsp;<strong>branży marketingu
                             internetowego</strong>&nbsp;(e-marketingu). Specjalizuje się w przygotowaniu formalnego
@@ -292,8 +384,8 @@ get_header(); ?>
                         świadczących usługi poprzez sieć internetową, w tym regulaminów, polityk bezpieczeństwa,
                         ogólnych warunków, formularzy i innych.
                     </p>
-                    <h4 class="bold-text"><strong>Wśród naszych dotychczasowych klientów znalazły się m.in.:</strong>
-                    </h4>
+                    <h3 class="bold-text"><strong>Wśród naszych dotychczasowych klientów znalazły się m.in.:</strong>
+                    </h3>
                     <ul class="special-list count-2">
                         <li>platformy sklepowe;</li>
                         <li>agencje brandingowe;</li>
@@ -341,7 +433,8 @@ get_header(); ?>
                         <strong>zaprojektowania strony</strong>, budowy silnika, optymalizacji kodu ale również kwestie
                         związane z bardziej złożonymi zagadnieniami w zakresie m.in. <strong><a
                                 href="https://rpms.pl/prawo-autorskie/">praw autorskich</a></strong> i praw własności
-                        przemysłowej realizowanych projektów.</p>
+                        przemysłowej realizowanych projektów.
+                    </p>
                 </div>
             </div>
             <div class="row mt-5">

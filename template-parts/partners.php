@@ -11,7 +11,7 @@
 <section class="partners my-5">
         <div class="container">
             <div class="row row-title">
-                    <h3>Jesteśmy <strong>partnerami</strong></h3>
+                    <h2><strong>Partnerzy</strong> kancelarii prawnej</h2>
             </div>
         </div>
         <div class="row row-box m-0">

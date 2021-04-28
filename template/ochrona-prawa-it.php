@@ -59,7 +59,7 @@ get_header(); ?>
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 content">
-                    <p class="bold-text">Obsługa branży IT i branży programistycznej</p>
+                    <h2 class="bold-text mt-0">Obsługa branży IT i branży programistycznej</h2>
                     <ul class="special-list">
                         <li>doradztwo prawne w zakresie
                             <strong>umów IT</strong> (tworzenie, opiniowanie i negocjowanie kontraktów, przygotowanie
@@ -213,7 +213,7 @@ get_header(); ?>
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 content">
-                    <p class="bold-text">W zakresie obsługi technologii finansowych (FIN-TECH) świadczymy usługi:</p>
+                    <h2 class="bold-text mt-0">W zakresie obsługi technologii finansowych (FIN-TECH) świadczymy usługi:</h2>
                     <ul class="special-list">
                         <li>przygotowania<strong> pełnej dokumentacji w zakresie zastosowanej w projekcie technologii
                                 finansowej</strong>;</li>

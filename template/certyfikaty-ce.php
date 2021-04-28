@@ -28,7 +28,7 @@ get_header(); ?>
             <div class="row">
                 <div class="col-lg-7">
                     <div class="uslugi-item__content">
-                        <img src="https://rpms.pl/wp-content/uploads/2019/09/Kompozycja-21.png" alt="">
+                        <!-- <img src="https://rpms.pl/wp-content/uploads/2019/09/Kompozycja-21.png" alt=""> -->
 
                         <div class="first-section-p">
                             <p style="text-align: justify;"><strong>Certyfikacja CE</strong> to potoczna nazwa procesu,
@@ -60,8 +60,8 @@ get_header(); ?>
             <div class="row">
                 <div class="col-lg-12">
                     <div class="content">
-                        <p class="bold-text" style="text-align: justify;"><strong>Sprawdź, w czym możemy Ci
-                                pomóc</strong></p>
+                        <h2 class="bold-text mt-0" style="text-align: justify;"><strong>Sprawdź, w czym możemy Ci
+                                pomóc</strong></h2>
                         <p>Zapewniamy profesjonalne doradztwo i kompleksową pomoc w przeprowadzeniu całego procesu
                             certyfikacji CE. Nasze usługi obejmują:</p>
                         <ol class="number-list">
@@ -100,12 +100,12 @@ get_header(); ?>
 
 
 
-    <section class="uslugi-ol">
+    <section class="greybox">
         <div class="container">
             <div class="row">
-                <div class="col-lg-12">
-                    <p class="big"><strong>Jakie produkty podlegają znakowaniu CE według obowiązujących dyrektyw i
-                            rozporządzeń?</strong></p>
+                <div class="col-lg-12 content">
+                    <h2 class="big mt-0"><strong>Jakie produkty podlegają znakowaniu CE według obowiązujących dyrektyw i
+                            rozporządzeń?</strong></h2>
                     <ul class="mt-4 special-list count-2">
                         <li>sprzęt elektryczny i elektroniczny,</li>
                         <li>środki ochrony indywidualnej PPE,</li>
@@ -407,6 +407,22 @@ get_header(); ?>
                 </div>
             </div>
         </div>
+
+
+        <section>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12 text-center">
+                        <div class="title-h3 title-h4 h2 font-weight-bold">Masz pytania lub potrzebujesz pomocy ?</div>
+                        <div class="title-h5 h4">Daj nam znać w sekcji komentarz poniżej lub poprzez<br><br><a href="https://rpms.pl/kontakt/">FORMULARZ KONTAKTOWY</a>
+                        </div>
+                        <div>
+                            <a href="https://rpms.pl">Kancelaria Prawna RPMS</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
 
 
     </div>

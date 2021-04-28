@@ -28,7 +28,7 @@ get_header(); ?>
 
     <section class="text-form my-5">
         <div class="container">
-            <div class="row">
+            <div class="row align-items-lg-center">
                 <div class="col-lg-6 text">
                     <h2 style="text-align: center;
                     font-size: 2rem;
@@ -75,7 +75,7 @@ get_header(); ?>
             <div class="row">
                 <div class="col-lg-4">
                     <div class="single">
-                        <h3>Audyt ochrony marki</h3>
+                        <span class="text-uppercase">Audyt ochrony marki</span>
                         <span class="price">0 zł</span>
                         <div class="desc">
                             <p><strong>Bezpłatny audyt ochrony marki</strong> – weryfikujemy zabezpieczenie Twojej
@@ -86,7 +86,7 @@ get_header(); ?>
                 </div>
                 <div class="col-lg-4">
                     <div class="single">
-                        <h3>REJESTRACJA ZNAKU TOWAROWEGO – POLSKA</h3>
+                        <span class="text-uppercase">REJESTRACJA ZNAKU TOWAROWEGO – POLSKA</span>
                         <span class="price">od 750 zł</span>
                         <div class="desc">
                             <p>Pełna weryfikacja praw do znaku towarowego, w tym badanie czystości ochronnej i
@@ -97,7 +97,7 @@ get_header(); ?>
                 </div>
                 <div class="col-lg-4">
                     <div class="single">
-                        <h3>REJESTRACJA ZNAKU TOWAROWEGO – EUROPA</h3>
+                        <span class="text-uppercase">REJESTRACJA ZNAKU TOWAROWEGO – EUROPA</span>
                         <span class="price">od 1250 zł</span>
                         <div class="desc">
                             <p>Pełna weryfikacja praw do znaku towarowego, w tym badanie czystości ochronnej i
@@ -125,30 +125,42 @@ get_header(); ?>
                 <div class="col-lg-12">
                     <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
                         <li class="nav-item">
-                            <a class="nav-link active" id="pills-rodo-tab" data-toggle="pill" href="#pills-rodo"
-                                role="tab" aria-controls="pills-rodo" aria-selected="true">Dlaczego warto zarejestrować
-                                znak towarowy</a>
+                            <a class="nav-link active" id="dlaczego-warto-zarejestrowac-znak-towarowy-tab"
+                                data-toggle="pill" href="#dlaczego-warto-zarejestrowac-znak-towarowy" role="tab"
+                                aria-controls="dlaczego-warto-zarejestrowac-znak-towarowy" aria-selected="true">
+                                <h3>Dlaczego warto zarejestrować
+                                    znak towarowy</h3>
+                            </a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" id="pills-it-tab" data-toggle="pill" href="#pills-it" role="tab"
-                                aria-controls="pills-it" aria-selected="false">Ile kosztuje rejestracja (zastrzeżenie)
-                                znaku towarowego</a>
+                            <a class="nav-link" id="ile-kosztuje-rejestracja-znaku-towarowego-tab" data-toggle="pill"
+                                href="#ile-kosztuje-rejestracja-znaku-towarowego" role="tab"
+                                aria-controls="ile-kosztuje-rejestracja-znaku-towarowego" aria-selected="false">
+                                <h3>Ile kosztuje rejestracja (zastrzeżenie)
+                                    znaku towarowego</h3>
+                            </a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" id="pills-startup-tab" data-toggle="pill" href="#pills-startup"
-                                role="tab" aria-controls="pills-startup" aria-selected="false">Znak towarowy czy znak
-                                słowno - graficzny</a>
+                            <a class="nav-link" id="znak-towarowy-czy-znak-slowno-graficzny-tab" data-toggle="pill"
+                                href="#znak-towarowy-czy-znak-slowno-graficzny" role="tab"
+                                aria-controls="znak-towarowy-czy-znak-slowno-graficzny" aria-selected="false">
+                                <h3>Znak towarowy czy znak
+                                    słowno - graficzny</h3>
+                            </a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" id="pills-oferta-tab" data-toggle="pill" href="#pills-oferta" role="tab"
-                                aria-controls="pills-oferta" aria-selected="false">Co grozi za naruszenie znaku
-                                towarowego</a>
+                            <a class="nav-link" id="co-grozi-za-naruszenie-znaku-towarowego-tab" data-toggle="pill"
+                                href="#co-grozi-za-naruszenie-znaku-towarowego" role="tab"
+                                aria-controls="co-grozi-za-naruszenie-znaku-towarowego" aria-selected="false">
+                                <h3>Co grozi za naruszenie znaku
+                                    towarowego</h3>
+                            </a>
                         </li>
                     </ul>
                     <div class="tab-content" id="pills-tabContent">
-                        <div class="tab-pane fade show active" id="pills-rodo" role="tabpanel"
-                            aria-labelledby="pills-rodo-tab">
-                            <p class="bold-text">Dlaczego warto?</p>
+                        <div class="tab-pane fade show active" id="dlaczego-warto-zarejestrowac-znak-towarowy"
+                            role="tabpanel" aria-labelledby="dlaczego-warto-zarejestrowac-znak-towarowy-tab">
+                            <p style="font-size: 26px; margin-bottom: 28px; color: #3b394f;">Dlaczego warto?</p>
                             <p style="text-align: justify;">
                                 Ponieważ dobrze jest kierować się starym porzekadłem: przezorny zawsze ubezpieczony. Nie
                                 ma wątpliwości, że rejestracja znaku towarowego niesie ze sobą wiele korzyści. Dzięki
@@ -209,8 +221,10 @@ get_header(); ?>
                                 </li>
                             </ul>
                         </div>
-                        <div class="tab-pane fade" id="pills-it" role="tabpanel" aria-labelledby="pills-it-tab">
-                            <p class="bold-text">Ile kosztuje rejestracja (zastrzeżenie) znaku towarowego?</p>
+                        <div class="tab-pane fade" id="ile-kosztuje-rejestracja-znaku-towarowego" role="tabpanel"
+                            aria-labelledby="ile-kosztuje-rejestracja-znaku-towarowego-tab">
+                            <p style="font-size: 26px; margin-bottom: 28px; color: #3b394f;">Ile kosztuje rejestracja
+                                (zastrzeżenie) znaku towarowego?</p>
                             <p style="text-align: justify;">
                                 <span style="font-weight: 400;">
                                     Wysokość opłat jest uzależniona przede wszystkim od terytoriów państw, na których
@@ -275,9 +289,10 @@ get_header(); ?>
                                 </li>
                             </ol>
                         </div>
-                        <div class="tab-pane fade" id="pills-startup" role="tabpanel"
-                            aria-labelledby="pills-startup-tab">
-                            <p class="bold-text">Znak towarowy, czy znak słowno-graficzny</p>
+                        <div class="tab-pane fade" id="znak-towarowy-czy-znak-slowno-graficzny" role="tabpanel"
+                            aria-labelledby="znak-towarowy-czy-znak-slowno-graficzny-tab">
+                            <p style="font-size: 26px; margin-bottom: 28px; color: #3b394f;">Znak towarowy, czy znak
+                                słowno-graficzny</p>
                             <p style="text-align: justify;">
                                 <span style="font-weight: 400;">
                                     Wybór pomiędzy znakiem towarowym a znakiem słowno-graficznym to jedna z
@@ -369,8 +384,10 @@ get_header(); ?>
                                 </span>
                             </p>
                         </div>
-                        <div class="tab-pane fade" id="pills-oferta" role="tabpanel" aria-labelledby="pills-oferta-tab">
-                            <p class="bold-text">Co grozi za naruszenie znaku towarowego?</p>
+                        <div class="tab-pane fade" id="co-grozi-za-naruszenie-znaku-towarowego" role="tabpanel"
+                            aria-labelledby="co-grozi-za-naruszenie-znaku-towarowego-tab">
+                            <p style="font-size: 26px; margin-bottom: 28px; color: #3b394f;">Co grozi za naruszenie
+                                znaku towarowego?</p>
                             <p style="text-align: justify;">
                                 <span style="font-weight: 400;">Zanim zaczniesz promować swoją nazwę i logo, upewnij
                                     się, że takowa już nie istnieje i nie została zarejestrowana w Urzędzie Patentowym.
@@ -561,15 +578,75 @@ get_header(); ?>
                 </div>
 
 
+
                 <?php endwhile; ?>
                 <?php endif; ?>
+
+
             </div>
+
         </div>
     </div>
+    <div id="alllogos">Zobacz wszystkie</div>
 
 
 
     <section>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <h2 class="h2 text-center font-weight-bold">Procedura zgłoszenia <strong>i rejestracji
+                            znaku</strong></h2>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="timeline mt-5 ">
+        <div class="containers left">
+            <div class="content">
+                <img src="https://rpms.craftweb.pl/wp-content/uploads/2021/03/icon-1_0003_Warstwa-1.jpg" alt="">
+                <span>Badanie zdolności rejestrowej</span>
+                <p>Weryfikujemy zdolność odróżniającą marki w bazach unijnych oraz polskiej.</p>
+            </div>
+        </div>
+        <div class="containers right">
+            <div class="content">
+                <img src="https://rpms.craftweb.pl/wp-content/uploads/2021/03/icon-1_0002_Warstwa-2.jpg" alt="">
+                <span>Zgłoszenie znaku do rejestracji</span>
+                <p>Przygotowujemy dokumentację zgłoszeniową do właściwego urzędu patentowego.</p>
+            </div>
+        </div>
+        <div class="containers left">
+            <div class="content">
+                <img src="https://rpms.craftweb.pl/wp-content/uploads/2021/03/icon-1_0001_Warstwa-3.jpg" alt="">
+                <span>Weryfikacja zgłoszenia przez urząd</span>
+                <p>Urząd bada zgłoszenie i dokonuje publikacji, jeśli nie zachodzą bezwzględne przyczyny odmowy.</p>
+            </div>
+        </div>
+        <div class="containers right">
+            <div class="content">
+                <img src="https://rpms.craftweb.pl/wp-content/uploads/2021/03/icon-1_0000_Warstwa-4.jpg" alt="">
+
+                <span>Okres sprzeciwowy</span>
+                <p> W tym okresie podmioty trzecie mogą wnieść sprzeciw względem zgłoszonego znaku.</p>
+            </div>
+        </div>
+        <div class="containers left">
+            <div class="content">
+                <img src="https://rpms.craftweb.pl/wp-content/uploads/2021/03/icon4-Wrastwa5.jpg" alt="">
+
+                <span>Rejestracja znaku</span>
+                <p>Jeśli sprzeciwy zostaną odrzucone przez Urząd, następuje rejestracja znaku.</p>
+            </div>
+        </div>
+
+    </div>
+
+
+    <div class="py-5"></div>
+
+    <section class="mt-5">
         <div class="container">
             <div class="row">
                 <div class="col-lg-6">
@@ -839,20 +916,38 @@ get_header(); ?>
             <div class="row">
                 <div class="col-lg-4 mb-4">
                     <a href="https://rpms.pl/znak-slowny-czy-slowno-graficzny/">
-                        <img src="https://rpms.pl/wp-content/uploads/2020/05/Co-zarejestrowa%C4%87-logo-czy-nazw%C4%99.png"
-                            alt="">
+                        <img width="940" height="788"
+                            src="https://rpms.pl/wp-content/uploads/2020/05/Co-zarejestrować-logo-czy-nazwę.png"
+                            data-src="https://rpms.pl/wp-content/uploads/2020/05/Co-zarejestrować-logo-czy-nazwę.png"
+                            class="vc_single_image-img attachment-full ls-is-cached lazyloaded"
+                            alt="Co zarejestrować - logo, czy nazwę?"
+                            data-srcset="https://rpms.pl/wp-content/uploads/2020/05/Co-zarejestrować-logo-czy-nazwę.png 940w, https://rpms.pl/wp-content/uploads/2020/05/Co-zarejestrować-logo-czy-nazwę-300x251.png 300w, https://rpms.pl/wp-content/uploads/2020/05/Co-zarejestrować-logo-czy-nazwę-768x644.png 768w"
+                            data-sizes="(max-width: 940px) 100vw, 940px" sizes="(max-width: 940px) 100vw, 940px"
+                            srcset="https://rpms.pl/wp-content/uploads/2020/05/Co-zarejestrować-logo-czy-nazwę.png 940w, https://rpms.pl/wp-content/uploads/2020/05/Co-zarejestrować-logo-czy-nazwę-300x251.png 300w, https://rpms.pl/wp-content/uploads/2020/05/Co-zarejestrować-logo-czy-nazwę-768x644.png 768w">
                     </a>
                 </div>
                 <div class="col-lg-4 mb-4">
                     <a href="https://rpms.pl/ile-trwa-ochrona-znaku-towarowego/">
-                        <img src="https://rpms.pl/wp-content/uploads/2020/05/Jak-d%C5%82ugo-trwa-ochrona-znaku-towarowego.png"
-                            alt="">
+                        <img width="940" height="788"
+                            src="https://rpms.pl/wp-content/uploads/2020/05/Jak-długo-trwa-ochrona-znaku-towarowego.png"
+                            data-src="https://rpms.pl/wp-content/uploads/2020/05/Jak-długo-trwa-ochrona-znaku-towarowego.png"
+                            class="vc_single_image-img attachment-full ls-is-cached lazyloaded"
+                            alt="Znak towarowy - jak długo trwa ochrona"
+                            data-srcset="https://rpms.pl/wp-content/uploads/2020/05/Jak-długo-trwa-ochrona-znaku-towarowego.png 940w, https://rpms.pl/wp-content/uploads/2020/05/Jak-długo-trwa-ochrona-znaku-towarowego-300x251.png 300w, https://rpms.pl/wp-content/uploads/2020/05/Jak-długo-trwa-ochrona-znaku-towarowego-768x644.png 768w"
+                            data-sizes="(max-width: 940px) 100vw, 940px" sizes="(max-width: 940px) 100vw, 940px"
+                            srcset="https://rpms.pl/wp-content/uploads/2020/05/Jak-długo-trwa-ochrona-znaku-towarowego.png 940w, https://rpms.pl/wp-content/uploads/2020/05/Jak-długo-trwa-ochrona-znaku-towarowego-300x251.png 300w, https://rpms.pl/wp-content/uploads/2020/05/Jak-długo-trwa-ochrona-znaku-towarowego-768x644.png 768w">
                     </a>
                 </div>
                 <div class="col-lg-4 mb-4">
                     <a href="https://rpms.pl/koszt-zastrzezenia-znaku-towarowego-nazwy-cena/">
-                        <img src="https://rpms.pl/wp-content/uploads/2020/05/Koszt-zarejestrowania-znaku-towarowego.png"
-                            alt="">
+                        <img width="940" height="788"
+                            src="https://rpms.pl/wp-content/uploads/2020/05/Koszt-zarejestrowania-znaku-towarowego.png"
+                            data-src="https://rpms.pl/wp-content/uploads/2020/05/Koszt-zarejestrowania-znaku-towarowego.png"
+                            class="vc_single_image-img attachment-full ls-is-cached lazyloaded"
+                            alt="Rejestracja znaku towarowego - koszt w PL EU i na świecie"
+                            data-srcset="https://rpms.pl/wp-content/uploads/2020/05/Koszt-zarejestrowania-znaku-towarowego.png 940w, https://rpms.pl/wp-content/uploads/2020/05/Koszt-zarejestrowania-znaku-towarowego-300x251.png 300w, https://rpms.pl/wp-content/uploads/2020/05/Koszt-zarejestrowania-znaku-towarowego-768x644.png 768w"
+                            data-sizes="(max-width: 940px) 100vw, 940px" sizes="(max-width: 940px) 100vw, 940px"
+                            srcset="https://rpms.pl/wp-content/uploads/2020/05/Koszt-zarejestrowania-znaku-towarowego.png 940w, https://rpms.pl/wp-content/uploads/2020/05/Koszt-zarejestrowania-znaku-towarowego-300x251.png 300w, https://rpms.pl/wp-content/uploads/2020/05/Koszt-zarejestrowania-znaku-towarowego-768x644.png 768w">
                     </a>
                 </div>
                 <div class="col-lg-4 mb-4">
@@ -863,29 +958,61 @@ get_header(); ?>
                 </div>
                 <div class="col-lg-4 mb-4">
                     <a href="https://rpms.pl/zastrzezenie-nazwy-firmy-kto-moze-to-zrobic/">
-                        <img src="https://rpms.pl/wp-content/uploads/2020/05/Zastrze%C5%BCenie-nazwy-kt-mo%C5%BCe-to-zrobi%C4%87.png"
-                            alt="">
+                        <img width="940" height="788"
+                            src="https://rpms.pl/wp-content/uploads/2020/05/Dlaczego-warto-zabezpieczyć-prawa-do-marki-znaku-towarowego.png"
+                            data-src="https://rpms.pl/wp-content/uploads/2020/05/Dlaczego-warto-zabezpieczyć-prawa-do-marki-znaku-towarowego.png"
+                            class="vc_single_image-img attachment-full ls-is-cached lazyloaded"
+                            alt="Zabezpieczenie marki - rejestracja znaku towarowego"
+                            data-srcset="https://rpms.pl/wp-content/uploads/2020/05/Dlaczego-warto-zabezpieczyć-prawa-do-marki-znaku-towarowego.png 940w, https://rpms.pl/wp-content/uploads/2020/05/Dlaczego-warto-zabezpieczyć-prawa-do-marki-znaku-towarowego-300x251.png 300w, https://rpms.pl/wp-content/uploads/2020/05/Dlaczego-warto-zabezpieczyć-prawa-do-marki-znaku-towarowego-768x644.png 768w"
+                            data-sizes="(max-width: 940px) 100vw, 940px" sizes="(max-width: 940px) 100vw, 940px"
+                            srcset="https://rpms.pl/wp-content/uploads/2020/05/Dlaczego-warto-zabezpieczyć-prawa-do-marki-znaku-towarowego.png 940w, https://rpms.pl/wp-content/uploads/2020/05/Dlaczego-warto-zabezpieczyć-prawa-do-marki-znaku-towarowego-300x251.png 300w, https://rpms.pl/wp-content/uploads/2020/05/Dlaczego-warto-zabezpieczyć-prawa-do-marki-znaku-towarowego-768x644.png 768w">
                     </a>
                 </div>
                 <div class="col-lg-4 mb-4">
                     <a href="https://rpms.pl/korzysci-z-rejestracji-znaku-towarowego/">
-                        <img src="https://rpms.pl/wp-content/uploads/2020/05/Korzy%C5%9Bci-marketingowe-z-rejestracji-znaku-towarowego.png"
-                            alt="">
+                        <img width="940" height="788"
+                            src="https://rpms.pl/wp-content/uploads/2020/05/Korzyści-marketingowe-z-rejestracji-znaku-towarowego.png"
+                            data-src="https://rpms.pl/wp-content/uploads/2020/05/Korzyści-marketingowe-z-rejestracji-znaku-towarowego.png"
+                            class="vc_single_image-img attachment-full ls-is-cached lazyloaded"
+                            alt="Rejestracja znaku towarowego - korzyści marketingowe"
+                            data-srcset="https://rpms.pl/wp-content/uploads/2020/05/Korzyści-marketingowe-z-rejestracji-znaku-towarowego.png 940w, https://rpms.pl/wp-content/uploads/2020/05/Korzyści-marketingowe-z-rejestracji-znaku-towarowego-300x251.png 300w, https://rpms.pl/wp-content/uploads/2020/05/Korzyści-marketingowe-z-rejestracji-znaku-towarowego-768x644.png 768w"
+                            data-sizes="(max-width: 940px) 100vw, 940px" sizes="(max-width: 940px) 100vw, 940px"
+                            srcset="https://rpms.pl/wp-content/uploads/2020/05/Korzyści-marketingowe-z-rejestracji-znaku-towarowego.png 940w, https://rpms.pl/wp-content/uploads/2020/05/Korzyści-marketingowe-z-rejestracji-znaku-towarowego-300x251.png 300w, https://rpms.pl/wp-content/uploads/2020/05/Korzyści-marketingowe-z-rejestracji-znaku-towarowego-768x644.png 768w">
                     </a>
                 </div>
                 <div class="col-lg-4 mb-4">
                     <a href="https://rpms.pl/znak-towarowy-r/">
-                        <img src="https://rpms.pl/wp-content/uploads/2020/05/Co-oznacza-r-przy-nazwie.png" alt="">
+                        <img width="940" height="788"
+                            src="https://rpms.pl/wp-content/uploads/2020/05/Co-oznacza-r-przy-nazwie.png"
+                            data-src="https://rpms.pl/wp-content/uploads/2020/05/Co-oznacza-r-przy-nazwie.png"
+                            class="vc_single_image-img attachment-full ls-is-cached lazyloaded" alt="r znak towarowy"
+                            data-srcset="https://rpms.pl/wp-content/uploads/2020/05/Co-oznacza-r-przy-nazwie.png 940w, https://rpms.pl/wp-content/uploads/2020/05/Co-oznacza-r-przy-nazwie-300x251.png 300w, https://rpms.pl/wp-content/uploads/2020/05/Co-oznacza-r-przy-nazwie-768x644.png 768w"
+                            data-sizes="(max-width: 940px) 100vw, 940px" sizes="(max-width: 940px) 100vw, 940px"
+                            srcset="https://rpms.pl/wp-content/uploads/2020/05/Co-oznacza-r-przy-nazwie.png 940w, https://rpms.pl/wp-content/uploads/2020/05/Co-oznacza-r-przy-nazwie-300x251.png 300w, https://rpms.pl/wp-content/uploads/2020/05/Co-oznacza-r-przy-nazwie-768x644.png 768w">
                     </a>
                 </div>
                 <div class="col-lg-4 mb-4">
                     <a href="https://rpms.pl/rejestracja-znaku-towarowego-anglia-brexit/">
-                        <img src="https://rpms.pl/wp-content/uploads/2020/05/Znaki-toware-a-brexit.png" alt="">
+                        <img width="940" height="788"
+                            src="https://rpms.pl/wp-content/uploads/2020/05/Znaki-toware-a-brexit.png"
+                            data-src="https://rpms.pl/wp-content/uploads/2020/05/Znaki-toware-a-brexit.png"
+                            class="vc_single_image-img attachment-full ls-is-cached lazyloaded"
+                            alt="Brexit a znaki towarowe"
+                            data-srcset="https://rpms.pl/wp-content/uploads/2020/05/Znaki-toware-a-brexit.png 940w, https://rpms.pl/wp-content/uploads/2020/05/Znaki-toware-a-brexit-300x251.png 300w, https://rpms.pl/wp-content/uploads/2020/05/Znaki-toware-a-brexit-768x644.png 768w"
+                            data-sizes="(max-width: 940px) 100vw, 940px" sizes="(max-width: 940px) 100vw, 940px"
+                            srcset="https://rpms.pl/wp-content/uploads/2020/05/Znaki-toware-a-brexit.png 940w, https://rpms.pl/wp-content/uploads/2020/05/Znaki-toware-a-brexit-300x251.png 300w, https://rpms.pl/wp-content/uploads/2020/05/Znaki-toware-a-brexit-768x644.png 768w">
                     </a>
                 </div>
                 <div class="col-lg-4 mb-4">
                     <a href="https://rpms.pl/znak-towarowy-opisowy/">
-                        <img src="https://rpms.pl/wp-content/uploads/2020/05/Opisowa-nazwa-firmy.png" alt="">
+                        <img width="940" height="788"
+                            src="https://rpms.pl/wp-content/uploads/2020/05/Opisowa-nazwa-firmy.png"
+                            data-src="https://rpms.pl/wp-content/uploads/2020/05/Opisowa-nazwa-firmy.png"
+                            class="vc_single_image-img attachment-full ls-is-cached lazyloaded"
+                            alt="Opisowy znak towarowy - kiedy można zarejestrować"
+                            data-srcset="https://rpms.pl/wp-content/uploads/2020/05/Opisowa-nazwa-firmy.png 940w, https://rpms.pl/wp-content/uploads/2020/05/Opisowa-nazwa-firmy-300x251.png 300w, https://rpms.pl/wp-content/uploads/2020/05/Opisowa-nazwa-firmy-768x644.png 768w"
+                            data-sizes="(max-width: 940px) 100vw, 940px" sizes="(max-width: 940px) 100vw, 940px"
+                            srcset="https://rpms.pl/wp-content/uploads/2020/05/Opisowa-nazwa-firmy.png 940w, https://rpms.pl/wp-content/uploads/2020/05/Opisowa-nazwa-firmy-300x251.png 300w, https://rpms.pl/wp-content/uploads/2020/05/Opisowa-nazwa-firmy-768x644.png 768w">
                     </a>
                 </div>
             </div>

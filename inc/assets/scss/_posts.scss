@@ -45,47 +45,68 @@
         h4,
         h5,
         h6 {
-            background-image: url(https://rpms.pl/wp-content/uploads/2019/11/section-break.jpg);
-            right: 0;
-            background-repeat: no-repeat;
-            position: relative;
-            box-sizing: border-box;
-            background-size: cover;
-            display: flex;
-            margin: 70px 0 50px;
-            align-items: center;
-            justify-content: center;
-            overflow: hidden;
-            padding: 50px 20px;
-            font-weight: 900;
+            @media(max-width: 1198px) {
+                background-image: url(https://rpms.pl/wp-content/uploads/2019/11/section-break.jpg);
+                right: 0;
+                background-repeat: no-repeat;
+                position: relative;
+                box-sizing: border-box;
+                background-size: cover;
+                display: flex;
+                margin: 70px 0 50px;
+                align-items: center;
+                justify-content: center;
+                overflow: hidden;
+                padding: 50px 20px;
+                font-weight: 900;
+            }
+            @media(min-width: 1199px) {
+                background-image: url(https://rpms.pl/wp-content/uploads/2019/11/section-break.jpg);
+                right: 0;
+                background-repeat: no-repeat;
+                position: relative;
+                left: 50%;
+                transform: translate(-50%, 0);
+                box-sizing: border-box;
+                width: 1903px;
+                padding-left: 366.5px;
+                padding-right: 366.5px;
+                background-size: cover;
+                display: flex;
+                margin: 50px 0;
+                height: 130px;
+                align-items: center;
+                justify-content: center;
+            }
         }
         ul {
             counter-reset: my-awesome-counter;
             li {
                 list-style-type: none;
-                counter-increment: my-awesome-counter;
-                &:before {
-                    display: none;
-                }
-                &:after {
-                    content: counter(my-awesome-counter);
-                    font-weight: 300;
-                    font-size: 13px;
-                    line-height: 1;
-                    position: absolute;
-                    left: -40px;
-                    top: -2px;
-                    width: 30px;
-                    background: #3b394f;
-                    height: 30px;
-                    border-radius: 50%;
-                    display: flex;
-                    justify-content: center;
-                    align-items: center;
-                    padding-top: 4.5px;
-                    color: #fff;
-                    transition: all .5s;
-                }
+                // counter-increment: my-awesome-counter;
+                // &:before {
+                //     display: none;
+                // }
+                // &:after {
+                //     content: counter(my-awesome-counter);
+                //     content: '';
+                //     font-weight: 300;
+                //     font-size: 13px;
+                //     line-height: 1;
+                //     position: absolute;
+                //     left: -40px;
+                //     top: -2px;
+                //     width: 30px;
+                //     background: #bfa071;
+                //     height: 30px;
+                //     border-radius: 50%;
+                //     display: flex;
+                //     justify-content: center;
+                //     align-items: center;
+                //     padding-top: 4.5px;
+                //     color: #fff;
+                //     transition: all .5s;
+                // }
             }
         }
     }
@@ -115,7 +136,7 @@
                     height: 10px;
                     border-radius: 20px;
                     background: #bfa071;
-                    top: 7px;
+                    top: 8px;
                     left: -29px;
                 }
             }

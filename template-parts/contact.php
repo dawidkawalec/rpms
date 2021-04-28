@@ -2,26 +2,26 @@
     <div class="container">
         <div class="row">
             <div class="col-lg-4 contact-data">
-                <h4>Kancelaria Prawna RPMS<br>
-                    Staniszewski & Wspólnicy</h4>
+                <span>Kancelaria Prawna RPMS<br>
+                    Staniszewski & Wspólnicy</span>
                 <div class="contact-data_div">
                     <div>
-                        <img src="/wp-content/uploads/2021/02/kontakt.svg" alt="">
+                        <img src="/wp-content/uploads/2021/04/lokalizacja.png" alt="">
                         <p>ul. Polska 114<br>
                             Poznań 60-401</p>
                     </div>
                     <div>
-                        <img src="/wp-content/uploads/2021/02/kontakt.svg" alt="">
-                        <p>+48 61 307 09 91</p>
+                        <img src="/wp-content/uploads/2021/04/telefon.png" alt="">
+                        <p><a href="tel:+48613070991">+48 61 307 09 91</a></p>
                     </div>
                     <div>
-                        <img src="/wp-content/uploads/2021/02/kontakt.svg" alt="">
-                        <p>kancelaria@rpms.pl</p>
+                        <img src="/wp-content/uploads/2021/04/mail.png" alt="">
+                        <p><a href="mailto:kancelaria@rpms.pl">kancelaria@rpms.pl</a></p>
                     </div>
                 </div>
             </div>
             <div class="col-lg-8 maps">
-               <div id="map"></div>
+                <div id="map"></div>
             </div>
         </div>
     </div>
@@ -41,6 +41,18 @@
     border-radius: 20px;
 }
 
+@media(max-width: 992px) {
+    #map {
+        position: relative;
+        left: 0;
+        right: 0;
+        top: 0;
+        height: 350px;
+        width: 100% !important;
+        border-radius: 20px;
+        margin-top: 20px;
+    }
+}
 </style>
 
 
@@ -62,7 +74,7 @@ function init() {
         zoom: 17,
         disableDefaultUI: true, // a way to quickly hide all controls
         // The latitude and longitude to center the map (always required)
-        center: new google.maps.LatLng(52.2327, 21.0010),
+        center: new google.maps.LatLng(52.42230187979576, 16.874971827248473),
 
         // How you would like to style the map. 
         // This is where you would paste any style found on Snazzy Maps.
@@ -194,7 +206,7 @@ function init() {
 
     // Let's also add a marker while we're at it
     var marker = new google.maps.Marker({
-        position: new google.maps.LatLng(52.23165897517313, 20.99871472715869),
+        position: new google.maps.LatLng(52.42230187979576, 16.874971827248473),
         map: map,
     });
 

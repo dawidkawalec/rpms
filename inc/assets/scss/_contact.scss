@@ -2,17 +2,20 @@
     background: #f7f7fa;
     border-radius: 10px;
     padding: 90px 0;
+
     .contact-data {
         background: #3b394f;
         border-radius: 10px;
         padding: 50px 30px;
         color: #fff;
-        h4 {
+
+        span {
             font-size: 22px;
             font-weight: 800;
             margin: 0;
             line-height: normal;
             color: #fff;
+
             &:after {
                 content: '';
                 width: 50px;
@@ -23,6 +26,7 @@
                 display: block;
             }
         }
+
         .contact-data_div {
             &>div {
                 margin-bottom: 15px;
@@ -35,13 +39,19 @@
                 letter-spacing: 1.4px;
                 display: flex;
                 align-items: center;
+
                 img {
-                    width: 20px;
+                    width: 40px;
                     height: auto;
-                    margin-right: 24px;
+                    margin-right: 14px;
                 }
+
                 p {
                     margin: 0;
+
+                    a {
+                        color: #fff;
+                    }
                 }
             }
         }
@@ -52,11 +62,14 @@
     .row-contact {
         .col-content {
             text-align: center;
+
             p {
                 text-align: center;
             }
+
             .icon {
                 margin-bottom: 20px;
+
                 img {
                     width: 51px;
                     height: auto;
@@ -64,17 +77,21 @@
             }
         }
     }
+
     .form {
         background: #2c2a3e;
         border-radius: 20px;
         padding: 50px 50px 10px 50px;
+
         .welcome {
             .icon {
                 margin: 40px 0 29px;
             }
+
             p {
                 margin: 0;
             }
+
             span {
                 display: block;
                 font-size: 12px;
@@ -89,6 +106,7 @@
                 text-transform: uppercase;
                 margin-bottom: 7px;
             }
+
             .write {
                 font-size: 22px;
                 font-weight: 800;
@@ -100,15 +118,20 @@
                 text-align: center;
             }
         }
+
         form {
+
             input,
             textarea {
                 outline: 0;
                 box-shadow: unset;
             }
+
+            .col-lg-6,
             .col-lg-4,
             .col-lg-12 {
                 position: relative;
+
                 label {
                     position: absolute;
                     font-family: Muli;
@@ -125,14 +148,17 @@
                     left: 50%;
                     transform: translate(-50%, 0);
                     top: 16px;
+
                     &+p {
                         display: none;
                     }
                 }
             }
+
             .input {
                 position: relative;
                 margin-bottom: 30px;
+
                 input {
                     padding-top: 28px;
                     border: 0;
@@ -150,6 +176,7 @@
                     letter-spacing: normal;
                     text-align: center;
                     color: #e2e2e2;
+
                     &::placeholder {
                         text-align: center;
                         opacity: 0.5;
@@ -165,10 +192,12 @@
                     }
                 }
             }
+
             .txt {
                 label {
                     // top: 25px;
                 }
+
                 textarea {
                     height: 120px;
                     border-radius: 20px;
@@ -186,6 +215,7 @@
                     text-align: center;
                     color: #e2e2e2;
                     padding-top: 28px;
+
                     &::placeholder {
                         text-align: center;
                         opacity: 0.5;
@@ -201,6 +231,7 @@
                     }
                 }
             }
+
             .send {
                 input {
                     border: 0;
@@ -225,6 +256,7 @@
                     transition: all 0.4s;
                 }
             }
+
             .col-lg-12.io {
                 font-size: 12px;
                 font-weight: bold;
@@ -237,6 +269,7 @@
                 padding: 0px 80px;
                 margin: 0 0 30px;
             }
+
             .col-lg-12.io a {
                 color: #a1a1a1;
                 text-decoration: underline !important;

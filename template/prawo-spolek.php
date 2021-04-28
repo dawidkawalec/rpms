@@ -59,6 +59,18 @@ get_header(); ?>
             </div>
         </div>
     </section>
+    <section class="just-title">
+        <div class="container">
+            <div class="row content row-title">
+                <div class="col-lg-12">
+                    <h2>Z naszych usług skorzystali między innymi:</h2>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <?php get_template_part( 'template-parts/logotype');?>
+
 
 
     <section class="greybox mb-5">
@@ -136,16 +148,29 @@ get_header(); ?>
 
 
 
-    <section class="greybox mb-5">
+    <section class="faq pt-5 pb-5 mx-3 mt-5">
         <div class="container">
-            <div class="row content">
-                <div class="col-lg-12 row-title">
-                    <h2><strong>Nasze aktualne projekty</strong></h2>
-                </div>
-                <div class="col-lg-12 big-strong">
-                    <h3><strong>HOLDING GRUPY “DIGITAL NOW!
-                        </strong><strong>HOLDING”</strong></h3>
-                    <p>W chwili obecnej przeprowadzamy proces reorganizacji grupy DIGITAL
+            <div class="row row-title mt-3">
+                <h2>Nasze aktualne projekty</strong></h2>
+            </div>
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="accordion" id="accordionExample">
+                        <div class="card show">
+                            <div class="card-header show" id="headingOne">
+                                <h3 class="mb-0">
+                                    <button class="btn btn-link btn-block text-left" type="button"
+                                        data-toggle="collapse" data-target="#collapseOne" aria-expanded="true"
+                                        aria-controls="collapseOne">
+                                        HOLDING GRUPY “DIGITAL NOW! HOLDING”
+                                    </button>
+                                </h2>
+                            </div>
+
+                            <div id="collapseOne" class="collapse show" aria-labelledby="headingOne"
+                                data-parent="#accordionExample">
+                                <div class="card-body">
+                                <p>W chwili obecnej przeprowadzamy proces reorganizacji grupy DIGITAL
                         NOW! HOLDING w strukturę holdingową. Z uwagi, iż jest to procedura dedykowana dla dużych
                         organizacji, wymaga ona czasu i znacznych nakładów pracy, które są niezbędne dla utworzenia
                         struktury spełniającej wszystkie wymagane założenia. Nasza kancelaria wspiera grupę DIGITAL NOW!
@@ -169,11 +194,22 @@ get_header(); ?>
                         inwestycyjnej poszczególnych spółek oraz minimalizacji ryzyka wycieku danych w ramach całej
                         grupy, dzięki zastosowaniu wyodrębnionych procedur opracowanych w systemach CMR dla każdego
                         podmiotu. Nasza kancelaria wspiera grupę DIGITAL NOW! HOLDING w tym zakresie na każdym etapie
-                        budowania struktury, począwszy od etapu analityki do końcowej rejestracji wszystkich zmian.</p>
-                    <hr>
-                    <h3><strong>PRZEKSZTAŁCENIE SPÓŁKI BELIN </strong>
-                    </h3>
-                    <p>Z powodzeniem przeprowadziliśmy czynności związane z
+                        budowania struktury, począwszy od etapu analityki do końcowej rejestracji wszystkich zmian.</p>  
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-header" id="headingTwo">
+                                <h3 class="mb-0">
+                                    <button class="btn btn-link btn-block text-left collapsed" type="button"
+                                        data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false"
+                                        aria-controls="collapseTwo">PRZEKSZTAŁCENIE SPÓŁKI BELIN</button>
+                                </h2>
+                            </div>
+                            <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo"
+                                data-parent="#accordionExample">
+                                <div class="card-body">
+                                <p>Z powodzeniem przeprowadziliśmy czynności związane z
                         przekształceniem spółki BELIN ze spółki jawnej na spółką z ograniczoną odpowiedzialnością.
                         Spółka BELIN od 30 lat z powodzeniem działa w branży&nbsp;spożywczej, na chwilę obecną zatrudnia
                         ponad 300 pracowników na trzech zmianach, eksportuje swoje towary za granicę&nbsp;oraz importuje
@@ -233,9 +269,23 @@ get_header(); ?>
                         działalności przedsiębiorstw rodzinnych, tego typu sprawy powinny zostać rozstrzygnięte możliwe
                         wcześnie aby uniknąć konfliktów pomiędzy kolejnym pokoleniem wspólników i zapewnić firmie
                         możliwość dalszego rozwoju przez kolejne kilkadziesiąt&nbsp;lat.</p>
-                    <hr>
-                    <h3><b>POŁĄCZENIE SPÓŁEK Z GRUPY ICEA </b></h3>
-                    <p>W III kwartale 2020r. z powodzeniem dokonaliśmy połączenia spółek
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-header" id="headingThree">
+                                <h3 class="mb-0">
+                                    <button class="btn btn-link btn-block text-left collapsed" type="button"
+                                        data-toggle="collapse" data-target="#collapseThree" aria-expanded="false"
+                                        aria-controls="collapseThree">
+                                        POŁĄCZENIE SPÓŁEK Z GRUPY ICEA 
+                                    </button>
+                                </h2>
+                            </div>
+                            <div id="collapseThree" class="collapse" aria-labelledby="headingThree"
+                                data-parent="#accordionExample">
+                                <div class="card-body">
+                                <p>W III kwartale 2020r. z powodzeniem dokonaliśmy połączenia spółek
                         grupy iCEA. Niniejsze połączenie zostało przeprowadzone pomiędzy trzema spółkami z ograniczoną
                         odpowiedzialnością z branży informatycznej, które spółka iCEA sp. z o.o. przejęła we
                         wcześniejszych latach swojej działalności w ramach budowania swojej silnej pozycji na rynku
@@ -274,7 +324,11 @@ get_header(); ?>
                         względu na fakt, że jest to istotne ze względów rachunkowych.</p>
                     <p>W efekcie powyższego z powodzeniem zakończyliśmy proces połączenia
                         spółek w ramach grupy iCEA. Osiągnięte zostały wszystkie założone cele połączenia, które chcieli
-                        osiągnąć wspólnicy spółki iCEA sp. z o.o.</p>
+                        osiągnąć wspólnicy spółki iCEA sp. z o.o.</p>    
+                            </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -302,16 +356,7 @@ get_header(); ?>
         </div>
     </section>
 
-    <section class="just-title">
-        <div class="container">
-            <div class="row content row-title">
-                <div class="col-lg-12">
-                    <h2>Z naszych usług skorzystali między innymi:</h2>
-                </div>
-            </div>
-        </div>
-    </section>
-    <?php get_template_part( 'template-parts/logotype');?>
+
     <div class="images mb-5"></div>
     <?php get_template_part( 'template-parts/our-articles');?>
     <?php get_template_part( 'template-parts/contact');?>

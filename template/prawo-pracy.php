@@ -140,8 +140,8 @@ get_header(); ?>
             <div class="row">
                 <div class="col-lg-12">
                     <div class="content">
-                        <p class="bold-text" style="text-align: justify;"><strong>Przygotowanie i opiniowanie
-                                dokumentacji</strong></p>
+                        <h2 class="bold-text" style="text-align: justify;"><strong>Przygotowanie i opiniowanie
+                                dokumentacji</strong></h2>
                         <p>Zapewniamy kompleksową obsługę dokumentacji pracowniczej, w tym umów o pracę, umów
                             uwzględniających zakaz działalności konkurencyjnej, umów z klauzulą poufności, zawieranych z
                             członkami organów spółek, oraz kontraktów menedżerskich, a także kodeksów i regulaminów

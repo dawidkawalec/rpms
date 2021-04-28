@@ -28,17 +28,18 @@ get_header(); ?>
         <div class="container-fluid">
             <div class="row">
                 <div class="col-lg-12">
+                    <span class="d-lg-none">Spis treści</span>
                     <ul id="page-nav" class="page-nav-mobile">
-                        <li><a href="#ppk-tab-1">usługa wdrożenia</a></li>
-                        <li><a href="#ppk-tab-2">oferta</a></li>
-                        <li><a href="#ppk-tab-3">założenia PPK</a></li>
-                        <li><a href="#ppk-tab-4">czym jest dla pracownika</a></li>
-                        <li><a href="#ppk-tab-5">zasady wypłaty środków</a></li>
-                        <li><a href="#ppk-tab-6">czym jest dla pracodawcy</a></li>
-                        <li><a href="#ppk-tab-7">terminy wdrożenia</a></li>
-                        <li><a href="#ppk-tab-8">opodatkowanie PPK</a></li>
-                        <li><a href="#ppk-tab-9">co uwzględnić przed wdrożeniem</a></li>
-                        <li><a href="#ppk-tab-10">najczęściej zadawane pytania (FAQ)</a></li>
+                        <li><a href="#uslugi-wdrozenia">usługa wdrożenia</a></li>
+                        <li><a href="#oferta">oferta</a></li>
+                        <li><a href="#zalozenia-ppk">założenia PPK</a></li>
+                        <li><a href="#czym-jest-dla-pracownika">czym jest dla pracownika</a></li>
+                        <li><a href="#zasady-wyplaty-srodkow">zasady wypłaty środków</a></li>
+                        <li><a href="#czym-jest-dla-pracodawcy">czym jest dla pracodawcy</a></li>
+                        <li><a href="#termin-wdrozenia">terminy wdrożenia</a></li>
+                        <li><a href="#opodatkowanie-ppk">opodatkowanie PPK</a></li>
+                        <li><a href="#co-uwzglednic-przed-wdrozeniem">co uwzględnić przed wdrożeniem</a></li>
+                        <li><a href="#najczesciej-zadawane-pytania">najczęściej zadawane pytania (FAQ)</a></li>
                     </ul>
 
                 </div>
@@ -78,7 +79,7 @@ get_header(); ?>
         </div>
     </section>
 
-    <div class="greybox" id="ppk-tab-1">
+    <div class="greybox" id="uslugi-wdrozenia">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
@@ -160,7 +161,7 @@ get_header(); ?>
     </div>
 
 
-    <section class="uslugi-item" id="ppk-tab-2">
+    <section class="uslugi-item" id="oferta">
         <div class="container">
             <div class="row">
                 <div class="col-lg-7">
@@ -197,7 +198,7 @@ get_header(); ?>
 
 
 
-    <section class="mt-5 mb-4" id="ppk-tab-3">
+    <section class="mt-5 mb-4" id="oferta">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
@@ -214,7 +215,7 @@ get_header(); ?>
 
 
 
-    <section class="bluebox" id="ppk-tab-4">
+    <section class="bluebox" id="czym-jest-dla-pracownika">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
@@ -261,12 +262,12 @@ get_header(); ?>
 
 
 
-    <section class="uslugi-item" id="ppk-tab-5">
+    <section class="uslugi-item" id="zasady-wyplaty-srodkow">
         <div class="container">
             <div class="row">
                 <div class="col-lg-7">
                     <div class="uslugi-item__content">
-                        <p class="bold-text">Czym jest PPK z perspektywy pracownika?</p>
+                        <h3 class="bold-text">Czym jest PPK z perspektywy pracownika?</h3>
                         <p>
                             PPK będzie obejmować wszystkich pracowników w wieku od 18. do 54. Lat, za których pracodawcy
                             odprowadzają składki emerytalno-rentowe. Za to osoby w wieku pomiędzy 55. a 69. rokiem życia
@@ -304,11 +305,11 @@ get_header(); ?>
     </section>
 
 
-    <section class="whitecontent mt-5" id="ppk-tab-6">
+    <section class="whitecontent mt-5" id="czym-jest-dla-pracodawcy">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
-                    <p class="bold-text">Wypłata środków z PPK – kiedy i w jaki sposób?</p>
+                    <h3 class="bold-text">Wypłata środków z PPK – kiedy i w jaki sposób?</h3>
                     <p>
                         Zachętą do wzięcia udziału w programie PPK ma być jego prosta, nieskomplikowana forma, czyli
                         automatyczny zapis i brak zbędnych formalności. Dzięki tym zaletom, według wstępnych prognoz ma
@@ -364,30 +365,39 @@ get_header(); ?>
 
 
 
-    <section class="uslugi-tabs mt-5" id="ppk-tab-7">
+    <section class="uslugi-tabs mt-5" id="termin-wdrozenia">
         <div class="container">
             <div class="row">
 
                 <div class="col-lg-12">
                     <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
                         <li class="nav-item col-4">
-                            <a class="nav-link active" id="pills-rodo-tab" data-toggle="pill" href="#pills-rodo"
-                                role="tab" aria-controls="pills-rodo" aria-selected="true">Czym jest PPK z perspektywy
-                                pracodawcy</a>
+                            <a class="nav-link active" id="czym-jest-ppk-z-perspektywy-pracodawcy-tab"
+                                data-toggle="pill" href="#czym-jest-ppk-z-perspektywy-pracodawcy" role="tab"
+                                aria-controls="czym-jest-ppk-z-perspektywy-pracodawcy" aria-selected="true">
+                                <h3>Czym jest PPK z perspektywy
+                                    pracodawcy</h3>
+                            </a>
                         </li>
                         <li class="nav-item col-4">
-                            <a class="nav-link" id="pills-it-tab" data-toggle="pill" href="#pills-it" role="tab"
-                                aria-controls="pills-it" aria-selected="false">Kto powinien być zgłoszony do PPK</a>
+                            <a class="nav-link" id="kto-powinien-byc-zgloszony-do-ppk-tab" data-toggle="pill"
+                                href="#kto-powinien-byc-zgloszony-do-ppk" role="tab"
+                                aria-controls="kto-powinien-byc-zgloszony-do-ppk" aria-selected="false">
+                                <h3>Kto powinien być zgłoszony do PPK</h3>
+                            </a>
                         </li>
                         <li class="nav-item col-4">
-                            <a class="nav-link" id="pills-startup-tab" data-toggle="pill" href="#pills-startup"
-                                role="tab" aria-controls="pills-startup" aria-selected="false">Czy można zrezygnować z
-                                PPK</a>
+                            <a class="nav-link" id="czy-mozna-zrezygnowac-z-ppk-tab" data-toggle="pill"
+                                href="#czy-mozna-zrezygnowac-z-ppk" role="tab"
+                                aria-controls="czy-mozna-zrezygnowac-z-ppk" aria-selected="false">
+                                <h3>Czy można zrezygnować z
+                                    PPK</h3>
+                            </a>
                         </li>
                     </ul>
                     <div class="tab-content" id="pills-tabContent">
-                        <div class="tab-pane fade show active" id="pills-rodo" role="tabpanel"
-                            aria-labelledby="pills-rodo-tab">
+                        <div class="tab-pane fade show active" id="czym-jest-ppk-z-perspektywy-pracodawcy"
+                            role="tabpanel" aria-labelledby="czym-jest-ppk-z-perspektywy-pracodawcy-tab">
                             <p class="bold-text">Pracodawcy</p>
                             <p>
                                 Przede wszystkim warto pamiętać, że do 2021 roku obowiązek wprowadzenia PPK ma objąć
@@ -403,7 +413,8 @@ get_header(); ?>
                                     data-src="https://rpms.pl/wp-content/uploads/2019/09/Group-218.png" />
                             </p>
                         </div>
-                        <div class="tab-pane fade" id="pills-it" role="tabpanel" aria-labelledby="pills-it-tab">
+                        <div class="tab-pane fade" id="kto-powinien-byc-zgloszony-do-ppk" role="tabpanel"
+                            aria-labelledby="kto-powinien-byc-zgloszony-do-ppk-tab">
                             <p>Do Pracowniczych Planów Kapitałowych pracodawca jest zobowiązany zgłosić wszystkie osoby
                                 zatrudnione w wieku od 18 do 54 lat, które:</p>
                             <ul class="special-list">
@@ -421,8 +432,8 @@ get_header(); ?>
                                 pobierających świadczenia rehabilitacyjne, oraz przebywających na bezpłatnych urlopach.
                             </p>
                         </div>
-                        <div class="tab-pane fade" id="pills-startup" role="tabpanel"
-                            aria-labelledby="pills-startup-tab">
+                        <div class="tab-pane fade" id="czy-mozna-zrezygnowac-z-ppk" role="tabpanel"
+                            aria-labelledby="czy-mozna-zrezygnowac-z-ppk-tab">
                             <p>
                                 Tak. PPK jest całkowicie dobrowolne. Chociaż pracownicy są automatycznie zapisywani do
                                 tego programu, mogą wypełnić deklarację o rezygnacji i nie oszczędzać w ramach PPK.
@@ -448,11 +459,11 @@ get_header(); ?>
 
 
 
-    <section class="mt-5 mb-4" id="ppk-tab-3">
+    <section class="mt-5 mb-4" id="zalozenia-ppk">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
-                    <p class="bold-text">Od kiedy PPK jest obowiązkowe?</p>
+                    <h3 class="bold-text">Od kiedy PPK jest obowiązkowe?</h3>
                     <p>
                         Data wprowadzenia przepisów jest zależna od liczby zatrudnionych osób. Przedsiębiorstwa z dużą
                         liczbą pracowników (ponad 250) będą zobowiązane do utworzenia PPK już od 1 lipca 2019 roku. Z
@@ -489,12 +500,12 @@ get_header(); ?>
 
 
     <div class="uslugi-list">
-        <section class="uslugi-item" id="ppk-tab-8">
+        <section class="uslugi-item" id="opodatkowanie-ppk">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-7">
                         <div class="uslugi-item__content">
-                            <p class="bold-text">Zasady opodatkowania środków PPK</p>
+                            <h3 class="bold-text">Zasady opodatkowania środków PPK</h3>
                             <p>Jednym z głównych pytań jakie spotykamy się w swojej praktyce to pytanie, w jaki sposób
                                 wpłaty na rzecz PPK są opodatkowane i w jaki sposób powinno się je rozliczać księgowo.
                                 Otóż:
@@ -535,12 +546,12 @@ get_header(); ?>
             </div>
         </section>
 
-        <section class="uslugi-item" id="ppk-tab-9">
+        <section class="uslugi-item" id="co-uwzglednic-przed-wdrozeniem">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-7">
                         <div class="uslugi-item__content">
-                            <p class="bold-text">Środki publiczne a PPK</p>
+                            <h3 class="bold-text">Środki publiczne a PPK</h3>
                             <p>
                                 Osobom korzystającym z PPK przysługuje możliwość otrzymania finansowego wsparcia ze
                                 środków
@@ -566,11 +577,11 @@ get_header(); ?>
         </section>
     </div>
 
-    <section class="mt-5 mb-4" id="ppk-tab-3">
+    <section class="mt-5 mb-4" id="zalozenia-ppk">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
-                    <p class="bold-text">Zasady wdrożenia PPK</p>
+                    <h3 class="bold-text">Zasady wdrożenia PPK</h3>
                     <p>Do kiedy należy przeprowadzić konsultacje oraz podpisać umowy o prowadzenie PPK?</p>
                 </div>
                 <div class="col-lg-12">
@@ -646,26 +657,38 @@ get_header(); ?>
                 <div class="col-lg-12">
                     <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
                         <li class="nav-item col-3">
-                            <a class="nav-link active" id="pills-rodo-tab" data-toggle="pill" href="#pills-budzetowanie"
-                                role="tab" aria-controls="pills-rodo" aria-selected="true">Budżetowanie PPK</a>
+                            <a class="nav-link active" id="czym-jest-ppk-z-perspektywy-pracodawcy-tab"
+                                data-toggle="pill" href="#budzetowanie-ppk" role="tab"
+                                aria-controls="czym-jest-ppk-z-perspektywy-pracodawcy" aria-selected="true">
+                                <h3>Budżetowanie PPK</h3>
+                            </a>
                         </li>
                         <li class="nav-item col-3">
-                            <a class="nav-link" id="pills-it-tab" data-toggle="pill" href="#pills-umowy" role="tab"
-                                aria-controls="pills-it" aria-selected="false">Podpisanie umów o PPK</a>
+                            <a class="nav-link" id="kto-powinien-byc-zgloszony-do-ppk-tab" data-toggle="pill"
+                                href="#podpisanie-umow-o-ppk" role="tab"
+                                aria-controls="kto-powinien-byc-zgloszony-do-ppk" aria-selected="false">
+                                <h3>Podpisanie umów o PPK</h3>
+                            </a>
                         </li>
                         <li class="nav-item col-3">
-                            <a class="nav-link" id="pills-startup-tab" data-toggle="pill" href="#pills-akcja" role="tab"
-                                aria-controls="pills-startup" aria-selected="false">Przeprowadzenie akcji
-                                informacyjnej</a>
+                            <a class="nav-link" id="czy-mozna-zrezygnowac-z-ppk-tab" data-toggle="pill"
+                                href="#przeprowadzenie-akcji-informacyjnych" role="tab"
+                                aria-controls="czy-mozna-zrezygnowac-z-ppk" aria-selected="false">
+                                <h3>Przeprowadzenie akcji
+                                    informacyjnej</h3>
+                            </a>
                         </li>
                         <li class="nav-item col-3">
-                            <a class="nav-link" id="pills-startup-tab" data-toggle="pill" href="#pills-brak" role="tab"
-                                aria-controls="pills-startup" aria-selected="false">Co grozi pracodawcy za brak PPK</a>
+                            <a class="nav-link" id="czy-mozna-zrezygnowac-z-ppk-tab" data-toggle="pill"
+                                href="#co-grozi-pracodawcy-za-brak-ppk" role="tab"
+                                aria-controls="czy-mozna-zrezygnowac-z-ppk" aria-selected="false">
+                                <h3>Co grozi pracodawcy za brak PPK</h3>
+                            </a>
                         </li>
                     </ul>
                     <div class="tab-content" id="pills-tabContent">
-                        <div class="tab-pane fade show active" id="pills-budzetowanie" role="tabpanel"
-                            aria-labelledby="pills-budzetowanie-tab">
+                        <div class="tab-pane fade show active" id="budzetowanie-ppk" role="tabpanel"
+                            aria-labelledby="budzetowanie-ppk-tab">
                             <p class="bold-text">Pracodawca musi zaplanować i zabudżetować:</p>
                             <ul class="special-list">
                                 <li>1-4 wpłaty miesięczne do PPK na rok 2019,</li>
@@ -686,7 +709,8 @@ get_header(); ?>
                                 skonsultowania się z w tej kwestii z funkcjonującymi w danym zakładzie pracy związkami
                                 zawodowymi, lub, w przypadku ich braku, z reprezentacją pracowników.</p>
                         </div>
-                        <div class="tab-pane fade" id="pills-umowy" role="tabpanel" aria-labelledby="pills-umowy-tab">
+                        <div class="tab-pane fade" id="podpisanie-umow-o-ppk" role="tabpanel"
+                            aria-labelledby="podpisanie-umow-o-ppk-tab">
                             <p>Pracodawca zobowiązany jest podpisać dwie umowy – najpierw o zarządzanie PPK, a
                                 następnie, w imieniu swoich pracowników, o prowadzenie PPK. Umowy te co do zasady są
                                 zawierane drogą elektroniczną.</p>
@@ -709,7 +733,8 @@ get_header(); ?>
                                 dyspozycje dotyczące gromadzonych środków. Załącznikiem do tej umowy jest lista
                                 pracowników którzy chcą uczestniczyć w PPK.</p>
                         </div>
-                        <div class="tab-pane fade" id="pills-akcja" role="tabpanel" aria-labelledby="pills-akcja-tab">
+                        <div class="tab-pane fade" id="przeprowadzenie-akcji-informacyjnych" role="tabpanel"
+                            aria-labelledby="przeprowadzenie-akcji-informacyjnych-tab">
                             <p>Pomiędzy wyborem instytucji finansowej a podpisaniem umowy o prowadzenie PPK pracodawca
                                 zobowiązany jest do przeprowadzenia akcji edukacyjno-informacyjnej skierowanej do
                                 pracowników<br> W akcji tej powinna go wesprzeć wybrana instytucja finansowa oraz
@@ -736,7 +761,8 @@ get_header(); ?>
                             </ul>
                             <p>Pracodawca na każdym etapie obsługi PPK uzyska pełne wsparcie i informacje od Aegon</p>
                         </div>
-                        <div class="tab-pane fade" id="pills-brak" role="tabpanel" aria-labelledby="pills-brak-tab">
+                        <div class="tab-pane fade" id="co-grozi-pracodawcy-za-brak-ppk" role="tabpanel"
+                            aria-labelledby="co-grozi-pracodawcy-za-brak-ppk-tab">
                             <p>W przypadku niezawarcia umowy o PPK w obowiązującym terminie: zatrudniający podlega karze
                                 grzywny w wysokości do 1,5% całościowego funduszu wynagrodzeń.<br> Podobne konsekwencje
                                 ponosi się za przymuszanie i nakłanianie pracowników do rezygnacji z udziału w
@@ -752,10 +778,10 @@ get_header(); ?>
     </section>
 
 
-    <section class="faq pt-5 pb-5 mx-3 mt-5" style="background: transparent;" id="ppk-tab-10">
-        <div class="container">
+    <section class="faq pt-5 pb-5 mx-3 mt-5" style="background: transparent;" id="najczesciej-zadawane-pytania">
+        <div class="container" itemscope itemtype="https://schema.org/FAQPage">
             <div class="row row-title mt-3">
-                <h3><strong>FAQ</strong></h3>
+                <h2><strong>PPK FAQ</strong></h2>
             </div>
             <div class="row">
                 <div class="col-lg-12">
@@ -767,129 +793,49 @@ get_header(); ?>
             <div class="row">
                 <div class="col-lg-12">
                     <div class="accordion" id="accordionExample">
-                        <div class="card show">
-                            <div class="card-header show" id="headingOne">
-                                <h4 class="mb-0">
-                                    <div class="icon"><img
-                                            src="http://rpms.craftweb.pl/wp-content/uploads/2021/02/doradztwo.svg"
-                                            alt=""></div>
-                                    <button class="btn btn-link btn-block text-left" type="button"
-                                        data-toggle="collapse" data-target="#collapseOne" aria-expanded="true"
-                                        aria-controls="collapseOne">
-                                        Od kiedy obowiązują pracownicze plany kapitałowe (PPK)?
-                                    </button>
-                                </h4>
-                            </div>
 
-                            <div id="collapseOne" class="collapse show" aria-labelledby="headingOne"
-                                data-parent="#accordionExample">
-                                <div class="card-body">
-                                    <p><span style="font-weight: 400;">Ustawa z dnia 04.10.2018 r. o pracowniczych
-                                            planach kapitałowych (Dz.U. 2018 poz. 2215) weszła w życie z dniem
-                                            01.01.2019 r. Sam program jednak będzie musiał być obowiązkowo wdrażany
-                                            przez pracodawców w terminach zależnych od ilości zatrudnianych pracowników,
-                                            według zasady im więcej pracowników tym pracodawcę czeka szybszy termin
-                                            zorganizowania u siebie programu i zaproponowania go pracownikom.</span></p>
-                                    <table class="table-faq">
-                                        <tbody>
-                                            <tr>
-                                                <th>Pracodawca</th>
-                                                <th>Wejście w życie PPK</th>
-                                            </tr>
-                                            <tr>
-                                                <td>zatrudniający min. 250 osób</td>
-                                                <td>01.07.2019 r.</td>
-                                            </tr>
-                                            <tr>
-                                                <td>zatrudniający min. 50 osób</td>
-                                                <td>01.01.2020 r.</td>
-                                            </tr>
-                                            <tr>
-                                                <td>Zatrudniający min. 20 osób</td>
-                                                <td>01.07.2020 r.</td>
-                                            </tr>
-                                            <tr>
-                                                <td>Zatrudniający mniej niż 20 osób i sektor finansów publicznych</td>
-                                                <td>01.01.2021 r.</td>
-                                            </tr>
-                                        </tbody>
-                                    </table>
-                                    <p><span style="font-weight: 400;">Wejście w życie dla określonej grupy pracodawców
-                                            nie oznacza jednak, że od tego dnia rozpocznie się oszczędzanie emerytalne.
-                                            Pracodawcy mają jeszcze kolejne maksymalne terminy na wdrożenie konkretnych
-                                            czynności PPK, o czym w /Jakie są terminy związane z pracowniczymi
-                                            programami kapitałowymi (PPK)?/.</span></p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="card">
-                            <div class="card-header" id="headingTwo">
-                                <h4 class="mb-0">
+
+
+
+                        <?php if ( have_rows( 'pytanie_pole_powtarzalne' ) ) : ?>
+                        <?php while ( have_rows( 'pytanie_pole_powtarzalne' ) ) :
+		                the_row(); ?>
+
+                        <div class="card" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+                            <div class="card-header" id="heading<?php echo get_row_index(); ?>">
+                                <h3 class="mb-0">
                                     <div class="icon"><img
                                             src="http://rpms.craftweb.pl/wp-content/uploads/2021/02/doradztwo.svg"
                                             alt=""></div>
                                     <button class="btn btn-link btn-block text-left collapsed" type="button"
-                                        data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false"
-                                        aria-controls="collapseTwo">
-                                        Jak zrezygnować z pracowniczych planów kapitałowych?
+                                        data-toggle="collapse" data-target="#collapse<?php echo get_row_index(); ?>"
+                                        aria-expanded="false" aria-controls="collapse<?php echo get_row_index(); ?>"
+                                        itemprop="name">
+                                        <?php if ( $pytanie = get_sub_field( 'pytanie' ) ) : ?>
+                                        <?php echo esc_html( $pytanie ); ?>
+                                        <?php endif; ?>
                                     </button>
-                                </h4>
+                                    </h4>
                             </div>
-                            <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo"
-                                data-parent="#accordionExample">
-                                <div class="card-body">
-                                    <p><span style="font-weight: 400;">Pracownik do programu PPK jest kwalifikowany
-                                            automatycznie (dotyczy pracowników w wieku od 18 do 54 r.ż.), co oznacza, że
-                                            jeżeli nie podejmie aktywności i nie zakomunikuje pracodawcy rezygnacji z
-                                            udziału w PPK, to będzie jego uczestnikiem. Złożenie pisemnej rezygnacji
-                                            wiąże się z podpisaniem i dostarczeniem do pracodawcy formularza rezygnacji
-                                            z PPK, który jest wzorem opracowanym przez ministerialne
-                                            rozporządzenie.</span></p>
-                                    <p><span style="font-weight: 400;">Należy pamiętać, że nawet w przypadku rezygnacji,
-                                            udział takiego pracownika w PPK odnawia się co 4 lata, co oznacza, że po tym
-                                            czasie pracownik zostanie automatycznie zapisany do PPK lub będzie musiał
-                                            złożyć na nowo deklarację rezygnacji. Pracodawca powinien poinformować
-                                            pracownika o tym i przed upływem tych 4 lat zwrócić mu na to uwagę, dając
-                                            czas na rezygnację.</span></p>
-                                    <p><span style="font-weight: 400;">W każdej chwili pracownik może po rezygnacji
-                                            przystąpić znowu do PPK, wyrażając taka pisemną wolę.</span></p>
-                                    <p><span style="font-weight: 400;">Jeżeli jako pracodawca chciałbyś zrezygnować z
-                                            prowadzenia PPK, to brak obowiązku tworzenia i obsługiwania programu dotyczy
-                                            tylko przypadku gdy nie zatrudniasz pracowników lub współpracujesz z
-                                            osobami, za które nie są odprowadzane składki (np. na umowach o dzieło), lub
-                                            gdy wszyscy pracownicy zatrudniani zrezygnowali z udziału w PPK.</span></p>
+                            <div id="collapse<?php echo get_row_index(); ?>" class="collapse"
+                                aria-labelledby="heading<?php echo get_row_index(); ?>" data-parent="#accordionExample"
+                                itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+                                <div class="card-body" itemprop="text">
+                                    <?php if ( $odpowiedz = get_sub_field( 'odpowiedz' ) ) : ?>
+                                    <?php echo $odpowiedz; ?>
+                                    <?php endif; ?>
                                 </div>
                             </div>
                         </div>
-                        <div class="card">
-                            <div class="card-header" id="headingThree">
-                                <h4 class="mb-0">
-                                    <div class="icon"><img
-                                            src="http://rpms.craftweb.pl/wp-content/uploads/2021/02/doradztwo.svg"
-                                            alt=""></div>
-                                    <button class="btn btn-link btn-block text-left collapsed" type="button"
-                                        data-toggle="collapse" data-target="#collapseThree" aria-expanded="false"
-                                        aria-controls="collapseThree">
-                                        Co to są pracownicze plany kapitałowe?
-                                    </button>
-                                </h4>
-                            </div>
-                            <div id="collapseThree" class="collapse" aria-labelledby="headingThree"
-                                data-parent="#accordionExample">
-                                <div class="card-body">
-                                    <p><span style="font-weight: 400;">Ustawa określa, że PPK jest tworzony w celu
-                                            systematycznego gromadzenia oszczędności przez uczestnika z przeznaczeniem
-                                            na wypłatę po osiągnięciu przez niego 60 lat lub na inne cele przewidziane w
-                                            ustawie.</span></p>
-                                    <p><span style="font-weight: 400;">Program emerytalnego oszczędzania jest dobrowolny
-                                            i stanowi dodatkowe gromadzenie środków na emeryturę, poza ZUS.&nbsp;</span>
-                                    </p>
-                                    <p><span style="font-weight: 400;">Celem programu jest gromadzenie środków na
-                                            emeryturę przy udziale zarówno pracownika, pracodawcy, jak i państwa.&nbsp;
-                                        </span></p>
-                                </div>
-                            </div>
-                        </div>
+
+
+
+
+
+                        <?php endwhile; ?>
+                        <?php endif; ?>
+
+
                     </div>
                 </div>
             </div>

@@ -28,12 +28,20 @@ get_header(); ?>
             <div class="row">
                 <div class="col-lg-7">
                     <div class="uslugi-item__content">
+                        <div class="row align-items-lg-center">
+                        <div class="col-lg-2">
                         <img src="https://rpms.pl/wp-content/uploads/2019/09/Kompozycja-18.png" alt="">
+                        </div>
 
-                        <div class="first-section-p">
-                            <h2 style="font-size: 42px; line-height: 55px; margin: 0; font-weight: 300;">Ochrona marki –
+                        <div class="col-lg-10">
+                        <h2 style="font-size: 42px; line-height: 55px; margin: 0; font-weight: 300;">Ochrona marki –
                                 <strong>korzyści</strong>
                             </h2>
+                        </div>
+                        </div>
+
+                        <div class="first-section-p">
+                            
                             <p class="bold-text" style="text-align: justify;">Dbając o promocję marki w Internecie,
                                 musisz zadbać o jej bezpieczeństwo!</p>
                             <p style="text-align: justify;">Wzrost rozpoznawalności danej marki w Internecie, wiąże się
@@ -111,7 +119,7 @@ get_header(); ?>
                     <div class="accordion" id="accordionExample">
                         <div class="card show">
                             <div class="card-header show" id="headingOne">
-                                <h2 class="mb-0">
+                                <h3 class="mb-2">
                                     <button class="btn btn-link btn-block text-left" type="button"
                                         data-toggle="collapse" data-target="#collapseOne" aria-expanded="true"
                                         aria-controls="collapseOne">
@@ -144,7 +152,7 @@ get_header(); ?>
                         </div>
                         <div class="card">
                             <div class="card-header" id="headingTwo">
-                                <h2 class="mb-0">
+                                <h3 class="mb-2">
                                     <button class="btn btn-link btn-block text-left collapsed" type="button"
                                         data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false"
                                         aria-controls="collapseTwo">
@@ -167,7 +175,7 @@ get_header(); ?>
                         </div>
                         <div class="card">
                             <div class="card-header" id="headingThree">
-                                <h2 class="mb-0">
+                                <h3 class="mb-2">
                                     <button class="btn btn-link btn-block text-left collapsed" type="button"
                                         data-toggle="collapse" data-target="#collapseThree" aria-expanded="false"
                                         aria-controls="collapseThree">
@@ -212,7 +220,7 @@ get_header(); ?>
                         </div>
                         <div class="card">
                             <div class="card-header" id="headingFour">
-                                <h2 class="mb-0">
+                                <h3 class="mb-2">
                                     <button class="btn btn-link btn-block text-left collapsed" type="button"
                                         data-toggle="collapse" data-target="#collapseFour" aria-expanded="false"
                                         aria-controls="collapseFour">
@@ -279,7 +287,7 @@ get_header(); ?>
             <div class="row">
                 <div class="col-lg-7">
                     <div class="uslugi-item__content">
-                        <h2 style="font-size: 42px; line-height: 55px; margin: 0; font-weight: 300;">Dlaczego my?</h2>
+                        <h2 style="font-size: 42px; line-height: 55px; margin: 0; font-weight: 300;">Dlaczego kancelaria RPMS?</h2>
                         <p class="bold-text">Internet jako pole naszej działalności, jest również przyczyną naszych
                             sukcesów.</p>
                         <p style="text-align: left;">

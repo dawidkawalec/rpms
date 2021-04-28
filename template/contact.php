@@ -69,7 +69,7 @@ get_header(); ?>
             <div class="row row-form">
                 <div class="col-lg-12">
                     <div class="form">
-                        <?php echo do_shortcode('[contact-form-7 id="155" title="Formularz kontaktowy podstorna"]'); ?>
+                        <?php echo do_shortcode('[contact-form-7 id="4224" title="Kontakt"]'); ?>
                     </div>
                 </div>
             </div>

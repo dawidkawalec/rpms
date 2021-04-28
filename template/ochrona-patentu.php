@@ -30,12 +30,14 @@ get_header(); ?>
         <div class="container">
             <div class="row">
                 <div class="col-lg-6 text">
-                    <p>Podczas gdy jeden pomysł będzie skutecznie chroniony przez prawo autorskie, inny może wymagać
-                        nieco innej, specyficznej formy zabezpieczenia. Mowa o prawie patentowym, które dotyczy
-                        innowacyjnych rozwiązań – głównie tych rozwiązujących jakiś społeczny problem. Patentem można
-                        więc objąć wynalazek z dowolnej dziedziny nauki lub techniki. Będą to zarówno nowatorskie
-                        sposoby przeprowadzania jakiejś czynności, innowacyjne metody, a także produkty i urządzenia.
-                    </p>
+                    <p>Podczas gdy jeden pomysł będzie skutecznie chroniony przez <a
+                            href="https://rpms.pl/prawo-autorskie/">prawo autorskie</a>, inny może wymagać nieco innej,
+                        specyficznej formy zabezpieczenia. Mowa o prawie patentowym, które dotyczy innowacyjnych
+                        rozwiązań – głównie tych rozwiązujących jakiś społeczny problem. Patentem można więc objąć
+                        wynalazek z dowolnej dziedziny nauki lub techniki. Będą to zarówno nowatorskie sposoby
+                        przeprowadzania jakiejś czynności, innowacyjne metody, a także produkty i urządzenia.</p>
+                    <img src="https://rpms.pl/wp-content/uploads/2018/12/regul1.jpg" style="border-radius: 15px;"
+                        alt="ochrona patentu">
                 </div>
                 <div class="col-lg-6 specialization">
                     <div class="form">
@@ -51,7 +53,7 @@ get_header(); ?>
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 content">
-                    <p class="bold-text">Dlaczego warto zainwestować w ochronę patentową?</p>
+                    <h2 class="bold-text mt-0">Dlaczego warto zainwestować w ochronę patentową?</h2>
                     <p>Ponieważ dzięki patentowi zyskujesz wyłączność na korzystanie z wynalazku. Możesz robić w to w
                         celu zawodowym lub zarobkowym, możesz udzielić na niego licencji i go sprzedać, a także
                         dochodzić swoich praw w razie ich naruszenia. To idealny sposób na skuteczne zabezpieczenie
@@ -117,7 +119,8 @@ get_header(); ?>
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 content">
-                    <p class="bold-text">Usługi Kancelarii Prawnej RPMS w zakresie prawa patentowego i wynalazków</p>
+                    <h2 class="bold-text mt-0">Usługi Kancelarii Prawnej RPMS w zakresie prawa patentowego i wynalazków
+                    </h2>
                     <p style="text-align: justify;">Kancelaria na stałe współpracuje z Rzecznikami patentowymi i
                         specjalistami z dziedziny IP (własności intelektualnej) zapewniając:</p>
                     <ul class="special-list">
@@ -147,7 +150,7 @@ get_header(); ?>
             <div class="row">
                 <div class="col-lg-12">
                     <div class="content">
-                        <p class="bold-text" style="text-align: justify;"><strong>Jak działamy?</strong></p>
+                        <h2 class="bold-text mt-0" style="text-align: justify;"><strong>Jak działamy?</strong></h2>
                         <ol class="number-list">
                             <li>Na samym początku sprawdzamy czy Twój projekt / pomysł / wynalazek może być chroniony
                                 prawem patentowym, czy podlega np. pod prawo autorskie lub powinien być zgłoszony jako
@@ -169,7 +172,7 @@ get_header(); ?>
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 content">
-                    <p class="bold-text">O czym powinieneś pamiętać przed złożeniem wniosku o patent:</p>
+                    <h2 class="bold-text mt-0">O czym powinieneś pamiętać przed złożeniem wniosku o patent:</h2>
                     <ul class="special-list">
                         <li>Na przyznanie patentu w Polsce czeka się około 3 lat.</li>
                         <li>Jeżeli ujawnisz swój wynalazek (również poprzez jego sprzedaż, podzielenie się nim na

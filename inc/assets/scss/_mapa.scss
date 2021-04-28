@@ -1,18 +1,16 @@
 .maps {
-    .row {
-        @media(max-width: 992px) {
-            flex-direction: column-reverse;
-        }
-    }
+
     .desc {
-        h3 {
+        h2 {
             font-size: 35px;
             font-stretch: normal;
             font-style: normal;
             line-height: normal;
+
             strong {
                 font-weight: 900;
             }
+
             &:after {
                 content: '';
                 width: 50px;
@@ -23,6 +21,7 @@
                 display: block;
             }
         }
+
         b {
             display: block;
             font-size: 22px;
@@ -32,6 +31,7 @@
             line-height: 1.45;
             margin-bottom: 25px;
         }
+
         .link {
             color: #3b394f;
             display: flex;
@@ -52,13 +52,16 @@
             text-decoration: none;
             border-radius: 25px;
             background-color: #f6f6f6;
+
             &:hover {
                 color: #fff;
                 background: #bfa071;
+
                 img {
                     filter: brightness(0) invert(1);
                 }
             }
+
             img {
                 width: 20px;
                 height: auto;

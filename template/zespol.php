@@ -61,7 +61,11 @@ get_header(); ?>
                             <?php endif; ?>
                         </div>
                         <div class="desc">
-                            <div class="name"><?php the_title(); ?></div>
+                        <a class="more d-flex" href="<?php the_permalink();?>">
+                        <div class="name"><?php the_title(); ?></div>
+                        </a>
+                                      
+                            
                             <div class="stan"><?php if ( $zespol_stanowisko = get_field( 'zespol_stanowisko' ) ) : ?>
                                 <?php echo esc_html( $zespol_stanowisko ); ?>
                                 <?php endif; ?>
@@ -72,7 +76,7 @@ get_header(); ?>
                                 <?php endif; ?>
                             </div>
                             <div class="more">
-                                <a class="more d-flex" href="<?php the_permalink();?>">
+                                <a class="more d-flex" href="<?php the_permalink();?>" rel="nofollow">
                                     - Więcej <img class="ml-2" src="/wp-content/themes/rpms/inc/assets/img/arrow.svg"
                                         alt="">
 

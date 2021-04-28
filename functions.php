@@ -130,6 +130,9 @@ function wp_bootstrap_starter_setup() {
 	// This theme uses wp_nav_menu() in one location.
 	register_nav_menus( array(
 		'primary' => esc_html__( 'Primary', 'wp-bootstrap-starter' ),
+		'uslugi' => esc_html__( 'Usługi prawne', 'wp-bootstrap-starter' ),
+		'rpms' => esc_html__( 'RPMS', 'wp-bootstrap-starter' ),
+		'links' => esc_html__( 'Przydatne linki', 'wp-bootstrap-starter' ),
 	) );
 
 	/*

@@ -27,7 +27,7 @@ get_header(); ?>
         <div class="container">
             <div class="row">
                 <div class="col-lg-6 text">
-                    <p class="big">PRAWO AUTORSKIE TO NASZA SPECJALNOŚĆ !</p>
+                    <h2 class="big mt-0">PRAWO AUTORSKIE TO NASZA SPECJALNOŚĆ !</h2>
                     <p style="text-align: justify;"><a title="Kancelaria Prawna RPMS" href="https://rpms.pl/">Kancelaria
                             Prawna RPMS</a> zajmuje się obsługą klientów w zabezpieczaniu i zarządzaniu autorskimi
                         prawami majątkowymi i osobistymi. Specjalizujemy się w obsłudze branży związanej z nowoczesnymi
@@ -58,7 +58,7 @@ get_header(); ?>
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 content">
-                    <p class="bold-text">Jak możemy Ci pomóc:</p>
+                    <h2 class="bold-text mt-0">Jak możemy Ci pomóc:</h2>
                     <ul class="special-list">
                         <li>Przygotowujemy, negocjujemy i poddajemy analizie umowy licencyjne oraz umowy o przeniesienie
                             praw autorskich,</li>
@@ -139,7 +139,7 @@ get_header(); ?>
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 content">
-                    <p class="bold-text">Czym jest utwór według prawa autorskiego?</p>
+                    <h2 class="bold-text mt-0">Czym jest utwór według prawa autorskiego?</h2>
                     <p style="text-align: justify;">Nie ma znaczenia nośnik, na którym go utrwalono, dlatego
                         <strong>samo pojęcie utworu jest bardzo rozległe i może dotyczyć wielu zróżnicowanych
                             dziedzin</strong>. Chodzi tutaj zarówno o to, co od razu przychodzi nam go głowy na myśl o

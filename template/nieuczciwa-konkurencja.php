@@ -65,8 +65,8 @@ get_header(); ?>
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 content">
-                    <p class="bold-text">Jako akt nieuczciwej konkurencji możemy określić m.in. takie działania, jak:
-                    </p>
+                    <h2 class="bold-text mt-0">Jako akt nieuczciwej konkurencji możemy określić m.in. takie działania, jak:
+                    </h2>
                     <ul class="special-list">
                         <li><a href="https://rpms.pl/prawo-autorskie/">Podszywanie się pod markę</a>, w tym wprowadzanie
                             podobnych, wprowadzających w błąd oznaczeń firmowych;</li>
@@ -155,7 +155,7 @@ get_header(); ?>
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 content">
-                    <p class="bold-text">Co zyskujesz, wybierając RPMS?</p>
+                    <h3 class="bold-text mt-0">Co zyskujesz, wybierając RPMS?</h3>
                     <p>
                         Posiadamy pełne zaplecze techniczno- organizacyjne do zabezpieczenia Twoich praw. Przeprowadzimy
                         proces rejestracji znaku towarowego, zgłoszenia wzorów przemysłowych i patentów, wdrożymy zasady
@@ -236,8 +236,8 @@ get_header(); ?>
             <div class="row">
                 <div class="col-lg-12">
                     <div class="content">
-                        <p class="bold-text" style="text-align: justify;"><strong>OCHRONA TAJEMNICY
-                                PRZEDSIĘBIORSTWA</strong></p>
+                        <h3 class="bold-text mt-0" style="text-align: justify;"><strong>OCHRONA TAJEMNICY
+                                PRZEDSIĘBIORSTWA</strong></h3>
                         <ul class="special-list count-2 mb-5">
                             <li>Zabezpieczenie formalne danych wrażliwych (tajemnicy przedsiębiorstwa);</li>
                             <li>Zapewnienie przejrzystości i bezpieczeństwa współpracy z kontrahentami</li>
@@ -247,7 +247,7 @@ get_header(); ?>
                             <li>Pełne wsparcie prawne w egzekwowaniu praw i roszczeń wynikających z naruszenia tajemnicy
                                 przedsiębiorstwa</li>
                         </ul>
-                        <p class="bold-text"><strong>OCHRONA PRODUKTÓW ORAZ USŁUG</strong></p>
+                        <h3 class="bold-text mt-0"><strong>OCHRONA PRODUKTÓW ORAZ USŁUG</strong></h3>
                         <p>Decydując się na nasze usługi, możesz dochodzić zarówno zaniechania nieuczciwych działań ze
                             strony konkurenta, ich rezultatów, uzyskać odszkodowanie, domagać się zwrotu bezprawnie
                             uzyskanych korzyści finansowych, jak i naprawy wyrządzonych szkód. Dzięki naszej

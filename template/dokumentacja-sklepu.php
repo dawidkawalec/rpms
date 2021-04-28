@@ -372,7 +372,7 @@ get_header(); ?>
 					prawidłowej obsługi <strong>w ramach działań&nbsp; marketingowych (np. SEO / SEM)</strong> przez dostawców tych usług.
 				</p>
 				<hr />
-				<h6 style="text-align: center;">Mamy zasoby, doświadczenie oraz dostęp do licencjonowanego oprogramowania (SENUTO, Ahrefs, SEMSTORM) by świadczyć usługi prawne na zupełnie nowym poziomie.</h6>
+				<span style="text-align: center; display: block">Mamy zasoby, doświadczenie oraz dostęp do licencjonowanego oprogramowania (SENUTO, Ahrefs, SEMSTORM) by świadczyć usługi prawne na zupełnie nowym poziomie.</span>
 				<hr />
 				<p style="text-align: justify;">
 					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Jako zarejestrowana kancelaria prawna gwarantujemy, że przygotowywana dokumentacja, w tym regulamin sklepu internetowego jest zawsze zgodna z przepisami i bezpieczna.
@@ -434,7 +434,7 @@ get_header(); ?>
                             <div class="image"><img src="<?php the_post_thumbnail_url(); ?>" alt=""></div>
                             <div class="single-content__padding">
                             <div class="date"><?php get_the_date(); ?></div>
-                            <h2 class="title"><?php the_title(); ?></h2>
+                            <span class="title"><?php the_title(); ?></span>
                             <p><?php echo wp_trim_words( get_the_content(), 15, '...' ); ?></p>
                             <div class="more d-flex">Więcej <img class="ml-2" src="/wp-content/themes/rpms/inc/assets/img/arrow.svg" alt=""></div>
                             </div>

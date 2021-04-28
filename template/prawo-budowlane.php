@@ -108,8 +108,8 @@ get_header(); ?>
                 <div class="row">
                     <div class="col-lg-7">
                         <div class="uslugi-item__content">
-                            <h4><b>Prawo budowlane</b></h4>
-                            <p><span style="font-weight: 400;">Warunki zabudowy/plan miejscowy:</span></p>
+                            <h3><b>Warunki zabudowy/plan miejscowy:</b></h3>
+
                             <ul class="special-list">
                                 <li style="font-weight: 400;"><span style="font-weight: 400;">pomoc
                                         w&nbsp;przeprowadzeniu procesu uzyskania warunków&nbsp;zabudowy (koncepcja
@@ -142,7 +142,7 @@ get_header(); ?>
                 <div class="row">
                     <div class="col-lg-7">
                         <div class="uslugi-item__content">
-                            <h4><b>Pozwolenie na budowę</b></h4>
+                            <h3><b>Pozwolenie na budowę</b></h3>
                             <ul class="special-list">
                                 <li style="font-weight: 400;"><span style="font-weight: 400;">w postępowaniu w
                                         przedmiocie wydania pozwolenia na budowę,</span></li>
@@ -169,7 +169,7 @@ get_header(); ?>
                 <div class="row">
                     <div class="col-lg-7">
                         <div class="uslugi-item__content">
-                            <h4><b>Nabycie / zbycie nieruchomości / prawa do nieruchomości</b></h4>
+                            <h3><b>Nabycie / zbycie nieruchomości / prawa do nieruchomości</b></h3>
                             <ul class="special-list">
                                 <li style="font-weight: 400;"><span style="font-weight: 400;">w zakresie zawierania i
                                         wykonywania umów deweloperskich,&nbsp;</span></li>
@@ -198,7 +198,7 @@ get_header(); ?>
                     <div class="col-lg-7">
                         <div class="uslugi-item__content">
 
-                            <h4><b>Samowole budowlane</b></h4>
+                            <h3><b>Samowole budowlane</b></h3>
                             <ul class="special-list">
                                 <li style="font-weight: 400;"><span style="font-weight: 400;">pomoc prawna
                                         w&nbsp;procedurze legalizacyjnej (legalizacja samowoli budowlanej obiektu
@@ -229,8 +229,8 @@ get_header(); ?>
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 content">
-                    <h4 style="font-size: 18px; font-weight: 900; margin-bottom: 35px;" <b>Postępowania
-                        administracyjne&nbsp;</b></h4>
+                    <h3 style="font-size: 18px; font-weight: 900; margin-bottom: 35px;"> <b>Postępowania
+                            administracyjne&nbsp;</b></h3>
                     <p><span style="font-weight: 400;">Reprezentujemy Klientów przed sądami i organami administracji
                             publicznej. </span></p>
                     <ul class="special-list">
@@ -241,11 +241,14 @@ get_header(); ?>
                             <ul>
                                 <li style="font-weight: 400;"><span style="font-weight: 400;">odwołania od decyzji
                                         o&nbsp;warunkach zabudowy;</span></li>
-                                <li style="font-weight: 400;"><span style="font-weight: 400;">odmowa ustalenia warunków
+                                <li style="font-weight: 400;"><span style="font-weight: 400;">odmowa ustalenia
+                                        warunków
                                         zabudowy – odwołanie;</span></li>
-                                <li style="font-weight: 400;"><span style="font-weight: 400;">odwołanie od pozwolenia na
+                                <li style="font-weight: 400;"><span style="font-weight: 400;">odwołanie od
+                                        pozwolenia na
                                         budowę;</span></li>
-                                <li style="font-weight: 400;"><span style="font-weight: 400;">odmowa wydania pozwolenia
+                                <li style="font-weight: 400;"><span style="font-weight: 400;">odmowa wydania
+                                        pozwolenia
                                         na budowę – odwołanie;</span></li>
                             </ul>
                         </li>
@@ -255,15 +258,18 @@ get_header(); ?>
                                 środowiskowe, media, zjazd na działkę i&nbsp;inne;</span></li>
                         <li style="font-weight: 400;">
                             <span style="font-weight: 400;">
-                                w wszelkich postępowaniach sądowych i administracyjnych dotyczących nieruchomości, w tym
-                                sporządzamy wnioski, odwołania od decyzji wydanych przez organy I instancji, skargi do
+                                w wszelkich postępowaniach sądowych i administracyjnych dotyczących nieruchomości, w
+                                tym
+                                sporządzamy wnioski, odwołania od decyzji wydanych przez organy I instancji, skargi
+                                do
                                 Wojewódzkiego Sądu Administracyjnego oraz skargi
                                 kasacyjne do Naczelnego Sądu Administracyjnego,
                             </span>
                         </li>
                         <li style="font-weight: 400;">
                             <span style="font-weight: 400;">
-                                reprezentujemy klientów w postępowaniach administracyjnych przed organami administracji
+                                reprezentujemy klientów w postępowaniach administracyjnych przed organami
+                                administracji
                                 architektoniczno – budowlanej oraz przed organami nadzoru budowlanego oraz w
                                 postępowaniach przed sądami administracyjnymi, w tym przed
                                 Naczelnym Sądem Administracyjnym.
@@ -306,8 +312,8 @@ get_header(); ?>
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
-                    <h4 style="font-size: 18px; font-weight: 900; margin-bottom: 35px;">Usługi Kancelarii, w zakresie
-                        pomocy prawnej obejmującej zagadnienia prawa nieruchomości, dotyczą w szczególności:</h4>
+                    <h2 style="font-size: 18px; font-weight: 900; margin-bottom: 35px;">Usługi Kancelarii, w zakresie
+                        pomocy prawnej obejmującej zagadnienia prawa nieruchomości, dotyczą w szczególności:</h2>
                     <ul class="number-list count-2">
                         <li style="font-weight: 400;"><span style="font-weight: 400;">analizy stanu prawnego
                                 nieruchomości</span></li>

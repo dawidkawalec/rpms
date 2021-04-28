@@ -77,7 +77,7 @@ get_header(); ?>
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 content">
-                    <p class="bold-text text-center">Business compilance – obszary, które obsługujemy:</p>
+                    <h2 class="bold-text text-center">Business compilance – obszary, które obsługujemy:</h2>
                     <ol class="number-list">
                         <li><a title="Prawo pracy" href="https://rpms.pl/prawo-pracy/">Prawo pracy</a> – opracowywanie
                             wewnętrznych polityk i kodeksów (np. regulaminu pracy, regulaminu etyki, polityki
@@ -115,7 +115,7 @@ get_header(); ?>
             <div class="row">
                 <div class="col-lg-12">
                     <div class="content">
-                        <p class="bold-text" style="text-align: justify;"><strong>Jak możemy Ci pomóc?</strong></p>
+                        <h3 class="bold-text" style="text-align: justify;"><strong>Jak możemy Ci pomóc?</strong></h3>
                         <p>Liczba przepisów i regulacji prawa rośnie z każdym rokiem. Stale ewoluują również rynkowe
                             tendencje. Z tych względów warto być na bieżąco i zaktualizować wewnętrzne procedury w swoim
                             biznesie. Pozwala to na uniknięcie zróżnicowanych, negatywnych konsekwencji, takich jak

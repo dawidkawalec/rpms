@@ -5,19 +5,25 @@ jQuery(function($) {
     // Run the script once the document is ready
     $(document).ready(function() {
 
+
+
+
+
         $('header .search .icon').on('click', function() {
             $('header .search-content').toggle();
         });
 
 
+        $('#prawo-pracy #alllogos').on('click', function() {
+            $('#prawo-pracy .logotype').toggleClass('viewall');
+        });
 
 
-      
 
 
         $('.site-hamburger').click(function() {
             $('#nav-icon3').toggleClass('open');
-            $('header .navbar').toggle();
+            $('header .navbar').toggleClass('show');
             // $('div#main-nav').toggleClass('show');
         });
 
@@ -32,15 +38,29 @@ jQuery(function($) {
         }
         if (jQuery(window).width() < 1199) {
             jQuery('.megamenudk > a').next().hide();
-            jQuery('.megamenudk .dropdown-menu.show .nodrops a').on('click', function() {
-                jQuery(this).parent().find('.dropdown-menu').toggleClass('show-mobile');
+
+            jQuery('.megamenudk a').on('click', function() {
+                $(this).toggleClass('rotate');
+
             });
+            jQuery('.megamenudk .dropdown-menu.show .nodrops a').on('click', function() {
+
+                // jQuery('.dropdown-menu.show').removeClass('open');
+                // jQuery(this).parent().find('.dropdown-menu').toggle().toggleClass('open');
+                // jQuery(this).parent().find('.dropdown-menu').toggleClass('open');
+
+                if (jQuery(this).parent().find('.dropdown-menu').toggle().addClass('open')) {
+
+                }
+            });
+
             jQuery('.megamenudk > a').on('click', function() {
                 jQuery(this).next().toggle();
             });
-            // jQuery(".megamenudk>.dropdown-menu").addClass('show-mobile');
-            // jQuery(".megamenudk>.dropdown-menu").removeClass('show');
+
         }
+
+
 
 
 
@@ -58,9 +78,43 @@ jQuery(function($) {
             margin: 20,
             nav: false,
             autoplay: false,
+            items: 1,            
+            autoHeight:true
+        })
+
+        jQuery('.articles-single-post .owl-carousel').owlCarousel({
+            loop: true,
+            margin: 20,
+            nav: true,
+            autoplay: false,
             items: 1,
+            autoplay:true,
+            autoplayTimeout:200000,
+            autoplayHoverPause:true,
+            responsive: {
+                // breakpoint from 768 up
+                768: {
+                    items: 2
+                },
+                992: {
+                    items: 3
+                },
+            },
 
         })
+
+        // var setMinHeight = function(minheight = 0) {
+        //     jQuery('.articles-single-post .owl-carousel').each(function(i, e) {
+        //         var oldminheight = minheight;
+        //         jQuery(e).find('.owl-item').each(function(i, e) {
+        //             minheight = jQuery(e).height() > minheight ? jQuery(e).height() : minheight;
+        //         });
+        //         jQuery(e).find('.owl-item').css("min-height", minheight + "px");
+        //         minheight = oldminheight;
+        //     });
+        // };
+
+        // setMinHeight();
 
         var owl2 = $('.teams .owl-carousel');
         owl2.owlCarousel();
@@ -123,27 +177,38 @@ jQuery(function($) {
     $(window).load(function() {
 
 
-        window.onscroll = function() { myFunction() };
+        if ($('#fixed-nav-scrol').hasClass('fixed-nav-scroll')) {
+            window.onscroll = function() { myFunction() };
 
-        // Get the navbar
-        var navbar = document.getElementById("fixed-nav-scrol");
+            // Get the navbar
+            var navbar = document.getElementById("fixed-nav-scrol");
 
-        // Get the offset position of the navbar
-        var sticky = navbar.offsetTop;
+            // Get the offset position of the navbar
+            var sticky = navbar.offsetTop;
 
-        // Add the sticky class to the navbar when you reach its scroll position. Remove "sticky" when you leave the scroll position
-        function myFunction() {
-            if (window.pageYOffset >= sticky) {
-                navbar.classList.add("sticky")
-            } else {
-                navbar.classList.remove("sticky");
+            // Add the sticky class to the navbar when you reach its scroll position. Remove "sticky" when you leave the scroll position
+            function myFunction() {
+                if (window.pageYOffset >= sticky) {
+                    navbar.classList.add("sticky")
+                } else {
+                    navbar.classList.remove("sticky");
+                }
             }
+        }
+        $('.fixed-nav-scroll span').on('click', function() {
+            $('.fixed-nav-scroll').toggleClass('show');
+        });
+
+        if ($(window).width() < 993) {
+            $('.fixed-nav-scroll ul li a').on('click', function() {
+                $('.fixed-nav-scroll').removeClass('show');
+            });
         }
 
 
 
 
-          $(document).on('click', 'a[href^="#"]', function(e) {
+        $(document).on('click', '.fixed-nav-scroll ul li a[href^="#"]', function(e) {
             // target element id
             var id = $(this).attr('href');
 
@@ -162,6 +227,57 @@ jQuery(function($) {
             // animated top scrolling
             $('body, html').animate({ scrollTop: pos });
         });
+
+        $(document).on('click', '.single-post .content-list .table-of-content a[href^="#"]', function(e) {
+            // target element id
+            var id = $(this).attr('href');
+
+            // target element
+            var $id = $(id);
+            if ($id.length === 0) {
+                return;
+            }
+
+            // prevent standard hash navigation (avoid blinking in IE)
+            e.preventDefault();
+
+            // top position relative to the document
+            var pos = $id.offset().top - 100
+
+            // animated top scrolling
+            $('body, html').animate({ scrollTop: pos });
+        });
+
+
+        var minimized_elements = $('.opinion .item .item-content .subhead');
+
+        minimized_elements.each(function() {
+            var t = $(this).text();
+            if (t.length < 250) return;
+
+            $(this).html(
+                t.slice(0, 250) + '<span>... </span>' + '<span style="display:none;" class="noshow-text">' + t.slice(100, t.length)
+            );
+
+        });
+
+        $('.opinion .item .item-content .readmore').on('click', function() {
+            $(this).parent().find('.subhead span.noshow-text').toggle();
+            $(this).html(($(this).html() == 'Zwiń <img class="ml-2" src="/wp-content/themes/rpms/inc/assets/img/arrow.svg" alt="">') ? 'Rozwiń <img class="ml-2" src="/wp-content/themes/rpms/inc/assets/img/arrow.svg" alt="">' : 'Zwiń <img class="ml-2" src="/wp-content/themes/rpms/inc/assets/img/arrow.svg" alt="">').fadeIn();
+        })
+
+        
+/*
+        var eqh = $('.owl-stage' ).height();
+        $('.articles-single-post .row-articles .single').css('min-height',eqh);
+        
+        $( window ).resize(function() {
+        var eqh2 = $('.owl-stage' ).height();
+        $('.articles-single-post .row-articles .single').css('min-height',eqh2);
+        });
+       */
     });
+
+
 
 });

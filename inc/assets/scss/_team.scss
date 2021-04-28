@@ -29,7 +29,7 @@
         display: flex;
         justify-content: space-between;
         align-items: center;
-        h3 {
+        h2 {
             margin: 0;
             width: auto !important;
             display: flex;
@@ -59,4 +59,9 @@
             height: auto;
         }
     }
+}
+
+.teams .zespol-loop .single-person {
+    background-color: #fff;
+    box-shadow: none !important;
 }

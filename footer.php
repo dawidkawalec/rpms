@@ -18,52 +18,65 @@
     <div class="container pt-3 pb-3">
         <div class="row">
             <div class="col-lg-3 info mb-3 mb-lg-0">
-                <img src="/wp-content/uploads/2021/03/logorpmswhite.png" alt="" class="logo">
+                <img src="/wp-content/uploads/2021/03/logorpmswhite.png" alt="Kancelaria Prawna RPMS" class="logo">
                 <p>Zapewniamy pełne wsparcie prawne w przygotowaniu formalnego zaplecza funkcjonowania podmiotów
                     gospodarczych świadczących usługi poprzez sieć internetową, w tym regulaminów, polityk
                     bezpieczeństwa, ogólnych warunków, formularzy i innych, a także w procesach windykacyjnych i
                     podatkowych.</p>
                 <ul class="social m-0 mb-3 mb-lg-0 p-0">
-                    <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
-                    <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
-                    <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                    <li><a href="https://www.google.com/url?q=https://www.facebook.com/KancelariaPrawnaRPMS/&sa=D&source=editors&ust=1619467317378000&usg=AOvVaw1cG6CYRQsOluJykXWk8MNY"
+                            rel="nofollow"><i class="fab fa-facebook-f"></i></a></li>
+                    <li><a href="https://www.google.com/url?q=https://pl.linkedin.com/company/kancelaria-prawna-rpms&sa=D&source=editors&ust=1619467317378000&usg=AOvVaw2nlRYDWvn1AGb8md7kvhH7"
+                            rel="nofollow"><i class="fab fa-linkedin-in"></i></a></li>
+                    <li><a href="#https://www.google.com/url?q=https://www.instagram.com/rpms_kancelaria/&sa=D&source=editors&ust=1619467317378000&usg=AOvVaw2LW_Hg0y3-SzD-xMJrBqFp"
+                            rel="nofollow"><i class="fab fa-instagram"></i></a></li>
                 </ul>
             </div>
             <div class="col-lg-3 links pl-lg-5 mb-3 mb-lg-0">
                 <span>Usługi prawne</span>
-                <ul class="m-0 p-0">
-                    <li><a href="#">Prawo</a></li>
-                    <li><a href="#">Finanse i bankowość</a></li>
-                    <li><a href="#">Własnośc intelektualna</a></li>
-                    <li><a href="#">IT / E-commerce</a></li>
-                </ul>
+                <?php
+                            wp_nav_menu(array(
+                            'theme_location'    => 'uslugi',
+                            'container'       => 'div',
+                            'container_id'    => 'main',
+                            'menu_class' => 'm-0 p-0',
+                            'container_class' => 'navbar-collapse justify-content-end',
+                            'menu_id'         => false,
+                            ));
+                        ?>
             </div>
             <div class="col-lg-3 links mb-3 mb-lg-0">
                 <span>RPMS</span>
-                <ul class="m-0 p-0">
-                    <li><a href="#">Usługi prawne</a></li>
-                    <li><a href="#">Zespół</a></li>
-                    <li><a href="#">Aktualności</a></li>
-                    <li><a href="#">Media o nas</a></li>
-                    <li><a href="#">Zaufali nam</a></li>
-                    <li><a href="#">Kontakt</a></li>
-                </ul>
+                <?php
+                            wp_nav_menu(array(
+                            'theme_location'    => 'rpms',
+                            'container'       => 'div',
+                            'container_id'    => 'main',
+                            'menu_class' => 'm-0 p-0',
+                            'container_class' => 'navbar-collapse justify-content-end',
+                            'menu_id'         => false,
+                            ));
+                        ?>
             </div>
             <div class="col-lg-3 links mb-3 mb-lg-0">
                 <span>Przydatne linki</span>
-                <ul class="m-0 p-0">
-                    <li><a href="#">Dane osobowe (RODO)</a></li>
-                    <li><a href="#">Regulamin strony</a></li>
-                    <li><a href="#">Pliki cookie</a></li>
-
-                </ul>
+                <?php
+                            wp_nav_menu(array(
+                            'theme_location'    => 'links',
+                            'container'       => 'div',
+                            'container_id'    => 'main',
+                            'menu_class' => 'm-0 p-0',
+                            'container_class' => 'navbar-collapse justify-content-end',
+                            'menu_id'         => false,
+                            ));
+                        ?>
             </div>
         </div>
 
     </div>
 
     <div class="copy text-center">
-        © Copyright 2020 - wszelkie prawa zastrzeżone RPMS
+        © Copyright <?php echo date('Y'); ?> - wszelkie prawa zastrzeżone RPMS
     </div>
 
 </footer><!-- #colophon -->
@@ -75,11 +88,11 @@
 <?php wp_footer(); ?>
 <script>
 jQuery(window).load(function() {
-jQuery("#map-poland").CSSMap({
+    jQuery("#map-poland").CSSMap({
         "size": 650,
         "activateOnLoad": ["pl7"],
         "cities": true,
-        "tooltips" : false,
+        "tooltips": false,
         "responsive": "auto",
         "agentsList": {
             "enable": true,
@@ -88,8 +101,6 @@ jQuery("#map-poland").CSSMap({
         }
     });
 });
-
-
 </script>
 <?php wp_footer(); ?>
 
