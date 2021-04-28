@@ -20,6 +20,12 @@
                 <?php endif; ?>
 
 
+
+            </div>
+            <div class="col-lg-6">
+                <div class="desc">
+                    <h2>Kliknij na województwo i sprawdź gdzie świadczymy <strong>usługi windykacji</strong></h2>
+                </div>
                 <div id="demo-agents">
                     <ul style="list-style-type: none;" class="p-0">
 
@@ -39,12 +45,8 @@
                         <?php endif; ?>
                     </ul>
                 </div>
-            </div>
-            <div class="col-lg-6">
-                <div class="desc">
-                    <h2>Kliknij na województwo i sprawdź gdzie świadczymy <strong>usługi windykacji</strong></h2>
-                </div>
                 <div id="map-poland">
+
                     <ul class="poland cssmap" style="float: left;">
                         <li class="pl1">
                             <span class="m">
@@ -179,7 +181,7 @@
                                     class="s52"></span><span class="s53"></span><span class="s54"></span><span
                                     class="s55"></span>
                             </span>
-                            <a href="#mazowieckie" style="clip: rect(1px, 1px, 1px, 1px);">Warszawa</a><span
+                            <a href="#mazowieckie" style="clip: rect(1px, 1px, 1px, 1px);">Mazowieckie</a><span
                                 class="bg"></span>
                         </li>
                         <li class="pl8">

@@ -36,22 +36,34 @@ jQuery(function($) {
                 }, 600);
             });
         }
+        if (jQuery(window).width() > 1199) {
+            jQuery('.megamenudk .dropdown-menu').addClass('show');
+        }
         if (jQuery(window).width() < 1199) {
             jQuery('.megamenudk > a').next().hide();
 
+            // jQuery('.megamenudk .dropdown-menu').addClass('jebacbiede');
+            jQuery('.megamenudk .dropdown-menu .nodrops').on('click', function() {
+                $(this).parent().toggleClass('open');
+                // $(this).parent().addClass('jebackaczynskiegoijegokotatez');
+                // $(this).parent().addClass('show');
+            })
+
             jQuery('.megamenudk a').on('click', function() {
                 $(this).toggleClass('rotate');
-
+                $(this).parent().parent().addClass('show');
             });
-            jQuery('.megamenudk .dropdown-menu.show .nodrops a').on('click', function() {
+
+            jQuery('.dropdown.menu-item-has-children .dropdown.menu-item-has-children').on('click', function() {
+                $(this).find('.dropdown-menu').toggle();
 
                 // jQuery('.dropdown-menu.show').removeClass('open');
                 // jQuery(this).parent().find('.dropdown-menu').toggle().toggleClass('open');
                 // jQuery(this).parent().find('.dropdown-menu').toggleClass('open');
 
-                if (jQuery(this).parent().find('.dropdown-menu').toggle().addClass('open')) {
+                // if (jQuery(this).parent().find('.dropdown-menu').toggle().addClass('open')) {
 
-                }
+                // }
             });
 
             jQuery('.megamenudk > a').on('click', function() {
@@ -78,8 +90,8 @@ jQuery(function($) {
             margin: 20,
             nav: false,
             autoplay: false,
-            items: 1,            
-            autoHeight:true
+            items: 1,
+            autoHeight: true
         })
 
         jQuery('.articles-single-post .owl-carousel').owlCarousel({
@@ -88,9 +100,9 @@ jQuery(function($) {
             nav: true,
             autoplay: false,
             items: 1,
-            autoplay:true,
-            autoplayTimeout:200000,
-            autoplayHoverPause:true,
+            autoplay: true,
+            autoplayTimeout: 200000,
+            autoplayHoverPause: true,
             responsive: {
                 // breakpoint from 768 up
                 768: {
@@ -266,16 +278,16 @@ jQuery(function($) {
             $(this).html(($(this).html() == 'Zwiń <img class="ml-2" src="/wp-content/themes/rpms/inc/assets/img/arrow.svg" alt="">') ? 'Rozwiń <img class="ml-2" src="/wp-content/themes/rpms/inc/assets/img/arrow.svg" alt="">' : 'Zwiń <img class="ml-2" src="/wp-content/themes/rpms/inc/assets/img/arrow.svg" alt="">').fadeIn();
         })
 
-        
-/*
-        var eqh = $('.owl-stage' ).height();
-        $('.articles-single-post .row-articles .single').css('min-height',eqh);
-        
-        $( window ).resize(function() {
-        var eqh2 = $('.owl-stage' ).height();
-        $('.articles-single-post .row-articles .single').css('min-height',eqh2);
-        });
-       */
+
+        /*
+                var eqh = $('.owl-stage' ).height();
+                $('.articles-single-post .row-articles .single').css('min-height',eqh);
+                
+                $( window ).resize(function() {
+                var eqh2 = $('.owl-stage' ).height();
+                $('.articles-single-post .row-articles .single').css('min-height',eqh2);
+                });
+               */
     });
 
 

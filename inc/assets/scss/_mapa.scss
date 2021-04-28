@@ -69,4 +69,104 @@
             }
         }
     }
+
+    #demo-agents {
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+
+        ul {
+            li {
+                position: absolute;
+                z-index: 9999;
+                background: #fffffff0;
+                padding: 1.5em 1em 0;
+                border-radius: 1em;
+            }
+
+
+
+            #dolnoslaskie {
+                top: 69%;
+                left: 13%;
+            }
+
+            #kujawsko-pomorskie {
+                top: 44%;
+                left: 30%;
+            }
+
+            #lubelskie {
+                top: 60%;
+                left: 60%;
+            }
+
+            #lubuskie {
+                top: 50%;
+                left: 6%;
+            }
+
+            #lodzkie {
+                top: 57%;
+                left: 37%;
+            }
+
+            #malopolskie {
+                top: 80%;
+                left: 46%;
+            }
+
+            #mazowieckie {
+                top: 40%;
+                left: 50%;
+            }
+
+            #opolskie {
+                top: 73%;
+                left: 27%;
+            }
+
+            #podkarpackie {
+                top: 82%;
+                left: 61%;
+            }
+
+            #podlaskie {
+                top: 40%;
+                left: 62%;
+            }
+
+            #pomorskie {
+                top: 25%;
+                left: 27%;
+            }
+
+            #slaskie {
+                top: 64%;
+                left: 31%;
+            }
+
+            #swietokrzyskie {
+                top: 72%;
+                left: 52%;
+            }
+
+            #warminsko-mazurskie {
+                top: 33%;
+                left: 51%;
+            }
+
+            #wielkopolskie {
+                top: 45%;
+                left: 22%;
+            }
+
+            #zachodniopomorskie {
+                top: 37%;
+                left: 5%;
+            }
+        }
+    }
 }

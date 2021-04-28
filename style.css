@@ -1245,3 +1245,8 @@ p#breadcrumbs {
 div#page {
     overflow: hidden;
 }
+
+header .dropdown.menu-item-has-children .dropdown.menu-item-has-children>a:after,
+header .dropdown.menu-item-has-children .dropdown.menu-item-has-children:hover>a:after {
+    display: none;
+}

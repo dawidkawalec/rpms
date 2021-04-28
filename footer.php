@@ -90,7 +90,7 @@
 jQuery(window).load(function() {
     jQuery("#map-poland").CSSMap({
         "size": 650,
-        "activateOnLoad": ["pl7"],
+
         "cities": true,
         "tooltips": false,
         "responsive": "auto",
