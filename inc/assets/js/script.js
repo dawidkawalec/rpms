@@ -101,7 +101,7 @@ jQuery(function($) {
             autoplay: false,
             items: 1,
             autoplay: true,
-            autoplayTimeout: 200000,
+            autoplayTimeout: 2000,
             autoplayHoverPause: true,
             responsive: {
                 // breakpoint from 768 up

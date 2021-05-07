@@ -66,6 +66,13 @@
                                         <?php echo $zespol_specjalizacja; ?>
                                         <?php endif; ?>
                                     </div>
+                                    <div class="more">
+                                        <a class="more d-flex" href="<?php the_permalink();?>" rel="nofollow">
+                                            - Więcej <img class="ml-2"
+                                                src="/wp-content/themes/rpms/inc/assets/img/arrow.svg" alt="">
+
+                                        </a>
+                                    </div>
 
                                 </div>
                             </div>
@@ -124,6 +131,13 @@
                                         <?php echo $zespol_specjalizacja; ?>
                                         <?php endif; ?>
                                     </div>
+                                    <div class="more">
+                                        <a class="more d-flex" href="<?php the_permalink();?>" rel="nofollow">
+                                            - Więcej <img class="ml-2"
+                                                src="/wp-content/themes/rpms/inc/assets/img/arrow.svg" alt="">
+
+                                        </a>
+                                    </div>
                                 </div>
                             </div>
 
@@ -180,6 +194,13 @@
                                         <?php if ( $zespol_specjalizacja = get_field( 'zespol_specjalizacja' ) ) : ?>
                                         <?php echo $zespol_specjalizacja; ?>
                                         <?php endif; ?>
+                                    </div>
+                                    <div class="more">
+                                        <a class="more d-flex" href="<?php the_permalink();?>" rel="nofollow">
+                                            - Więcej <img class="ml-2"
+                                                src="/wp-content/themes/rpms/inc/assets/img/arrow.svg" alt="">
+
+                                        </a>
                                     </div>
                                 </div>
                             </div>
@@ -238,6 +259,13 @@
                                         <?php echo $zespol_specjalizacja; ?>
                                         <?php endif; ?>
                                     </div>
+                                    <div class="more">
+                                        <a class="more d-flex" href="<?php the_permalink();?>" rel="nofollow">
+                                            - Więcej <img class="ml-2"
+                                                src="/wp-content/themes/rpms/inc/assets/img/arrow.svg" alt="">
+
+                                        </a>
+                                    </div>
                                 </div>
                             </div>
 
@@ -294,6 +322,13 @@
                                         <?php if ( $zespol_specjalizacja = get_field( 'zespol_specjalizacja' ) ) : ?>
                                         <?php echo $zespol_specjalizacja; ?>
                                         <?php endif; ?>
+                                    </div>
+                                    <div class="more">
+                                        <a class="more d-flex" href="<?php the_permalink();?>" rel="nofollow">
+                                            - Więcej <img class="ml-2"
+                                                src="/wp-content/themes/rpms/inc/assets/img/arrow.svg" alt="">
+
+                                        </a>
                                     </div>
 
                                 </div>

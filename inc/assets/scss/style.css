@@ -261,6 +261,11 @@ a.cta__right:hover {
   color: #fff;
   padding: 11px 25px;
   border: none;
+  z-index: 22222;
+  position: fixed;
+  width: calc(25% - 40px);
+  top: 103px;
+  border-top: 20px solid #fff;
 }
 
 @media (max-width: 1199px) {
@@ -268,6 +273,10 @@ a.cta__right:hover {
   .megamenudk .dropdown-menu.open .nodrops>a,
   .megamenudk .dropdown-menu.show .nodrops>a {
     background: transparent;
+    position: relative;
+    border-top: unset;
+    width: unset;
+    top: unset;
   }
 }
 
@@ -300,6 +309,7 @@ a.cta__right:hover {
   padding: 10px;
   margin: 0;
   height: calc(100% - 70px);
+  margin-top: 50px;
 }
 
 @media (max-width: 1199px) {
@@ -307,6 +317,7 @@ a.cta__right:hover {
   .megamenudk .dropdown-menu.open .nodrops .dropdown-menu,
   .megamenudk .dropdown-menu.show .nodrops .dropdown-menu {
     display: none;
+    margin-top: unset;
   }
 }
 
@@ -4151,6 +4162,11 @@ footer .copy {
   left: 30px;
   position: absolute;
   right: 30px;
+}
+
+.teams .zespol-loop .single-person .desc div.more img,
+.page-template-zespol .zespol-loop .single-person .desc div.more img {
+  width: auto;
 }
 
 .section {

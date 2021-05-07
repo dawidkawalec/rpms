@@ -6,22 +6,27 @@
 
 <script rel="preload" type="application/ld+json">
 {
-    "@context": "http://schema.org",
+    "@context": "https://schema.org",
     "@type": "LegalService",
     "name": "Kancelaria Prawna RPMS Staniszewski & Wspólnicy",
+    "image": "https://rpms.pl/wp-content/themes/rpms/inc/assets/img/logo_rpms.png",
+    "@id": "",
+    "url": "https://rpms.pl/",
+    "telephone": "61 307 09 91",
+    "priceRange": "PLN",
     "address": {
         "@type": "PostalAddress",
         "streetAddress": "ul. Polska 114",
         "addressLocality": "Poznań",
-        "addressRegion": "Poland",
-        "postalCode": "60-401"
+        "postalCode": "60-401",
+        "addressCountry": "PL"
     },
-    "image": "https://rpms.craftweb.pl/wp-content/themes/rpms/inc/assets/img/logo_rpms.png",
-    "email": "kancelaria@rpms.pl",
-    "telePhone": "61 307 09 91",
-    "url": "https://rpms.pl/",
-    "openingHours": "Mo,Tu,We,Th,Fr 08:00-17:00",
-    "openingHoursSpecification": [{
+    "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 52.4223019,
+        "longitude": 16.8749611
+    },
+    "openingHoursSpecification": {
         "@type": "OpeningHoursSpecification",
         "dayOfWeek": [
             "Monday",
@@ -32,13 +37,18 @@
         ],
         "opens": "08:00",
         "closes": "17:00"
-    }],
-    "priceRange": "PLN",
+    },
     "sameAs": [
         "https://www.facebook.com/KancelariaPrawnaRPMS",
         "https://www.linkedin.com/company/kancelaria-prawna-rpms",
-        "https://picpanzee.com/rpms_legal",
-        "https://www.instagram.com/rpms_legal/"
-    ]
+        "https://www.instagram.com/rpms_legal/",
+        "https://picpanzee.com/rpms_legal"
+    ],
+    "department": {
+        "@type": "LegalService",
+        "name": "Kancelaria Prawna Warszawa RPMS Staniszewski & Wspólnicy",
+        "image": "https://rpms.pl/wp-content/themes/rpms/inc/assets/img/logo_rpms.png",
+        "telephone": "61 307 09 91"
+    }
 }
 </script>

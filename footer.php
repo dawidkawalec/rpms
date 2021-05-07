@@ -24,12 +24,12 @@
                     bezpieczeństwa, ogólnych warunków, formularzy i innych, a także w procesach windykacyjnych i
                     podatkowych.</p>
                 <ul class="social m-0 mb-3 mb-lg-0 p-0">
-                    <li><a href="https://www.google.com/url?q=https://www.facebook.com/KancelariaPrawnaRPMS/&sa=D&source=editors&ust=1619467317378000&usg=AOvVaw1cG6CYRQsOluJykXWk8MNY"
-                            rel="nofollow"><i class="fab fa-facebook-f"></i></a></li>
-                    <li><a href="https://www.google.com/url?q=https://pl.linkedin.com/company/kancelaria-prawna-rpms&sa=D&source=editors&ust=1619467317378000&usg=AOvVaw2nlRYDWvn1AGb8md7kvhH7"
-                            rel="nofollow"><i class="fab fa-linkedin-in"></i></a></li>
-                    <li><a href="#https://www.google.com/url?q=https://www.instagram.com/rpms_kancelaria/&sa=D&source=editors&ust=1619467317378000&usg=AOvVaw2LW_Hg0y3-SzD-xMJrBqFp"
-                            rel="nofollow"><i class="fab fa-instagram"></i></a></li>
+                    <li><a href="https://www.facebook.com/KancelariaPrawnaRPMS" rel="nofollow"><i
+                                class="fab fa-facebook-f"></i></a></li>
+                    <li><a href="https://pl.linkedin.com/company/kancelaria-prawna-rpms" rel="nofollow"><i
+                                class="fab fa-linkedin-in"></i></a></li>
+                    <li><a href="https://www.instagram.com/rpms_kancelaria/" rel="nofollow"><i
+                                class="fab fa-instagram"></i></a></li>
                 </ul>
             </div>
             <div class="col-lg-3 links pl-lg-5 mb-3 mb-lg-0">

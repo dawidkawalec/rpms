@@ -361,8 +361,9 @@ get_header(); ?>
         <div class="container">
 
 
-            <div class="row">
-                <div class="col-lg-6 desc">
+            <div class="row justify-content-center">
+
+                <div class="col-lg-6">
                     <div id="demo-agents">
                         <ul style="list-style-type: none;" class="p-0">
                             <?php if ( have_rows( 'opis_windykacja_powtarzalne', 6 ) ) : ?>
@@ -380,8 +381,6 @@ get_header(); ?>
                             <?php endif; ?>
                         </ul>
                     </div>
-                </div>
-                <div class="col-lg-6">
                     <div id="map-poland">
                         <ul class="poland cssmap" style="float: left;">
                             <li class="pl1">

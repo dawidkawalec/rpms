@@ -47,12 +47,8 @@ get_header(); ?>
                 <div class="row justify-content-center">
                     <?php 
 				
-				$terms = get_terms( 'category', array(
-					'hide_empty' => 0,
-						'order' =>'asc', 
-						'parent' =>0, 
-						'include' => array(6, 4, 3, 7, 5),
-				) );
+				$args = array('child_of' => 10);
+                $terms = get_categories( $args );
                 $ikonka = get_field( 'ikonka' );
                 echo $ikonka['url'];
 				foreach ( $terms as $term ) {

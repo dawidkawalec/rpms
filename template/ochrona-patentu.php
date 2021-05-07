@@ -41,7 +41,7 @@ get_header(); ?>
                 </div>
                 <div class="col-lg-6 specialization">
                     <div class="form">
-                        <?php echo do_shortcode('[contact-form-7 id="142" title="Formularz uslugi"]'); ?>
+                        <?php echo do_shortcode('[contact-form-7 id="4735" title="Formularz uslugi_dlugi"]'); ?>
                     </div>
                 </div>
             </div>

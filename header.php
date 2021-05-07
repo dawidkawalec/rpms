@@ -45,7 +45,7 @@
         "@type": "Organization",
         "name": "Kancelaria Prawna RPMS Staniszewski & Wspólnicy",
         "url": "https://rpms.pl/",
-        "logo": "https://rpms.craftweb.pl/wp-content/themes/rpms/inc/assets/img/logo_rpms.png",
+        "logo": "https://rpms.pl/wp-content/themes/rpms/inc/assets/img/logo_rpms.png",
         "sameAs": [
             "https://www.facebook.com/KancelariaPrawnaRPMS",
             "https://www.linkedin.com/company/kancelaria-prawna-rpms",
@@ -84,7 +84,7 @@
                         'depth'           => 3,
                         'fallback_cb'     => 'wp_bootstrap_navwalker::fallback',
                         'walker'          => new wp_bootstrap_navwalker(),
-                        'items_wrap' => '<ul id="%1$s" itemscope class="%2$s">%3$s</ul>'
+                        'items_wrap' => '<ul id="%1$s"  class="%2$s">%3$s</ul>'
                         ));
                         ?>
 
