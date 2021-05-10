@@ -5,8 +5,15 @@ jQuery(function($) {
     // Run the script once the document is ready
     $(document).ready(function() {
 
-
-
+        
+        $('p#breadcrumbs').attr('itemscope','');
+        $('p#breadcrumbs').attr('itemtype', 'http://schema.org/BreadcrumbList');
+        $( "p#breadcrumbs a" ).each(function() {
+        $( this ).attr('itemprop','itemListElement');
+        $( this ).attr('itemscope','');
+        $( this ).attr('itemtype','http://schema.org/ListItem');
+        // itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem"
+        });
 
 
         $('header .search .icon').on('click', function() {
@@ -90,8 +97,17 @@ jQuery(function($) {
             margin: 20,
             nav: false,
             autoplay: false,
+            autoplayTimeout: 20000,
+            autoplayHoverPause: false,
             items: 1,
-            autoHeight: true
+            autoHeight: true,
+            responsive: {
+                1200:{
+                    autoplay: true,
+                    autoplayTimeout: 2000,
+            autoplayHoverPause: true,
+                }
+            }
         })
 
         jQuery('.articles-single-post .owl-carousel').owlCarousel({
@@ -147,7 +163,9 @@ jQuery(function($) {
             loop: true,
             margin: 20,
             nav: false,
-            autoplay: false,
+            autoplay: true,
+            autoplayTimeout: 2000,
+            autoplayHoverPause: true,
             items: 1,
 
         })
@@ -169,6 +187,9 @@ jQuery(function($) {
             loop: true,
             margin: 30,
             nav: false,
+            autoplay: true,
+            autoplayTimeout: 2000,
+            autoplayHoverPause: true,
             responsive: {
                 0: {
                     items: 2
@@ -180,6 +201,7 @@ jQuery(function($) {
                 1000: {
                     items: 6
                 }
+              
             }
         })
 
@@ -288,6 +310,10 @@ jQuery(function($) {
                 $('.articles-single-post .row-articles .single').css('min-height',eqh2);
                 });
                */
+
+
+                
+
     });
 
 

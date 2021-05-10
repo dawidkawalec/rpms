@@ -535,9 +535,7 @@ header .logo img {
     -ms-flex-align: start;
     align-items: flex-start;
     display: none;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
+    align-items: flex-start;
     overflow: scroll;
     z-index: 9999999;
   }
@@ -984,27 +982,39 @@ header .scrollmenu {
   }
 }
 
-.banner h1 {
+.banner h1,
+.banner strong.h1 {
   text-transform: uppercase;
   font-size: 30px;
   font-weight: 300;
 }
 
 @media (min-width: 768px) {
-  .banner h1 {
+
+  .banner h1,
+  .banner strong.h1 {
     font-size: 50px;
   }
 }
 
 @media (min-width: 992px) {
-  .banner h1 {
+
+  .banner h1,
+  .banner strong.h1 {
     font-size: 60px;
     margin-top: -130px;
   }
 }
 
-.banner h1 strong {
+.banner h1 strong,
+.banner strong.h1 strong {
   font-weight: 900;
+}
+
+.banner strong.h1 {
+  font-weight: 900;
+  margin-top: -15px;
+  display: block;
 }
 
 .banner .tags {
@@ -1501,6 +1511,13 @@ header .scrollmenu {
 .teams {
   background: #f7f7fa;
   border-radius: 20px;
+  height: 1000px;
+}
+
+@media (max-width: 1200px) {
+  .teams {
+    height: unset;
+  }
 }
 
 .teams .row-nav ul {
@@ -1947,14 +1964,24 @@ header .scrollmenu {
 
 .page-template-contact .row-contact .col-content {
   text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
 }
 
 .page-template-contact .row-contact .col-content p {
-  text-align: center;
+  text-align: left;
 }
 
 .page-template-contact .row-contact .col-content .icon {
   margin-bottom: 20px;
+  margin-right: 20px;
 }
 
 .page-template-contact .row-contact .col-content .icon img {

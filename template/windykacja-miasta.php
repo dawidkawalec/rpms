@@ -169,6 +169,9 @@ get_header(); ?>
             <div class="row justify-content-center">
 
                 <div class="col-lg-6">
+                    <div class="desc text-center">
+                        <h2>Kliknij na województwo i sprawdź gdzie świadczymy <strong>usługi windykacji</strong></h2>
+                    </div>
                     <div id="demo-agents">
                         <ul style="list-style-type: none;" class="p-0">
                             <?php if ( have_rows( 'opis_windykacja_powtarzalne', 6 ) ) : ?>

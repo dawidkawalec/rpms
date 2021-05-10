@@ -62,13 +62,17 @@
     .row-contact {
         .col-content {
             text-align: center;
+            display: flex;
+            align-items: center;
+            justify-content: center;
 
             p {
-                text-align: center;
+                text-align: left;
             }
 
             .icon {
                 margin-bottom: 20px;
+                margin-right: 20px;
 
                 img {
                     width: 51px;

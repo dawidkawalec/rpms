@@ -8,27 +8,41 @@
     margin: 0 20px;
     border-radius: 20px;
     margin-top: 102px;
+
     @media(max-width: 768px) {
         min-height: 450px;
     }
+
     @media(max-width: 1199px) {
         margin-top: 77px;
     }
-    h1 {
+
+    h1,
+    strong.h1 {
         text-transform: uppercase;
         font-size: 30px;
         font-weight: 300;
+
         @media(min-width: 768px) {
             font-size: 50px;
         }
+
         @media(min-width: 992px) {
             font-size: 60px;
             margin-top: -130px;
         }
+
         strong {
             font-weight: 900;
         }
     }
+
+    strong.h1 {
+        font-weight: 900;
+        margin-top: -15px;
+        display: block;
+    }
+
     .tags {
         text-transform: uppercase;
         font-size: 20px;
@@ -37,48 +51,61 @@
 
 .icon-banner {
     margin-top: 30px;
+
     @media(min-width: 992px) {
         margin-top: -130px;
     }
+
     .row-shadow {
         border-radius: 10px;
     }
+
     .single {
         background: #fff;
         transition: all 0.4s;
         box-shadow: 40px 30px 50px 0 rgba(0, 0, 0, 0.05);
+
         &:nth-child(1) {
             @media(min-width: 992px) {
                 border-radius: 15px 0 0 15px;
             }
         }
+
         &:nth-child(3) {
             @media(min-width: 992px) {
                 border-radius: 0 15px 15px 0;
             }
         }
+
         &:hover {
             background: #3b394f;
+
             .title,
             .smalldesc {
                 color: #fff !important;
             }
+
             .readmore {
                 color: #bfa071 !important;
             }
         }
+
         .icon-banner_single {
             padding: 45px;
+
             a {
                 display: flex;
                 text-decoration: none;
+
                 .icon {
                     margin-right: 30px;
+
                     img {
                         width: 86px;
                         height: auto;
                     }
                 }
+
                 .desc {
                     .title {
                         transition: all 0.4s;
@@ -86,18 +113,22 @@
                         font-weight: 800;
                         font-size: 18px;
                         margin-bottom: 15px;
+
                         @media(min-width: 992px) {
                             font-size: 20px;
                             margin-bottom: 20px;
                         }
+
                         p {
                             margin: 0;
                         }
                     }
+
                     .smalldesc {
                         transition: all 0.4s;
                         color: #989fa3;
                     }
+
                     .readmore {
                         transition: all 0.4s;
                         margin-top: 30px;

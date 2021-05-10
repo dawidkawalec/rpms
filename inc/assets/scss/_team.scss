@@ -1,12 +1,19 @@
 .teams {
     background: #f7f7fa;
     border-radius: 20px;
+    height: 1000px;
+
+    @media(max-width:1200px) {
+        height: unset;
+    }
+
     .row-nav {
         ul {
             padding: 0;
             margin: 0;
             display: flex;
             justify-content: center;
+
             li {
                 cursor: pointer;
                 width: 40px;
@@ -19,16 +26,19 @@
                 border: solid 3px #0e0e0e;
                 transition: all 0.4s;
                 opacity: 0.3;
+
                 &:hover {
                     opacity: 1;
                 }
             }
         }
     }
+
     .title {
         display: flex;
         justify-content: space-between;
         align-items: center;
+
         h2 {
             margin: 0;
             width: auto !important;
@@ -37,6 +47,7 @@
             width: 100%;
             align-items: center;
             line-height: 45px;
+
             &:after {
                 content: '';
                 width: 50px;
@@ -46,6 +57,7 @@
                 background-color: #bfa071;
                 display: block;
             }
+
             strong {
                 margin-left: 10px;
                 font-weight: 900;
@@ -53,6 +65,7 @@
             }
         }
     }
+
     .row-carousel {
         img {
             width: 100%;

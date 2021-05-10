@@ -61,11 +61,11 @@ get_header(); ?>
                             <?php endif; ?>
                         </div>
                         <div class="desc">
-                        <a class="more d-flex" href="<?php the_permalink();?>">
-                        <div class="name"><?php the_title(); ?></div>
-                        </a>
-                                      
-                            
+                            <a class="more d-flex" href="<?php the_permalink();?>">
+                                <div class="name"><?php the_title(); ?></div>
+                            </a>
+
+
                             <div class="stan"><?php if ( $zespol_stanowisko = get_field( 'zespol_stanowisko' ) ) : ?>
                                 <?php echo esc_html( $zespol_stanowisko ); ?>
                                 <?php endif; ?>
@@ -112,26 +112,27 @@ get_header(); ?>
                 <div class="row">
                     <div class="col-lg-7">
                         <div class="uslugi-item__content">
-                            <p class="big">Dział windykacji
+                            <p class="big">
+                                <?php if ( $zespol_podtekstem_tytul_sekcji = get_field( 'zespol_podtekstem_tytul_sekcji' ) ) : ?>
+                                <?php echo esc_html( $zespol_podtekstem_tytul_sekcji ); ?>
+                                <?php endif; ?>
                             </p>
-                            <p>Posiadamy <strong>rozbudowany oraz prężnie funkcjonujący dział windykacyjny</strong>, w
-                                ramach którego
-                                doświadczeni negocjatorzy oraz prawnicy prowadzą działania z zakresu <a
-                                    href="https://rpms.pl/windykacja/">windykacji</a> miękkiej
-                                (polubownej) z uwzględnieniem zachowania dobrych stosunków z klientami, a także
-                                windykacji sądowej i egzekucji.
-
-                                Dział windykacyjny jest <strong>wyposażony w narzędzia automatyzujące procesy
-                                    windykacyjne</strong>, co
-                                pozwala nam na szybką realizację zleceń, a także bieżące informowanie Naszych Klientów o
-                                stanie sprawy.</p>
-                            <a href="/kontakt" class="cta">Skontakuj się</a>
+                            <?php if ( $zespol_podtekstem_opis = get_field( 'zespol_podtekstem_opis' ) ) : ?>
+                            <?php echo $zespol_podtekstem_opis; ?>
+                            <?php endif; ?>
+                            <a href="<?php if ( $zespol_podtekstem_link_url = get_field( 'zespol_podtekstem_link_url' ) ) : ?>
+                            <?php echo esc_url( $zespol_podtekstem_link_url ); ?>
+                                <?php endif; ?>"
+                                class="cta"><?php if ( $zespol_podtekstem_link_tekst = get_field( 'zespol_podtekstem_link_tekst' ) ) : ?>
+                                <?php echo esc_html( $zespol_podtekstem_link_tekst ); ?>
+                                <?php endif; ?></a>
                         </div>
 
                     </div>
                     <div class="col-lg-5"></div>
-                    <img src="https://rpms.pl/wp-content/uploads/2020/01/Windykacja-nale%C5%BCno%C5%9Bci-RPMS-e1580887118363-800x600.jpg"
-                        alt="" class="uslugi-item__right-img">
+                    <img src="<?php if ( $zespol_podtekstem_zdjecie = get_field( 'zespol_podtekstem_zdjecie' ) ) : ?>
+                        <?php echo esc_url( $zespol_podtekstem_zdjecie ); ?>
+                    <?php endif; ?>" alt="" class="uslugi-item__right-img">
                 </div>
             </div>
         </section>
@@ -143,21 +144,39 @@ get_header(); ?>
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center mb-5 ">
-                    <span class="d-block h1 font-weight-bold">Ostatni rok w liczbach</span>
+                    <span
+                        class="d-block h1 font-weight-bold"><?php if ( $zespol_liczby_tytul_sekcji = get_field( 'zespol_liczby_tytul_sekcji' ) ) : ?>
+                        <?php echo esc_html( $zespol_liczby_tytul_sekcji ); ?>
+                        <?php endif; ?></span>
                 </div>
             </div>
             <div class="row text-center">
                 <div class="col-lg-4">
-                    <span class="block font-weight-bold">236</span>
-                    <p>wszczętych postępowan sądowych</p>
+                    <span
+                        class="block font-weight-bold"><?php if ( $zespol_liczby_liczba_1 = get_field( 'zespol_liczby_liczba_1' ) ) : ?>
+                        <?php echo esc_html( $zespol_liczby_liczba_1 ); ?>
+                        <?php endif; ?></span>
+                    <p><?php if ( $zespol_liczby_podpis_1 = get_field( 'zespol_liczby_podpis_1' ) ) : ?>
+                        <?php echo esc_html( $zespol_liczby_podpis_1 ); ?>
+                        <?php endif; ?></p>
                 </div>
                 <div class="col-lg-4">
-                    <span class="block font-weight-bold">1963000 zł</span>
-                    <p>wartość przekazanych spraw windykacyjnych</p>
+                    <span
+                        class="block font-weight-bold"><?php if ( $zespol_liczby_liczba_2 = get_field( 'zespol_liczby_liczba_2' ) ) : ?>
+                        <?php echo esc_html( $zespol_liczby_liczba_2 ); ?>
+                        <?php endif; ?></span>
+                    <p><?php if ( $zespol_liczby_podpis_2 = get_field( 'zespol_liczby_podpis_2' ) ) : ?>
+                        <?php echo esc_html( $zespol_liczby_podpis_2 ); ?>
+                        <?php endif; ?></p>
                 </div>
                 <div class="col-lg-4">
-                    <span class="block font-weight-bold">324</span>
-                    <p>zakończonych spraw windykacyjnych</p>
+                    <span
+                        class="block font-weight-bold"><?php if ( $zespol_liczby_liczba_3 = get_field( 'zespol_liczby_liczba_3' ) ) : ?>
+                        <?php echo esc_html( $zespol_liczby_liczba_3 ); ?>
+                        <?php endif; ?></span>
+                    <p><?php if ( $zespol_liczby_podpis_3 = get_field( 'zespol_liczby_podpis_3' ) ) : ?>
+                        <?php echo esc_html( $zespol_liczby_podpis_3 ); ?>
+                        <?php endif; ?></p>
                 </div>
             </div>
         </div>

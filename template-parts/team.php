@@ -22,7 +22,7 @@
         <div class="row mt-10">
             <div class="row-carousel owl-carousel">
                 <div class="item">
-                    <a href="#">
+                    <a href="/zespol">
                         <img src="https://rpms.craftweb.pl/wp-content/uploads/2021/04/kancelaria_rpms.jpg" alt="">
                     </a>
                 </div>

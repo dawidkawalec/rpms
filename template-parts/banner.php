@@ -11,8 +11,8 @@
         <div class="row">
             <div class="col-lg-12">
                 <h1>Kancelaria Prawna<br>
-                    <strong>RPMS</strong>
                 </h1>
+                <strong class="h1">RPMS</strong>
                 <div class="tags">
                     <span>prawo</span>
                     <span>|</span>
@@ -30,8 +30,8 @@
 <div class="icon-banner">
     <div class="container">
         <div class="row row-shadow px-3">
-                <?php if ( have_rows( 'uslugi' ) ) : ?>
-                <?php while ( have_rows( 'uslugi' ) ) :
+            <?php if ( have_rows( 'uslugi' ) ) : ?>
+            <?php while ( have_rows( 'uslugi' ) ) :
                     the_row(); ?>
             <div class="col-lg-4 single">
 
@@ -39,11 +39,11 @@
                     <?php
                         $link = get_sub_field( 'przekierowanie' );
                         if ( $link ) : ?>
-                    
-                        <div class="icon">
-                            <img src="<?php echo esc_url( get_sub_field( 'ikona' ) ); ?>" alt="ikona">
-                        </div>
-                        <div class="desc">
+
+                    <div class="icon">
+                        <img src="<?php echo esc_url( get_sub_field( 'ikona' ) ); ?>" alt="ikona">
+                    </div>
+                    <div class="desc">
                         <a href="<?php echo esc_url( $link ); ?>">
                             <div class="title">
                                 <p>
@@ -52,25 +52,25 @@
                                     <?php endif; ?>
                                 </p>
                             </div>
-                            </a>
-                            <div class="smalldesc">
-                                <?php if ( $opis = get_sub_field( 'opis' ) ) : ?>
-                                <?php echo esc_html( $opis ); ?>
-                                <?php endif; ?>
-                            </div>
-                            <div class="readmore">
-                                 <a href="<?php echo esc_url( $link ); ?>" rel="nofollow">
-                                     Więcej <img class="ml-2" src="/wp-content/themes/rpms/inc/assets/img/arrow.svg" alt="">
-                                </a>
-                            </div>
+                        </a>
+                        <div class="smalldesc">
+                            <?php if ( $opis = get_sub_field( 'opis' ) ) : ?>
+                            <?php echo esc_html( $opis ); ?>
+                            <?php endif; ?>
                         </div>
-                   
+                        <div class="readmore">
+                            <a href="<?php echo esc_url( $link ); ?>" rel="nofollow">
+                                Więcej <img class="ml-2" src="/wp-content/themes/rpms/inc/assets/img/arrow.svg" alt="">
+                            </a>
+                        </div>
+                    </div>
+
                     <?php endif; ?>
                 </div>
-                </div>
+            </div>
 
-                <?php endwhile; ?>
-                <?php endif; ?>
+            <?php endwhile; ?>
+            <?php endif; ?>
 
         </div>
     </div>

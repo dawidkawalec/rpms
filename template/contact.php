@@ -28,55 +28,57 @@ get_header(); ?>
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <h2 class="my-5 p-0 h1">Skontaktuj się i sprawdź<br><strong>w jaki sposób możemy Ci pomóc!</strong></h2>
+                    <h2 class="my-5 p-0 h1">
+                        <?php if ( get_field('kontakt_tekst_glowny') ) : ?>
+                        <?php echo get_field('kontakt_tekst_glowny'); ?>
+                        <?php endif; ?>
+                    </h2>
                 </div>
             </div>
-            <div class="row row-contact">
+            <div class="row row-contact align-items-center mb-4 mt-3">
+
+
+
+
+
+
+
+                <?php if ( have_rows( 'kontakt_dane_kontaktowe' ) ) : ?>
+                <?php while ( have_rows( 'kontakt_dane_kontaktowe' ) ) :
+                    the_row(); ?>
                 <div class="col-lg-4">
                     <div class="col-content">
-                        <div class="icon"><img src="/wp-content/uploads/2021/02/kontakt.svg" alt=""></div>
-                        <p>
-                        Kancelaria Prawna RPMS<br>
-                        Staniszewski & Wspólnicy<br>
-                        ul. Polska 114<br>
-                        Poznań 60-401<br>
-                        </p>
+                        <div class="icon"> <?php
+                        $ikona = get_sub_field( 'ikona' );
+                        if ( $ikona ) : ?>
+                            <img src="<?php echo esc_url( $ikona['url'] ); ?>"
+                                alt="<?php echo esc_attr( $ikona['alt'] ); ?>" />
+                            <?php endif; ?>
+                        </div>
+                        <?php if ( $tekst = get_sub_field( 'tekst' ) ) : ?>
+                        <?php echo $tekst; ?>
+
+                        <?php endif; ?>
                     </div>
                 </div>
-                <div class="col-lg-4">
-                    <div class="col-content">
-                        <div class="icon"><img src="/wp-content/uploads/2021/02/kontakt.svg" alt=""></div>
-                        <p>
-                        Kancelaria Prawna RPMS<br>
-                        Staniszewski & Wspólnicy<br>
-                        ul. Polska 114<br>
-                        Poznań 60-401<br>
-                        </p>
-                    </div>
-                </div>
-                <div class="col-lg-4">
-                    <div class="col-content">
-                        <div class="icon"><img src="/wp-content/uploads/2021/02/kontakt.svg" alt=""></div>
-                        <p>
-                        Kancelaria Prawna RPMS<br>
-                        Staniszewski & Wspólnicy<br>
-                        ul. Polska 114<br>
-                        Poznań 60-401<br>
-                        </p>
-                    </div>
-                </div> 
+                <?php endwhile; ?>
+                <?php endif; ?>
+
             </div>
             <div class="row row-form">
                 <div class="col-lg-12">
                     <div class="form">
-                        <?php echo do_shortcode('[contact-form-7 id="4224" title="Kontakt"]'); ?>
+
+                        <?php if ( $kontakt_shortcode_formularz_kontaktowy = get_field( 'kontakt_shortcode_formularz_kontaktowy' ) ) : ?>
+                        <?php echo do_shortcode($kontakt_shortcode_formularz_kontaktowy); ?>
+                        <?php endif; ?>
                     </div>
                 </div>
             </div>
         </div>
     </section>
 
-   
+
 
 </div>
 

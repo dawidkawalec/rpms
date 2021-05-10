@@ -9,7 +9,7 @@
     "@context": "https://schema.org",
     "@type": "LegalService",
     "name": "Kancelaria Prawna RPMS Staniszewski & Wspólnicy",
-    "image": "https://rpms.pl/wp-content/themes/rpms/inc/assets/img/logo_rpms.png",
+    "image": "https://rpms.pl/wp-content/uploads/thegem-logos/logo_ac16ae429f46a5e6302041f969a83f66_1x.png",
     "@id": "",
     "url": "https://rpms.pl/",
     "telephone": "61 307 09 91",
@@ -47,8 +47,15 @@
     "department": {
         "@type": "LegalService",
         "name": "Kancelaria Prawna Warszawa RPMS Staniszewski & Wspólnicy",
-        "image": "https://rpms.pl/wp-content/themes/rpms/inc/assets/img/logo_rpms.png",
-        "telephone": "61 307 09 91"
+        "image": "https://rpms.pl/wp-content/uploads/thegem-logos/logo_ac16ae429f46a5e6302041f969a83f66_1x.png",
+        "telephone": "61 307 09 91",
+        "priceRange": "PLN",
+        "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "Al. Jana Pawła II 27",
+            "addressLocality": "Warszawa",
+            "postalCode": "00-867",
+            "addressCountry": "PL"
+        }
     }
-}
 </script>

@@ -54,7 +54,30 @@
         ]
     }
     </script>
+    <script rel="preload">
+    jQuery(function($) {
 
+        // Add custom script here. Please backup the file before editing/modifying. Thanks
+
+        // Run the script once the document is ready
+        $(document).ready(function() {
+
+
+            $('p#breadcrumbs').attr('itemscope', '');
+            $('p#breadcrumbs').attr('itemtype', 'http://schema.org/BreadcrumbList');
+            $("p#breadcrumbs a").each(function() {
+                $(this).attr('itemprop', 'itemListElement');
+                $(this).attr('itemscope', '');
+                $(this).attr('itemtype', 'http://schema.org/ListItem');
+                // itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem"
+            });
+
+        });
+
+
+
+    });
+    </script>
 </head>
 
 <body <?php body_class(); ?>>

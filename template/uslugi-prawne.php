@@ -57,7 +57,7 @@ get_header(); ?>
                             potrzebami.</p>
 
                         <a href="https://rpms.pl/kontakt/" class="cta">Jestem zainteresowany</a>
-                        <a href="/windykacja" rel="nofollow" class="cta_more">Więcej</a>
+                        <!--<a href="/windykacja" rel="nofollow" class="cta_more">Więcej</a>-->
 
 
                     </div>
@@ -189,7 +189,8 @@ get_header(); ?>
 
                             <a href="https://rpms.pl/prawo-spolek-przeksztalcenia-fuzje-i-przejecia/"
                                 class="cta">Obsługa spółek</a>
-                            <a href="/windykacja/" rel="nofollow" class="cta_more">Więcej</a>
+                            <a href="/prawo-spolek-przeksztalcenia-fuzje-i-przejecia/" rel="nofollow"
+                                class="cta_more">Więcej</a>
 
                         </div>
 
@@ -222,7 +223,8 @@ get_header(); ?>
 
                             <a href="https://rpms.pl/prawo-spolek-przeksztalcenia-fuzje-i-przejecia/" class="cta">Fuzje
                                 i przejęcia</a>
-                            <a href="/windykacja/" rel="nofollow" class="cta_more">Więcej</a>
+                            <a href="/prawo-spolek-przeksztalcenia-fuzje-i-przejecia/" rel="nofollow"
+                                class="cta_more">Więcej</a>
 
                         </div>
 
@@ -263,7 +265,7 @@ get_header(); ?>
                                 własności intelektualnej, postępowania sądowe itd.</p>
 
                             <a href="https://rpms.pl/due-diligence-finansowe/" class="cta">Due dilligence</a>
-                            <a href="/windykacja/" class="cta_more">Więcej</a>
+                            <a href="/due-diligence-finansowe/" class="cta_more">Więcej</a>
 
                         </div>
 
@@ -305,7 +307,7 @@ get_header(); ?>
 
                             <a href="https://rpms.pl/sprawy-sporne-i-postepowanie-sadowe/" class="cta">SPRAWY SPORNE I
                                 SĄDOWE</a>
-                            <a href="/windykacja/" rel="nofollow" class="cta_more">Więcej</a>
+                            <a href="/sprawy-sporne-i-postepowanie-sadowe/" rel="nofollow" class="cta_more">Więcej</a>
 
                         </div>
 
